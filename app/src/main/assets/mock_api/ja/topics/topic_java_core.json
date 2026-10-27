@@ -1,0 +1,2164 @@
+{
+  "topic": {
+    "id": "topic_java_core",
+    "title": "Java コア & 実践マスター",
+    "description": "java-quiz-app の全12モジュール & 6つの実践マイルストーン完全収録（全95問）",
+    "icon_name": "Code",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "mod1-sub1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "mod1-sub1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 1,
+      "title": "[M01.1] 入門 & プログラミング思考：概要",
+      "description": "実践的なJava Core学習ロードマップ、効果的な学習法、チケット販売システム「Ticket Station」の分析と問題解決マインドセット。"
+    },
+    {
+      "id": "mod1-sub2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 2,
+      "title": "[M01.2] Javaとは？ — Write Once, Run Anywhere",
+      "description": "Javaの歴史、Write Once Run Anywhere (WORA) の哲学、バイトコードの仕組み、ハードウェア非依存を実現するJVM。"
+    },
+    {
+      "id": "mod1-sub3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 3,
+      "title": "[M01.3] JVM、JRE、JDK — 3つの基盤概念",
+      "description": "JDK・JRE・JVMの本質と関係性、JVMの内部アーキテクチャ、Java 11以降の変更点（単体JRE配布の廃止とjlink）。"
+    },
+    {
+      "id": "mod1-sub4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 4,
+      "title": "[M01.4] 環境構築 — JDK 21 と IntelliJ IDEA",
+      "description": "OpenJDK 21 LTSのインストール、環境変数 JAVA_HOME と PATH の設定、IntelliJ IDEA の基本操作とショートカット。"
+    },
+    {
+      "id": "mod1-sub5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 5,
+      "title": "[M01.5] Hello World — Javaクラスの構造解剖",
+      "description": "Javaソースファイルの構造詳解：package宣言、public class、mainメソッド（public static void main）、System.out.println。"
+    },
+    {
+      "id": "mod1-sub6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 6,
+      "title": "[M01.6] プログラミング思考 — 入力・処理・出力 (IPO)",
+      "description": "IPO（Input - Process - Output）モデル、チケット販売業務のデータフロー分析、java.util.Scanner を用いた標準入力処理。"
+    },
+    {
+      "id": "mod1-sub7",
+      "topic_id": "topic_java_core",
+      "chapter_number": 7,
+      "title": "[M01.7] コンパイル & 実行 — javac、バイトコード、プログラムのライフサイクル",
+      "description": "Javaプログラムの完全なライフサイクル：.javaコード、javacコンパイル、.class構造、ClassLoader、Bytecode Verifier、JITコンパイラ。"
+    },
+    {
+      "id": "mod1-sub8",
+      "topic_id": "topic_java_core",
+      "chapter_number": 8,
+      "title": "[M01.8] ミニチャレンジ：今月のカレンダー出力",
+      "description": "アルゴリズム演習：ループ、剰余演算子 %、条件分岐を組み合わせて7列（月〜日）の月間カレンダーをコンソールに出力する。"
+    },
+    {
+      "id": "mod1-sub9",
+      "topic_id": "topic_java_core",
+      "chapter_number": 9,
+      "title": "[M01.9] まとめ & チートシート",
+      "description": "モジュール1の重要ポイント整理、必須ターミナルコマンドのチートシート、初心者が陥りやすいエラーとモジュール2への準備。"
+    },
+    {
+      "id": "mod2-sub1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 10,
+      "title": "[M02.1] 変数と宣言 — 値に名前をつける",
+      "description": "変数の命名規則、ローカル変数とインスタンス変数のスコープ、var キーワード（型推論 - Java 10+）、デフォルト初期値。"
+    },
+    {
+      "id": "mod2-sub2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 11,
+      "title": "[M02.2] プリミティブ型：8種類の型、サイズ、オーバーフロー",
+      "description": "8つのプリミティブ型、メモリサイズ、整数オーバーフロー、IEEE 754浮動小数点数の丸め誤差と BigDecimal による解決策。"
+    },
+    {
+      "id": "mod2-sub3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 12,
+      "title": "[M02.3] 参照型 — null、NPE、ラッパークラス、オートボクシング、Stack vs Heap",
+      "description": "参照型、Stack上の参照ポインタとHeap上のオブジェクト、LIFOとGC、IntegerCache、StackOverflowError と OutOfMemoryError の違い。"
+    },
+    {
+      "id": "mod2-sub4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 13,
+      "title": "[M02.4] 算術・比較演算子 — 整数除算、負数の剰余 (%)、暗黙の型変換",
+      "description": "整数除算の小数切り捨て、負数における剰余演算子 (%) の符号ルール、算術演算子の優先順位。"
+    },
+    {
+      "id": "mod2-sub5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 14,
+      "title": "[M02.5] 論理・ビット演算子 — 短絡評価、ビットマスク、優先順位",
+      "description": "短絡評価（&&, ||）とビット演算子（&, |）の違い、演算子の優先順位、ビットマスクを用いた権限フラグ管理。"
+    },
+    {
+      "id": "mod2-sub6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 15,
+      "title": "[M02.6] 型変換（キャスト）：拡大変換、縮小変換、安全なキャスト",
+      "description": "暗黙的な拡大変換（Widening）と明示的な縮小変換（Narrowing）、ビット切り捨てによるデータ損失の罠と安全なキャスト。"
+    },
+    {
+      "id": "mod2-sub7",
+      "topic_id": "topic_java_core",
+      "chapter_number": 16,
+      "title": "[M02.7] String、テキストブロック、StringBuilder",
+      "description": "Stringの不変性、String Constant Pool、定数畳み込み、テキストブロック（\"\"\"）、ループ内での StringBuilder と + 結合の比較。"
+    },
+    {
+      "id": "mod2-sub8",
+      "topic_id": "topic_java_core",
+      "chapter_number": 17,
+      "title": "[M02.8] 定数と final — 不変の参照とコンパイル時定数",
+      "description": "変数に対する final キーワード、参照の不変性とオブジェクト内部状態の可変性、コンパイル時定数と Constant Folding 最適化。"
+    },
+    {
+      "id": "mod2-sub9",
+      "topic_id": "topic_java_core",
+      "chapter_number": 18,
+      "title": "[M02.9] Enum（列挙型） — マジックナンバーを置き換える型安全な定数",
+      "description": "JavaのEnum：型安全性、シングルトン保証、フィールドやメソッドの定義、== 演算子によるNull安全な比較。"
+    },
+    {
+      "id": "mod2-sub10",
+      "topic_id": "topic_java_core",
+      "chapter_number": 19,
+      "title": "[M02.10] 実践演習：BMI指数の計算とWHO基準による分類",
+      "description": "変数、データ型、算術演算子、早期リターン（Guard Clauses）を組み合わせてWHO基準のBMI判定ロジックを実装する。"
+    },
+    {
+      "id": "module-03",
+      "topic_id": "topic_java_core",
+      "chapter_number": 20,
+      "title": "[M03] 条件分岐 & ループ制御",
+      "description": "if-else、Switch式（Java 14+）、for/whileループ、短絡評価、ConcurrentModificationException の回避。"
+    },
+    {
+      "id": "module-04",
+      "topic_id": "topic_java_core",
+      "chapter_number": 21,
+      "title": "[M04] メソッドと引数渡し",
+      "description": "メソッド宣言、引数、Javaの100%値渡し（Pass-by-value）の仕組み、オーバーロード、可変長引数、再帰。"
+    },
+    {
+      "id": "module-05",
+      "topic_id": "topic_java_core",
+      "chapter_number": 22,
+      "title": "[M05] OOP基礎 — クラス、オブジェクト、カプセル化",
+      "description": "クラスとオブジェクト、アクセス修飾子、コンストラクタ、カプセル化、「Tell, Don’t Ask」原則、不変条件（Invariants）の保護。"
+    },
+    {
+      "id": "module-06",
+      "topic_id": "topic_java_core",
+      "chapter_number": 23,
+      "title": "[M06] OOP応用 — 継承、ポリモーフィズム、抽象化",
+      "description": "継承・抽象化・多態性、ダイヤモンド問題、仮想メソッドテーブル（vtable）、継承よりコンポジション、リスコフの置換原則。"
+    },
+    {
+      "id": "module-07",
+      "topic_id": "topic_java_core",
+      "chapter_number": 24,
+      "title": "[M07] コレクションフレームワーク & ジェネリクス",
+      "description": "List, Set, Map、HashMap と ConcurrentHashMap の違い、equals & hashCode 契約、ジェネリクス境界ワイルドカード。"
+    },
+    {
+      "id": "module-08",
+      "topic_id": "topic_java_core",
+      "chapter_number": 25,
+      "title": "[M08] 例外処理（Exception Handling）",
+      "description": "検査例外と非検査例外、try-with-resources、AutoCloseable、リソースリーク防止のベストプラクティス、カスタム例外。"
+    },
+    {
+      "id": "module-09",
+      "topic_id": "topic_java_core",
+      "chapter_number": 26,
+      "title": "[M09] Java Time API & Stream API",
+      "description": "Instant、OffsetDateTime、タイムゾーン管理、Stream中間・終端操作（map, filter, flatMap）、Collectors。"
+    },
+    {
+      "id": "module-10",
+      "topic_id": "topic_java_core",
+      "chapter_number": 27,
+      "title": "[M10] マルチスレッド & 並行処理の基礎",
+      "description": "スレッドライフサイクル、競合状態（Race Condition）、synchronized、ReentrantLock、Java 21 仮想スレッド（Project Loom）。"
+    },
+    {
+      "id": "module-11",
+      "topic_id": "topic_java_core",
+      "chapter_number": 28,
+      "title": "[M11] Spring Boot コア & データベース JPA",
+      "description": "IoCコンテナ、コンストラクタ注入、Beanスコープ、Hibernate ダーティチェッキング、N+1問題対策、Flyway。"
+    },
+    {
+      "id": "module-12",
+      "topic_id": "topic_java_core",
+      "chapter_number": 29,
+      "title": "[M12] プロダクション思考 & Docker",
+      "description": "Docker Named Volume、論理削除と物理削除、べき等性（Idempotency）、監査ログ（Audit Trail）、システム回復性。"
+    },
+    {
+      "id": "milestone-1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 30,
+      "title": "[実践] マイルストーン1：プロジェクト構築 & Flywayマイグレーション",
+      "description": "Spring Boot 3.4 + Java 21 構築、PostgreSQL接続、Flywayによるスキーマ管理、BaseEntityと監査証跡（Audit Trail）設計。"
+    },
+    {
+      "id": "milestone-2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 31,
+      "title": "[実践] マイルストーン2：REST API設計 & N+1クエリの撲滅",
+      "description": "RFC 7807準拠のイベント・座席API構築、Java Record DTOによるエンティティ保護、JOIN FETCHによるN+1問題の完全解消。"
+    },
+    {
+      "id": "milestone-3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 32,
+      "title": "[実践] マイルストーン3：Mockito単体テスト & JWTセキュリティ",
+      "description": "JUnit 5 & Mockitoによる高速な分離単体テスト、ステートレスJWT認証（Access 15分 / Refresh 7日）、RBACとBOLA脆弱性対策。"
+    },
+    {
+      "id": "milestone-4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 33,
+      "title": "[実践] マイルストーン4：座席ロック & 高負荷並行制御",
+      "description": "チケット争奪戦での二重予約防止、楽観ロック vs 悲観ロック vs Redis分散ロック（Redisson）、一時座席確保（Temporary Hold）。"
+    },
+    {
+      "id": "milestone-5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 34,
+      "title": "[実践] マイルストーン5：Kafka & Transactional Outboxパターン",
+      "description": "Dual-Write（二重書き込み）問題の解決、Transactional Outboxパターンの実装、Kafkaコンシューマの指数バックオフとDLQ設定。"
+    },
+    {
+      "id": "milestone-6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 35,
+      "title": "[実践] マイルストーン6：決済のべき等性 & マルチステージDocker",
+      "description": "決済APIの二重課金防止（Idempotency-Key）、Resilience4j サーキットブレーカーによる保護、非rootマルチステージDockerコンテナ化。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "mod1-s1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub1",
+      "question": "Ticket Station プロジェクトに取り組む際、プログラミング思考を養う本質的な目的は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "Javaの構文キーワードをすべて暗記し、既存のソースコードをそのままコピーすること。",
+        "大きな問題を分解する力（Decomposition）、データフローのモデル化（IPO）、アルゴリズム思考、そしてチケット販売システムの境界ケース（エッジケース）を制御する力を養うこと。",
+        "基礎知識を理解せずに、最初から複雑なフレームワークのインストール方法だけを学ぶこと。",
+        "バックエンドのデータ処理ロジックを無視して、ユーザーインターフェースの見た目だけに集中すること。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "プログラミング思考の核心は、複雑な業務要件を論理的な小問題に分解し、データを正確にモデル化し、実際のチケット販売システムで起こり得るあらゆる例外・エッジケースを制御することにあります。",
+      "card_front": "Ticket Station プロジェクトに取り組む際、プログラミング思考を養う本質的な目的は何ですか？",
+      "card_back": "大きな問題を分解する力（Decomposition）、データフローのモデル化（IPO）、アルゴリズム思考、そしてチケット販売システムの境界ケース（エッジケース）を制御する力を養うこと。",
+      "card_hint": "Programming Mindset, Problem Solving, Overview",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub1",
+      "question": "Ticket Station のような大規模な金融・チケット販売システムが、主力バックエンド言語として Java を優先採用するのはなぜですか？",
+      "code_snippet": "",
+      "options": [
+        "Javaでは変数のデータ型を宣言する必要がないため。",
+        "強力な静的型付け（Strong Static Typing）、自動メモリ管理、優れた並行処理アーキテクチャ、そして非常に安定した高セキュリティなエンタープライズエコシステムを備えているため。",
+        "仮想マシンを使わず、Windows専用のネイティブバイナリに直接コンパイルされるため。",
+        "低スペックなサーバー上でしか動作しないため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "チケット販売システムには高いデータ整合性、数千件の同時トランザクション処理、24時間365日の安定稼働が求められます。Javaの静的型付けはコンパイル時に早期エラー検出を可能にし、高度に最適化されたJVMとともに厳しい企業要件を満たします。",
+      "card_front": "Ticket Station のような大規模な金融・チケット販売システムが、主力バックエンド言語として Java を優先採用するのはなぜですか？",
+      "card_back": "強力な静的型付け（Strong Static Typing）、自動メモリ管理、優れた並行処理アーキテクチャ、そして非常に安定した高セキュリティなエンタープライズエコシステムを備えているため。",
+      "card_hint": "Enterprise Java, Static Typing, System Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub2",
+      "question": "Javaのソースコードが「Write Once, Run Anywhere（一度書けば、どこでも動く）」を実現できている理由は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "`javac` コンパイラが `.java` ファイルをすべてのCPU共通のネイティブ機械語に直接コンパイルするため。",
+        "`javac` がコードを中間表現のバイトコード（`.class` ファイル）にコンパイルし、各OS（Windows, Linux, macOS）専用のJVMがそのバイトコードを解釈・JITコンパイルしてネイティブ機械語に変換するため。",
+        "すべてのコンピュータが同じIntel製プロセッサを使用しているため。",
+        "JavaScriptのように完全にWebブラウザの内部でのみ動作するため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "バイトコードはハードウェアに依存しない標準化された仮想マシンコードです。OSごとに用意されたJVMがバイトコードを実際の機械語へ変換するため、JVMさえあればどの環境でも同じ `.class` ファイルを実行できます。",
+      "card_front": "Javaのソースコードが「Write Once, Run Anywhere（一度書けば、どこでも動く）」を実現できている理由は何ですか？",
+      "card_back": "`javac` がコードを中間表現のバイトコード（`.class` ファイル）にコンパイルし、各OS（Windows, Linux, macOS）専用のJVMがそのバイトコードを解釈・JITコンパイルしてネイティブ機械語に変換するため。",
+      "card_hint": "Bytecode, JVM, WORA, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub2",
+      "question": "Javaソースコード（`.java`）をコンパイルした後の `.class` ファイルには、どのようなデータが含まれていますか？",
+      "code_snippet": "",
+      "options": [
+        "x86/ARMチップ専用のネイティブ機械語バイナリ。",
+        "JVMがロード、検証、実行できる標準化された中間コード（Javaバイトコード）。",
+        "ZIP圧縮された元のテキストソースコード。",
+        "Linux OS向けのアセンブリ言語コード。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`.class` ファイルには Java仮想マシン仕様に準拠したバイナリバイトコードが含まれています。どのOSでコンパイルされたかに関わらず、仕様に準拠したあらゆるJVM上で実行可能です。",
+      "card_front": "Javaソースコード（`.java`）をコンパイルした後の `.class` ファイルには、どのようなデータが含まれていますか？",
+      "card_back": "JVMがロード、検証、実行できる標準化された中間コード（Javaバイトコード）。",
+      "card_hint": "Bytecode, Compiler, Class File",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub3",
+      "question": "Javaエコシステムにおける JDK、JRE、JVM の関係として最も正確な説明はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "JVM が JRE を含み、JRE が JDK を含んでいる。",
+        "JDK（開発キット）は JRE（実行環境）と javac などの開発ツールを含み、JRE は JVM（バイトコードを実行する仮想マシン）と標準コアライブラリ（Core API）を含んでいる。",
+        "3つとも名前が違うだけで全く同じソフトウェアである。",
+        "JDK は Windows 専用であり、JVM は Linux 上でのみ動作する。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "基本公式は「JDK = JRE + 開発ツール（javac, jar, jdb）」「JRE = JVM + 標準ライブラリ」です。開発にはJDKが必要であり、本番稼働にはJRE（または jlink で作成したカスタムランタイム）のみが必要です。",
+      "card_front": "Javaエコシステムにおける JDK、JRE、JVM の関係として最も正確な説明はどれですか？",
+      "card_back": "JDK（開発キット）は JRE（実行環境）と javac などの開発ツールを含み、JRE は JVM（バイトコードを実行する仮想マシン）と標準コアライブラリ（Core API）を含んでいる。",
+      "card_hint": "Java Basics, JVM, JDK, JRE",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub3",
+      "question": "Java 11 LTS 以降、OpenJDKエコシステムにおいて単体 JRE パッケージの配布に関してどのような重要な変更がありましたか？",
+      "code_snippet": "",
+      "options": [
+        "JVM が廃止され、Java は直接 .exe ファイルにコンパイルされるようになった。",
+        "Oracle や OpenJDK ディストリビューションは独立した JRE インストーラの提供を終了し、開発者は JDK を導入し、サーバーデプロイ時には `jlink` ツールで超軽量なカスタムランタイムイメージを作成する方式になった。",
+        "個人学習を含め、すべての用途で JRE の商用ライセンス購入が義務付けられた。",
+        "JRE が Windows OS のカーネルに標準内蔵されるようになった。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java 11以降（モジュールシステム JPMS の導入後）、単体 JRE のインストーラ配布は廃止されました。開発には JDK を使用し、本番環境へは `jlink` で必要なモジュールだけを含む最小限のランタイムイメージを構築します。",
+      "card_front": "Java 11 LTS 以降、OpenJDKエコシステムにおいて単体 JRE パッケージの配布に関してどのような重要な変更がありましたか？",
+      "card_back": "Oracle や OpenJDK ディストリビューションは独立した JRE インストーラの提供を終了し、開発者は JDK を導入し、サーバーデプロイ時には `jlink` ツールで超軽量なカスタムランタイムイメージを作成する方式になった。",
+      "card_hint": "Java 11, JRE, jlink, OpenJDK",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub4",
+      "question": "OSにおける環境変数 `JAVA_HOME` と `PATH` の正確な技術的役割は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "`JAVA_HOME` はJavaアカウントのパスワードを保存し、`PATH` はアプリのソースコードを保存する。",
+        "`JAVA_HOME` は Maven、Gradle、IntelliJ などが参照する JDK インストールルートディレクトリを指し、`PATH` に `%JAVA_HOME%/bin` を追加することで、どのターミナルからでも `java` や `javac` コマンドを実行できるようにする。",
+        "これら2つの環境変数は Linux でのみ必要であり、Windows では一切設定不要である。",
+        "`JAVA_HOME` は Java 実行時に PC の物理 RAM 容量を増加させる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`JAVA_HOME` はJDKのルートディレクトリを示す標準環境変数で、MavenやGradleなどのビルドツールが参照します。一方 `PATH` は `bin` ディレクトリ内の実行ファイル（`javac`, `java`, `jar`）をどこからでも直接呼び出せるようにします。",
+      "card_front": "OSにおける環境変数 `JAVA_HOME` と `PATH` の正確な技術的役割は何ですか？",
+      "card_back": "`JAVA_HOME` は Maven、Gradle、IntelliJ などが参照する JDK インストールルートディレクトリを指し、`PATH` に `%JAVA_HOME%/bin` を追加することで、どのターミナルからでも `java` や `javac` コマンドを実行できるようにする。",
+      "card_hint": "JAVA_HOME, Environment Variables, IntelliJ, Setup",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub4",
+      "question": "`javac -version` と `java -version` コマンドで環境を確認した際、Ticket Station プロジェクトの開発環境として最も適切な出力はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "両方のコマンドが Java 21 LTS（例：`javac 21.0.x` および `openjdk version \"21.0.x\"` 64-Bit Server VM）を表示する。",
+        "`javac` は Java 8 を表示し、`java` は Java 21 を表示する。",
+        "ターミナルに `javac is not recognized as an internal or external command` とエラーが表示される。",
+        "`node -v` コマンドだけが成功する。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "最新のバックエンド開発では Java 21 LTS を使用します。コンパイラ（`javac`）と実行環境（`java`）の両方が 64-bit のバージョン 21 で一致していることで、バイトコードのバージョン不整合エラー（UnsupportedClassVersionError）を防げます。",
+      "card_front": "`javac -version` と `java -version` コマンドで環境を確認した際、Ticket Station プロジェクトの開発環境として最も適切な出力はどれですか？",
+      "card_back": "両方のコマンドが Java 21 LTS（例：`javac 21.0.x` および `openjdk version \"21.0.x\"` 64-Bit Server VM）を表示する。",
+      "card_hint": "JDK 21, CLI, Verification",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub5",
+      "question": "Javaの標準エントリーポイントである `main` メソッドに `static` キーワード（`public static void main(String[] args)`）が必須である理由は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "通常のメソッドより2倍速く実行できるようにするため。",
+        "JVMがそのクラスのオブジェクトを事前にインスタンス化（new）することなく、クラス経由で直接このメソッドを呼び出して実行できるようにするため。",
+        "`static` をつけると main メソッド内の処理が書き換えられなくなるため。",
+        "Java 8 以降では `static` キーワードは任意であり省略可能である。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "プログラム起動直後はヒープメモリ上にまだオブジェクトが存在しません。`static` として宣言することで、JVMはクラスのロード直後にコンストラクタを呼ばずに直接 `main()` を呼び出すことができます。",
+      "card_front": "Javaの標準エントリーポイントである `main` メソッドに `static` キーワード（`public static void main(String[] args)`）が必須である理由は何ですか？",
+      "card_back": "JVMがそのクラスのオブジェクトを事前にインスタンス化（new）することなく、クラス経由で直接このメソッドを呼び出して実行できるようにするため。",
+      "card_hint": "Main Method, static keyword, JVM Entry Point",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub5",
+      "question": "定番のコンソール出力文 `System.out.println(\"Ticket Station\");` における各要素の正体は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "`System` は変数、`out` はクラス、`println` はパッケージである。",
+        "`System` は `java.lang` パッケージに属するクラス、`out` は `PrintStream` 型の static フィールド変数、`println()` はその `PrintStream` オブジェクトのメソッドである。",
+        "この3単語全体でJava構文の1つの予約語キーワードである。",
+        "`out` はOSの private メソッドである。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`java.lang.System` は標準クラスであり、その中の `public static final PrintStream out` が標準出力ストリームを表します。`System.out.println()` はこの `PrintStream` インスタンスのメソッドを呼び出しています。",
+      "card_front": "定番のコンソール出力文 `System.out.println(\"Ticket Station\");` における各要素の正体は何ですか？",
+      "card_back": "`System` は `java.lang` パッケージに属するクラス、`out` は `PrintStream` 型の static フィールド変数、`println()` はその `PrintStream` オブジェクトのメソッドである。",
+      "card_hint": "Syntax, System.out.println, Core API",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub6",
+      "question": "IPO（Input - Process - Output）思考モデルを「10%割引クーポン適用後のチケット料金計算」機能に当てはめるとどうなりますか？",
+      "code_snippet": "",
+      "options": [
+        "Input: 画面表示、Process: キーボード入力、Output: データベース内の値。",
+        "Input: ユーザーからの元のチケット価格とクーポンコード、Process: クーポンの有効性を検証し価格に 0.9 を掛ける、Output: 最終支払金額と適用完了メッセージ。",
+        "Input: PCの電源オン、Process: 冷却ファンの回転、Output: シャットダウン。",
+        "IPOモデルはハードウェア専用であり、ソフトウェアのロジック設計には適用できない。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "IPO思考はあらゆるアルゴリズム設計の基礎です。入力データ（Input）を定義し、条件検証と計算ロジック（Process）を実行し、ユーザーへ返す結果（Output）を導き出します。",
+      "card_front": "IPO（Input - Process - Output）思考モデルを「10%割引クーポン適用後のチケット料金計算」機能に当てはめるとどうなりますか？",
+      "card_back": "Input: ユーザーからの元のチケット価格とクーポンコード、Process: クーポンの有効性を検証し価格に 0.9 を掛ける、Output: 最終支払金額と適用完了メッセージ。",
+      "card_hint": "IPO Model, Problem Solving, Logic",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub6",
+      "question": "`Scanner` を使用した以下のコードで、文字列入力がスキップされてしまう現象が起きる原因は何ですか？",
+      "code_snippet": "Scanner scanner = new Scanner(System.in);\nSystem.out.print(\"チケット枚数を入力: \");\nint count = scanner.nextInt();\nSystem.out.print(\"顧客氏名を入力: \");\nString name = scanner.nextLine(); // 入力待ちにならずスキップされてしまう！",
+      "options": [
+        "Java 21 において `scanner.nextLine()` に構文バグがあるため。",
+        "`scanner.nextInt()` は数値部分のみを読み取り、改行文字 `\\n`（Enterキー）を入力バッファに残すため、直後の `scanner.nextLine()` がその `\\n` を即座に読み取って終了してしまうから。",
+        "変数 `count` が `Scanner` のメモリをすべて消費してしまうため。",
+        "Javaでは同じ main メソッド内で数値と文字列の両方を入力することが禁じられているため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java初心者が必ず遭遇する典型的な罠です。`nextInt()` や `nextDouble()` は数値トークンのみを消費し、Enterキー（`\\n`）がバッファに残ります。次の文字列を読む前に空の `scanner.nextLine()` を1回呼んでバッファをクリアする必要があります。",
+      "card_front": "`Scanner` を使用した以下のコードで、文字列入力がスキップされてしまう現象が起きる原因は何ですか？",
+      "card_back": "`scanner.nextInt()` は数値部分のみを読み取り、改行文字 `\\n`（Enterキー）を入力バッファに残すため、直後の `scanner.nextLine()` がその `\\n` を即座に読み取って終了してしまうから。",
+      "card_hint": "Scanner, Console Input, Common Pitfalls",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s7-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub7",
+      "question": "ターミナルで `javac TicketApp.java` と `java TicketApp` の2つのコマンドを順番に実行した際、それぞれの段階で何が行われますか？",
+      "code_snippet": "",
+      "options": [
+        "1つ目のコマンドがプログラムを実行し、2つ目のコマンドがソースファイルを削除する。",
+        "`javac` が構文チェックを行いソースファイルをバイトコード `TicketApp.class` にコンパイルする。続いて `java` がJVMを起動し、クラスをメモリにロードして `main` メソッドを実行する。",
+        "両方のコマンドともソースファイルを最初から再コンパイルする。",
+        "`java TicketApp` は `TicketApp.java` を探して直接機械語に翻訳する。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`javac` はソースコードを中間バイトコードへ変換するJavaコンパイラであり、`java` はJVMを起動してコンパイル済みのクラスを実行するランチャーです。",
+      "card_front": "ターミナルで `javac TicketApp.java` と `java TicketApp` の2つのコマンドを順番に実行した際、それぞれの段階で何が行われますか？",
+      "card_back": "`javac` が構文チェックを行いソースファイルをバイトコード `TicketApp.class` にコンパイルする。続いて `java` がJVMを起動し、クラスをメモリにロードして `main` メソッドを実行する。",
+      "card_hint": "javac, java, Execution Lifecycle, CLI",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s7-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub7",
+      "question": "JVMのクラスロードアーキテクチャにおいて、`Bytecode Verifier`（バイトコード検証器）はどのような重要なセキュリティ上の役割を果たしていますか？",
+      "code_snippet": "",
+      "options": [
+        "コード内のコメントのスペルミスを自動チェックする。",
+        "実行前にバイトコードを検査し、メモリ安全性の違反、スタックオーバーフロー、不正な型キャストがないことを確認し、Javaのセキュリティ規則を強制する。",
+        "コンピュータがインターネットに接続されているかを確認する。",
+        "ハードディスク上の `.class` ファイルのサイズを圧縮する。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Bytecode Verifier はJVMの防衛盾です。実行エンジンに渡す前に `.class` ファイルを検証し、改ざんされた悪意あるバイトコードがシステムメモリを不正操作するのを防ぎます。",
+      "card_front": "JVMのクラスロードアーキテクチャにおいて、`Bytecode Verifier`（バイトコード検証器）はどのような重要なセキュリティ上の役割を果たしていますか？",
+      "card_back": "実行前にバイトコードを検査し、メモリ安全性の違反、スタックオーバーフロー、不正な型キャストがないことを確認し、Javaのセキュリティ規則を強制する。",
+      "card_hint": "Bytecode Verifier, JVM Security, ClassLoader",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s8-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub8",
+      "question": "ミニチャレンジ「今月のカレンダーを7列（月〜日）でコンソール出力する」問題を解くために、最初に計算すべき2つの重要な技術パラメータは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "CPUのクロック速度と画面解像度。",
+        "月の1日が何曜日か（最初の空白パディング数を決めるため）と、その月の総日数。",
+        "ディスクの空き容量と国番号。",
+        "その月に販売されたチケットの総枚数。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "7列のカレンダーを描画するには、①月の1日が何曜日か（先頭の空白マスをいくつ出力するか）と、②その月の総日数（28〜31日のどこまでループし、7マスごとに改行するか）の2つが必要です。",
+      "card_front": "ミニチャレンジ「今月のカレンダーを7列（月〜日）でコンソール出力する」問題を解くために、最初に計算すべき2つの重要な技術パラメータは何ですか？",
+      "card_back": "月の1日が何曜日か（最初の空白パディング数を決めるため）と、その月の総日数。",
+      "card_hint": "Mini-challenge, Calendar Algorithm, java.time",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s8-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub8",
+      "question": "Java 8以降において、うるう年である2024年2月に対して `YearMonth.lengthOfMonth()` を呼び出すと何が出力されますか？",
+      "code_snippet": "YearMonth ym = YearMonth.of(2024, 2); // 2024年2月（うるう年）\nint daysInMonth = ym.lengthOfMonth();\nSystem.out.println(daysInMonth);",
+      "options": [
+        "`lengthOfMonth()` は 29 を出力する。",
+        "`lengthOfMonth()` はすべての2月に対して常に 28 を出力する。",
+        "2月は日数を手動指定する必要があるためエラーになる。",
+        "`lengthOfMonth()` は 30 を出力する。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "`java.time.YearMonth.lengthOfMonth()` はグレゴリオ暦に基づいてうるう年を自動判定し、正確な月の日数を返します（2024年はうるう年のため2月は29日になります）。",
+      "card_front": "Java 8以降において、うるう年である2024年2月に対して `YearMonth.lengthOfMonth()` を呼び出すと何が出力されますか？",
+      "card_back": "`lengthOfMonth()` は 29 を出力する。",
+      "card_hint": "java.time, YearMonth, Leap Year",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub9",
+      "question": "Javaのコンパイルエラー `error: cannot find symbol` は主にどのような原因で発生しますか？",
+      "code_snippet": "",
+      "options": [
+        "JVMのRAMメモリが不足したため。",
+        "変数名やメソッド名のスペルミス（大文字・小文字の区別）、未宣言の変数の参照、または必要なクラスライブラリの `import` 忘れ。",
+        "実行中に `.class` ファイルが破損したため。",
+        "OSが日本語フォントをサポートしていないため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`cannot find symbol` は最も代表的なコンパイル時エラーです。識別子（変数・メソッド・クラス）のスペルミス、スコープ外での参照、またはパッケージの import 忘れによってコンパイラが定義を見つけられないときに発生します。",
+      "card_front": "Javaのコンパイルエラー `error: cannot find symbol` は主にどのような原因で発生しますか？",
+      "card_back": "変数名やメソッド名のスペルミス（大文字・小文字の区別）、未宣言の変数の参照、または必要なクラスライブラリの `import` 忘れ。",
+      "card_hint": "Compiler Errors, Troubleshooting, Cheat Sheet",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s9-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub9",
+      "question": "ターミナルで `java` コマンドを実行した際の実行時エラー `Error: Could not find or load main class com.ticket.MainApp` は主に何が原因ですか？",
+      "code_snippet": "",
+      "options": [
+        "PCにイヤホンが接続されていないため。",
+        "実行しているカレントディレクトリやクラスパス（classpath）が間違っているか、package宣言があるクラスに対して完全修飾クラス名（Fully Qualified Name）を指定していないため。",
+        "Java 21 では MainApp という名前のクラスが禁止されているため。",
+        "main メソッド内に `System.out.println` が書かれていないため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "クラスにパッケージ宣言（例：`package com.ticket;`）がある場合、クラスパスのルートディレクトリから `java com.ticket.MainApp` のように完全修飾名で実行する必要があります。",
+      "card_front": "ターミナルで `java` コマンドを実行した際の実行時エラー `Error: Could not find or load main class com.ticket.MainApp` は主に何が原因ですか？",
+      "card_back": "実行しているカレントディレクトリやクラスパス（classpath）が間違っているか、package宣言があるクラスに対して完全修飾クラス名（Fully Qualified Name）を指定していないため。",
+      "card_hint": "Classpath, Package, Troubleshooting, Cheat Sheet",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Java 10で導入された `var` キーワードの技術的な本質は何ですか？また、JavaScriptの `var` とはどう違いますか？",
+      "code_snippet": "var ticketPrice = 150_000;\n// ticketPrice = \"FREE\"; // この行は有効か？",
+      "options": [
+        "`var` によってJavaは動的型付け言語になり、JavaScriptのように後から `ticketPrice = \"FREE\"` と別の型の値を再代入できる。",
+        "`var` はローカル変数型推論（Local Variable Type Inference）の糖衣構文に過ぎず、静的な型（`int`）はコンパイル時に確定する。そのため `ticketPrice = \"FREE\"` の再代入はコンパイルエラーになる。",
+        "`var` は `Object` に相当するJVMの新しいデータ型であり、実行時に自動アンボクシングされる。",
+        "実行時にJVMが型を推測する必要があるため、アプリの実行パフォーマンスが低下する。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaの `var`（JEP 286）はローカル変数の型推論であり、Javaは100%静的型付け言語のままです。コンパイラがコンパイル時に `int` 型と推論して `.class` バイトコードに書き込むため、実行時の性能劣化はなく、異なる型の再代入もできません。",
+      "card_front": "Java 10で導入された `var` キーワードの技術的な本質は何ですか？また、JavaScriptの `var` とはどう違いますか？",
+      "card_back": "`var` はローカル変数型推論（Local Variable Type Inference）の糖衣構文に過ぎず、静的な型（`int`）はコンパイル時に確定する。そのため `ticketPrice = \"FREE\"` の再代入はコンパイルエラーになる。",
+      "card_hint": "Java 10, var keyword, Type Inference, Static Typing",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Javaで `var`（ローカル変数型推論）を使用することの主なメリットは何ですか？",
+      "code_snippet": "// 従来の記述（Java 10以前）:\nMap<String, List<TicketOrder>> orderMap = new HashMap<String, List<TicketOrder>>();\n\n// モダンな記述（Java 10+）:\nvar orderMap = new HashMap<String, List<TicketOrder>>();",
+      "options": [
+        "JVMが静的な型割り当てを省略するため、プログラムの実行速度が向上しRAM消費量が減る。",
+        "冗長な型宣言の繰り返し（ボイラープレートコード）を削減して可読性を高め、コンパイル時の100%の静的型安全性を維持しつつ意味のある変数名に集中できるようにする。",
+        "実行中に変数へ異なるデータ型の値を自由に再代入できるようにする（動的型付け）。",
+        "変数操作時の NullPointerException を自動的に検知して完全に防ぐ。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`var` の本質的なメリット（OpenJDK JEP 286）は、代入文の両辺での冗長な型記述を省いて可読性を向上させつつ、明示的な型宣言と全く同じバイトコードを生成して100%の型安全性を保つことです。",
+      "card_front": "Javaで `var`（ローカル変数型推論）を使用することの主なメリットは何ですか？",
+      "card_back": "冗長な型宣言の繰り返し（ボイラープレートコード）を削減して可読性を高め、コンパイル時の100%の静的型安全性を維持しつつ意味のある変数名に集中できるようにする。",
+      "card_hint": "Java 10, var keyword, Best Practices, Readability, Boilerplate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "コードスニペットの宣言のうち、Javaにおいて `var` の使い方が有効（コンパイル可能）なものはどれですか？",
+      "code_snippet": "// ケース1: var ticketCount;\n// ケース2: var user = null;\n// ケース3: var seatList = new ArrayList<String>();\n// ケース4: public var calculateTotal(var price) { return price * 2; }",
+      "options": [
+        "ケース 1、2、3。",
+        "ケース 3 のみが有効。ケース 1、2、4 はすべてコンパイルエラーになる。",
+        "Java 17 LTS 以降では 4 つのケースすべてが有効である。",
+        "ケース 2 と 4 が有効である。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`var` のルール：①初期値なしの宣言は不可、②`null` のみの代入は型推論できないため不可、③`new ArrayList<String>()` は明確に型推論できるため有効、④メソッドの引数や戻り値の型には使用不可。",
+      "card_front": "コードスニペットの宣言のうち、Javaにおいて `var` の使い方が有効（コンパイル可能）なものはどれですか？",
+      "card_back": "ケース 3 のみが有効。ケース 1、2、4 はすべてコンパイルエラーになる。",
+      "card_hint": "Java 10, var keyword, Compiler Rules, Limitations",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "`var` キーワードと空のダイヤモンド演算子 `<>`（`var list = new ArrayList<>();`）を組み合わせた際の典型的な落とし穴は何ですか？",
+      "code_snippet": "var list = new ArrayList<>();\nlist.add(\"VIP-Ticket\");\n// String ticket = list.get(0); // この行でどんなエラーが起きるか？",
+      "options": [
+        "最初に追加された要素から自動判別して `ArrayList<String>` に変換してくれる。",
+        "左辺（`var`）も右辺（`<>`）もジェネリクス型を指定していないため、コンパイラは `ArrayList<Object>` と推論してしまい、`list.get(0)` の戻り値が `Object` 型になって `String` へ直接代入できなくなる。",
+        "`list.add()` を呼び出した瞬間に `NullPointerException` が発生する。",
+        "`var` はコレクションフレームワークと一緒に使うことが禁止されている。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`var` と空の `<>` を組み合わせると、型情報がないため `ArrayList<Object>` と推論されます。`var` を使う際は右辺に明示的な型引数（`var list = new ArrayList<String>();`）を指定しましょう。",
+      "card_front": "`var` キーワードと空のダイヤモンド演算子 `<>`（`var list = new ArrayList<>();`）を組み合わせた際の典型的な落とし穴は何ですか？",
+      "card_back": "左辺（`var`）も右辺（`<>`）もジェネリクス型を指定していないため、コンパイラは `ArrayList<Object>` と推論してしまい、`list.get(0)` の戻り値が `Object` 型になって `String` へ直接代入できなくなる。",
+      "card_hint": "var keyword, Generics, Diamond Operator, Type Safety",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "ラムダ式で `var` を使用している以下の2つの宣言は、Javaで有効ですか？またその理由は何ですか？",
+      "code_snippet": "// 宣言1:\nvar printer = (String s) -> System.out.println(s);\n\n// 宣言2:\nConsumer<String> consumer = (var s) -> System.out.println(s);",
+      "options": [
+        "Java 10 以降、両方の宣言とも完全に有効である。",
+        "宣言1はラムダ式にターゲット型（関数型インターフェース）が必要なためコンパイルエラーになる。宣言2は Java 11 以降で有効である（`@Nonnull var s` のようにラムダ引数にアノテーションを付与するため `var` が許可されている）。",
+        "Javaではラムダ式に関するあらゆる `var` の使用が禁止されているため、両方ともエラーになる。",
+        "宣言1は有効で、宣言2はエラーになる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "① `var printer = (String s) -> ...` はラムダ式単体では型が決まらないためコンパイルエラーになります。② Java 11（JEP 323）からはラムダ式の仮引数に `(var s) -> ...` を使うことが許可され、`@NotNull` などのアノテーションを付与できるようになりました。",
+      "card_front": "ラムダ式で `var` を使用している以下の2つの宣言は、Javaで有効ですか？またその理由は何ですか？",
+      "card_back": "宣言1はラムダ式にターゲット型（関数型インターフェース）が必要なためコンパイルエラーになる。宣言2は Java 11 以降で有効である（`@Nonnull var s` のようにラムダ引数にアノテーションを付与するため `var` が許可されている）。",
+      "card_hint": "Java 11, var keyword, Lambda, Target Type",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "メソッド内のローカル変数を初期値を代入せずに宣言し、そのまま値を読み取ろうとするとどうなりますか？",
+      "code_snippet": "public void processOrder() {\n    int availableTickets;\n    System.out.println(availableTickets); // この行はどうなるか？\n}",
+      "options": [
+        "クラスのフィールド変数と同様に、自動的にデフォルト値 `0` が入る。",
+        "コンパイラがコンパイル時エラー `variable availableTickets might not have been initialized` を報告する。",
+        "実行時に `NullPointerException` がスローされる。",
+        "RAM上に残っていたランダムなゴミデータが出力される。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaではスタック上のローカル変数にはデフォルト値が自動付与されません。読み取る前に必ず初期化されていることをコンパイラが厳密にチェックします（ヒープ上のインスタンス変数や static 変数のみ `0` や `null` で初期化されます）。",
+      "card_front": "メソッド内のローカル変数を初期値を代入せずに宣言し、そのまま値を読み取ろうとするとどうなりますか？",
+      "card_back": "コンパイラがコンパイル時エラー `variable availableTickets might not have been initialized` を報告する。",
+      "card_hint": "Variables, Local Scope, Default Values, Compiler Error",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "チケット販売や金融決済システムにおいて、チケット価格や残高の保存に `double` や `float` を絶対に使ってはいけない理由は何ですか？",
+      "code_snippet": "double priceA = 0.1;\ndouble priceB = 0.2;\nSystem.out.println(priceA + priceB == 0.3); // Output: false! (0.30000000000000004)",
+      "options": [
+        "`double` は `BigDecimal` よりも多くのRAMメモリを消費するため。",
+        "`double` や `float` は IEEE 754 二進浮動小数点規格で数値を表現するため丸め誤差が生じるから。金額計算の完全な精度を保証するには `BigDecimal` を使う必要がある。",
+        "PostgreSQL が `double` 型をサポートしていないため。",
+        "`double` 型では1億以上の数値を保存できないため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "コンピュータは2の累乗の二進数で実数を扱うため、0.1 や 0.2 のような十進小数を正確に表現できず、何千もの取引を集計すると金額のズレが発生します。金融計算では必ず `BigDecimal` を使用します。",
+      "card_front": "チケット販売や金融決済システムにおいて、チケット価格や残高の保存に `double` や `float` を絶対に使ってはいけない理由は何ですか？",
+      "card_back": "`double` や `float` は IEEE 754 二進浮動小数点規格で数値を表現するため丸め誤差が生じるから。金額計算の完全な精度を保証するには `BigDecimal` を使う必要がある。",
+      "card_hint": "Data Types, BigDecimal, Precision, Finance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "以下のコードにおいて、整数オーバーフロー（Integer Overflow）はどのように発生しますか？",
+      "code_snippet": "byte maxTickets = 127;\nmaxTickets++;\nSystem.out.println(maxTickets); // Output: ?",
+      "options": [
+        "`128` が出力される。",
+        "Javaの `byte` 型は符号付き8ビット整数（-128〜127）であるため、最大値を超えると2の補数表現により最小値へ一周して `-128` が出力される。",
+        "`ArithmeticException: integer overflow` 例外がスローされる。",
+        "byteの上限を超えるインクリメントはコンパイルエラーになる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaの整数型はすべて2の補数による符号付き整数です。`01111111`（127）に 1 を足すと `10000000`（-128）になり、例外を投げずに負の最小値へラップアラウンドします。",
+      "card_front": "以下のコードにおいて、整数オーバーフロー（Integer Overflow）はどのように発生しますか？",
+      "card_back": "Javaの `byte` 型は符号付き8ビット整数（-128〜127）であるため、最大値を超えると2の補数表現により最小値へ一周して `-128` が出力される。",
+      "card_hint": "Primitive Types, Integer Overflow, Byte, Bitwise",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "Javaにおいて、なぜ式 `(0.1 + 0.2 == 0.3)` は `false` を返し、`0.30000000000000004` と出力されるのですか？",
+      "code_snippet": "double a = 0.1;\ndouble b = 0.2;\nSystem.out.println(a + b);        // 0.30000000000000004\nSystem.out.println(a + b == 0.3); // false",
+      "options": [
+        "Intel/AMDプロセッサのハードウェアバグによりJVMが計算ミスを起こすため。",
+        "`double` 型は IEEE 754 二進浮動小数点規格に従っており、十進数の `0.1`（1/10）を二進数に変換すると無限循環小数（`0.0001100110011...₂`）になるため64ビットで丸められ、加算時に微小な誤差が蓄積するため。",
+        "Javaが比較前に `a + b` を自動的に `String` に変換するため。",
+        "Javaでは実数型に対する `==` 演算子の使用が禁止されているため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "十進数で 1/3 が 0.333... と無限に続くのと同様に、二進数では 1/10 が無限循環小数になります。64ビットの有限長で切り捨て・丸めが行われるため、`0.1 + 0.2` は `0.30000000000000004` となります。",
+      "card_front": "Javaにおいて、なぜ式 `(0.1 + 0.2 == 0.3)` は `false` を返し、`0.30000000000000004` と出力されるのですか？",
+      "card_back": "`double` 型は IEEE 754 二進浮動小数点規格に従っており、十進数の `0.1`（1/10）を二進数に変換すると無限循環小数（`0.0001100110011...₂`）になるため64ビットで丸められ、加算時に微小な誤差が蓄積するため。",
+      "card_hint": "IEEE 754, Floating Point, Precision, Binary Fraction",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "正確な金融計算のために `BigDecimal` を使用する際、浮動小数点の丸め誤差を含まない「正しい初期化方法」はどれですか？",
+      "code_snippet": "// 方法1:\nBigDecimal price1 = new BigDecimal(0.1);\n\n// 方法2:\nBigDecimal price2 = new BigDecimal(\"0.1\");\n\n// 方法3:\nBigDecimal price3 = BigDecimal.valueOf(0.1);",
+      "options": [
+        "方法1（`new BigDecimal(0.1)`）がプリミティブの double 値を直接渡せるため最も正しい。",
+        "方法2（`new BigDecimal(\"0.1\")`）と方法3（`BigDecimal.valueOf(0.1)`）のみが正しい。方法1はすでにRAM上で丸め誤差を含んでいる double 値 `0.1` をそのまま渡すため、`0.10000000000000000555...` という不正確な値になってしまう。",
+        "3つの方法すべてで同じ誤差が発生する。",
+        "`BigDecimal` は必ず `Double.toBigDecimal()` で初期化しなければならない。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`new BigDecimal(double)` コンストラクタは二進数の誤差を含んだ double の値をそのまま格納してしまいます。Oracle公式ドキュメントでも推奨されている通り、文字列コンストラクタ `new BigDecimal(\"0.1\")` または `BigDecimal.valueOf(0.1)` を常に使用してください。",
+      "card_front": "正確な金融計算のために `BigDecimal` を使用する際、浮動小数点の丸め誤差を含まない「正しい初期化方法」はどれですか？",
+      "card_back": "方法2（`new BigDecimal(\"0.1\")`）と方法3（`BigDecimal.valueOf(0.1)`）のみが正しい。方法1はすでにRAM上で丸め誤差を含んでいる double 値 `0.1` をそのまま渡すため、`0.10000000000000000555...` という不正確な値になってしまう。",
+      "card_hint": "BigDecimal, Constructors, Best Practices, Floating Point",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "ラッパークラス（`Integer`）からプリミティブ型（`int`）へ自動アンボクシング（Auto-unboxing）する際の最も危険な罠は何ですか？",
+      "code_snippet": "Integer seatCount = null;\nint availableSeats = seatCount; // この行を実行するとどうなるか？",
+      "options": [
+        "変数 `availableSeats` には自動的にデフォルト値の `0` が代入される。",
+        "JVMが裏側で自動的に `seatCount.intValue()` を呼び出すため、`seatCount` が `null` だと実行時に `NullPointerException` がスローされる。",
+        "コンパイルエラーになる。",
+        "変数 `availableSeats` に負の数が代入される。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "ラッパークラスからプリミティブ型へアンボクシングする際、JVMは内部的に `.intValue()` メソッドを呼び出します。ラッパー変数が `null` の場合、実行時に `NullPointerException` が発生してクラッシュします。",
+      "card_front": "ラッパークラス（`Integer`）からプリミティブ型（`int`）へ自動アンボクシング（Auto-unboxing）する際の最も危険な罠は何ですか？",
+      "card_back": "JVMが裏側で自動的に `seatCount.intValue()` を呼び出すため、`seatCount` が `null` だと実行時に `NullPointerException` がスローされる。",
+      "card_hint": "Wrapper Class, Autoboxing, NullPointerException",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q11",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "以下のコードは何を出力しますか？また、2つの `==` 比較結果が異なる理由を説明するJVMのメモリ機構はどれですか？",
+      "code_snippet": "Integer a1 = 100, a2 = 100;\nInteger b1 = 128, b2 = 128;\n\nSystem.out.println((a1 == a2) + \" \" + (b1 == b2));",
+      "options": [
+        "`true true`：100 も 128 も同じ整数値であるため。",
+        "`false false`：`Integer` はラッパークラス（参照型）であり、`==` は常にヒープ上の異なる参照アドレスを比較するため。",
+        "`true false`：オートボクシングにより `Integer.valueOf()` が呼ばれ、JVMは `[-128, 127]` の範囲のインスタンスを `IntegerCache` にキャッシュして再利用するため `a1 == a2` は `true` になり、範囲外の `128` は別々のオブジェクトが新規生成されるため `false` になる。",
+        "`false true`：127より大きい数値のみがプールされるため。"
+      ],
+      "correct_option_index": 2,
+      "explanation": "`Integer a = 100;` は `Integer.valueOf(100)` に変換されます。JVMの `IntegerCache` は `-128` から `127` までのオブジェクトをキャッシュするため `a1 == a2` は同じ参照を指しますが、`128` は新規オブジェクトが作られます。ラッパークラスの比較には必ず `.equals()` を使用してください。",
+      "card_front": "以下のコードは何を出力しますか？また、2つの `==` 比較結果が異なる理由を説明するJVMのメモリ機構はどれですか？",
+      "card_back": "`true false`：オートボクシングにより `Integer.valueOf()` が呼ばれ、JVMは `[-128, 127]` の範囲のインスタンスを `IntegerCache` にキャッシュして再利用するため `a1 == a2` は `true` になり、範囲外の `128` は別々のオブジェクトが新規生成されるため `false` になる。",
+      "card_hint": "Wrapper Class, IntegerCache, Autoboxing, Memory Trap",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q14",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Spring Boot / JPA アプリケーションにおいて、`currentUserId == requestUserId` のように2つの `Long` 型IDを `==` で比較することが、単体テストをすり抜けて本番環境（Production）で重大なバグを引き起こす理由は何ですか？",
+      "code_snippet": "// OrderService.java 内\nLong currentUserId = user.getId(); // Long ラッパー型\nLong requestUserId = request.getUserId();\n\nif (currentUserId == requestUserId) {\n    // チケットのキャンセル・返金を許可\n}",
+      "options": [
+        "本番環境の Linux OS と開発環境の Windows/Mac で `==` 演算子の仕様が異なるため。",
+        "開発・テスト環境ではデータが少なく ID が 127 以下のことが多いため `LongCache` により同一インスタンスが再利用されて `==` が偶然 `true` になるが、本番環境で ID が 128 を超えるとヒープ上に別オブジェクトが作られて `==` が `false` になり、正しい処理が拒否されるため。必ず `Objects.equals()` を使うべき。",
+        "PostgreSQL の Long 型と Java の Long 型に互換性がないため。",
+        "Spring Boot がテスト環境でのみ自動アンボクシングを有効にするため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaバックエンドで非常に多い本番バグです。`LongCache` は `-128〜127` をキャッシュするため、少ないテストデータ（ID = 1, 2...）では `id1 == id2` が偶然 `true` になりますが、本番で ID = 10005 などになると別インスタンスとなり `false` になります。必ず `Objects.equals(id1, id2)` を使用しましょう。",
+      "card_front": "Spring Boot / JPA アプリケーションにおいて、`currentUserId == requestUserId` のように2つの `Long` 型IDを `==` で比較することが、単体テストをすり抜けて本番環境（Production）で重大なバグを引き起こす理由は何ですか？",
+      "card_back": "開発・テスト環境ではデータが少なく ID が 127 以下のことが多いため `LongCache` により同一インスタンスが再利用されて `==` が偶然 `true` になるが、本番環境で ID が 128 を超えるとヒープ上に別オブジェクトが作られて `==` が `false` になり、正しい処理が拒否されるため。必ず `Objects.equals()` を使うべき。",
+      "card_hint": "Production Bug, Spring Boot, LongCache, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "以下のコードはコンソールに何を出力しますか？また、参照型に対するJavaの引数渡しメカニズムはこの動作をどう説明しますか？",
+      "code_snippet": "String s = \"hi\";\nchangeIt(s);\nSystem.out.println(s);\n\n// メソッド定義:\n// void changeIt(String x) { x = \"bye\"; }",
+      "options": [
+        "`String` は参照型であり参照渡し（Pass-by-reference）されるため、元の変数 `s` が書き換わり `bye` と出力される。",
+        "Javaは常に100%「値渡し（Pass-by-value）」であり、ここで渡されるのは参照アドレスのコピーである。`x = \"bye\"` はローカル変数 `x` の参照先を新しい文字列オブジェクトに変えるだけで、呼び出し元の変数 `s` は変わらないため `hi` と出力される。",
+        "メソッド終了時にガベージコレクタが文字列を破棄するため `null` と出力される。",
+        "`void` メソッドに `String` を渡すことはできないためコンパイルエラーになる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaの引数渡しは常に100%「値渡し（Pass-by-value）」です。オブジェクト型の場合、「参照アドレスのコピー」が値として渡されます。メソッド内で仮引数 `x` に別オブジェクトを代入しても、呼び出し元の変数 `s` が指すアドレスは一切変わりません。",
+      "card_front": "以下のコードはコンソールに何を出力しますか？また、参照型に対するJavaの引数渡しメカニズムはこの動作をどう説明しますか？",
+      "card_back": "Javaは常に100%「値渡し（Pass-by-value）」であり、ここで渡されるのは参照アドレスのコピーである。`x = \"bye\"` はローカル変数 `x` の参照先を新しい文字列オブジェクトに変えるだけで、呼び出し元の変数 `s` は変わらないため `hi` と出力される。",
+      "card_hint": "Pass-by-value, Reference Types, String, Memory Model, Method Parameters",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "以下の `createBooking()` メソッドにおいて、JVMのスタック（Stack）とヒープ（Heap）へのメモリ割り当ては正確にはどのように行われますか？",
+      "code_snippet": "public void createBooking() {\n    int ticketCount = 2;\n    String customerName = \"Nguyen Van A\";\n    TicketOrder order = new TicketOrder(101L, customerName);\n}",
+      "options": [
+        "`ticketCount`、`customerName`、`order` のすべての変数と `TicketOrder` オブジェクトのデータがすべて Heap 上に保存される。",
+        "ローカル変数（プリミティブ値 `2` を持つ `ticketCount`、および参照ポインタ変数 `customerName` と `order`）は `createBooking` のスタックフレーム上に保存され、実体オブジェクト（`new TicketOrder(...)` や `String`）はヒープメモリ上に割り当てられる。",
+        "`ticketCount` は Stack に置かれるが、変数 `order` 自体は Heap 上に置かれる。",
+        "Stack はバイトコードのみを保存し、Javaのすべての変数は Heap に保存される。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Stackメモリにはメソッド呼び出しごとのスタックフレームが作られ、プリミティブ型の値やオブジェクトへの参照ポインタ（4/8バイトのアドレス）が格納されます。一方、`new` で生成されたオブジェクトの実体やそのフィールドはすべて Heap メモリ上に割り当てられます。",
+      "card_front": "以下の `createBooking()` メソッドにおいて、JVMのスタック（Stack）とヒープ（Heap）へのメモリ割り当ては正確にはどのように行われますか？",
+      "card_back": "ローカル変数（プリミティブ値 `2` を持つ `ticketCount`、および参照ポインタ変数 `customerName` と `order`）は `createBooking` のスタックフレーム上に保存され、実体オブジェクト（`new TicketOrder(...)` や `String`）はヒープメモリ上に割り当てられる。",
+      "card_hint": "Stack vs Heap, Memory Allocation, JVM Architecture, Local Variables",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Javaにおけるスタック（Stack）とヒープ（Heap）のスコープ、アクセス速度、メモリ解放の仕組みを最も正しく比較しているものはどれですか？",
+      "code_snippet": "",
+      "options": [
+        "Stack はアプリ全体で共有され、Heap はスレッドごとに個別に割り当てられる。",
+        "Stack はガベージコレクタ（GC）が定期的に掃除し、Heap は FIFO 方式で自動解放される。",
+        "Stack はスレッドごとに独立して割り当てられ（本質的にスレッドセーフ）、LIFO方式で超高速にアクセスできメソッド終了時に即座に解放される。一方 Heap は全スレッドで共有されるメモリ領域であり、不要になったオブジェクトの回収にはガベージコレクタ（GC）が必須である。",
+        "Stack は Heap よりもはるかに大容量で無制限に拡張できる。"
+      ],
+      "correct_option_index": 2,
+      "explanation": "Stackはスレッドごとに独立しており、スタックポインタの移動（LIFO）だけで高速に確保・即時解放されます。一方、Heapは全スレッド共有領域であり、到達不能（Unreachable）になったオブジェクトはGCによって回収されます。",
+      "card_front": "Javaにおけるスタック（Stack）とヒープ（Heap）のスコープ、アクセス速度、メモリ解放の仕組みを最も正しく比較しているものはどれですか？",
+      "card_back": "Stack はスレッドごとに独立して割り当てられ（本質的にスレッドセーフ）、LIFO方式で超高速にアクセスできメソッド終了時に即座に解放される。一方 Heap は全スレッドで共有されるメモリ領域であり、不要になったオブジェクトの回収にはガベージコレクタ（GC）が必須である。",
+      "card_hint": "Stack vs Heap, Thread Safety, Garbage Collection, LIFO",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q7",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "以下の2つのコードケースを観察してください。それぞれのケースで発生するJVMエラーとその原因は何ですか？",
+      "code_snippet": "// ケース1:\npublic void calculateTicketDiscount() {\n    calculateTicketDiscount(); // 終了条件のない無限再帰\n}\n\n// ケース2:\npublic void loadAllOrders() {\n    List<byte[]> list = new ArrayList<>();\n    while (true) {\n        list.add(new byte[10 * 1024 * 1024]); // 10MBの配列を連続してListに追加\n    }\n}",
+      "options": [
+        "どちらのケースも `NullPointerException` をスローする。",
+        "ケース1は終了条件のない再帰呼び出しによりスタックフレームが積み重なって `StackOverflowError` を引き起こす。ケース2は10MBのbyte配列をヒープ上に無限生成し、`list` が参照を保持し続けるためGCが回収できず `OutOfMemoryError: Java heap space` を引き起こす。",
+        "ケース1は `OutOfMemoryError`、ケース2は `StackOverflowError` を引き起こす。",
+        "`javac` コンパイラが無限ループを検知し、両方ともコンパイルエラーになる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "JVMの代表的な2つのメモリ枯渇エラーです。① `StackOverflowError` は関数呼び出しの階層がスレッドスタック上限（`-Xss`）を超えたときに発生します。② `OutOfMemoryError: Java heap space` はヒープ領域（`-Xmx`）が枯渇し、GCを実行しても強い参照が残っていて回収できないときに発生します。",
+      "card_front": "以下の2つのコードケースを観察してください。それぞれのケースで発生するJVMエラーとその原因は何ですか？",
+      "card_back": "ケース1は終了条件のない再帰呼び出しによりスタックフレームが積み重なって `StackOverflowError` を引き起こす。ケース2は10MBのbyte配列をヒープ上に無限生成し、`list` が参照を保持し続けるためGCが回収できず `OutOfMemoryError: Java heap space` を引き起こす。",
+      "card_hint": "StackOverflowError, OutOfMemoryError, Troubleshooting, JVM Memory",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub4",
+      "question": "Ticket Station で販売済みチケットの割合（%）を計算する以下のコードは何を出力しますか？",
+      "code_snippet": "int soldTickets = 50;\nint totalTickets = 200;\ndouble percentage = (soldTickets / totalTickets) * 100;\nSystem.out.println(percentage);",
+      "options": [
+        "`25.0`",
+        "`0.0`：`soldTickets / totalTickets` は整数同士の除算（`int / int`）であるため、`50 / 200` の小数部分が切り捨てられて `0` になり、その後 `0 * 100` で `0.0` になるため。",
+        "`50.0`",
+        "数値型の不一致によるコンパイルエラー。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaにおける `int` 同士の除算は常に小数点以下を切り捨てた整数を返します（`50 / 200 = 0`）。正しい結果 `25.0` を得るには `(double) soldTickets / totalTickets * 100` のように先に浮動小数点型へキャストする必要があります。",
+      "card_front": "Ticket Station で販売済みチケットの割合（%）を計算する以下のコードは何を出力しますか？",
+      "card_back": "`0.0`：`soldTickets / totalTickets` は整数同士の除算（`int / int`）であるため、`50 / 200` の小数部分が切り捨てられて `0` になり、その後 `0 * 100` で `0.0` になるため。",
+      "card_hint": "Arithmetic, Integer Division, Type Promotion",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub4",
+      "question": "Javaにおいて負の数に対する剰余演算子（`%`）の符号ルールはどう定義されていますか？また `System.out.println((-7 % 3) + \" \" + (7 % -3));` の出力は何ですか？",
+      "code_snippet": "System.out.println((-7 % 3) + \" \" + (7 % -3));",
+      "options": [
+        "`1 1`",
+        "`-1 1`：Javaの `%` 演算子の結果の符号は、割る数（右辺）の符号に関わらず、常に「割られる数（左辺：被除数）」の符号に従うため。",
+        "`-1 -1`",
+        "`1 -1`"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java言語仕様により `a % b = a - (a / b) * b` と定義されています。そのため `-7 % 3 = -1`、`7 % -3 = 1` となり、剰余の符号は常に左辺（被除数）の符号と一致します。",
+      "card_front": "Javaにおいて負の数に対する剰余演算子（`%`）の符号ルールはどう定義されていますか？また `System.out.println((-7 % 3) + \" \" + (7 % -3));` の出力は何ですか？",
+      "card_back": "`-1 1`：Javaの `%` 演算子の結果の符号は、割る数（右辺）の符号に関わらず、常に「割られる数（左辺：被除数）」の符号に従うため。",
+      "card_hint": "Operators, Modulo, Arithmetic Rules",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub5",
+      "question": "条件式における短絡論理積（`&&`：Short-circuit AND）とビット論理積（`&`）の決定的な違いは何ですか？",
+      "code_snippet": "Ticket ticket = null;\nif (ticket != null && ticket.isAvailable()) { ... } // 文1\nif (ticket != null & ticket.isAvailable()) { ... }  // 文2",
+      "options": [
+        "2つのコードは完全に同じ動作をし、違いはない。",
+        "1行目（`&&`）は安全：左辺が `false` なら右辺は評価されない。2行目（`&`）は危険：`&` は常に両辺を評価するため、`ticket` が `null` のときに右辺が実行されて `NullPointerException` が発生する。",
+        "1行目は Java 8 以下でしか動作しない。",
+        "`&&` は数値専用で、`&` はオブジェクト専用である。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`&&` と `||` は短絡評価（ショートサーキット）を行うため、左辺だけで結果が確定すれば右辺を実行しません。一方 `&` や `|` は両辺を必ず評価するため、nullチェックの後ろでメソッドを呼ぶとクラッシュします。",
+      "card_front": "条件式における短絡論理積（`&&`：Short-circuit AND）とビット論理積（`&`）の決定的な違いは何ですか？",
+      "card_back": "1行目（`&&`）は安全：左辺が `false` なら右辺は評価されない。2行目（`&`）は危険：`&` は常に両辺を評価するため、`ticket` が `null` のときに右辺が実行されて `NullPointerException` が発生する。",
+      "card_hint": "Control Flow, Operators, Short-Circuit",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub5",
+      "question": "権限管理（RBAC）システムでビットマスク（Bitmask）を使用する際、変数 `userPerms` に `PERM_READ`（`0b0001`）権限が含まれているかを確認するビット演算式はどれですか？",
+      "code_snippet": "int PERM_READ = 1;   // 0001\nint PERM_WRITE = 2;  // 0010\nint PERM_DELETE = 4; // 0100\nint userPerms = PERM_READ | PERM_WRITE; // 0011\n\n// userPerms に PERM_READ が含まれているか判定:\nboolean hasRead = ...;",
+      "options": [
+        "`(userPerms & PERM_READ) == PERM_READ`",
+        "`(userPerms | PERM_READ) == 0`",
+        "`(userPerms ^ PERM_READ) == 0`",
+        "`userPerms << PERM_READ`"
+      ],
+      "correct_option_index": 0,
+      "explanation": "ビット論理積 `&`（AND）は両方のビットが 1 の位置だけを残します。`(userPerms & PERM_READ) == PERM_READ` を評価することで、対象ビットが立っているかを高速かつ省メモリに判定できます。",
+      "card_front": "権限管理（RBAC）システムでビットマスク（Bitmask）を使用する際、変数 `userPerms` に `PERM_READ`（`0b0001`）権限が含まれているかを確認するビット演算式はどれですか？",
+      "card_back": "`(userPerms & PERM_READ) == PERM_READ`",
+      "card_hint": "Bitwise, Bitmask, Permissions, Binary",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub6",
+      "question": "以下のコードのように、`int`（130）から `byte` へ縮小プリミティブ変換（Narrowing Conversion）を行うとどうなりますか？",
+      "code_snippet": "int largeNumber = 130;\nbyte b = (byte) largeNumber;\nSystem.out.println(b);",
+      "options": [
+        "通常通り `130` が出力される。",
+        "`-126` が出力される。JVMが上位ビットを切り捨てて 130 の下位8ビット（`10000010`）のみを残すため、2の補数表現で `-126` と解釈されるから。",
+        "実行時に `ClassCastException` がスローされる。",
+        "コンパイルエラーになる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "縮小変換（Narrowing）は上位ビットを切り捨てて対象型のビット幅だけを残します。130 の下位8ビット `10000010` は符号ビットが 1（負数）となり、2の補数で `-(256 - 130) = -126` になります。",
+      "card_front": "以下のコードのように、`int`（130）から `byte` へ縮小プリミティブ変換（Narrowing Conversion）を行うとどうなりますか？",
+      "card_back": "`-126` が出力される。JVMが上位ビットを切り捨てて 130 の下位8ビット（`10000010`）のみを残すため、2の補数表現で `-126` と解釈されるから。",
+      "card_hint": "Casting, Narrowing, Bitwise, Overflow",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub6",
+      "question": "Javaにおいて、暗黙的な拡大変換（Widening）ができず、明示的なキャスト `(cast)` が必須となるプリミティブ型の組み合わせはどれですか？",
+      "code_snippet": "",
+      "options": [
+        "`byte` から `int`",
+        "`int` から `long`",
+        "`char` から `short`（またはその逆）",
+        "`float` から `double`"
+      ],
+      "correct_option_index": 2,
+      "explanation": "`char` と `short` はどちらも16ビット（2バイト）ですが、`short` は符号付き `[-32,768〜32,767]`、`char` は符号なしUnicode `[0〜65,535]` です。値の範囲が互いに完全には包含されないため、明示的なキャストが必須です。",
+      "card_front": "Javaにおいて、暗黙的な拡大変換（Widening）ができず、明示的なキャスト `(cast)` が必須となるプリミティブ型の組み合わせはどれですか？",
+      "card_back": "`char` から `short`（またはその逆）",
+      "card_hint": "Type Casting, Widening, char vs short",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "以下の文字列比較コードは何を出力しますか？また、この現象を説明するJavaのメモリ機構は何ですか？",
+      "code_snippet": "String s1 = \"TicketStation\";\nString s2 = \"TicketStation\";\nString s3 = new String(\"TicketStation\");\n\nSystem.out.println((s1 == s2) + \" \" + (s1 == s3));",
+      "options": [
+        "`true true`",
+        "`false false`",
+        "`true false`：`s1` と `s2` はヒープ内の String Constant Pool 上の同じアドレスを指すが、`new String(...)` はプール外に新しいオブジェクトを強制生成するため。",
+        "`false true`"
+      ],
+      "correct_option_index": 2,
+      "explanation": "文字列リテラルは String Constant Pool に保存・再利用されるため `s1 == s2` は `true` になります。一方 `new String()` はヒープ上に別オブジェクトを新規割り当てするため `s1 == s3` は `false` になります。文字列の内容比較には常に `.equals()` を使用します。",
+      "card_front": "以下の文字列比較コードは何を出力しますか？また、この現象を説明するJavaのメモリ機構は何ですか？",
+      "card_back": "`true false`：`s1` と `s2` はヒープ内の String Constant Pool 上の同じアドレスを指すが、`new String(...)` はプール外に新しいオブジェクトを強制生成するため。",
+      "card_hint": "String, String Pool, Memory Management",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q10",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "大きなループ内で `+` 演算子を使って文字列結合を行うことが、Javaにおいて重大なパフォーマンス上のアンチパターンとされる理由は何ですか？",
+      "code_snippet": "// Ticket Station サービスでのチケット番号文字列生成\nString ticketSummary = \"\";\nfor (int i = 1; i <= 10_000; i++) {\n    ticketSummary += \"TICKET-\" + i + \";\";\n}",
+      "options": [
+        "`+` 演算子はスレッドセーフではなく、ループ内で常に `ConcurrentModificationException` を引き起こすため。",
+        "Javaの `String` は不変（Immutable）であるため、ループのたびに新しい `StringBuilder` と `String` オブジェクトが生成・コピーされ、計算量が O(n²) になってヒープ上に大量のゴミオブジェクトが発生しGCを圧迫するから。ループの外で1つの `StringBuilder` を使うべき。",
+        "`StackOverflowError` によってループが異常終了するため。",
+        "ループ内では整数 `i` から文字列への自動変換がサポートされていないため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`String` は不変（Immutable）であるため、ループ内で `+=` を使うと毎回新しい文字配列の確保とコピーが発生し O(n²) の処理時間がかかります。ループの外で `StringBuilder` を1つ生成して `.append()` すれば O(n) で高速に処理できます。",
+      "card_front": "大きなループ内で `+` 演算子を使って文字列結合を行うことが、Javaにおいて重大なパフォーマンス上のアンチパターンとされる理由は何ですか？",
+      "card_back": "Javaの `String` は不変（Immutable）であるため、ループのたびに新しい `StringBuilder` と `String` オブジェクトが生成・コピーされ、計算量が O(n²) になってヒープ上に大量のゴミオブジェクトが発生しGCを圧迫するから。ループの外で1つの `StringBuilder` を使うべき。",
+      "card_hint": "Performance, Garbage Collection, StringBuilder, Anti-pattern",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s7-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "Java 15で正式導入されたテキストブロック（`\"\"\" ... \"\"\"`）は、SQL文やJSONペイロードをコード内に記述する際にどのようなメリットをもたらしますか？",
+      "code_snippet": "String query = \"\"\"\n    SELECT id, title, base_price \n    FROM events \n    WHERE status = 'ACTIVE'\n    \"\"\";",
+      "options": [
+        "SQLを自動的に暗号化してSQLインジェクション攻撃を防ぐ。",
+        "複数行の文字列を自然な形で記述でき、不要なインデント空白を自動除去（stripIndent）し、`+` での結合やダブルクォーテーション `\\\"` のエスケープが不要になる。",
+        "YAML設定ファイル内でのみ使用できる。",
+        "SQLクエリの実行速度が2倍になる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "テキストブロック（JEP 378）を使うと、HTML・JSON・SQLなどの複数行文字列をエスケープや `+` 結合なしで綺麗に記述でき、インデントも自動調整されます。",
+      "card_front": "Java 15で正式導入されたテキストブロック（`\"\"\" ... \"\"\"`）は、SQL文やJSONペイロードをコード内に記述する際にどのようなメリットをもたらしますか？",
+      "card_back": "複数行の文字列を自然な形で記述でき、不要なインデント空白を自動除去（stripIndent）し、`+` での結合やダブルクォーテーション `\\\"` のエスケープが不要になる。",
+      "card_hint": "Java 15, Text Block, Multi-line String, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s7-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "パスワードなどの機密情報を扱う際、Javaのセキュリティ基準で `String` ではなく `char[]` の使用が推奨される理由は何ですか？",
+      "code_snippet": "// 方法1:\nString passwordStr = readPassword();\n\n// 方法2（セキュリティ推奨）:\nchar[] passwordChars = readPasswordAsChars();\n// DB認証完了後:\nArrays.fill(passwordChars, ' '); // RAMからデータを完全消去",
+      "options": [
+        "`char[]` の方が `String` よりもRAM消費量が半分で済むため。",
+        "`String` は不変（Immutable）でありGCに回収されるまでヒープ上に平文で残り続けるが、可変な `char[]` は認証直後に `Arrays.fill(passwordChars, ' ')` でRAMから即座に上書き消去でき、ヒープダンプ等からの情報漏洩を防げるため。",
+        "`String` は特殊文字やUnicodeをサポートしていないため。",
+        "`char[]` はネットワーク送信前に自動的にbcryptハッシュ化されるため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`String` は不変であるため、GCが回収するまでメモリ上に平文のまま残り続け、メモリダンプ解析で漏洩するリスクがあります。`char[]` なら使用直後に `Arrays.fill()` で内容を即座に消去できます。",
+      "card_front": "パスワードなどの機密情報を扱う際、Javaのセキュリティ基準で `String` ではなく `char[]` の使用が推奨される理由は何ですか？",
+      "card_back": "`String` は不変（Immutable）でありGCに回収されるまでヒープ上に平文で残り続けるが、可変な `char[]` は認証直後に `Arrays.fill(passwordChars, ' ')` でRAMから即座に上書き消去でき、ヒープダンプ等からの情報漏洩を防げるため。",
+      "card_hint": "Security, String Immutability, char[], Memory Dump, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q8",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub8",
+      "question": "以下のコードのように変数 `sub` に `final` キーワードを付けた場合、式 `s1 == s3` の出力結果はどうなりますか？またその理由は何ですか？",
+      "code_snippet": "String s1 = \"hello\";\nfinal String sub = \"hel\"; // final キーワードを追加\nString s3 = sub + \"lo\";\n\nSystem.out.println(s1 == s3);",
+      "options": [
+        "`false`：変数を含む文字列結合はすべて実行時（Runtime）にヒープ上で評価されるため。",
+        "`true`：`final` により `sub` はコンパイル時定数（Compile-time Constant）となり、`javac` が定数畳み込み（Constant Folding）を行ってコンパイル時に `sub + \"lo\"` をリテラル `\"hello\"` に結合し、String Pool 内の同一インスタンスを参照するため。",
+        "`final` 変数は `+` 結合に使えないためコンパイルエラーになる。",
+        "`false`：`final` は参照を固定するだけで、実行時には `StringBuilder` が呼ばれるため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`final` かつリテラルで初期化された String 変数はコンパイル時定数として扱われます。コンパイラが定数畳み込み（Constant Folding）によって `sub + \"lo\"` を `\"hello\"` に置き換えるため、`s1` と `s3` は String Pool 内の同じオブジェクトを指し `true` となります。",
+      "card_front": "以下のコードのように変数 `sub` に `final` キーワードを付けた場合、式 `s1 == s3` の出力結果はどうなりますか？またその理由は何ですか？",
+      "card_back": "`true`：`final` により `sub` はコンパイル時定数（Compile-time Constant）となり、`javac` が定数畳み込み（Constant Folding）を行ってコンパイル時に `sub + \"lo\"` をリテラル `\"hello\"` に結合し、String Pool 内の同一インスタンスを参照するため。",
+      "card_hint": "final, Constant Folding, Bytecode, String Pool",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s8-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub8",
+      "question": "オブジェクト参照変数に `final` を付けた場合（例：`final List<String> seatList = new ArrayList<>();`）の最も一般的な誤解は何ですか？",
+      "code_snippet": "final List<String> seatList = new ArrayList<>();\nseatList.add(\"VIP-01\"); // この文は有効か？",
+      "options": [
+        "`final` によってリスト自体が完全に不変（Immutable）になり、`seatList.add(...)` を呼ぶと `UnsupportedOperationException` がスローされるという誤解。",
+        "`final` は参照アドレス（ポインタ）の再代入を禁止するだけであり、参照先オブジェクトの内部状態は自由に変更できる（`add()` や `remove()` は通常通り呼べる）ということ。",
+        "`final` はコレクション型には使用できない。",
+        "`add` メソッドを呼び出した行でコンパイルエラーになる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "参照変数に対する `final` は「別のインスタンスへの再代入」を禁止するだけで、オブジェクトの中身の変更は防ぎません。要素自体を変更不可にするには `List.of()` や `Collections.unmodifiableList()` を使用します。",
+      "card_front": "オブジェクト参照変数に `final` を付けた場合（例：`final List<String> seatList = new ArrayList<>();`）の最も一般的な誤解は何ですか？",
+      "card_back": "`final` は参照アドレス（ポインタ）の再代入を禁止するだけであり、参照先オブジェクトの内部状態は自由に変更できる（`add()` や `remove()` は通常通り呼べる）ということ。",
+      "card_hint": "final keyword, Immutability, References, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub9",
+      "question": "Javaバックエンド開発において、Enum（列挙型）の値を比較する際に `.equals()` よりも `==` 演算子が推奨される理由は何ですか？",
+      "code_snippet": "TicketStatus status = getTicketStatus();\nif (status == TicketStatus.BOOKED) { ... }",
+      "options": [
+        "`==` は高速であり、何より `NullPointerException` に対して完全に安全であるため（`status` が `null` でも `status == TicketStatus.BOOKED` はクラッシュせず安全に `false` を返す）。",
+        "Javaの Enum には `.equals()` メソッドが存在しないため。",
+        "`==` が自動的に Enum を String に変換するため。",
+        "Javaの仕様で Enum に対する `.equals()` の使用が禁止されているため。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "JavaのEnum定数はJVM内でただ1つのシングルトンインスタンスであることが保証されているため、`==` で確実に比較できます。さらに左辺が `null` でも `NullPointerException` が発生せず安全に `false` を返します。",
+      "card_front": "Javaバックエンド開発において、Enum（列挙型）の値を比較する際に `.equals()` よりも `==` 演算子が推奨される理由は何ですか？",
+      "card_back": "`==` は高速であり、何より `NullPointerException` に対して完全に安全であるため（`status` が `null` でも `status == TicketStatus.BOOKED` はクラッシュせず安全に `false` を返す）。",
+      "card_hint": "Enum, Null Safety, Singleton, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s9-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub9",
+      "question": "Ticket Station アプリにおいて、Javaの `enum`（`TicketTier` など）はフィールド変数、コンストラクタ、業務メソッドを持つことができますか？",
+      "code_snippet": "public enum TicketTier {\n    STANDARD(100_000, \"通常席\"),\n    VIP(250_000, \"VIP席\"),\n    VVIP(500_000, \"超VIP席\");\n\n    private final int price;\n    private final String label;\n\n    TicketTier(int price, String label) {\n        this.price = price;\n        this.label = label;\n    }\n    public int getPrice() { return price; }\n}",
+      "options": [
+        "できない。Javaの Enum はC言語と同じく単なる定数名のリストに過ぎない。",
+        "完全に可能である。Javaの Enum は `java.lang.Enum` を継承した特別なクラスであり、private コンストラクタ、`final` フィールド、業務メソッドを定義でき、インターフェースの実装（implements）も可能である。",
+        "`int` 型のフィールドのみ保持でき、`String` やコンストラクタは持てない。",
+        "Java 21 以降でのみ Enum にメソッドを定義できる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "JavaのEnumはクラスと同等の機能を持つファーストクラスオブジェクトです。コンストラクタ（暗黙的にprivate）、不変フィールド、計算メソッド、インターフェース実装などをカプセル化できます。",
+      "card_front": "Ticket Station アプリにおいて、Javaの `enum`（`TicketTier` など）はフィールド変数、コンストラクタ、業務メソッドを持つことができますか？",
+      "card_back": "完全に可能である。Javaの Enum は `java.lang.Enum` を継承した特別なクラスであり、private コンストラクタ、`final` フィールド、業務メソッドを定義でき、インターフェースの実装（implements）も可能である。",
+      "card_hint": "Enum, OOP, Domain Model, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s10-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub10",
+      "question": "BMI計算式 `BMI = weight / (height * height)`（体重kg、身長m）を実装した以下のコードには、どのような重大な計算バグがありますか？",
+      "code_snippet": "int weight = 70;      // 70 kg\nint heightCm = 175;   // 175 cm\ndouble heightM = heightCm / 100; // メートルに変換\ndouble bmi = weight / (heightM * heightM);\nSystem.out.println(\"BMI: \" + bmi);",
+      "options": [
+        "バグはなく完璧に動作し、BMI = 22.86 が出力される。",
+        "`heightCm / 100` の行で整数除算（Integer Division）バグが起きている。175 も 100 も `int` 型であるため小数部が切り捨てられて `1.75` ではなく `1.0` になり、BMIが `70.0` と誤計算されてしまう。",
+        "ゼロ除算エラー（`ArithmeticException: / by zero`）が発生する。",
+        "int の除算結果を double に代入できないためコンパイルエラーになる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`175 / 100` は先に整数同士の除算が行われて `1` になり、その後 `double` の `1.0` に変換されます。正しく `1.75` を得るには `heightCm / 100.0` と記述する必要があります。",
+      "card_front": "BMI計算式 `BMI = weight / (height * height)`（体重kg、身長m）を実装した以下のコードには、どのような重大な計算バグがありますか？",
+      "card_back": "`heightCm / 100` の行で整数除算（Integer Division）バグが起きている。175 も 100 も `int` 型であるため小数部が切り捨てられて `1.75` ではなく `1.0` になり、BMIが `70.0` と誤計算されてしまう。",
+      "card_hint": "BMI Practice, Integer Division, Bug Prevention",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s10-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub10",
+      "question": "WHO（世界保健機関）のBMI基準（< 18.5 低体重、18.5〜24.9 普通体重、25.0〜29.9 過体重、>= 30.0 肥満）を判定するコードスニペットの `classifyBmi` メソッドの評価として正しいものはどれですか？",
+      "code_snippet": "public static String classifyBmi(double bmi) {\n    if (bmi < 18.5) return \"Underweight\";\n    if (bmi < 25.0) return \"Normal\";\n    if (bmi < 30.0) return \"Overweight\";\n    return \"Obese\";\n}",
+      "options": [
+        "正しく最も最適である。早期リターン（Guard Clauses）と昇順の条件判定により、前の条件で小さい値がすでに除外されているため `bmi >= 18.5 && bmi < 25.0` のような冗長な記述が不要になっている。",
+        "`else` がないためすべての `if` 文が重複実行されてしまい誤りである。",
+        "Javaでは `double` 型を大小比較できないため誤りである。",
+        "`double` の範囲分岐には `switch-case` を使うべきである。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "早期リターン（Guard Clauses）を昇順の閾値と組み合わせることで、`&&` による二重条件チェックを省き、ネストの浅い読みやすいコードを実現できます。",
+      "card_front": "WHO（世界保健機関）のBMI基準（< 18.5 低体重、18.5〜24.9 普通体重、25.0〜29.9 過体重、>= 30.0 肥満）を判定するコードスニペットの `classifyBmi` メソッドの評価として正しいものはどれですか？",
+      "card_back": "正しく最も最適である。早期リターン（Guard Clauses）と昇順の条件判定により、前の条件で小さい値がすでに除外されているため `bmi >= 18.5 && bmi < 25.0` のような冗長な記述が不要になっている。",
+      "card_hint": "Clean Code, Control Flow, BMI Practice, Guard Clauses",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "条件文における短絡評価AND（`&&`）とビットAND（`&`）の核心的な違いは何ですか？",
+      "code_snippet": "Ticket ticket = null;\nif (ticket != null && ticket.isAvailable()) { ... } // 文1\nif (ticket != null & ticket.isAvailable()) { ... }  // 文2",
+      "options": [
+        "どちらも全く同じ動作をする。",
+        "文1（`&&`）は安全：左辺が `false` なら右辺は評価されない。文2（`&`）は危険：常に両辺を評価するため、`ticket` が `null` の場合に `NullPointerException` が発生する。",
+        "文1は Java 8 以下でしか動作しない。",
+        "`&&` は数値専用、`&` はオブジェクト専用である。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`&&` と `||` は短絡評価を行うため、結果が確定した時点で評価を打ち切ります。条件式で `&` を使うと両辺が必ず実行されるため、nullチェックの後にメソッド呼び出しがあると例外が発生します。",
+      "card_front": "条件文における短絡評価AND（`&&`）とビットAND（`&`）の核心的な違いは何ですか？",
+      "card_back": "文1（`&&`）は安全：左辺が `false` なら右辺は評価されない。文2（`&`）は危険：常に両辺を評価するため、`ticket` が `null` の場合に `NullPointerException` が発生する。",
+      "card_hint": "Control Flow, Operators, Short-Circuit",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "Java 14以降で導入された矢印構文 `->` を使う Switch式（Switch Expression）は、従来の `switch-case` 文と比べてどのような優れた利点がありますか？",
+      "code_snippet": "String badge = switch (seatType) {\n    case VIP -> \"ゴールド\";\n    case STANDARD -> \"シルバー\";\n    default -> \"通常\";\n};",
+      "options": [
+        "網羅性（Exhaustiveness）のコンパイル時チェック、式としての直接の値返却、および `break` 忘れによるフォールスルー（意図しない次のcaseへの貫通）バグの完全な排除。",
+        "`if-else` より1000倍速く動作する。",
+        "`boolean` 型のみを受け付ける。",
+        "SQLデータベースを完全に置き換えることができる。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Switch式（JEP 361）は式として値を直接返すことができ、矢印 `->` により `break` なしでフォールスルーを防ぎ、Enumなどの網羅性をコンパイラが保証してくれます。",
+      "card_front": "Java 14以降で導入された矢印構文 `->` を使う Switch式（Switch Expression）は、従来の `switch-case` 文と比べてどのような優れた利点がありますか？",
+      "card_back": "網羅性（Exhaustiveness）のコンパイル時チェック、式としての直接の値返却、および `break` 忘れによるフォールスルー（意図しない次のcaseへの貫通）バグの完全な排除。",
+      "card_hint": "Java 14, Switch Expression, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "拡張for文（for-each）で `ArrayList` を走査している最中に、直接 `seats.remove(seat)` を呼び出すとどうなりますか？",
+      "code_snippet": "List<String> seats = new ArrayList<>(List.of(\"A1\", \"A2\", \"A3\"));\nfor (String seat : seats) {\n    if (seat.equals(\"A2\")) {\n        seats.remove(seat);\n    }\n}",
+      "options": [
+        "要素 `\"A2\"` が安全に削除され、リストは `[\"A1\", \"A3\"]` になる。",
+        "イテレータの走査中にリストの構造が変更されたため、`ConcurrentModificationException` 例外がスローされる。",
+        "無限ループに陥る。",
+        "コンパイルエラーになる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "拡張for文は内部で `Iterator` を使用しています。`seats.remove()` を直接呼ぶと `ArrayList` の変更回数（`modCount`）が変化し、イテレータが不正な変更を検知して `ConcurrentModificationException` を投げます。安全に削除するには `seats.removeIf(...)` または `Iterator.remove()` を使用します。",
+      "card_front": "拡張for文（for-each）で `ArrayList` を走査している最中に、直接 `seats.remove(seat)` を呼び出すとどうなりますか？",
+      "card_back": "イテレータの走査中にリストの構造が変更されたため、`ConcurrentModificationException` 例外がスローされる。",
+      "card_hint": "Collections, Loops, ConcurrentModificationException",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-04",
+      "question": "Javaのメソッド引数渡しは「値渡し（Pass-by-value）」ですか、それとも「参照渡し（Pass-by-reference）」ですか？以下のコードを分析してください：",
+      "code_snippet": "public void modify(Ticket ticket, int discount) {\n    ticket = new Ticket(\"VIP-999\"); // 新しいオブジェクトを再代入\n    discount = 50;                  // int 値を変更\n}\n\n// 呼び出し側:\nTicket myTicket = new Ticket(\"STD-001\");\nint myDiscount = 10;\nmodify(myTicket, myDiscount);\n// 呼び出し後、myTicket.id と myDiscount の値はどうなるか？",
+      "options": [
+        "`myTicket` のIDは `\"VIP-999\"` になり、`myDiscount` は `50` になる。",
+        "Javaは **100% 値渡し（Pass-by-value）** である。オブジェクトの場合、「参照アドレスのコピー」が渡される。`ticket = new Ticket(\"VIP-999\")` はメソッド内のローカルポインタを変更するだけで、呼び出し元の `myTicket` は `\"STD-001\"`、`myDiscount` は `10` のままである。",
+        "`NullPointerException` が発生する。",
+        "`myTicket` は `\"VIP-999\"` に変わるが、`myDiscount` は `10` のままである。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaではすべてが「値渡し（Pass-by-value）」です。オブジェクトの場合は参照アドレスのコピーが渡されるため、メソッド内で仮引数に新しいオブジェクトを再代入しても、呼び出し元の変数には影響しません。",
+      "card_front": "Javaのメソッド引数渡しは「値渡し（Pass-by-value）」ですか、それとも「参照渡し（Pass-by-reference）」ですか？以下のコードを分析してください：",
+      "card_back": "Javaは **100% 値渡し（Pass-by-value）** である。オブジェクトの場合、「参照アドレスのコピー」が渡される。`ticket = new Ticket(\"VIP-999\")` はメソッド内のローカルポインタを変更するだけで、呼び出し元の `myTicket` は `\"STD-001\"`、`myDiscount` は `10` のままである。",
+      "card_hint": "Methods, Pass-By-Value, Memory",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-04",
+      "question": "同じクラス内の以下の2つの `calculateFee(String ticketId)` メソッドは、有効なオーバーロード（Overloading）として認められますか？",
+      "code_snippet": "public int calculateFee(String ticketId) { return 100; }\npublic double calculateFee(String ticketId) { return 100.0; }",
+      "options": [
+        "戻り値の型（`int` と `double`）が異なるため有効である。",
+        "無効（コンパイルエラー）。オーバーロードは引数リスト（引数の数や型）が異なっている必要があり、戻り値の型だけの違いではコンパイラが区別できないため。",
+        "Java 21 でのみ有効である。",
+        "片方を `static` にすれば有効である。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaのメソッドシグネチャは「メソッド名＋引数の型リスト」のみで構成されます。戻り値の型はシグネチャに含まれないため、引数リストが同じメソッドは定義できません。",
+      "card_front": "同じクラス内の以下の2つの `calculateFee(String ticketId)` メソッドは、有効なオーバーロード（Overloading）として認められますか？",
+      "card_back": "無効（コンパイルエラー）。オーバーロードは引数リスト（引数の数や型）が異なっている必要があり、戻り値の型だけの違いではコンパイラが区別できないため。",
+      "card_hint": "Overloading, Method Signature, Compiler",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "フィールドを `private` にしても、無条件にすべての `get...()` と `set...()` を自動生成することがカプセル化を壊すアンチパターン（貧血ドメインモデル）とされる理由は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "getter/setter によってコードが100行以上になってしまうため。",
+        "無条件の `set...()` を公開すると、外部から `setPrice(-500)` のような業務ルール違反の値を自由に設定できてしまい、オブジェクト自身が状態の整合性（不変条件：Invariants）を守れなくなるため。",
+        "Spring Data JPA が getter/setter をサポートしていないため。",
+        "setter メソッドがCPUの実行速度を低下させるため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "本来のカプセル化はデータとそれを守る振る舞いをセットで閉じ込めることです。無制限な setter の公開は public フィールドと変わりません。`holdSeat()` や `confirmPurchase()` のような意味のある業務メソッドを提供すべきです。",
+      "card_front": "フィールドを `private` にしても、無条件にすべての `get...()` と `set...()` を自動生成することがカプセル化を壊すアンチパターン（貧血ドメインモデル）とされる理由は何ですか？",
+      "card_back": "無条件の `set...()` を公開すると、外部から `setPrice(-500)` のような業務ルール違反の値を自由に設定できてしまい、オブジェクト自身が状態の整合性（不変条件：Invariants）を守れなくなるため。",
+      "card_hint": "OOP, Encapsulation, Anemic Domain Model",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "オブジェクト指向設計の原則「Tell, Don’t Ask（尋ねるな、命じよ）」の実践的な意味は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "getter でオブジェクトからデータを引き出して外部で条件判定し setter で書き戻すのではなく、オブジェクト自身の業務メソッドを呼び出して直接振る舞いを命じること。",
+        "すべてのメソッドにコメントを書くことを義務付けること。",
+        "メソッド内で例外をスローしないこと。",
+        "クラスではなくインターフェースのみを使用すること。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "`if (ticket.getStatus() == AVAILABLE) { ticket.setStatus(HELD); }` と外から状態を尋ねるのではなく、`ticket.holdForCheckout(duration);` とオブジェクトに命じることで、検証ルールを `Ticket` クラス内部に凝集できます。",
+      "card_front": "オブジェクト指向設計の原則「Tell, Don’t Ask（尋ねるな、命じよ）」の実践的な意味は何ですか？",
+      "card_back": "getter でオブジェクトからデータを引き出して外部で条件判定し setter で書き戻すのではなく、オブジェクト自身の業務メソッドを呼び出して直接振る舞いを命じること。",
+      "card_hint": "Encapsulation, Tell Don’t Ask, Clean Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "Javaのコンストラクタに `static`、`final`、`abstract` キーワードを付けることができない理由は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "コンストラクタには `public` しか付けられないため。",
+        "コンストラクタはヒープ上の特定インスタンスを初期化するため `static` にはできず、サブクラスに継承されないためオーバーライドもされず（`final` は無意味）、メモリ初期化の実装本体が必須であるため `abstract` にもできないから。",
+        "これらのキーワードはインターフェース専用であるため。",
+        "64ビットOSの制限によるため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "コンストラクタはインスタンス生成専用のため `static`（クラス所属）と矛盾し、継承されないためオーバーライド禁止の `final` や未実装の `abstract` も意味を持ちません。",
+      "card_front": "Javaのコンストラクタに `static`、`final`、`abstract` キーワードを付けることができない理由は何ですか？",
+      "card_back": "コンストラクタはヒープ上の特定インスタンスを初期化するため `static` にはできず、サブクラスに継承されないためオーバーライドもされず（`final` は無意味）、メモリ初期化の実装本体が必須であるため `abstract` にもできないから。",
+      "card_hint": "Constructor, Java Keywords, OOP",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-06",
+      "question": "オブジェクト指向設計において「継承よりコンポジション（Composition over Inheritance）」が強く推奨される最大の理由は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "継承は強い結合（密結合）を生み、親クラスの変更が子クラスを壊す「脆弱な基底クラス（Fragile Base Class）」問題を招きやすいのに対し、コンポジションは疎結合を実現し実行時に柔軟に振る舞いを差し替えられるため。",
+        "Java 21 で `extends` キーワードが非推奨（deprecated）になったため。",
+        "継承を使うと `.class` ファイルのサイズが2倍になるため。",
+        "コンポジションはインターフェースでしか動作しないため。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "継承はコンパイル時の強い結合を生みます。一方、コンポジション（HAS-A関係）と依存性注入（DI）を組み合わせることで、疎結合でテストしやすく変更に強い設計を実現できます。",
+      "card_front": "オブジェクト指向設計において「継承よりコンポジション（Composition over Inheritance）」が強く推奨される最大の理由は何ですか？",
+      "card_back": "継承は強い結合（密結合）を生み、親クラスの変更が子クラスを壊す「脆弱な基底クラス（Fragile Base Class）」問題を招きやすいのに対し、コンポジションは疎結合を実現し実行時に柔軟に振る舞いを差し替えられるため。",
+      "card_hint": "Composition, Inheritance, Design Principles",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-06",
+      "question": "実行時ポリモーフィズム（動的ディスパッチ / Runtime Polymorphism）を実現しているJVMの内部メカニズムは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "JVMが正規表現を使って `.java` ソースファイルを検索する。",
+        "JVMが関数ポインタを保持する仮想メソッドテーブル（Virtual Method Table - `vtable`）を使用し、実行時にヒープ上の実際のオブジェクト型に基づいてオーバーライドされたメソッドを呼び出す。",
+        "JVMがデータベースに問い合わせて型を確認する。",
+        "`javac` がコンパイル時に関数アドレスを固定的に埋め込む。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "JVM内の各クラスは `vtable`（仮想メソッドテーブル）を持っています。親クラス型の変数からメソッドを呼んでも、実行時にヒープ上の実体インスタンスの `vtable` を参照して子クラスのメソッドを実行します。",
+      "card_front": "実行時ポリモーフィズム（動的ディスパッチ / Runtime Polymorphism）を実現しているJVMの内部メカニズムは何ですか？",
+      "card_back": "JVMが関数ポインタを保持する仮想メソッドテーブル（Virtual Method Table - `vtable`）を使用し、実行時にヒープ上の実際のオブジェクト型に基づいてオーバーライドされたメソッドを呼び出す。",
+      "card_hint": "Polymorphism, vtable, JVM Internal",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod7-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-07",
+      "question": "Javaにおける `HashMap` と `ConcurrentHashMap` の重要な違いは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "`HashMap` は複数スレッドからの同時アクセスに対して完全に安全である。",
+        "`ConcurrentHashMap` は CAS 操作とバケットノード単位の細粒度ロック（`synchronized`）を用いることで、`Hashtable` や `Collections.synchronizedMap()` のようにテーブル全体をロックすることなく高い並行性とスレッドセーフを実現している。",
+        "`ConcurrentHashMap` は `null` キーの保存を許可している。",
+        "`HashMap` はキーをアルファベット順に自動ソートするが、`ConcurrentHashMap` はしない。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`ConcurrentHashMap` は CAS（Compare-And-Swap）と各バケット先頭ノード単位のロックを組み合わせることで、マルチスレッド環境でも全体ロックによるボトルネックなしに高速な読み書きを実現します。",
+      "card_front": "Javaにおける `HashMap` と `ConcurrentHashMap` の重要な違いは何ですか？",
+      "card_back": "`ConcurrentHashMap` は CAS 操作とバケットノード単位の細粒度ロック（`synchronized`）を用いることで、`Hashtable` や `Collections.synchronizedMap()` のようにテーブル全体をロックすることなく高い並行性とスレッドセーフを実現している。",
+      "card_hint": "Java Core, Collections, ConcurrentHashMap",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod8-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-08",
+      "question": "`Connection`、`InputStream`、`FileReader` などを扱う際、`try-with-resources` 文（Java 7+）が必須の標準作法とされる理由は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "例外が発生した場合でも `AutoCloseable` を実装したオブジェクトの `.close()` メソッドを自動的に呼び出し、リソースリーク（Resource Leak）の危険を完全に排除するため。",
+        "ファイル読み込み速度が10倍速くなるため。",
+        "Spring Boot では `finally` ブロックの使用が禁止されているため。",
+        "ファイルサイズを自動的に圧縮してくれるため。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "`try-with-resources` はブロックを抜ける際に宣言と逆順で確実に `.close()` を自動実行し、抑制された例外（Suppressed Exceptions）も適切に保持するため、リソースリークを確実に防げます。",
+      "card_front": "`Connection`、`InputStream`、`FileReader` などを扱う際、`try-with-resources` 文（Java 7+）が必須の標準作法とされる理由は何ですか？",
+      "card_back": "例外が発生した場合でも `AutoCloseable` を実装したオブジェクトの `.close()` メソッドを自動的に呼び出し、リソースリーク（Resource Leak）の危険を完全に排除するため。",
+      "card_hint": "Exceptions, Try-With-Resources, Resource Management",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-09",
+      "question": "複数のタイムゾーンの国際ユーザーにサービスを提供するシステムで、イベント開催日時（Event Date）を保存する場合、Java Time API のどのデータ型が最も標準的ですか？",
+      "code_snippet": "",
+      "options": [
+        "`java.util.Date`（旧標準）。",
+        "`Instant`（世界共通のUTC時点）または `OffsetDateTime`（オフセット付きISO-8601日時）。PostgreSQL の `TIMESTAMP WITH TIME ZONE` とも標準的に適合する。",
+        "タイムゾーン情報を持たない `LocalDateTime`。",
+        "`\"dd/MM/yyyy\"` 形式の文字列 String。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`LocalDateTime` はタイムゾーン情報を持たないため、東京の朝8時とニューヨークの朝8時を区別できません。バックエンドやDBでは常に絶対時刻を表す `Instant` または `OffsetDateTime`（UTC基準）を使用します。",
+      "card_front": "複数のタイムゾーンの国際ユーザーにサービスを提供するシステムで、イベント開催日時（Event Date）を保存する場合、Java Time API のどのデータ型が最も標準的ですか？",
+      "card_back": "`Instant`（世界共通のUTC時点）または `OffsetDateTime`（オフセット付きISO-8601日時）。PostgreSQL の `TIMESTAMP WITH TIME ZONE` とも標準的に適合する。",
+      "card_hint": "Java Time, DateTime, PostgreSQL, UTC",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod10-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-10",
+      "question": "Java 21 の仮想スレッド（Virtual Threads / Project Loom）は、数百万人のチケット予約を処理するWebアプリケーションにどのような最大のブレークスルーをもたらしますか？",
+      "code_snippet": "",
+      "options": [
+        "CPUバウンドな計算速度を100倍高速化する。",
+        "OSスレッド（約1MB）に比べて極めて軽量（数KB程度）なスレッドをJVM管理下で数百万個生成でき、DB待機や外部API呼び出しなどの I/O バウンド処理のスループットを飛躍的に向上させる。",
+        "Java言語をC++に完全に置き換える。",
+        "Linux OS 上でのみ動作する。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "仮想スレッドはJVMによって管理され、ブロッキングI/O（DBクエリ等）が発生すると即座にキャリア（OS）スレッドからアンマウントされるため、少数のOSスレッドで膨大な同時リクエストを処理できます。",
+      "card_front": "Java 21 の仮想スレッド（Virtual Threads / Project Loom）は、数百万人のチケット予約を処理するWebアプリケーションにどのような最大のブレークスルーをもたらしますか？",
+      "card_back": "OSスレッド（約1MB）に比べて極めて軽量（数KB程度）なスレッドをJVM管理下で数百万個生成でき、DB待機や外部API呼び出しなどの I/O バウンド処理のスループットを飛躍的に向上させる。",
+      "card_hint": "Java 21, Virtual Threads, Concurrency",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod11-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-11",
+      "question": "Spring Data JPA における Hibernate のダーティチェッキング（Dirty Checking）機構はどのような原理で動作しますか？",
+      "code_snippet": "",
+      "options": [
+        "Hibernateが5秒ごとにデータベース全体をスキャンして変更された行を探す。",
+        "エンティティを永続化コンテキスト（Persistence Context）に読み込んだ際のスナップショットを保持し、`@Transactional` 終了時のフラッシュで現在の状態と比較して変更があれば、`repository.save()` を呼ばなくても自動的に SQL `UPDATE` を発行する。",
+        "開発者が setter を呼ぶたびに毎回 `saveAndFlush()` を手動で呼び出す必要がある。",
+        "Dirty Checking は MySQL データベースでのみ動作する。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`@Transactional` 内で取得された Managed 状態のエンティティは、トランザクションコミット時に初期スナップショットと自動比較され、変更されたフィールドがあれば自動的に `UPDATE` 文が実行されます。",
+      "card_front": "Spring Data JPA における Hibernate のダーティチェッキング（Dirty Checking）機構はどのような原理で動作しますか？",
+      "card_back": "エンティティを永続化コンテキスト（Persistence Context）に読み込んだ際のスナップショットを保持し、`@Transactional` 終了時のフラッシュで現在の状態と比較して変更があれば、`repository.save()` を呼ばなくても自動的に SQL `UPDATE` を発行する。",
+      "card_hint": "JPA, Dirty Checking, Hibernate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod12-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-12",
+      "question": "データベース基盤の Docker Compose 設計において、ボリュームに明示的に `name: database_postgres_data` を指定することが重要な理由は何ですか？",
+      "code_snippet": "volumes:\n  postgres_data:\n    driver: local\n    name: database_postgres_data",
+      "options": [
+        "Dockerホスト上のボリューム名を固定し、親フォルダ名のプレフィックス（`<folder_name>_postgres_data`）が自動付与されるのを防ぐことで、異なるディレクトリから実行しても同じ永続化データを確実に参照できるようにするため。",
+        "DockerにボリュームデータをZIP形式で自動圧縮させるため。",
+        "LinuxサーバーにHDDではなくSSDへ強制マウントさせるため。",
+        "PostgreSQLコンテナのRAM使用量を2GB以下に制限するため。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "デフォルトでは Docker Compose は `<プロジェクト名>_<ボリューム名>` という名前を生成するため、フォルダ名が変わると別ボリュームが作られてデータが消えたように見えます。`name` を明示することでホスト上のボリューム名を一意に固定できます。",
+      "card_front": "データベース基盤の Docker Compose 設計において、ボリュームに明示的に `name: database_postgres_data` を指定することが重要な理由は何ですか？",
+      "card_back": "Dockerホスト上のボリューム名を固定し、親フォルダ名のプレフィックス（`<folder_name>_postgres_data`）が自動付与されるのを防ぐことで、異なるディレクトリから実行しても同じ永続化データを確実に参照できるようにするため。",
+      "card_hint": "Docker, DevOps, Docker Compose, Production",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "大規模エンタープライズシステムの本番環境（Production）において、`spring.jpa.hibernate.ddl-auto=update` の使用が絶対禁止とされる理由は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "アプリ再起動時に既存の全テーブルを自動的に削除してしまうため。",
+        "カラム追加しかできず古いカラムの削除やリネームができずスキーマが汚染されるうえ、バージョン履歴やロールバック機構がなく、高負荷時に意図しないテーブルロックを引き起こしてシステム障害につながるため。",
+        "`ddl-auto` を無効にしないと PostgreSQL に接続できないため。",
+        "`SELECT` クエリの速度が50%低下するため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`ddl-auto=update` にはロールバック機能や変更履歴管理がなく、テーブルロックの制御もできません。本番環境では必ず Flyway や Liquibase などのマイグレーションツールを使用し、`ddl-auto=validate` に設定します。",
+      "card_front": "大規模エンタープライズシステムの本番環境（Production）において、`spring.jpa.hibernate.ddl-auto=update` の使用が絶対禁止とされる理由は何ですか？",
+      "card_back": "カラム追加しかできず古いカラムの削除やリネームができずスキーマが汚染されるうえ、バージョン履歴やロールバック機構がなく、高負荷時に意図しないテーブルロックを引き起こしてシステム障害につながるため。",
+      "card_hint": "Flyway, Database, Production, Hibernate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "すでにデータベースへ適用済みの Flyway マイグレーションファイル（例：`V1__init_brands_and_events.sql`）の内容を開発者が後から書き換えて Spring Boot を再起動すると、何が起きますか？",
+      "code_snippet": "org.flywaydb.core.api.exception.FlywayValidateException: \nValidate failed: Migrations have failed validation\nMigration checksum mismatch for migration version 1\n-> Applied to database : 184920491\n-> Resolved locally    : -491029481",
+      "options": [
+        "Flywayが自動的に古いテーブルを削除し、修正後の内容でテーブルを再作成する。",
+        "`flyway_schema_history` にバージョン1が存在するため、Flywayはこの変更を無視する。",
+        "Flywayがチェックサム不一致エラー（`Migration checksum mismatch`）をスローし、データ整合性を守るためにアプリケーションの起動を即座に停止する。",
+        "WARNログを出力するだけでアプリは通常通り起動する。"
+      ],
+      "correct_option_index": 2,
+      "explanation": "Flywayはマイグレーション適用時にCRC32チェックサムを計算して `flyway_schema_history` に記録します。適用済みファイルが改변されると環境間のスキーマ不整合を防ぐために起動を拒否します。",
+      "card_front": "すでにデータベースへ適用済みの Flyway マイグレーションファイル（例：`V1__init_brands_and_events.sql`）の内容を開発者が後から書き換えて Spring Boot を再起動すると、何が起きますか？",
+      "card_back": "Flywayがチェックサム不一致エラー（`Migration checksum mismatch`）をスローし、データ整合性を守るためにアプリケーションの起動を即座に停止する。",
+      "card_hint": "Flyway, Checksum, Troubleshooting",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "`V1__init_brands_and_events.sql` がすでに各環境で実行された後、`events` テーブルに新しいカラムを追加する場合の最も標準的な対処法はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "`V1__init_brands_and_events.sql` を直接編集し、`flyway repair` を実行する。",
+        "次のバージョン番号を持つ新しいマイグレーションファイル（例：`V2__add_status_column_to_events.sql`）を作成し、`ALTER TABLE` 文を記述する。",
+        "pgAdmin を開いてすべての環境のDBに対して手動で `ALTER TABLE` を実行する。",
+        "`flyway_schema_history` テーブルを削除して最初からやり直す。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "データベースマイグレーションの鉄則は「追記専用（Append-only）」です。一度適用されたファイルは絶対に変更せず、スキーマ変更は必ず新しい連番ファイル（V2, V3...）として追加します。",
+      "card_front": "`V1__init_brands_and_events.sql` がすでに各環境で実行された後、`events` テーブルに新しいカラムを追加する場合の最も標準的な対処法はどれですか？",
+      "card_back": "次のバージョン番号を持つ新しいマイグレーションファイル（例：`V2__add_status_column_to_events.sql`）を作成し、`ALTER TABLE` 文を記述する。",
+      "card_hint": "Flyway, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "抽象クラス `BaseEntity` において、Spring Data JPA が作成日時（`createdAt`）と更新日時（`updatedAt`）を自動設定するために必要なアノテーション構成はどれですか？",
+      "code_snippet": "@MappedSuperclass\n@EntityListeners(AuditingEntityListener.class)\npublic abstract class BaseEntity {\n    @CreatedDate\n    @Column(name = \"created_at\", nullable = false, updatable = false)\n    private Instant createdAt;\n\n    @LastModifiedDate\n    @Column(name = \"updated_at\")\n    private Instant updatedAt;\n}",
+      "options": [
+        "`@CreatedDate` と `@LastModifiedDate` だけでよく、他の設定は一切不要である。",
+        "エンティティ（または親クラス）に `@EntityListeners(AuditingEntityListener.class)` を付与し、さらに Spring Boot 設定クラスに `@EnableJpaAuditing` を付与する必要がある。",
+        "`BaseEntity` に `@Transactional` を付与する必要がある。",
+        "JPAでは自動生成できないため、PostgreSQLのトリガーを使う必要がある。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Spring Data JPA の監査機能（`@CreatedDate`, `@LastModifiedDate`）を有効にするには、エンティティ側での `AuditingEntityListener` 登録と、設定クラスでの `@EnableJpaAuditing` の両方が必須です。",
+      "card_front": "抽象クラス `BaseEntity` において、Spring Data JPA が作成日時（`createdAt`）と更新日時（`updatedAt`）を自動設定するために必要なアノテーション構成はどれですか？",
+      "card_back": "エンティティ（または親クラス）に `@EntityListeners(AuditingEntityListener.class)` を付与し、さらに Spring Boot 設定クラスに `@EnableJpaAuditing` を付与する必要がある。",
+      "card_hint": "JPA, Auditing, BaseEntity",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Ticket Station プロジェクトにおける Flyway マイグレーションファイルの標準的な命名規則はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "`V{version}_{ベトナム語の説明}.sql`",
+        "`V{version}__{英語のsnake_case説明}.sql`（例：`V1__init_brands_and_events.sql`、アンダースコア2つ `__` で区切る）",
+        "`Flyway_{version}_{name}.sql`（例：`Flyway_1_Events.sql`）",
+        "`migration-{version}.sql`（例：`migration-01.sql`）"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Flywayの標準命名規則は、プレフィックス `V`＋バージョン番号＋2つのアンダースコア `__`＋英語の snake_case による説明（`V1__init_brands_and_events.sql`）です。",
+      "card_front": "Ticket Station プロジェクトにおける Flyway マイグレーションファイルの標準的な命名規則はどれですか？",
+      "card_back": "`V{version}__{英語のsnake_case説明}.sql`（例：`V1__init_brands_and_events.sql`、アンダースコア2つ `__` で区切る）",
+      "card_hint": "Flyway, Conventions",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Ticket Station の PostgreSQL 用 `docker-compose.yml` における以下の volume 設定の技術的な目的と意味は何ですか？",
+      "code_snippet": "services:\n  postgres:\n    image: postgres:16-alpine\n    container_name: ticket_station_db_dev\n    volumes:\n      - postgres_data:/var/lib/postgresql/data\n\nvolumes:\n  postgres_data:\n    driver: local\n    name: database_postgres_data",
+      "options": [
+        "データをDockerのRAM上に一時保存し、PC再起動のたびに初期化する。",
+        "`/var/lib/postgresql/data` をホスト上の明示的な名前付きボリューム `database_postgres_data` にマウントし、コンテナの停止・削除・再作成（`docker compose down && docker compose up -d`）を行ってもデータが消えない永続化（Persistent Data）を保証する。",
+        "JDBC URL に `database_postgres_data` が含まれる場合のみ接続を許可する。",
+        "SQLマイグレーションファイルをクラウドストレージへ自動バックアップする。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Dockerコンテナは本質的に一時的（Ephemeral）ですが、`/var/lib/postgresql/data` を Named Volume（`database_postgres_data`）にマウントすることで、コンテナを再作成してもDBデータがホスト上に安全に永続化されます。",
+      "card_front": "Ticket Station の PostgreSQL 用 `docker-compose.yml` における以下の volume 設定の技術的な目的と意味は何ですか？",
+      "card_back": "`/var/lib/postgresql/data` をホスト上の明示的な名前付きボリューム `database_postgres_data` にマウントし、コンテナの停止・削除・再作成（`docker compose down && docker compose up -d`）を行ってもデータが消えない永続化（Persistent Data）を保証する。",
+      "card_hint": "Docker, PostgreSQL, Docker Compose, Volume",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q7",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "ボリューム `database_postgres_data` にすでにデータが存在する状態で、`docker-compose.yml` の `POSTGRES_PASSWORD` を変更して `docker compose down && docker compose up -d` を実行しても新しいパスワードが反映されないのはなぜですか？",
+      "code_snippet": "# docker-compose.yml 内で新しいパスワードに変更:\nenvironment:\n  POSTGRES_DB: ticket_station_db_dev\n  POSTGRES_USER: dev_write\n  POSTGRES_PASSWORD: new_secret_pass_2026\n\n# 実行: docker compose down && docker compose up -d\n# DB接続結果: FATAL: password authentication failed for user \"dev_write\"",
+      "options": [
+        "PostgreSQL公式Dockerイメージの初期化スクリプト（`initdb`）は、データディレクトリ `/var/lib/postgresql/data` が空のときに「最初の1回だけ」環境変数 `POSTGRES_*` を読み込む仕様であり、既存データがある場合は無視して既存DBクラスタをそのまま起動するため。",
+        "Docker Compose が8文字を超えるパスワードをサポートしていないため。",
+        "Spring Boot が `pom.xml` 内に古いパスワードをキャッシュしているため。",
+        "PostgreSQL の JDBC ドライバがパスワード変更を禁止しているため。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "PostgreSQL公式イメージの仕様により、環境変数 `POSTGRES_PASSWORD` 等が反映されるのはボリュームが空の初回初期化時のみです。設定を最初からやり直す場合は `docker compose down -v` でボリュームごと削除する必要があります。",
+      "card_front": "ボリューム `database_postgres_data` にすでにデータが存在する状態で、`docker-compose.yml` の `POSTGRES_PASSWORD` を変更して `docker compose down && docker compose up -d` を実行しても新しいパスワードが反映されないのはなぜですか？",
+      "card_back": "PostgreSQL公式Dockerイメージの初期化スクリプト（`initdb`）は、データディレクトリ `/var/lib/postgresql/data` が空のときに「最初の1回だけ」環境変数 `POSTGRES_*` を読み込む仕様であり、既存データがある場合は無視して既存DBクラスタをそのまま起動するため。",
+      "card_hint": "Docker, PostgreSQL, Troubleshooting, Volume, Environment",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q8",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "データ保存ボリューム `database_postgres_data` に対する `docker compose down` と `docker compose down -v` の動作の違いは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "`docker compose down` はコンテナとネットワークを削除するがボリューム `database_postgres_data` は保持する（データは消えない）。一方 `-v`（`--volumes`）フラグを付けると宣言された名前付きボリュームも完全に削除され、DB内のデータがすべて消去される。",
+        "`docker compose down` はPCのハードディスク全体を削除し、`-v` はコンテナを再起動するだけである。",
+        "どちらのコマンドも全く同じようにボリュームを削除する。",
+        "`-v` フラグは詳細ログ（verbose）を表示するだけで、ボリュームは削除しない。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "`docker compose down` はコンテナとネットワークのみを停止・削除し、Named Volume のデータは保護されます。DBを完全に初期状態へリセットしたい場合のみ `docker compose down -v` を使用します。",
+      "card_front": "データ保存ボリューム `database_postgres_data` に対する `docker compose down` と `docker compose down -v` の動作の違いは何ですか？",
+      "card_back": "`docker compose down` はコンテナとネットワークを削除するがボリューム `database_postgres_data` は保持する（データは消えない）。一方 `-v`（`--volumes`）フラグを付けると宣言された名前付きボリュームも完全に削除され、DB内のデータがすべて消去される。",
+      "card_hint": "Docker, Docker Compose, CLI, Volume",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "以下のコードにおいて、Hibernate の「N+1 クエリ問題」はどのように発生しますか？",
+      "code_snippet": "// 20件のイベントを取得し、各イベントの座席数を表示:\nList<Event> events = eventRepository.findAll(); // 1クエリで20件のイベントを取得\nfor (Event event : events) {\n    // 各イベントをループして座席リスト（LAZY）にアクセス\n    System.out.println(event.getSeats().size()); // ???\n}",
+      "options": [
+        "二次キャッシュにより、データベースには1回のクエリしか送信されない。",
+        "合計21回のクエリが発行される。最初の1回のクエリで20件の `Event` を取得した後、ループ内で遅延読み込み（LAZY）の `event.getSeats()` にアクセスするたびに1回ずつ（計20回）追加の `SELECT` クエリが発行される。",
+        "Hibernateが自動的に1つのサブクエリにまとめる。",
+        "即座に `ConcurrentModificationException` がスローされる。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "典型的な N+1 問題です。親エンティティ N 件（20件）を取得する1回のクエリの後、ループ内で遅延ロードコレクションにアクセスすることで N 回の追加クエリが発生し（計 1 + 20 = 21 クエリ）、深刻な性能劣化を引き起こします。",
+      "card_front": "以下のコードにおいて、Hibernate の「N+1 クエリ問題」はどのように発生しますか？",
+      "card_back": "合計21回のクエリが発行される。最初の1回のクエリで20件の `Event` を取得した後、ループ内で遅延読み込み（LAZY）の `event.getSeats()` にアクセスするたびに1回ずつ（計20回）追加の `SELECT` クエリが発行される。",
+      "card_hint": "JPA, Hibernate, N+1 Query, Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "JPQLクエリにおける通常の `JOIN` と `JOIN FETCH` の本質的な違いは何ですか？",
+      "code_snippet": "// クエリ1:\n@Query(\"SELECT e FROM Event e JOIN e.seats s WHERE e.id = :id\")\n\n// クエリ2:\n@Query(\"SELECT e FROM Event e JOIN FETCH e.seats s WHERE e.id = :id\")",
+      "options": [
+        "通常の `JOIN` は親子両方のデータをメモリに読み込むが、`JOIN FETCH` はフィルタリングのみを行う。",
+        "通常の `JOIN` は WHERE 条件や絞り込みに使われるだけで親エンティティ内の子コレクションを初期化（initialize）しないが、`JOIN FETCH` は1回のクエリで子エンティティのコレクションまで永続化コンテキストに一括読み込みする。",
+        "`JOIN FETCH` は MySQL 専用であり PostgreSQL では動作しない。",
+        "2つのクエリのJava上での動作と結果は100%同じである。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "JPQLの単なる `JOIN` では親エンティティの `seats` コレクションは初期化されず、`event.getSeats()` を呼ぶと再度遅延ロードクエリが走ります。`JOIN FETCH` を使うことで1回のクエリで子コレクションまで確実にメモリへロードされます。",
+      "card_front": "JPQLクエリにおける通常の `JOIN` と `JOIN FETCH` の本質的な違いは何ですか？",
+      "card_back": "通常の `JOIN` は WHERE 条件や絞り込みに使われるだけで親エンティティ内の子コレクションを初期化（initialize）しないが、`JOIN FETCH` は1回のクエリで子エンティティのコレクションまで永続化コンテキストに一括読み込みする。",
+      "card_hint": "JPQL, Hibernate, Join Fetch",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "例外 `LazyInitializationException: could not initialize proxy - no Session` はどのような原因で発生しますか？",
+      "code_snippet": "",
+      "options": [
+        "SQL実行中にデータベースのネットワーク接続が切断されたため。",
+        "エンティティを管理していた Hibernate Session / トランザクション（`@Transactional`）が閉じた後（Controller層など）に、まだ読み込まれていない遅延読み込み（Lazy Loading）関連プロパティにアクセスしようとしたため。",
+        "該当フィールドに `@Transient` が付いているため。",
+        "DBのユーザー名とパスワードが設定されていないため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "遅延ロード（Lazy Loading）は Hibernate Session（永続化コンテキスト）が開いている間のみ実行可能です。Service層のトランザクションを抜けて Session が閉じた後に未初期化のプロキシへアクセスすると `LazyInitializationException` が発生します。",
+      "card_front": "例外 `LazyInitializationException: could not initialize proxy - no Session` はどのような原因で発生しますか？",
+      "card_back": "エンティティを管理していた Hibernate Session / トランザクション（`@Transactional`）が閉じた後（Controller層など）に、まだ読み込まれていない遅延読み込み（Lazy Loading）関連プロパティにアクセスしようとしたため。",
+      "card_hint": "Hibernate, Exception, Lazy Loading",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Java 16+ および Spring Boot 3+ において、DTO（Request / Response）に Lombok の `@Data` を付けた通常クラスではなく Java の `record` を優先すべき理由は何ですか？",
+      "code_snippet": "public record EventResponseDto(\n    Long id,\n    String title,\n    BigDecimal basePrice,\n    Instant eventDate,\n    String venue\n) {}",
+      "options": [
+        "`record` を使うと通常のクラスよりアプリの実行速度が10倍速くなるため。",
+        "`record` は標準で不変（Immutable）であり、コンストラクタ・アクセサ・`equals()`・`hashCode()`・`toString()` を簡潔に自動生成し、マルチスレッド環境で安全かつサードパーティのアノテーションプロセッサに依存しないため。",
+        "`record` は複数のクラスを多重継承できるため。",
+        "Hibernate が JPA エンティティを `record` で定義することを強制しているため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaの `record` は不変（Immutable）なデータキャリアであり、ボイラープレートを排除し、意図しないデータの書き換え（副作用）を防ぎ、JacksonによるJSONシリアライズとも完璧に連携します。",
+      "card_front": "Java 16+ および Spring Boot 3+ において、DTO（Request / Response）に Lombok の `@Data` を付けた通常クラスではなく Java の `record` を優先すべき理由は何ですか？",
+      "card_back": "`record` は標準で不変（Immutable）であり、コンストラクタ・アクセサ・`equals()`・`hashCode()`・`toString()` を簡潔に自動生成し、マルチスレッド環境で安全かつサードパーティのアノテーションプロセッサに依存しないため。",
+      "card_hint": "Java 21, DTO, Record, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Spring Boot 3 に標準搭載されている RFC 7807（`ProblemDetail`）は、RESTful API 設計においてどのような目的で使われますか？",
+      "code_snippet": "",
+      "options": [
+        "機密データを AES-256 で自動暗号化する。",
+        "エラー応答の JSON フォーマットを標準フィールド（`type`, `title`, `status`, `detail`, `instance`）で統一し、クライアント側が一貫した方法でエラーを処理できるようにする。",
+        "Swagger UI ドキュメントを自動生成する。",
+        "HTTPレスポンスのサイズを圧縮して帯域を節約する。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "RFC 7807（Problem Details for HTTP APIs）はHTTP APIのエラー応答構造の国際標準です。Spring Boot 3 では `ProblemDetail` クラスと `@RestControllerAdvice` を組み合わせて統一されたエラーJSONを返却できます。",
+      "card_front": "Spring Boot 3 に標準搭載されている RFC 7807（`ProblemDetail`）は、RESTful API 設計においてどのような目的で使われますか？",
+      "card_back": "エラー応答の JSON フォーマットを標準フィールド（`type`, `title`, `status`, `detail`, `instance`）で統一し、クライアント側が一貫した方法でエラーを処理できるようにする。",
+      "card_hint": "REST API, RFC 7807, Spring Boot 3",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "Service層の単体テスト（例：`EventServiceTest`）を書く際、`@SpringBootTest` ではなく `@ExtendWith(MockitoExtension.class)` を使うべき理由は何ですか？",
+      "code_snippet": "@ExtendWith(MockitoExtension.class)\nclass EventServiceTest {\n    @Mock\n    private EventRepository eventRepository;\n\n    @InjectMocks\n    private EventService eventService;\n}",
+      "options": [
+        "`@SpringBootTest` ではモックデータを使用できないため。",
+        "`@ExtendWith(MockitoExtension.class)` は重たい Spring ApplicationContext 全体を起動せずに純粋なJVM上で数ミリ秒で実行でき、ビジネスロジックを完全に分離して超高速にテストできるため。",
+        "Mockito は Spring Boot 3 と互換性がないため。",
+        "`@SpringBootTest` を使うと本番DBのデータが消去されるため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "単体テスト（Unit Test）の本質は1つのクラスを分離して高速に検証することです。`@SpringBootTest` はSpringコンテナ全体を起動するため数十秒かかりますが、Mockito拡張のみなら数ミリ秒で完了します。",
+      "card_front": "Service層の単体テスト（例：`EventServiceTest`）を書く際、`@SpringBootTest` ではなく `@ExtendWith(MockitoExtension.class)` を使うべき理由は何ですか？",
+      "card_back": "`@ExtendWith(MockitoExtension.class)` は重たい Spring ApplicationContext 全体を起動せずに純粋なJVM上で数ミリ秒で実行でき、ビジネスロジックを完全に分離して超高速にテストできるため。",
+      "card_hint": "Testing, JUnit 5, Mockito, Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "Mockito における `@Mock` と `@Spy` の違いは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "`@Mock` は完全に空のモックオブジェクトを生成しスタブ化されていないメソッドはデフォルト値（null, 0, false）を返すが、`@Spy` は実際のオブジェクトをラップし、指定したメソッドのみをモック化してそれ以外は本物のコードを実行する。",
+        "`@Mock` はインターフェース専用で、`@Spy` は抽象クラス専用である。",
+        "`@Spy` は `@Mock` より5倍高速に動作する。",
+        "`@Mock` はDBに保存し、`@Spy` はRAMに保存する。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "`@Mock` はすべての振る舞いを仮装しますが、`@Spy`（部分モック）は実オブジェクトをベースにし、`doReturn(...).when(spy).method()` で指定したメソッドだけを上書きします。",
+      "card_front": "Mockito における `@Mock` と `@Spy` の違いは何ですか？",
+      "card_back": "`@Mock` は完全に空のモックオブジェクトを生成しスタブ化されていないメソッドはデフォルト値（null, 0, false）を返すが、`@Spy` は実際のオブジェクトをラップし、指定したメソッドのみをモック化してそれ以外は本物のコードを実行する。",
+      "card_hint": "Testing, Mockito, Mock vs Spy",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "JWT認証アーキテクチャにおいて、Access Token の有効期限を短く（例：15分）、Refresh Token の有効期限を長く（例：7日間）設計するのはなぜですか？",
+      "code_snippet": "",
+      "options": [
+        "Access Token の期限を長くすると Base64 文字列が肥大化して通信が詰まるため。",
+        "JWT Access Token はステートレス（サーバー側で毎リクエストごとのセッション照会を行わない）であり即時失効が難しいため、万が一漏洩した際の被害時間を最小限に抑えるため。一方 Refresh Token は安全に保管（またはRedisブラックリストで管理）して再発行にのみ使用する。",
+        "HMAC-SHA256 暗号アルゴリズムが国際規格上15分間しか有効でないため。",
+        "Webブラウザが15分ごとにすべてのトークンを自動削除するため。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "ステートレスな Access Token は一度発行されると有効期限が切れるまで使用可能です。そのため有効期限を15分程度に短くして漏洩リスクを抑え、再発行時のみサーバー側（Redis等）で失効チェックが可能な Refresh Token を使用します。",
+      "card_front": "JWT認証アーキテクチャにおいて、Access Token の有効期限を短く（例：15分）、Refresh Token の有効期限を長く（例：7日間）設計するのはなぜですか？",
+      "card_back": "JWT Access Token はステートレス（サーバー側で毎リクエストごとのセッション照会を行わない）であり即時失効が難しいため、万が一漏洩した際の被害時間を最小限に抑えるため。一方 Refresh Token は安全に保管（またはRedisブラックリストで管理）して再発行にのみ使用する。",
+      "card_hint": "Security, JWT, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "BOLA（オブジェクトレベル認可の不備 / IDOR）脆弱性とは何ですか？また Spring Security でどのように防ぎますか？",
+      "code_snippet": "// 予約キャンセルAPI:\n@DeleteMapping(\"/api/v1/bookings/{bookingId}\")\npublic ResponseEntity<Void> cancelBooking(@PathVariable Long bookingId) {\n    // ログイン済み（isAuthenticated）のみを確認し、\n    // bookingId がリクエスト本人のものか検証しない場合！\n    bookingService.cancel(bookingId);\n    return ResponseEntity.noContent().build();\n}",
+      "options": [
+        "ログイン済みユーザーがURLの `bookingId` を書き換えて他人の予約を閲覧・キャンセルできてしまう脆弱性。`@PreAuthorize(\"@bookingSecurity.isOwner(#bookingId, authentication.principal.id)\")` 等でリソースの所有者確認を行うことで防ぐ。",
+        "URLに不正なSQLを注入する攻撃。CORSを有効にすることで防ぐ。",
+        "大量リクエストでサーバーをダウンさせる攻撃。Redisキャッシュで防ぐ。",
+        "パスワード暗号化の脆弱性。MD5を使うことで防ぐ。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "BOLA（IDOR）は OWASP API Security Top 10 で最も危険な脆弱性です。「ログインしているか」だけでなく「その `bookingId` が本当にリクエストした本人の所有物か」を `@PreAuthorize` 等で検証する必要があります。",
+      "card_front": "BOLA（オブジェクトレベル認可の不備 / IDOR）脆弱性とは何ですか？また Spring Security でどのように防ぎますか？",
+      "card_back": "ログイン済みユーザーがURLの `bookingId` を書き換えて他人の予約を閲覧・キャンセルできてしまう脆弱性。`@PreAuthorize(\"@bookingSecurity.isOwner(#bookingId, authentication.principal.id)\")` 等でリソースの所有者確認を行うことで防ぐ。",
+      "card_hint": "Security, OWASP, BOLA, Authorization",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "10,000人のユーザーがたった1つのVIP席に対して同時に「座席確保（Hold Seat）」ボタンを押した際、複数インスタンス（クラスタ/分散環境）において二重予約（Double-Booking）を絶対に防げる仕組みはどれですか？",
+      "code_snippet": "",
+      "options": [
+        "Service の `holdSeat()` メソッドに Java の `synchronized` キーワードを付ける。",
+        "Redis 分散ロック（Redisson の `RLock` など）または PostgreSQL の悲観的書き込みロック（`SELECT ... FOR UPDATE`）を使用する。",
+        "アプリのRAM上の `static HashMap` に座席状態を保存する。",
+        "`@Async` を使ってバックグラウンドで予約処理を行う。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Javaの `synchronized` や `ReentrantLock` は単一JVM内でのみ有効です。ロードバランサ配下で複数インスタンスが稼働する本番環境では、Redis分散ロック（Redisson）やDBレベルのロックが必須です。",
+      "card_front": "10,000人のユーザーがたった1つのVIP席に対して同時に「座席確保（Hold Seat）」ボタンを押した際、複数インスタンス（クラスタ/分散環境）において二重予約（Double-Booking）を絶対に防げる仕組みはどれですか？",
+      "card_back": "Redis 分散ロック（Redisson の `RLock` など）または PostgreSQL の悲観的書き込みロック（`SELECT ... FOR UPDATE`）を使用する。",
+      "card_hint": "Concurrency, Distributed Lock, Redis, Redisson",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "Spring Data JPA における楽観的ロック（Optimistic Locking：`@Version`）はどのような原理で動作しますか？",
+      "code_snippet": "@Entity\n@Table(name = \"seats\")\npublic class Seat {\n    @Id\n    private Long id;\n\n    private String seatNumber;\n\n    @Enumerated(EnumType.STRING)\n    private SeatStatus status;\n\n    @Version\n    private Long version;\n}",
+      "options": [
+        "読み取り時からトランザクション終了時までデータベースの行を物理的にロックし続ける。",
+        "読み取り時にはDBロックをかけず、更新時に `@Version` カラムを条件に含める（`UPDATE seats SET status=?, version=version+1 WHERE id=? AND version=?`）。すでに別トランザクションが version を更新していた場合は更新件数が0件となり、`OptimisticLockingFailureException` をスローする。",
+        "誰かが座席に触れた瞬間にWebSocketで全ユーザーへ通知する。",
+        "10分間すべての書き込みクエリをブロックする。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "楽観ロックは物理ロックを使わずに `@Version` 番号の比較で競合を検知します。更新時にDB内のバージョン番号が読み取り時と異なっていれば `OptimisticLockingFailureException` を投げて上書きを防ぎます。",
+      "card_front": "Spring Data JPA における楽観的ロック（Optimistic Locking：`@Version`）はどのような原理で動作しますか？",
+      "card_back": "読み取り時にはDBロックをかけず、更新時に `@Version` カラムを条件に含める（`UPDATE seats SET status=?, version=version+1 WHERE id=? AND version=?`）。すでに別トランザクションが version を更新していた場合は更新件数が0件となり、`OptimisticLockingFailureException` をスローする。",
+      "card_hint": "JPA, Optimistic Lock, Concurrency",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "「キャッシュスタンピード（Cache Stampede / Dogpiling）」現象とは何ですか？また Ticket Station ではどのように対策しますか？",
+      "code_snippet": "",
+      "options": [
+        "Redisのメモリが満杯になり全データが自動削除される現象。",
+        "アクセスの集中する「ホットキー」のキャッシュ有効期限（TTL）が切れた瞬間、数万件の同時リクエストが一斉にキャッシュミスしてDBへ殺到し、DBがダウンする現象。TTLへのランダムな揺らぎ（Jitter）追加や分散ロックによる再計算制御で対策する。",
+        "Spring Boot と Redis 間のネットワークが突然切断される現象。",
+        "キャッシュとDBのデータが一致しなくなる現象。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Cache Stampede はホットキーの期限切れと同時に大量リクエストがDBを直撃する現象です。TTLにランダムなJitterを加える、再計算時に分散ミューテックスロックを使う、期限切れ前に非同期でキャッシュを更新（Re-warm）するなどの対策が有効です。",
+      "card_front": "「キャッシュスタンピード（Cache Stampede / Dogpiling）」現象とは何ですか？また Ticket Station ではどのように対策しますか？",
+      "card_back": "アクセスの集中する「ホットキー」のキャッシュ有効期限（TTL）が切れた瞬間、数万件の同時リクエストが一斉にキャッシュミスしてDBへ殺到し、DBがダウンする現象。TTLへのランダムな揺らぎ（Jitter）追加や分散ロックによる再計算制御で対策する。",
+      "card_hint": "Redis, Caching, Cache Stampede, System Design",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "コンサートチケット予約における「座席の一時確保（Temporary Hold）」の業務フローはどのように動作しますか？",
+      "code_snippet": "",
+      "options": [
+        "即座に口座から引き落とし、キャンセルされた場合は24時間後に返金する。",
+        "座席ステータスを `HELD` に変更し、`heldUntil = Instant.now().plus(Duration.ofMinutes(10))` を設定する。10分以内に決済が完了しない場合、バックグラウンドワーカーまたはRedisのTTLによって自動的に `AVAILABLE`（空席）へ戻す。",
+        "他のユーザーから見えないようにDBから座席レコードを物理削除する。",
+        "他のユーザーのIPアドレスをブロックする。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "映画館やチケット販売システムの定番ドメインロジックです。決済手続き中の10分間だけ期限付き（`heldUntil`）で `HELD` 状態にし、期限内に支払われなければ自動的に `AVAILABLE` に解放します。",
+      "card_front": "コンサートチケット予約における「座席の一時確保（Temporary Hold）」の業務フローはどのように動作しますか？",
+      "card_back": "座席ステータスを `HELD` に変更し、`heldUntil = Instant.now().plus(Duration.ofMinutes(10))` を設定する。10分以内に決済が完了しない場合、バックグラウンドワーカーまたはRedisのTTLによって自動的に `AVAILABLE`（空席）へ戻す。",
+      "card_hint": "Business Logic, Ticket Hold, TTL",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "以下の `processPaymentSuccess` メソッドには、分散システムにおけるどのような危険な設計上の問題（アンチパターン）がありますか？",
+      "code_snippet": "@Transactional\npublic void processPaymentSuccess(Order order) {\n    order.setStatus(OrderStatus.PAID);\n    orderRepository.save(order); // 1. PostgreSQL に保存\n\n    // 2. PDFチケットとメール送信のため Kafka にイベント送信\n    kafkaTemplate.send(\"ticket-booked-topic\", new OrderPaidEvent(order.getId()));\n}",
+      "options": [
+        "問題はなく、Springのベストプラクティスに完全に準拠している。",
+        "「Dual-Write（二重書き込み）」問題：DBトランザクションとKafkaへのメッセージ送信が単一のアトミックなトランザクションに収まっていない。DBコミット直後にKafkaがダウンするとチケットが発行されず、逆にKafka送信後にDBがロールバックされると未払いでチケットが発行されてしまう。",
+        "`@Transactional` クラスに `KafkaTemplate` を注入することはできない。",
+        "Kafka は XML 形式以外のJavaオブジェクトを送信できない。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "1つの業務メソッド内で異なる2つのストレージ基盤（PostgreSQLとKafka）へ直接書き込むと Dual-Write 問題が発生します。これを解決するには Transactional Outbox パターンを適用する必要があります。",
+      "card_front": "以下の `processPaymentSuccess` メソッドには、分散システムにおけるどのような危険な設計上の問題（アンチパターン）がありますか？",
+      "card_back": "「Dual-Write（二重書き込み）」問題：DBトランザクションとKafkaへのメッセージ送信が単一のアトミックなトランザクションに収まっていない。DBコミット直後にKafkaがダウンするとチケットが発行されず、逆にKafka送信後にDBがロールバックされると未払いでチケットが発行されてしまう。",
+      "card_hint": "Kafka, Dual-Write, Distributed Systems, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "Transactional Outbox パターンはどのようにして Dual-Write 問題を解決しますか？",
+      "code_snippet": "",
+      "options": [
+        "DB内に中間テーブル `outbox_events` を用意し、注文データの更新とイベントレコードの保存を「同一のDBトランザクション（ACID保証）」内でコミットする。その後、バックグラウンドのリレーワーカーや Debezium CDC が outbox テーブルを読み取って安全に Kafka へ送信する。",
+        "DBのトランザクションを無効化し、メッセージキューだけに頼る。",
+        "フロントエンドからDB用とKafka用の2回のHTTPリクエストを別々に送信させる。",
+        "Kafkaが直接PostgreSQLのテーブルに書き込むように設定する。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "業務データ（`orders`）と送信イベント（`outbox_events`）を同じRDBMSの単一ACIDトランザクション内で保存することで、「両方成功するか、両方ロールバックされるか」を100%保証し、その後非同期ワーカーが確実にKafkaへ配信します。",
+      "card_front": "Transactional Outbox パターンはどのようにして Dual-Write 問題を解決しますか？",
+      "card_back": "DB内に中間テーブル `outbox_events` を用意し、注文データの更新とイベントレコードの保存を「同一のDBトランザクション（ACID保証）」内でコミットする。その後、バックグラウンドのリレーワーカーや Debezium CDC が outbox テーブルを読み取って安全に Kafka へ送信する。",
+      "card_hint": "Outbox Pattern, Kafka, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "Kafkaコンシューマがメッセージ処理に連続して失敗する場合（外部サービスの障害など）、本番環境（Production）における標準的なエラーハンドリング戦略はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "エラーになったメッセージを即座に無視（破棄）して次へ進む。",
+        "オフセットをコミットせずにコンシューマを永久に停止させる。",
+        "指数バックオフ（Exponential Backoff：1秒、2秒、4秒…）付きのリトライを行い、N回試行しても失敗する場合はデッドレターキュー（DLQ / DLT）へ退避させてアラートを出し、メインパーティションの詰まりを防ぐ。",
+        "Kafkaトピックを削除して作り直す。"
+      ],
+      "correct_option_index": 2,
+      "explanation": "指数バックオフ付きリトライで一時的な通信障害を吸収し、それでも処理できないメッセージ（Poison Pill）は DLQ（Dead Letter Queue）へ隔離することで、メインストリームを止めずに後から調査・再処理できます。",
+      "card_front": "Kafkaコンシューマがメッセージ処理に連続して失敗する場合（外部サービスの障害など）、本番環境（Production）における標準的なエラーハンドリング戦略はどれですか？",
+      "card_back": "指数バックオフ（Exponential Backoff：1秒、2秒、4秒…）付きのリトライを行い、N回試行しても失敗する場合はデッドレターキュー（DLQ / DLT）へ退避させてアラートを出し、メインパーティションの詰まりを防ぐ。",
+      "card_hint": "Kafka, DLQ, Resilience",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "Ticket Station の決済API（`POST /payments`）における「べき等性（Idempotency）」とはどのような性質を意味しますか？",
+      "code_snippet": "",
+      "options": [
+        "APIが10ミリ秒以内に超高速で応答すること。",
+        "通信の不安定さやボタンの連打によりクライアントが同じ決済リクエストを複数回送信しても、実際の引き落としと注文処理は「ただ1回だけ」実行され、2回目以降のリクエストには副作用を起こさず同じ結果を返すこと。",
+        "固定IPアドレスからのリクエストのみを受け付けること。",
+        "一度送信されたデータは将来にわたって一切参照できなくなること。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "決済におけるべき等性は必須要件です。ヘッダー等の `Idempotency-Key` により同一取引のリトライを識別し、ネットワーク遅延時の再送によって顧客が二重課金されるのを確実に防ぎます。",
+      "card_front": "Ticket Station の決済API（`POST /payments`）における「べき等性（Idempotency）」とはどのような性質を意味しますか？",
+      "card_back": "通信の不安定さやボタンの連打によりクライアントが同じ決済リクエストを複数回送信しても、実際の引き落としと注文処理は「ただ1回だけ」実行され、2回目以降のリクエストには副作用を起こさず同じ結果を返すこと。",
+      "card_hint": "Idempotency, API Design, Payment",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "Spring Boot と Redis を用いて高効率な `@Idempotent`（べき等性チェック）機構を実装する正しい方法はどれですか？",
+      "code_snippet": "@PostMapping(\"/charge\")\n@Idempotent(key = \"#request.idempotencyKey\", expireSeconds = 120)\npublic PaymentResponse chargeMoney(@RequestBody PaymentRequest request) { ... }",
+      "options": [
+        "アトミックな Redis コマンド `SET key value NX EX seconds`（キーが存在しない場合のみTTL付きでセット）を使用する。`true` が返れば初回リクエストとして処理し、`false` が返れば重複リクエストとして拒否または処理結果を返す。",
+        "`INCR` でカウンタを増やし、奇数のときだけ処理を許可する。",
+        "リクエスト全体をPostgreSQLの一時テーブルに保存し5分後に削除する。",
+        "ブラウザのCookieのみに頼って判定する。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Redis の `SET ... NX EX` はアトミック（不可分）に実行されます。最初のリクエストのみがキー作成に成功（`true`）し、同時または直後に届いた同じ `Idempotency-Key` の重複リクエストは即座に `false` となって二重処理がブロックされます。",
+      "card_front": "Spring Boot と Redis を用いて高効率な `@Idempotent`（べき等性チェック）機構を実装する正しい方法はどれですか？",
+      "card_back": "アトミックな Redis コマンド `SET key value NX EX seconds`（キーが存在しない場合のみTTL付きでセット）を使用する。`true` が返れば初回リクエストとして処理し、`false` が返れば重複リクエストとして拒否または処理結果を返す。",
+      "card_hint": "Redis, Idempotency, Spring AOP",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "Resilience4j のサーキットブレーカー（Circuit Breaker）における3つの状態と、その遷移の仕組みはどれですか？",
+      "code_snippet": "",
+      "options": [
+        "`START`, `RUNNING`, `STOPPED`",
+        "`CLOSED`（正常状態：リクエストを通す）、`OPEN`（遮断状態：エラー率が閾値を超えたため即座に遮断してフォールバックを呼ぶ）、`HALF_OPEN`（半開状態：一定時間後に少数のテストリクエストだけを通して外部サービスの復旧を確認する）。",
+        "`GREEN`, `YELLOW`, `RED`",
+        "`ACTIVE`, `PASSIVE`, `STANDBY`"
+      ],
+      "correct_option_index": 1,
+      "explanation": "サーキットブレーカーは外部障害の連鎖を防ぎます。通常は `CLOSED`、障害多発時は `OPEN` にしてスレッド枯渇を防ぎ、一定時間後に `HALF_OPEN` で試験通信を行って成功すれば `CLOSED` に戻ります。",
+      "card_front": "Resilience4j のサーキットブレーカー（Circuit Breaker）における3つの状態と、その遷移の仕組みはどれですか？",
+      "card_back": "`CLOSED`（正常状態：リクエストを通す）、`OPEN`（遮断状態：エラー率が閾値を超えたため即座に遮断してフォールバックを呼ぶ）、`HALF_OPEN`（半開状態：一定時間後に少数のテストリクエストだけを通して外部サービスの復旧を確認する）。",
+      "card_hint": "Resilience4j, Circuit Breaker, Fault Tolerance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "本番環境（Production）において、マルチステージ Dockerfile（Multi-Stage Build）と非rootユーザー（`USER appuser`）でのコンテナ実行が推奨される理由は何ですか？",
+      "code_snippet": "# Stage 1: Build\nFROM maven:3.9.6-eclipse-temurin-21-alpine AS builder\n...\n# Stage 2: Runtime\nFROM eclipse-temurin:21-jre-alpine\nRUN addgroup -S appgroup && adduser -S appuser -G appgroup\nUSER appuser\nCOPY --from=builder /app/target/*.jar app.jar\nENTRYPOINT [\"java\", \"-jar\", \"app.jar\"]",
+      "options": [
+        "マルチステージビルドによりビルド環境（Maven、ソースコード、依存キャッシュ）と実行環境（軽量JRE）を分離してイメージサイズを数GBから約150MBへ大幅に削減でき、非rootユーザー実行により万が一コンテナが侵害された際のホストOSへの権限昇格攻撃リスクを最小化できるため。",
+        "非rootユーザーでないと Java 21 の仮想スレッドが有効にならないため。",
+        "Dockerの仕様で `appuser` 以外のアカウントでは JAR ファイルを実行できないため。",
+        "`pom.xml` のファイルサイズを削減できるため。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "マルチステージビルドは不要なビルドツールを本番イメージから除外して軽量・高速化します。また非rootユーザーでの実行はコンテナセキュリティの国際基準（CISベンチマーク）における最重要ベストプラクティスです。",
+      "card_front": "本番環境（Production）において、マルチステージ Dockerfile（Multi-Stage Build）と非rootユーザー（`USER appuser`）でのコンテナ実行が推奨される理由は何ですか？",
+      "card_back": "マルチステージビルドによりビルド環境（Maven、ソースコード、依存キャッシュ）と実行環境（軽量JRE）を分離してイメージサイズを数GBから約150MBへ大幅に削減でき、非rootユーザー実行により万が一コンテナが侵害された際のホストOSへの権限昇格攻撃リスクを最小化できるため。",
+      "card_hint": "Docker, Security, Production, DevOps",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

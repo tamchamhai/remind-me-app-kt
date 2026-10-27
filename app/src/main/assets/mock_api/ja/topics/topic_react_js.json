@@ -1,0 +1,100 @@
+{
+  "topic": {
+    "id": "topic_react_js",
+    "title": "React JS",
+    "description": "仮想DOM、Hooks、Props/State & パフォーマンス最適化",
+    "icon_name": "Web",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "chap_react_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_react_1",
+      "topic_id": "topic_react_js",
+      "chapter_number": 1,
+      "title": "第1章: 仮想DOM、JSX、Props & State",
+      "description": "Reconciliation（再調整）、key プロパティ、単方向データバインディング、不変性"
+    },
+    {
+      "id": "chap_react_2",
+      "topic_id": "topic_react_js",
+      "chapter_number": 2,
+      "title": "第2章: React Hooks 実践・応用",
+      "description": "useState, useEffect クリーンアップ, useMemo, useCallback, useRef"
+    },
+    {
+      "id": "chap_react_3",
+      "topic_id": "topic_react_js",
+      "chapter_number": 3,
+      "title": "第3章: Context API、Redux & レンダリング最適化",
+      "description": "React.memo、Prop Drilling の回避、グローバル状態管理"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_react_1_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_1",
+      "question": "Reactのリスト描画で、要素の順序が変わる可能性がある場合に配列のインデックス（index）を「key」として使うべきでない理由は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "Reactでは数値を key にすることが禁止されているため",
+        "Reconciliation（差分検出）が狂い、古い要素の State が誤って引き継がれたりパフォーマンスが低下するため",
+        "index は本番環境でしか動作しないため",
+        "ブラウザが即座にメモリ不足でクラッシュするため"
+      ],
+      "correct_option_index": 1,
+      "explanation": "要素の追加・削除・並び替えによって index が変化すると、ReactがDOMノードの同一性を誤認し、内部 State が別の要素に紐づいてしまうバグが発生します。",
+      "card_front": "Reactのリスト描画で、要素の順序が変わる可能性がある場合に配列のインデックス（index）を「key」として使うべきでない理由は何ですか？",
+      "card_back": "Reconciliation（差分検出）が狂い、古い要素の State が誤って引き継がれたりパフォーマンスが低下するため",
+      "card_hint": "React Lists & Keys",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_react_2_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_2",
+      "question": "React における useMemo と useCallback の違いは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "useMemo は関数の計算結果（戻り値）をメモ化し、useCallback は関数インスタンス自体の参照をメモ化する",
+        "useMemo は非同期で実行され、useCallback は同期で実行される",
+        "useCallback はクラスコンポーネント用で、useMemo は関数コンポーネント用である",
+        "2つのフックは完全に同じ動作をする"
+      ],
+      "correct_option_index": 0,
+      "explanation": "useMemo(() => compute(a, b), [a, b]) は計算された値をキャッシュし、useCallback(fn, deps) は再レンダリング時に新しい関数参照が作られるのを防ぐために関数自体をキャッシュします。",
+      "card_front": "React における useMemo と useCallback の違いは何ですか？",
+      "card_back": "useMemo は関数の計算結果（戻り値）をメモ化し、useCallback は関数インスタンス自体の参照をメモ化する",
+      "card_hint": "React Hooks - useMemo vs useCallback",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_react_3_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_3",
+      "question": "高階コンポーネント `React.memo(MyComponent)` の役割は何ですか？",
+      "code_snippet": "",
+      "options": [
+        "コンポーネントのデータを LocalStorage に保存する",
+        "渡された props が変更されていない場合（浅い比較）、コンポーネントの再レンダリングをスキップする",
+        "コンポーネントのマウント時に自動的にAPIを呼び出す",
+        "useState を完全に置き換える"
+      ],
+      "correct_option_index": 1,
+      "explanation": "React.memo は前後の props を浅い比較（shallow compare）し、変化がなければ子コンポーネントの再レンダリングをスキップしてパフォーマンスを向上させます。",
+      "card_front": "高階コンポーネント `React.memo(MyComponent)` の役割は何ですか？",
+      "card_back": "渡された props が変更されていない場合（浅い比較）、コンポーネントの再レンダリングをスキップする",
+      "card_hint": "React Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

@@ -1,0 +1,2164 @@
+{
+  "topic": {
+    "id": "topic_java_core",
+    "title": "Java Core & Production Mastery",
+    "description": "Complete 12 Java Core Modules & 6 Production Milestones from java-quiz-app (95 questions)",
+    "icon_name": "Code",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "mod1-sub1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "mod1-sub1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 1,
+      "title": "[M01.1] Intro & Programming Mindset: Overview",
+      "description": "Practical Java Core learning roadmap, effective study methods, Ticket Station system analysis, and problem-solving mindset."
+    },
+    {
+      "id": "mod1-sub2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 2,
+      "title": "[M01.2] What is Java? — Write Once, Run Anywhere",
+      "description": "History of Java, Write Once Run Anywhere (WORA) philosophy, Bytecode mechanism, and how the JVM achieves hardware independence."
+    },
+    {
+      "id": "mod1-sub3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 3,
+      "title": "[M01.3] JVM, JRE, JDK — Three Core Pillars",
+      "description": "Understanding the relationship between JDK, JRE, and JVM, internal JVM architecture, and changes since Java 11 (removal of standalone JRE)."
+    },
+    {
+      "id": "mod1-sub4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 4,
+      "title": "[M01.4] Environment Setup — JDK 21 & IntelliJ IDEA",
+      "description": "Installing OpenJDK 21 LTS, configuring JAVA_HOME and PATH environment variables, and mastering IntelliJ IDEA shortcuts."
+    },
+    {
+      "id": "mod1-sub5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 5,
+      "title": "[M01.5] Hello World — Anatomy of a Java Class",
+      "description": "Detailed anatomy of a Java source file: package declaration, public class, main entry point (public static void main), and System.out.println."
+    },
+    {
+      "id": "mod1-sub6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 6,
+      "title": "[M01.6] Programming Mindset — Input, Process, Output",
+      "description": "The IPO (Input - Process - Output) model, analyzing ticket booking data flows, and reading console input with java.util.Scanner."
+    },
+    {
+      "id": "mod1-sub7",
+      "topic_id": "topic_java_core",
+      "chapter_number": 7,
+      "title": "[M01.7] Compile & Run — javac, Bytecode, and Program Lifecycle",
+      "description": "Full lifecycle of a Java program: .java source, javac compilation, .class format, ClassLoader, Bytecode Verifier, and JIT Compiler."
+    },
+    {
+      "id": "mod1-sub8",
+      "topic_id": "topic_java_core",
+      "chapter_number": 8,
+      "title": "[M01.8] Mini-Challenge: Print Current Month Calendar",
+      "description": "Algorithmic challenge: Apply loops, modulo operator %, and conditionals to print a 7-column monthly calendar grid (Mon - Sun)."
+    },
+    {
+      "id": "mod1-sub9",
+      "topic_id": "topic_java_core",
+      "chapter_number": 9,
+      "title": "[M01.9] Module 1 Summary & Cheat Sheet",
+      "description": "Core takeaways of Module 1, essential CLI commands cheat sheet, common beginner compile/runtime errors, and preparation for Module 2."
+    },
+    {
+      "id": "mod2-sub1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 10,
+      "title": "[M02.1] Variables & Declarations — Naming a Value",
+      "description": "Variable naming rules, local vs instance variable scope, the var keyword (Local Variable Type Inference - Java 10+), and default values."
+    },
+    {
+      "id": "mod2-sub2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 11,
+      "title": "[M02.2] Primitive Types in Java: 8 Types, Size & Overflow",
+      "description": "The 8 primitive types (byte, short, int, long, float, double, char, boolean), byte sizes, Integer Overflow, IEEE 754 precision pitfalls, and BigDecimal."
+    },
+    {
+      "id": "mod2-sub3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 12,
+      "title": "[M02.3] Reference Types — null, NPE, Wrapper Classes, Autoboxing & Stack vs Heap",
+      "description": "Reference types, Stack pointers vs Heap objects, LIFO vs Garbage Collector lifecycle, IntegerCache, and StackOverflowError vs OutOfMemoryError."
+    },
+    {
+      "id": "mod2-sub4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 13,
+      "title": "[M02.4] Arithmetic & Comparison Operators — Integer Division & Negative Modulo",
+      "description": "Integer division truncation, sign rules of the modulo operator (%) with negative numbers, and arithmetic operator precedence."
+    },
+    {
+      "id": "mod2-sub5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 14,
+      "title": "[M02.5] Logical & Bitwise Operators — Short-Circuit & Bitmask Flags",
+      "description": "Short-circuit logical operators (&&, ||) vs Bitwise (&, |), operator precedence, and using Bitmasks for RBAC permission flags."
+    },
+    {
+      "id": "mod2-sub6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 15,
+      "title": "[M02.6] Type Casting in Java: Widening, Narrowing & Safe Cast",
+      "description": "Widening (implicit) vs Narrowing (explicit) primitive casting, data loss pitfalls, two-complement truncation, and safe casting."
+    },
+    {
+      "id": "mod2-sub7",
+      "topic_id": "topic_java_core",
+      "chapter_number": 16,
+      "title": "[M02.7] String, Text Blocks & StringBuilder in Modern Java",
+      "description": "String immutability, String Constant Pool, Constant Folding optimization, Text Blocks (\"\"\"), and StringBuilder vs + in loops."
+    },
+    {
+      "id": "mod2-sub8",
+      "topic_id": "topic_java_core",
+      "chapter_number": 17,
+      "title": "[M02.8] Constants & final — Values Carved in Stone",
+      "description": "The final keyword on variables, immutable reference vs mutable object state, compile-time constants, and Constant Folding."
+    },
+    {
+      "id": "mod2-sub9",
+      "topic_id": "topic_java_core",
+      "chapter_number": 18,
+      "title": "[M02.9] Enum — Type-Safe Fixed Constants Over Magic Numbers",
+      "description": "Java Enums: Type safety, singleton instances, custom fields/constructors/methods in Enum, and null-safe comparison with ==."
+    },
+    {
+      "id": "mod2-sub10",
+      "topic_id": "topic_java_core",
+      "chapter_number": 19,
+      "title": "[M02.10] Hands-on Practice: BMI Calculator & WHO Classification",
+      "description": "Synthesizing variables, primitive types, arithmetic operators, and guard-clause conditionals to build a WHO-standard BMI classifier."
+    },
+    {
+      "id": "module-03",
+      "topic_id": "topic_java_core",
+      "chapter_number": 20,
+      "title": "[M03] Conditionals & Loops",
+      "description": "if-else, modern switch expressions (Java 14+), for/while loops, short-circuit evaluation, and ConcurrentModificationException."
+    },
+    {
+      "id": "module-04",
+      "topic_id": "topic_java_core",
+      "chapter_number": 21,
+      "title": "[M04] Methods & Parameters",
+      "description": "Method declarations, parameters, 100% Pass-by-value semantics, Method Overloading, Varargs, and Recursion."
+    },
+    {
+      "id": "module-05",
+      "topic_id": "topic_java_core",
+      "chapter_number": 22,
+      "title": "[M05] OOP Fundamentals — Class, Object & Encapsulation",
+      "description": "Class, Object, Access Modifiers, Constructors, this, Encapsulation, Tell Don’t Ask, and Invariant Protection."
+    },
+    {
+      "id": "module-06",
+      "topic_id": "topic_java_core",
+      "chapter_number": 23,
+      "title": "[M06] Advanced OOP — Inheritance, Polymorphism & Abstraction",
+      "description": "Inheritance, Abstraction, Polymorphism, Diamond Problem, vtable dispatch, Composition over Inheritance, and LSP."
+    },
+    {
+      "id": "module-07",
+      "topic_id": "topic_java_core",
+      "chapter_number": 24,
+      "title": "[M07] Collections Framework & Generics",
+      "description": "List, Set, Map, HashMap vs ConcurrentHashMap, equals & hashCode contract, Generics Wildcards, and CopyOnWriteArrayList."
+    },
+    {
+      "id": "module-08",
+      "topic_id": "topic_java_core",
+      "chapter_number": 25,
+      "title": "[M08] Exception Handling",
+      "description": "Checked vs Unchecked Exceptions, try-with-resources, AutoCloseable, exception best practices, and custom domain exceptions."
+    },
+    {
+      "id": "module-09",
+      "topic_id": "topic_java_core",
+      "chapter_number": 26,
+      "title": "[M09] Java Time API & Stream API",
+      "description": "Instant, OffsetDateTime, Duration, Stream operations (map, filter, flatMap), Collectors, and Pure Functions."
+    },
+    {
+      "id": "module-10",
+      "topic_id": "topic_java_core",
+      "chapter_number": 27,
+      "title": "[M10] Multithreading & Concurrency Basics",
+      "description": "Thread lifecycle, Race Conditions, synchronized, ReentrantLock, Java 21 Virtual Threads (Project Loom), and Thread Pools."
+    },
+    {
+      "id": "module-11",
+      "topic_id": "topic_java_core",
+      "chapter_number": 28,
+      "title": "[M11] Spring Boot Core & Database JPA",
+      "description": "IoC Container, Constructor Injection, Bean Scopes, Hibernate Dirty Checking, N+1 Query prevention, and Flyway."
+    },
+    {
+      "id": "module-12",
+      "topic_id": "topic_java_core",
+      "chapter_number": 29,
+      "title": "[M12] Production Mindset & Docker",
+      "description": "Docker Named Volumes, Soft Delete vs Hard Delete, Idempotency, Audit Trail, and system resilience."
+    },
+    {
+      "id": "milestone-1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 30,
+      "title": "[Production] Milestone 1: Bootstrap & Flyway Migration",
+      "description": "Setting up Spring Boot 3.4 + Java 21, PostgreSQL Docker volumes, schema management with Flyway, BaseEntity, and JPA Auditing."
+    },
+    {
+      "id": "milestone-2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 31,
+      "title": "[Production] Milestone 2: REST API & Eliminating N+1 Queries",
+      "description": "Building RFC 7807 compliant Event & Seat Map APIs, protecting Entities with Java Record DTOs, and eliminating N+1 queries."
+    },
+    {
+      "id": "milestone-3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 32,
+      "title": "[Production] Milestone 3: Isolated Mockito Tests & JWT Security",
+      "description": "Writing fast isolated unit tests with JUnit 5 & Mockito, stateless JWT authentication (15m Access / 7d Refresh), and RBAC/BOLA protection."
+    },
+    {
+      "id": "milestone-4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 33,
+      "title": "[Production] Milestone 4: Seat Locking & High Concurrency",
+      "description": "Preventing double-booking under high traffic; Optimistic vs Pessimistic vs Redis Distributed Lock (Redisson); Temporary Seat Hold."
+    },
+    {
+      "id": "milestone-5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 34,
+      "title": "[Production] Milestone 5: Kafka & Transactional Outbox Pattern",
+      "description": "Eliminating the Dual-Write hazard, implementing the Transactional Outbox Pattern, and configuring Kafka Retry & Dead Letter Queue (DLQ)."
+    },
+    {
+      "id": "milestone-6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 35,
+      "title": "[Production] Milestone 6: Payment Idempotency & Multi-Stage Docker",
+      "description": "Guaranteeing zero double-charges with Redis Idempotency Keys, Resilience4j Circuit Breaker, and secure non-root Multi-Stage Dockerfiles."
+    }
+  ],
+  "questions": [
+    {
+      "id": "mod1-s1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub1",
+      "question": "What is the core goal of cultivating a programming mindset when approaching the Ticket Station project?",
+      "code_snippet": "",
+      "options": [
+        "Simply memorizing all Java syntax keywords and copying existing source code.",
+        "Practicing problem decomposition, modeling data flows (IPO), algorithmic thinking, and handling real-world edge cases in a ticketing system.",
+        "Learning how to install complex frameworks right away without understanding core fundamentals.",
+        "Focusing exclusively on the graphical user interface while ignoring backend data processing logic."
+      ],
+      "correct_option_index": 1,
+      "explanation": "A strong programming mindset centers on decomposing complex business requirements into logical sub-problems, modeling data flows accurately, and anticipating edge cases.",
+      "card_front": "What is the core goal of cultivating a programming mindset when approaching the Ticket Station project?",
+      "card_back": "Practicing problem decomposition, modeling data flows (IPO), algorithmic thinking, and handling real-world edge cases in a ticketing system.",
+      "card_hint": "Programming Mindset, Problem Solving, Overview",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub1",
+      "question": "Why do large-scale financial and ticketing systems like Ticket Station prioritize Java as their primary backend language?",
+      "code_snippet": "",
+      "options": [
+        "Because Java does not require developers to declare data types for variables.",
+        "Thanks to strong static typing, automatic memory management, robust concurrency support, and a mature, highly secure enterprise ecosystem.",
+        "Because Java skips the virtual machine and compiles directly into Windows-only binary executables.",
+        "Because Java only runs on low-spec servers."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Ticketing systems require high data integrity, thousands of concurrent transactions, and 24/7 stability. Java’s strong static typing catches errors at compile time, while the highly optimized JVM meets strict enterprise demands.",
+      "card_front": "Why do large-scale financial and ticketing systems like Ticket Station prioritize Java as their primary backend language?",
+      "card_back": "Thanks to strong static typing, automatic memory management, robust concurrency support, and a mature, highly secure enterprise ecosystem.",
+      "card_hint": "Enterprise Java, Static Typing, System Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub2",
+      "question": "How does Java source code achieve the \"Write Once, Run Anywhere\" (WORA) capability?",
+      "code_snippet": "",
+      "options": [
+        "Because the `javac` compiler compiles `.java` files directly into universal Machine Code for all CPUs.",
+        "Because `javac` compiles source code into intermediate Bytecode (`.class` files), and the OS-specific JVM (Windows, Linux, macOS) interprets and JIT-compiles that bytecode into native machine code.",
+        "Because every computer uses the exact same Intel processor.",
+        "Because Java runs entirely inside a web browser just like JavaScript."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Bytecode is hardware-independent virtual machine code. Each operating system has its own JVM implementation that translates standardized Bytecode into native machine instructions.",
+      "card_front": "How does Java source code achieve the \"Write Once, Run Anywhere\" (WORA) capability?",
+      "card_back": "Because `javac` compiles source code into intermediate Bytecode (`.class` files), and the OS-specific JVM (Windows, Linux, macOS) interprets and JIT-compiles that bytecode into native machine code.",
+      "card_hint": "Bytecode, JVM, WORA, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub2",
+      "question": "What type of data is stored inside a `.class` file after compiling a `.java` source file?",
+      "code_snippet": "",
+      "options": [
+        "Raw native machine code specific to x86/ARM chips.",
+        "Standardized intermediate Java Bytecode that the JVM can load, verify, and execute.",
+        "Original source code text compressed in ZIP format.",
+        "Linux Assembly language instructions."
+      ],
+      "correct_option_index": 1,
+      "explanation": "A `.class` file contains binary Bytecode conforming to the Java Virtual Machine Specification. Any compliant JVM can load, verify, and execute it regardless of the OS where it was compiled.",
+      "card_front": "What type of data is stored inside a `.class` file after compiling a `.java` source file?",
+      "card_back": "Standardized intermediate Java Bytecode that the JVM can load, verify, and execute.",
+      "card_hint": "Bytecode, Compiler, Class File",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub3",
+      "question": "Which statement most accurately describes the relationship between JDK, JRE, and JVM in the Java ecosystem?",
+      "code_snippet": "",
+      "options": [
+        "JVM contains JRE, and JRE contains JDK.",
+        "JDK (development kit) includes JRE plus tools like javac; JRE (runtime environment) includes JVM plus the Java Core API libraries.",
+        "All three are the exact same software package with different names.",
+        "JDK is only for Windows, while JVM only runs on Linux."
+      ],
+      "correct_option_index": 1,
+      "explanation": "The classic formula is: JDK = JRE + Development Tools (javac, jar, jdb); JRE = JVM + Core Libraries. Developers install the JDK to build code, while production servers only need a runtime.",
+      "card_front": "Which statement most accurately describes the relationship between JDK, JRE, and JVM in the Java ecosystem?",
+      "card_back": "JDK (development kit) includes JRE plus tools like javac; JRE (runtime environment) includes JVM plus the Java Core API libraries.",
+      "card_hint": "Java Basics, JVM, JDK, JRE",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub3",
+      "question": "Starting from Java 11 LTS onward, what major change occurred in OpenJDK distributions regarding the standalone JRE package?",
+      "code_snippet": "",
+      "options": [
+        "The JVM was removed and Java now compiles directly into .exe files.",
+        "Oracle and OpenJDK vendors stopped shipping a separate standalone JRE installer; developers install the JDK and can use `jlink` to build a minimal Custom Runtime Image for deployment.",
+        "JRE now requires a paid commercial license for all personal use cases.",
+        "JRE is now pre-compiled into the Windows OS kernel."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Since Java 11 (following the Java Module System - JPMS), separate JRE installers were discontinued. Developers use the JDK and can package ultra-lightweight runtime images containing only required modules via `jlink`.",
+      "card_front": "Starting from Java 11 LTS onward, what major change occurred in OpenJDK distributions regarding the standalone JRE package?",
+      "card_back": "Oracle and OpenJDK vendors stopped shipping a separate standalone JRE installer; developers install the JDK and can use `jlink` to build a minimal Custom Runtime Image for deployment.",
+      "card_hint": "Java 11, JRE, jlink, OpenJDK",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub4",
+      "question": "What are the exact technical roles of the `JAVA_HOME` and `PATH` environment variables on an operating system?",
+      "code_snippet": "",
+      "options": [
+        "`JAVA_HOME` stores your Java account password, while `PATH` stores application source code.",
+        "`JAVA_HOME` points to the root JDK installation directory so tools like Maven, Gradle, and IntelliJ can locate it; `PATH` includes `%JAVA_HOME%/bin` so the OS can execute `java` and `javac` from any terminal directory.",
+        "Both variables are only required on Linux and never used on Windows.",
+        "`JAVA_HOME` increases the physical RAM capacity when running Java."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`JAVA_HOME` points to the JDK root folder for build tools (Maven, Gradle, Tomcat). Adding `%JAVA_HOME%/bin` to `PATH` allows calling executables like `javac` and `java` from anywhere in the terminal.",
+      "card_front": "What are the exact technical roles of the `JAVA_HOME` and `PATH` environment variables on an operating system?",
+      "card_back": "`JAVA_HOME` points to the root JDK installation directory so tools like Maven, Gradle, and IntelliJ can locate it; `PATH` includes `%JAVA_HOME%/bin` so the OS can execute `java` and `javac` from any terminal directory.",
+      "card_hint": "JAVA_HOME, Environment Variables, IntelliJ, Setup",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub4",
+      "question": "When verifying your setup with `javac -version` and `java -version`, which output indicates the environment is properly configured for the Ticket Station project?",
+      "code_snippet": "",
+      "options": [
+        "Both commands report Java 21 LTS (e.g., `javac 21.0.x` and `openjdk version \"21.0.x\"` 64-Bit Server VM).",
+        "`javac` reports Java 8 while `java` reports Java 21.",
+        "The terminal outputs: `javac is not recognized as an internal or external command`.",
+        "Only `node -v` succeeds."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Modern backend projects target Java 21 LTS. Having both `javac` (compiler) and `java` (runtime) aligned on 64-bit Java 21 prevents bytecode version mismatch errors (`UnsupportedClassVersionError`).",
+      "card_front": "When verifying your setup with `javac -version` and `java -version`, which output indicates the environment is properly configured for the Ticket Station project?",
+      "card_back": "Both commands report Java 21 LTS (e.g., `javac 21.0.x` and `openjdk version \"21.0.x\"` 64-Bit Server VM).",
+      "card_hint": "JDK 21, CLI, Verification",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub5",
+      "question": "Why must the standard entry point method `main` in Java include the `static` keyword (`public static void main(String[] args)`)?",
+      "code_snippet": "",
+      "options": [
+        "So the method executes twice as fast as a regular instance method.",
+        "So the JVM can invoke it directly via the Class without having to allocate and instantiate an object (`new`) of that Class first.",
+        "Because `static` prevents anyone from modifying code inside the `main` method.",
+        "The `static` keyword is optional and can be omitted since Java 8."
+      ],
+      "correct_option_index": 1,
+      "explanation": "When the program starts, no instances exist on the Heap yet. Declaring `main` as `static` allows the JVM to invoke `TicketStationApp.main()` immediately after class loading without calling a constructor.",
+      "card_front": "Why must the standard entry point method `main` in Java include the `static` keyword (`public static void main(String[] args)`)?",
+      "card_back": "So the JVM can invoke it directly via the Class without having to allocate and instantiate an object (`new`) of that Class first.",
+      "card_hint": "Main Method, static keyword, JVM Entry Point",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub5",
+      "question": "In the classic console print statement `System.out.println(\"Ticket Station\");`, what is the exact nature of each component?",
+      "code_snippet": "",
+      "options": [
+        "`System` is a variable, `out` is a class, and `println` is a package.",
+        "`System` is a class in `java.lang`, `out` is a `static` field of type `PrintStream`, and `println()` is an instance method of that `PrintStream` object.",
+        "All three words form a single reserved keyword in Java syntax.",
+        "`out` is a private OS kernel function."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`java.lang.System` is a standard utility class containing `public static final PrintStream out` (Standard Output Stream). Calling `System.out.println()` invokes `println` on that `PrintStream` instance.",
+      "card_front": "In the classic console print statement `System.out.println(\"Ticket Station\");`, what is the exact nature of each component?",
+      "card_back": "`System` is a class in `java.lang`, `out` is a `static` field of type `PrintStream`, and `println()` is an instance method of that `PrintStream` object.",
+      "card_hint": "Syntax, System.out.println, Core API",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub6",
+      "question": "How does the IPO (Input - Process - Output) model apply to the feature \"Calculate ticket price after applying a 10% discount voucher\"?",
+      "code_snippet": "",
+      "options": [
+        "Input: Display screen; Process: Keyboard typing; Output: Database value.",
+        "Input: Original ticket price and voucher code from user; Process: Validate voucher and multiply price by 0.9; Output: Final payable amount and confirmation message.",
+        "Input: Power on PC; Process: Run cooling fan; Output: Shut down.",
+        "The IPO model only applies to hardware circuits, not software logic."
+      ],
+      "correct_option_index": 1,
+      "explanation": "IPO is the foundation of algorithmic thinking: identify the Input data, perform validation and calculation in Process, and return the formatted result in Output.",
+      "card_front": "How does the IPO (Input - Process - Output) model apply to the feature \"Calculate ticket price after applying a 10% discount voucher\"?",
+      "card_back": "Input: Original ticket price and voucher code from user; Process: Validate voucher and multiply price by 0.9; Output: Final payable amount and confirmation message.",
+      "card_hint": "IPO Model, Problem Solving, Logic",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub6",
+      "question": "Why does the \"skipped input\" phenomenon (skipping string input) commonly occur when using `Scanner` in the code below?",
+      "code_snippet": "Scanner scanner = new Scanner(System.in);\nSystem.out.print(\"Enter ticket count: \");\nint count = scanner.nextInt();\nSystem.out.print(\"Enter customer full name: \");\nString name = scanner.nextLine(); // Skipped without waiting for input!",
+      "options": [
+        "Because `scanner.nextLine()` has a syntax bug in Java 21.",
+        "Because `scanner.nextInt()` only reads the numeric token and leaves the newline character `\\n` (Enter) in the input buffer; the subsequent `scanner.nextLine()` immediately consumes that leftover `\\n` and returns an empty string.",
+        "Because the `count` variable consumes all memory of `Scanner`.",
+        "Because Java forbids reading numbers and strings in the same `main` method."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Methods like `nextInt()` and `nextDouble()` only read the number token, leaving the Enter key (`\\n`) in the buffer. You must call an extra `scanner.nextLine()` to clear the buffer before reading the next line.",
+      "card_front": "Why does the \"skipped input\" phenomenon (skipping string input) commonly occur when using `Scanner` in the code below?",
+      "card_back": "Because `scanner.nextInt()` only reads the numeric token and leaves the newline character `\\n` (Enter) in the input buffer; the subsequent `scanner.nextLine()` immediately consumes that leftover `\\n` and returns an empty string.",
+      "card_hint": "Scanner, Console Input, Common Pitfalls",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s7-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub7",
+      "question": "When a developer runs two consecutive terminal commands: `javac TicketApp.java` and `java TicketApp`, what happens in each stage?",
+      "code_snippet": "",
+      "options": [
+        "Command 1 runs the program; Command 2 deletes the source file.",
+        "`javac` checks syntax and compiles the source file into `TicketApp.class` bytecode; `java` launches the JVM, loads the class into memory, and executes `main`.",
+        "Both commands recompile the source file from scratch.",
+        "`java TicketApp` looks for `TicketApp.java` to translate directly into machine code."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`javac` is the Java Compiler that translates source code into intermediate Bytecode. `java` is the Java Application Launcher that starts the JVM and executes the compiled `.class` file.",
+      "card_front": "When a developer runs two consecutive terminal commands: `javac TicketApp.java` and `java TicketApp`, what happens in each stage?",
+      "card_back": "`javac` checks syntax and compiles the source file into `TicketApp.class` bytecode; `java` launches the JVM, loads the class into memory, and executes `main`.",
+      "card_hint": "javac, java, Execution Lifecycle, CLI",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s7-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub7",
+      "question": "What critical security role does the `Bytecode Verifier` play in the JVM class-loading architecture?",
+      "code_snippet": "",
+      "options": [
+        "Automatically spell-checks code comments.",
+        "Inspects Bytecode before execution to ensure memory safety, prevent stack overflows, block illegal type casts, and enforce Java security rules.",
+        "Checks whether the computer has an active Internet connection.",
+        "Compresses `.class` files on the hard drive."
+      ],
+      "correct_option_index": 1,
+      "explanation": "The Bytecode Verifier acts as the JVM’s security shield. It validates `.class` files before the Execution Engine runs them, preventing tampered or malicious bytecode from corrupting system memory.",
+      "card_front": "What critical security role does the `Bytecode Verifier` play in the JVM class-loading architecture?",
+      "card_back": "Inspects Bytecode before execution to ensure memory safety, prevent stack overflows, block illegal type casts, and enforce Java security rules.",
+      "card_hint": "Bytecode Verifier, JVM Security, ClassLoader",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s8-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub8",
+      "question": "To solve the Mini-Challenge \"Print Current Month Calendar\" in a 7-column console grid (Mon to Sun), what two key technical parameters must be calculated first?",
+      "code_snippet": "",
+      "options": [
+        "CPU clock speed and screen resolution.",
+        "Which day of the week the 1st of the month falls on (for leading blank padding) and the total number of days in that month.",
+        "Free disk space and country calling code.",
+        "Total number of tickets sold in the month."
+      ],
+      "correct_option_index": 1,
+      "explanation": "To render a 7-column calendar grid: 1. Determine the weekday of the 1st day of the month to print the initial leading spaces; 2. Determine the total days in the month (28, 29, 30, or 31) to loop and wrap lines every 7 cells.",
+      "card_front": "To solve the Mini-Challenge \"Print Current Month Calendar\" in a 7-column console grid (Mon to Sun), what two key technical parameters must be calculated first?",
+      "card_back": "Which day of the week the 1st of the month falls on (for leading blank padding) and the total number of days in that month.",
+      "card_hint": "Mini-challenge, Calendar Algorithm, java.time",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s8-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub8",
+      "question": "In Java 8+, what does `YearMonth.lengthOfMonth()` return for February 2024 (a leap year)?",
+      "code_snippet": "YearMonth ym = YearMonth.of(2024, 2); // Feb 2024 (leap year)\nint daysInMonth = ym.lengthOfMonth();\nSystem.out.println(daysInMonth);",
+      "options": [
+        "`lengthOfMonth()` prints 29.",
+        "`lengthOfMonth()` always prints 28 for every February.",
+        "`lengthOfMonth()` throws an error because February requires passing the day count manually.",
+        "`lengthOfMonth()` prints 30."
+      ],
+      "correct_option_index": 0,
+      "explanation": "`java.time.YearMonth.lengthOfMonth()` automatically computes the exact number of days in the month according to the Gregorian calendar, including leap years (2024 is divisible by 4, so Feb has 29 days).",
+      "card_front": "In Java 8+, what does `YearMonth.lengthOfMonth()` return for February 2024 (a leap year)?",
+      "card_back": "`lengthOfMonth()` prints 29.",
+      "card_hint": "java.time, YearMonth, Leap Year",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub9",
+      "question": "What typically causes the compile-time error `error: cannot find symbol` in Java?",
+      "code_snippet": "",
+      "options": [
+        "The JVM ran out of RAM.",
+        "A misspelled variable or method name (case-sensitive), an undeclared variable, or a missing `import` statement for a library class.",
+        "The `.class` file was corrupted at runtime.",
+        "The operating system does not support Unicode fonts."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`cannot find symbol` is the most common compile-time error: the compiler cannot resolve an identifier because of a typo, wrong casing, out-of-scope variable declaration, or a missing package import.",
+      "card_front": "What typically causes the compile-time error `error: cannot find symbol` in Java?",
+      "card_back": "A misspelled variable or method name (case-sensitive), an undeclared variable, or a missing `import` statement for a library class.",
+      "card_hint": "Compiler Errors, Troubleshooting, Cheat Sheet",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s9-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub9",
+      "question": "What usually causes the runtime error `Error: Could not find or load main class com.ticket.MainApp` when running `java` in the terminal?",
+      "code_snippet": "",
+      "options": [
+        "Headphones are not plugged into the computer.",
+        "Running the command from the wrong directory, an incorrect classpath, or omitting the Fully Qualified Class Name when the class declares a `package`.",
+        "Java 21 does not allow classes named MainApp.",
+        "`System.out.println` is missing inside `main`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "When a class belongs to a package (e.g., `package com.ticket;`), you must run `java com.ticket.MainApp` from the root directory of the classpath rather than running `java MainApp` inside `com/ticket`.",
+      "card_front": "What usually causes the runtime error `Error: Could not find or load main class com.ticket.MainApp` when running `java` in the terminal?",
+      "card_back": "Running the command from the wrong directory, an incorrect classpath, or omitting the Fully Qualified Class Name when the class declares a `package`.",
+      "card_hint": "Classpath, Package, Troubleshooting, Cheat Sheet",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "What is the technical nature of the `var` keyword (introduced in Java 10), and how does it differ from `var` in JavaScript?",
+      "code_snippet": "var ticketPrice = 150_000;\n// ticketPrice = \"FREE\"; // Is this line valid?",
+      "options": [
+        "`var` turns Java into a Dynamically Typed language, allowing `ticketPrice` to be reassigned to `\"FREE\"` at any time like JavaScript.",
+        "`var` is purely syntactic sugar for Local Variable Type Inference: the static type (`int`) is inferred and locked at compile time; reassigning `ticketPrice = \"FREE\"` causes a Compile-time Error.",
+        "`var` is a new JVM runtime data type equivalent to `Object` that auto-unboxes at runtime.",
+        "`var` degrades runtime performance because the JVM must guess types dynamically."
+      ],
+      "correct_option_index": 1,
+      "explanation": "In Java, `var` (JEP 286) is Local Variable Type Inference, not dynamic typing. Java remains 100% statically typed: `javac` infers `int` at compile time and emits the exact same bytecode as `int ticketPrice = 150_000;`.",
+      "card_front": "What is the technical nature of the `var` keyword (introduced in Java 10), and how does it differ from `var` in JavaScript?",
+      "card_back": "`var` is purely syntactic sugar for Local Variable Type Inference: the static type (`int`) is inferred and locked at compile time; reassigning `ticketPrice = \"FREE\"` causes a Compile-time Error.",
+      "card_hint": "Java 10, var keyword, Type Inference, Static Typing",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "What is the primary benefit of using `var` (Local Variable Type Inference) in modern Java?",
+      "code_snippet": "// Traditional style (pre-Java 10):\nMap<String, List<TicketOrder>> orderMap = new HashMap<String, List<TicketOrder>>();\n\n// Modern style (Java 10+):\nvar orderMap = new HashMap<String, List<TicketOrder>>();",
+      "options": [
+        "Makes programs run faster and use less RAM because the JVM skips static type allocation.",
+        "Reduces verbose boilerplate type declarations, improves readability, and highlights meaningful variable names while preserving 100% compile-time static type safety.",
+        "Allows variables to change their data type dynamically at runtime.",
+        "Automatically prevents all NullPointerExceptions when accessing variables."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Per OpenJDK JEP 286 guidelines, `var` eliminates redundant type declarations on both sides of an assignment, keeps code clean and readable, and preserves 100% static type safety with identical bytecode.",
+      "card_front": "What is the primary benefit of using `var` (Local Variable Type Inference) in modern Java?",
+      "card_back": "Reduces verbose boilerplate type declarations, improves readability, and highlights meaningful variable names while preserving 100% compile-time static type safety.",
+      "card_hint": "Java 10, var keyword, Best Practices, Readability, Boilerplate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Among the declarations shown in the code snippet, which usage of `var` is VALID in Java?",
+      "code_snippet": "// Case 1: var ticketCount;\n// Case 2: var user = null;\n// Case 3: var seatList = new ArrayList<String>();\n// Case 4: public var calculateTotal(var price) { return price * 2; }",
+      "options": [
+        "Cases 1, 2, and 3.",
+        "Only Case 3 is valid; Cases 1, 2, and 4 are rejected by the compiler.",
+        "All 4 cases are valid starting from Java 17 LTS.",
+        "Cases 2 and 4 are valid."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Rules for `var`: 1. `var ticketCount;` -> Invalid (must have an initializer). 2. `var user = null;` -> Invalid (`null` has no type). 3. `var seatList = new ArrayList<String>();` -> Valid (`ArrayList<String>`). 4. Method parameters/return types cannot use `var`.",
+      "card_front": "Among the declarations shown in the code snippet, which usage of `var` is VALID in Java?",
+      "card_back": "Only Case 3 is valid; Cases 1, 2, and 4 are rejected by the compiler.",
+      "card_hint": "Java 10, var keyword, Compiler Rules, Limitations",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "What is the common pitfall of combining `var` with an empty Diamond Operator `<>` (`var list = new ArrayList<>();`)?",
+      "code_snippet": "var list = new ArrayList<>();\nlist.add(\"VIP-Ticket\");\n// String ticket = list.get(0); // What error occurs on this line?",
+      "options": [
+        "`var` automatically detects the first added element and types the list as `ArrayList<String>`.",
+        "Because neither the left side (`var`) nor the right side (`<>`) specifies a type argument, the compiler infers `ArrayList<Object>`, so `list.get(0)` returns `Object` and cannot be assigned to `String` without an explicit cast.",
+        "The compiler throws a `NullPointerException` when calling `list.add()`.",
+        "The `var` keyword is completely forbidden with the Collections Framework."
+      ],
+      "correct_option_index": 1,
+      "explanation": "When `var` is paired with an empty diamond `<>`, the compiler has no generic type context and falls back to `ArrayList<Object>`. Always specify the generic type on the right: `var list = new ArrayList<String>();`.",
+      "card_front": "What is the common pitfall of combining `var` with an empty Diamond Operator `<>` (`var list = new ArrayList<>();`)?",
+      "card_back": "Because neither the left side (`var`) nor the right side (`<>`) specifies a type argument, the compiler infers `ArrayList<Object>`, so `list.get(0)` returns `Object` and cannot be assigned to `String` without an explicit cast.",
+      "card_hint": "var keyword, Generics, Diamond Operator, Type Safety",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Are the two lambda declarations using `var` in the code snippet valid in Java, and why?",
+      "code_snippet": "// Declaration 1:\nvar printer = (String s) -> System.out.println(s);\n\n// Declaration 2:\nConsumer<String> consumer = (var s) -> System.out.println(s);",
+      "options": [
+        "Both declarations are completely valid since Java 10.",
+        "Declaration 1 FAILS compilation because a Lambda Expression requires an explicit Target Type (Functional Interface); Declaration 2 is VALID since Java 11 (which allows `var` in lambda parameters for annotations like `@Nonnull var s`).",
+        "Both declarations fail compilation because `var` is forbidden in all lambda expressions.",
+        "Declaration 1 is valid, while Declaration 2 fails."
+      ],
+      "correct_option_index": 1,
+      "explanation": "1. `var printer = (String s) -> ...` fails because a lambda has no standalone type without a target Functional Interface. 2. Java 11 (JEP 323) allows `var` in formal lambda parameters `(var s) -> ...` so type annotations can be attached.",
+      "card_front": "Are the two lambda declarations using `var` in the code snippet valid in Java, and why?",
+      "card_back": "Declaration 1 FAILS compilation because a Lambda Expression requires an explicit Target Type (Functional Interface); Declaration 2 is VALID since Java 11 (which allows `var` in lambda parameters for annotations like `@Nonnull var s`).",
+      "card_hint": "Java 11, var keyword, Lambda, Target Type",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "What happens when a local variable inside a method is declared without an initial value and then read?",
+      "code_snippet": "public void processOrder() {\n    int availableTickets;\n    System.out.println(availableTickets); // How does this line behave?\n}",
+      "options": [
+        "It automatically receives the default value `0` just like an instance field.",
+        "The compiler reports a Compile-time Error: `variable availableTickets might not have been initialized`.",
+        "A `NullPointerException` is thrown at runtime.",
+        "The program prints a random garbage value left over in RAM."
+      ],
+      "correct_option_index": 1,
+      "explanation": "In Java, local variables on the Stack are NOT given default values automatically. The compiler enforces definite assignment before any local variable is read, whereas instance/static fields on the Heap receive default values.",
+      "card_front": "What happens when a local variable inside a method is declared without an initial value and then read?",
+      "card_back": "The compiler reports a Compile-time Error: `variable availableTickets might not have been initialized`.",
+      "card_hint": "Variables, Local Scope, Default Values, Compiler Error",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "In ticketing or financial payment systems, why must you NEVER use `double` or `float` to store ticket prices and monetary balances?",
+      "code_snippet": "double priceA = 0.1;\ndouble priceB = 0.2;\nSystem.out.println(priceA + priceB == 0.3); // Output: false! (0.30000000000000004)",
+      "options": [
+        "Because `double` consumes more RAM than `BigDecimal`.",
+        "Because `double` and `float` use IEEE 754 binary floating-point representation, causing rounding precision errors; `BigDecimal` must be used for exact decimal arithmetic.",
+        "Because PostgreSQL does not support the `double` data type.",
+        "Because `double` cannot store amounts larger than 100 million."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Binary floating-point (base 2) cannot represent decimal fractions like 0.1 or 0.2 exactly, leading to cumulative rounding discrepancies across thousands of financial transactions. Always use `BigDecimal`.",
+      "card_front": "In ticketing or financial payment systems, why must you NEVER use `double` or `float` to store ticket prices and monetary balances?",
+      "card_back": "Because `double` and `float` use IEEE 754 binary floating-point representation, causing rounding precision errors; `BigDecimal` must be used for exact decimal arithmetic.",
+      "card_hint": "Data Types, BigDecimal, Precision, Finance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "How does Integer Overflow occur in the following `byte` increment snippet?",
+      "code_snippet": "byte maxTickets = 127;\nmaxTickets++;\nSystem.out.println(maxTickets); // Output: ?",
+      "options": [
+        "It prints `128`.",
+        "It prints `-128` because a Java `byte` is a signed 8-bit integer (-128 to 127); incrementing past the maximum value wraps around to the minimum value in two’s complement representation.",
+        "It throws `ArithmeticException: integer overflow`.",
+        "It fails to compile because a `byte` cannot be incremented past its limit."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java integer types use signed two’s complement representation. Adding 1 to binary `01111111` (127) yields `10000000` (-128), silently wrapping around unless a larger type or `Math.addExact()` is used.",
+      "card_front": "How does Integer Overflow occur in the following `byte` increment snippet?",
+      "card_back": "It prints `-128` because a Java `byte` is a signed 8-bit integer (-128 to 127); incrementing past the maximum value wraps around to the minimum value in two’s complement representation.",
+      "card_hint": "Primitive Types, Integer Overflow, Byte, Bitwise",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "Why does `(0.1 + 0.2 == 0.3)` evaluate to `false` in Java and print `0.30000000000000004`?",
+      "code_snippet": "double a = 0.1;\ndouble b = 0.2;\nSystem.out.println(a + b);        // 0.30000000000000004\nSystem.out.println(a + b == 0.3); // false",
+      "options": [
+        "Because the JVM encounters a hardware bug on Intel/AMD processors.",
+        "Because `double` follows IEEE 754 binary floating-point: the decimal fraction `0.1` (1/10) is an infinitely repeating fraction in base 2 (`0.0001100110011...₂`) and must be truncated to 64 bits, accumulating rounding error during addition.",
+        "Because Java implicitly converts `a + b` into a `String` before comparing.",
+        "Because the `==` operator is forbidden on floating-point numbers."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Just as 1/3 = 0.333... repeats infinitely in base 10, 1/10 = 0.0001100110011... repeats infinitely in base 2. Within 64 finite bits, rounding causes `0.1 + 0.2` to become `0.30000000000000004`.",
+      "card_front": "Why does `(0.1 + 0.2 == 0.3)` evaluate to `false` in Java and print `0.30000000000000004`?",
+      "card_back": "Because `double` follows IEEE 754 binary floating-point: the decimal fraction `0.1` (1/10) is an infinitely repeating fraction in base 2 (`0.0001100110011...₂`) and must be truncated to 64 bits, accumulating rounding error during addition.",
+      "card_hint": "IEEE 754, Floating Point, Precision, Binary Fraction",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "When using `BigDecimal` for exact financial calculations, which initialization approach is CORRECT and avoids floating-point inaccuracy?",
+      "code_snippet": "// Approach 1:\nBigDecimal price1 = new BigDecimal(0.1);\n\n// Approach 2:\nBigDecimal price2 = new BigDecimal(\"0.1\");\n\n// Approach 3:\nBigDecimal price3 = BigDecimal.valueOf(0.1);",
+      "options": [
+        "Approach 1 (`new BigDecimal(0.1)`) is best because it passes the primitive `double` directly.",
+        "Only Approaches 2 (`new BigDecimal(\"0.1\")`) and 3 (`BigDecimal.valueOf(0.1)`) are correct; Approach 1 passes a `double` that already carries binary rounding error into the constructor, producing `0.1000000000000000055511151231...`.",
+        "All three approaches produce the exact same inaccurate result.",
+        "`BigDecimal` must be initialized via `Double.toBigDecimal()`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Passing a primitive `double` into `new BigDecimal(0.1)` preserves the binary inaccuracy of `0.1`. Always use the `String` constructor `new BigDecimal(\"0.1\")` or `BigDecimal.valueOf(0.1)`.",
+      "card_front": "When using `BigDecimal` for exact financial calculations, which initialization approach is CORRECT and avoids floating-point inaccuracy?",
+      "card_back": "Only Approaches 2 (`new BigDecimal(\"0.1\")`) and 3 (`BigDecimal.valueOf(0.1)`) are correct; Approach 1 passes a `double` that already carries binary rounding error into the constructor, producing `0.1000000000000000055511151231...`.",
+      "card_hint": "BigDecimal, Constructors, Best Practices, Floating Point",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "What is the most dangerous pitfall when Auto-unboxing a Wrapper Class (`Integer`) into a primitive (`int`)?",
+      "code_snippet": "Integer seatCount = null;\nint availableSeats = seatCount; // What happens when this line runs?",
+      "options": [
+        "`availableSeats` automatically receives a default value of `0`.",
+        "A `NullPointerException` is thrown at runtime because the JVM implicitly invokes `seatCount.intValue()` on a `null` reference.",
+        "A compile-time error occurs.",
+        "`availableSeats` receives a negative number."
+      ],
+      "correct_option_index": 1,
+      "explanation": "When unboxing an `Integer` to `int`, the compiler inserts a call to `seatCount.intValue()`. If the wrapper reference is `null`, calling `.intValue()` throws a `NullPointerException` at runtime.",
+      "card_front": "What is the most dangerous pitfall when Auto-unboxing a Wrapper Class (`Integer`) into a primitive (`int`)?",
+      "card_back": "A `NullPointerException` is thrown at runtime because the JVM implicitly invokes `seatCount.intValue()` on a `null` reference.",
+      "card_hint": "Wrapper Class, Autoboxing, NullPointerException",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q11",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "What does the following code print, and which JVM memory mechanism explains the difference between the two `==` comparisons?",
+      "code_snippet": "Integer a1 = 100, a2 = 100;\nInteger b1 = 128, b2 = 128;\n\nSystem.out.println((a1 == a2) + \" \" + (b1 == b2));",
+      "options": [
+        "`true true` because both 100 and 128 are equal integer values.",
+        "`false false` because `Integer` is a reference type so `==` always compares two distinct Heap addresses.",
+        "`true false` because Autoboxing calls `Integer.valueOf()`; the JVM caches `Integer` instances in the range `[-128, 127]` (`IntegerCache`), so `a1` and `a2` share the same cached object, while `128` falls outside the cache and allocates two separate objects on the Heap.",
+        "`false true` because numbers larger than 127 are pooled while smaller numbers are not."
+      ],
+      "correct_option_index": 2,
+      "explanation": "Autoboxing `Integer a = 100;` compiles to `Integer.valueOf(100)`. `IntegerCache` reuses instances for values from `-128` to `127`. For `128`, new Heap objects are created. Always use `.equals()` or `Objects.equals()` to compare Wrapper objects!",
+      "card_front": "What does the following code print, and which JVM memory mechanism explains the difference between the two `==` comparisons?",
+      "card_back": "`true false` because Autoboxing calls `Integer.valueOf()`; the JVM caches `Integer` instances in the range `[-128, 127]` (`IntegerCache`), so `a1` and `a2` share the same cached object, while `128` falls outside the cache and allocates two separate objects on the Heap.",
+      "card_hint": "Wrapper Class, IntegerCache, Autoboxing, Memory Trap",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q14",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "In a Spring Boot / JPA application, why is comparing two `Long` IDs with `==` (`currentUserId == requestUserId`) a disastrous bug that often passes local Unit Tests but fails in Production?",
+      "code_snippet": "// In OrderService.java\nLong currentUserId = user.getId(); // Long wrapper type\nLong requestUserId = request.getUserId();\n\nif (currentUserId == requestUserId) {\n    // Allow ticket cancellation / refund\n}",
+      "options": [
+        "Because Linux servers in Production evaluate `==` differently than Windows/macOS machines.",
+        "In Dev/Test with small seed data, IDs are usually <= 127 so `LongCache` returns the same instance and `==` accidentally returns `true`; in Production, once IDs exceed 127, JVM allocates distinct `Long` objects on the Heap so `==` returns `false`, breaking business logic. Always use `Objects.equals()`.",
+        "Because PostgreSQL `BIGINT` is incompatible with Java `Long` when using `==`.",
+        "Because Spring Boot only enables Lombok auto-unboxing in test profiles."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Just like `IntegerCache`, `LongCache` caches values in `[-128, 127]`. Local tests with IDs 1, 2, 10 pass by coincidence, but production IDs like 10005 create separate `Long` instances where `==` evaluates to `false`. Always use `Objects.equals(id1, id2)`.",
+      "card_front": "In a Spring Boot / JPA application, why is comparing two `Long` IDs with `==` (`currentUserId == requestUserId`) a disastrous bug that often passes local Unit Tests but fails in Production?",
+      "card_back": "In Dev/Test with small seed data, IDs are usually <= 127 so `LongCache` returns the same instance and `==` accidentally returns `true`; in Production, once IDs exceed 127, JVM allocates distinct `Long` objects on the Heap so `==` returns `false`, breaking business logic. Always use `Objects.equals()`.",
+      "card_hint": "Production Bug, Spring Boot, LongCache, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "What does the following code print to the console, and how does Java’s parameter-passing mechanism explain this behavior?",
+      "code_snippet": "String s = \"hi\";\nchangeIt(s);\nSystem.out.println(s);\n\n// Method definition:\n// void changeIt(String x) { x = \"bye\"; }",
+      "options": [
+        "Prints `bye` because `String` is a reference type, so Java uses pass-by-reference and updates the original variable `s`.",
+        "Prints `hi` because Java is 100% pass-by-value; the value passed is a copy of the reference address. Reassigning `x = \"bye\"` only points the local parameter `x` to a new String object without affecting the caller’s variable `s`.",
+        "Prints `null` because the original string is garbage-collected as soon as `changeIt` exits.",
+        "Fails with a Compile-time Error because a `String` cannot be passed to a `void` method."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java is ALWAYS 100% pass-by-value. For object references, the reference address itself is copied by value into the local parameter `x`. Reassigning `x = \"bye\"` only changes where `x` points on the current stack frame; `s` in the caller still points to `\"hi\"`.",
+      "card_front": "What does the following code print to the console, and how does Java’s parameter-passing mechanism explain this behavior?",
+      "card_back": "Prints `hi` because Java is 100% pass-by-value; the value passed is a copy of the reference address. Reassigning `x = \"bye\"` only points the local parameter `x` to a new String object without affecting the caller’s variable `s`.",
+      "card_hint": "Pass-by-value, Reference Types, String, Memory Model, Method Parameters",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Examine the `createBooking()` method below: how does the JVM allocate memory between the Stack and the Heap?",
+      "code_snippet": "public void createBooking() {\n    int ticketCount = 2;\n    String customerName = \"Nguyen Van A\";\n    TicketOrder order = new TicketOrder(101L, customerName);\n}",
+      "options": [
+        "All variables (`ticketCount`, `customerName`, `order`) and the `TicketOrder` object data are stored on the Heap.",
+        "Local variables (`ticketCount` holding primitive `2`, and reference variables `customerName` and `order`) live in the Stack Frame of `createBooking`, while the actual objects (`new TicketOrder(...)` and `String`) are allocated on the Heap.",
+        "`ticketCount` is on the Stack, while the `order` reference variable itself is stored inside the Heap.",
+        "The Stack only stores method bytecode, whereas all variables in Java must live on the Heap."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Stack frames hold local primitive values (`int ticketCount = 2`) and local reference pointers (`customerName`, `order`). The actual object instances (`new TicketOrder(...)`, `String`) and their instance fields reside on the Heap.",
+      "card_front": "Examine the `createBooking()` method below: how does the JVM allocate memory between the Stack and the Heap?",
+      "card_back": "Local variables (`ticketCount` holding primitive `2`, and reference variables `customerName` and `order`) live in the Stack Frame of `createBooking`, while the actual objects (`new TicketOrder(...)` and `String`) are allocated on the Heap.",
+      "card_hint": "Stack vs Heap, Memory Allocation, JVM Architecture, Local Variables",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Which statement accurately compares scope, access speed, and memory reclamation between the Stack and the Heap in Java?",
+      "code_snippet": "",
+      "options": [
+        "The Stack is shared across the entire application; the Heap is private to each thread.",
+        "The Stack is cleaned periodically by the Garbage Collector; the Heap frees memory in FIFO order.",
+        "Each Thread has its own isolated Stack (naturally thread-safe) with ultra-fast LIFO allocation that frees immediately when a method returns; the Heap is shared across all Threads for long-lived objects and requires the Garbage Collector (GC) to reclaim unreachable objects.",
+        "The Stack is much larger than the Heap and can grow without limit."
+      ],
+      "correct_option_index": 2,
+      "explanation": "Each thread owns a private Stack managed via a fast LIFO stack pointer and freed automatically on method exit. The Heap is shared across all threads (requiring synchronization for shared mutations) and managed by Garbage Collection.",
+      "card_front": "Which statement accurately compares scope, access speed, and memory reclamation between the Stack and the Heap in Java?",
+      "card_back": "Each Thread has its own isolated Stack (naturally thread-safe) with ultra-fast LIFO allocation that frees immediately when a method returns; the Heap is shared across all Threads for long-lived objects and requires the Garbage Collector (GC) to reclaim unreachable objects.",
+      "card_hint": "Stack vs Heap, Thread Safety, Garbage Collection, LIFO",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q7",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Inspect the two code cases below: which JVM Error is thrown in each case and why?",
+      "code_snippet": "// Case 1:\npublic void calculateTicketDiscount() {\n    calculateTicketDiscount(); // Infinite recursion without base case\n}\n\n// Case 2:\npublic void loadAllOrders() {\n    List<byte[]> list = new ArrayList<>();\n    while (true) {\n        list.add(new byte[10 * 1024 * 1024]); // Continuously allocate 10MB into List\n    }\n}",
+      "options": [
+        "Both cases throw `NullPointerException`.",
+        "Case 1 throws `StackOverflowError` because infinite recursion pushes Stack Frames until the thread stack is exhausted; Case 2 throws `OutOfMemoryError: Java heap space` because it continuously allocates 10MB byte arrays on the Heap while holding references in `list` so GC cannot reclaim them.",
+        "Case 1 throws `OutOfMemoryError`; Case 2 throws `StackOverflowError`.",
+        "The `javac` compiler detects the infinite loop and reports a Compile-time Error in both cases."
+      ],
+      "correct_option_index": 1,
+      "explanation": "1. `StackOverflowError` occurs when call stack depth exceeds the thread stack size (`-Xss`). 2. `OutOfMemoryError: Java heap space` occurs when the Heap (`-Xmx`) is full and GC cannot free memory because objects are still strongly reachable via `list`.",
+      "card_front": "Inspect the two code cases below: which JVM Error is thrown in each case and why?",
+      "card_back": "Case 1 throws `StackOverflowError` because infinite recursion pushes Stack Frames until the thread stack is exhausted; Case 2 throws `OutOfMemoryError: Java heap space` because it continuously allocates 10MB byte arrays on the Heap while holding references in `list` so GC cannot reclaim them.",
+      "card_hint": "StackOverflowError, OutOfMemoryError, Troubleshooting, JVM Memory",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub4",
+      "question": "What does the following code print when calculating the percentage of sold tickets in Ticket Station?",
+      "code_snippet": "int soldTickets = 50;\nint totalTickets = 200;\ndouble percentage = (soldTickets / totalTickets) * 100;\nSystem.out.println(percentage);",
+      "options": [
+        "`25.0`",
+        "`0.0` because `soldTickets / totalTickets` performs integer division (`int / int`), truncating `50 / 200` to `0`, and `0 * 100` becomes `0.0`.",
+        "`50.0`",
+        "A compile-time error due to numeric type incompatibility."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Dividing two `int` values in Java always performs integer division and truncates the decimal fraction (`50 / 200 = 0`). Cast at least one operand to `double` first: `(double) soldTickets / totalTickets * 100`.",
+      "card_front": "What does the following code print when calculating the percentage of sold tickets in Ticket Station?",
+      "card_back": "`0.0` because `soldTickets / totalTickets` performs integer division (`int / int`), truncating `50 / 200` to `0`, and `0 * 100` becomes `0.0`.",
+      "card_hint": "Arithmetic, Integer Division, Type Promotion",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub4",
+      "question": "How does the Modulo operator (`%`) behave with negative numbers in Java, and what does `System.out.println((-7 % 3) + \" \" + (7 % -3));` print?",
+      "code_snippet": "System.out.println((-7 % 3) + \" \" + (7 % -3));",
+      "options": [
+        "`1 1`",
+        "`-1 1` because the sign of the remainder `%` in Java always follows the sign of the dividend (the left operand), regardless of the sign of the divisor.",
+        "`-1 -1`",
+        "`1 -1`"
+      ],
+      "correct_option_index": 1,
+      "explanation": "According to the Java Language Specification, `a % b = a - (a / b) * b`. Thus `-7 % 3 = -1` and `7 % -3 = 1`. The sign of `a % b` always matches the sign of the left-hand operand (dividend).",
+      "card_front": "How does the Modulo operator (`%`) behave with negative numbers in Java, and what does `System.out.println((-7 % 3) + \" \" + (7 % -3));` print?",
+      "card_back": "`-1 1` because the sign of the remainder `%` in Java always follows the sign of the dividend (the left operand), regardless of the sign of the divisor.",
+      "card_hint": "Operators, Modulo, Arithmetic Rules",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub5",
+      "question": "What is the fundamental difference between the short-circuit logical AND (`&&`) and the bitwise/eager AND (`&`) in an `if` condition?",
+      "code_snippet": "Ticket ticket = null;\nif (ticket != null && ticket.isAvailable()) { ... } // Statement 1\nif (ticket != null & ticket.isAvailable()) { ... }  // Statement 2",
+      "options": [
+        "Both lines behave identically with no difference.",
+        "Line 1 (`&&`) is safe: if the left side is `false`, the right side is skipped; Line 2 (`&`) is dangerous: `&` always evaluates both sides, throwing a `NullPointerException` when `ticket` is `null`.",
+        "Line 1 only works on Java 8 and earlier.",
+        "`&&` only works on numbers, whereas `&` works on objects."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`&&` and `||` short-circuit: they stop evaluating as soon as the outcome is determined. Using `&` or `|` on boolean expressions forces evaluation of both operands, causing a crash if the right side dereferences a `null` pointer.",
+      "card_front": "What is the fundamental difference between the short-circuit logical AND (`&&`) and the bitwise/eager AND (`&`) in an `if` condition?",
+      "card_back": "Line 1 (`&&`) is safe: if the left side is `false`, the right side is skipped; Line 2 (`&`) is dangerous: `&` always evaluates both sides, throwing a `NullPointerException` when `ticket` is `null`.",
+      "card_hint": "Control Flow, Operators, Short-Circuit",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub5",
+      "question": "In a Role-Based Access Control (RBAC) system using Bitmasks, which bitwise expression checks whether `userPerms` includes the `PERM_READ` (`0b0001`) flag?",
+      "code_snippet": "int PERM_READ = 1;   // 0001\nint PERM_WRITE = 2;  // 0010\nint PERM_DELETE = 4; // 0100\nint userPerms = PERM_READ | PERM_WRITE; // 0011\n\n// Check whether userPerms contains PERM_READ:\nboolean hasRead = ...;",
+      "options": [
+        "`(userPerms & PERM_READ) == PERM_READ`",
+        "`(userPerms | PERM_READ) == 0`",
+        "`(userPerms ^ PERM_READ) == 0`",
+        "`userPerms << PERM_READ`"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Bitwise AND (`&`) preserves bits that are `1` in both operands. Checking `(userPerms & PERM_READ) == PERM_READ` verifies that the specific permission bit is set.",
+      "card_front": "In a Role-Based Access Control (RBAC) system using Bitmasks, which bitwise expression checks whether `userPerms` includes the `PERM_READ` (`0b0001`) flag?",
+      "card_back": "`(userPerms & PERM_READ) == PERM_READ`",
+      "card_hint": "Bitwise, Bitmask, Permissions, Binary",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub6",
+      "question": "What happens when performing a Narrowing Primitive Conversion from `int` (130) to `byte` in the code snippet?",
+      "code_snippet": "int largeNumber = 130;\nbyte b = (byte) largeNumber;\nSystem.out.println(b);",
+      "options": [
+        "Prints `130` normally.",
+        "Prints `-126` because the JVM discards the upper 24 bits and keeps only the lowest 8 bits of 130 (`10000010` in two’s complement = -126).",
+        "Throws a `ClassCastException` at runtime.",
+        "Fails with a Compile-time Error."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Narrowing primitive conversion truncates high-order bits and keeps only the lowest 8 bits. In 8-bit two’s complement, `10000010` has a sign bit of `1`, representing `-(256 - 130) = -126`.",
+      "card_front": "What happens when performing a Narrowing Primitive Conversion from `int` (130) to `byte` in the code snippet?",
+      "card_back": "Prints `-126` because the JVM discards the upper 24 bits and keeps only the lowest 8 bits of 130 (`10000010` in two’s complement = -126).",
+      "card_hint": "Casting, Narrowing, Bitwise, Overflow",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub6",
+      "question": "Which pair of primitive types in Java CANNOT undergo implicit Widening Conversion and requires an explicit `(cast)`?",
+      "code_snippet": "",
+      "options": [
+        "`byte` to `int`",
+        "`int` to `long`",
+        "`char` to `short` (or vice versa)",
+        "`float` to `double`"
+      ],
+      "correct_option_index": 2,
+      "explanation": "Although both `char` and `short` are 16-bit types, `short` is signed `[-32,768 to 32,767]` whereas `char` is unsigned Unicode `[0 to 65,535]`. Because neither range fully contains the other, an explicit cast is required.",
+      "card_front": "Which pair of primitive types in Java CANNOT undergo implicit Widening Conversion and requires an explicit `(cast)`?",
+      "card_back": "`char` to `short` (or vice versa)",
+      "card_hint": "Type Casting, Widening, char vs short",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "What does the following String comparison snippet output, and which Java memory mechanism explains it?",
+      "code_snippet": "String s1 = \"TicketStation\";\nString s2 = \"TicketStation\";\nString s3 = new String(\"TicketStation\");\n\nSystem.out.println((s1 == s2) + \" \" + (s1 == s3));",
+      "options": [
+        "`true true`",
+        "`false false`",
+        "`true false` because `s1` and `s2` point to the same interned literal in the String Constant Pool, whereas `new String(...)` forces allocation of a new object on the Heap outside the pool.",
+        "`false true`"
+      ],
+      "correct_option_index": 2,
+      "explanation": "String literals are interned and reused in the String Constant Pool (`s1 == s2` is `true`). Calling `new String(\"...\")` explicitly allocates a distinct Heap object (`s1 == s3` is `false`). Always compare string contents using `.equals()`.",
+      "card_front": "What does the following String comparison snippet output, and which Java memory mechanism explains it?",
+      "card_back": "`true false` because `s1` and `s2` point to the same interned literal in the String Constant Pool, whereas `new String(...)` forces allocation of a new object on the Heap outside the pool.",
+      "card_hint": "String, String Pool, Memory Management",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q10",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "Why is concatenating strings with `+` inside a large loop (e.g., building 10,000 ticket codes) a severe performance anti-pattern in Java?",
+      "code_snippet": "// Building ticket summary string in Ticket Station service\nString ticketSummary = \"\";\nfor (int i = 1; i <= 10_000; i++) {\n    ticketSummary += \"TICKET-\" + i + \";\";\n}",
+      "options": [
+        "Because `+` is not thread-safe and always throws `ConcurrentModificationException` inside loops.",
+        "Because `String` is immutable, each iteration allocates a new `StringBuilder` and a new `String` object while copying existing characters, resulting in O(n²) time complexity and massive Heap garbage; use a single `StringBuilder` declared outside the loop instead.",
+        "Because the loop terminates abruptly with `StackOverflowError`.",
+        "Because Java cannot convert `int i` into a `String` inside a loop."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Because `String` is immutable, `ticketSummary += ...` in a loop repeatedly allocates new `String` objects and copies previous characters (O(n²) time). Instantiating a single `StringBuilder` before the loop reduces complexity to O(n).",
+      "card_front": "Why is concatenating strings with `+` inside a large loop (e.g., building 10,000 ticket codes) a severe performance anti-pattern in Java?",
+      "card_back": "Because `String` is immutable, each iteration allocates a new `StringBuilder` and a new `String` object while copying existing characters, resulting in O(n²) time complexity and massive Heap garbage; use a single `StringBuilder` declared outside the loop instead.",
+      "card_hint": "Performance, Garbage Collection, StringBuilder, Anti-pattern",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s7-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "What is the primary advantage of Text Blocks (`\"\"\" ... \"\"\"`), standardized in Java 15, when writing SQL queries or JSON payloads in Java code?",
+      "code_snippet": "String query = \"\"\"\n    SELECT id, title, base_price \n    FROM events \n    WHERE status = 'ACTIVE'\n    \"\"\";",
+      "options": [
+        "Text Blocks automatically encrypt SQL queries to prevent SQL Injection.",
+        "They allow writing clean multi-line strings naturally, automatically strip incidental indentation whitespace, and eliminate `+` concatenation and `\\\"` escaping.",
+        "Text Blocks can only be used inside YAML configuration files.",
+        "They make SQL queries execute twice as fast."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Text Blocks (JEP 378, Java 15) make multi-line SQL, JSON, and HTML readable by preserving line breaks, stripping incidental indentation (`stripIndent`), and removing the need to escape double quotes.",
+      "card_front": "What is the primary advantage of Text Blocks (`\"\"\" ... \"\"\"`), standardized in Java 15, when writing SQL queries or JSON payloads in Java code?",
+      "card_back": "They allow writing clean multi-line strings naturally, automatically strip incidental indentation whitespace, and eliminate `+` concatenation and `\\\"` escaping.",
+      "card_hint": "Java 15, Text Block, Multi-line String, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s7-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "When handling sensitive data such as user passwords, why do Java security guidelines recommend using `char[]` instead of `String`?",
+      "code_snippet": "// Option 1:\nString passwordStr = readPassword();\n\n// Option 2 (Security Recommended):\nchar[] passwordChars = readPasswordAsChars();\n// After authenticating with database:\nArrays.fill(passwordChars, ' '); // Wipe sensitive data from RAM",
+      "options": [
+        "Because `char[]` uses half the RAM of `String`.",
+        "Because `String` is immutable and stays in Heap/String Pool memory until an unpredictable GC cycle, whereas a mutable `char[]` can be immediately zeroed out in RAM via `Arrays.fill(passwordChars, ' ')` after authentication to prevent exposure in Heap dumps.",
+        "Because `String` does not support special Unicode characters used in strong passwords.",
+        "Because `char[]` automatically hashes its contents into bcrypt."
+      ],
+      "correct_option_index": 1,
+      "explanation": "An immutable `String` remains in memory in plaintext until Garbage Collection overwrites it, exposing it if a Heap dump occurs. A mutable `char[]` can be wiped immediately after use with `Arrays.fill()`.",
+      "card_front": "When handling sensitive data such as user passwords, why do Java security guidelines recommend using `char[]` instead of `String`?",
+      "card_back": "Because `String` is immutable and stays in Heap/String Pool memory until an unpredictable GC cycle, whereas a mutable `char[]` can be immediately zeroed out in RAM via `Arrays.fill(passwordChars, ' ')` after authentication to prevent exposure in Heap dumps.",
+      "card_hint": "Security, String Immutability, char[], Memory Dump, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q8",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub8",
+      "question": "If the `final` keyword is added to `sub` (`final String sub = \"hel\"; String s3 = sub + \"lo\";`), what does `s1 == s3` print and why?",
+      "code_snippet": "String s1 = \"hello\";\nfinal String sub = \"hel\"; // Added final keyword\nString s3 = sub + \"lo\";\n\nSystem.out.println(s1 == s3);",
+      "options": [
+        "`false` because any string concatenation involving a variable is evaluated at runtime on the Heap.",
+        "`true` because `final` makes `sub` a Compile-time Constant; `javac` applies Constant Folding to fold `sub + \"lo\"` into the literal `\"hello\"` in the String Constant Pool at compile time.",
+        "A compile-time error because `final` variables cannot be used with `+`.",
+        "`false` because `final` only locks the reference while JVM still uses `StringBuilder` at runtime."
+      ],
+      "correct_option_index": 1,
+      "explanation": "When a `final` String is initialized with a constant literal, it becomes a compile-time constant (`ConstantValue`). The compiler folds `sub + \"lo\"` into `\"hello\"` at compile time, so `s3` points to the exact same String Pool literal as `s1`.",
+      "card_front": "If the `final` keyword is added to `sub` (`final String sub = \"hel\"; String s3 = sub + \"lo\";`), what does `s1 == s3` print and why?",
+      "card_back": "`true` because `final` makes `sub` a Compile-time Constant; `javac` applies Constant Folding to fold `sub + \"lo\"` into the literal `\"hello\"` in the String Constant Pool at compile time.",
+      "card_hint": "final, Constant Folding, Bytecode, String Pool",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s8-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub8",
+      "question": "What is the most common misconception about applying `final` to an object reference variable (e.g., `final List<String> seatList = new ArrayList<>();`)?",
+      "code_snippet": "final List<String> seatList = new ArrayList<>();\nseatList.add(\"VIP-01\"); // Is this statement valid?",
+      "options": [
+        "`final` makes the list deeply immutable, so calling `seatList.add(...)` throws `UnsupportedOperationException`.",
+        "`final` only locks the reference pointer (it cannot be reassigned to another `List`), while the internal state of the object can still be mutated freely (`add()`, `remove()`).",
+        "`final` cannot be used with Collection types in Java.",
+        "The compiler reports an error on `seatList.add(\"VIP-01\")`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`final` on a reference variable only prevents reassigning the variable to a different object instance. It does NOT make the referenced object immutable. For an unmodifiable list, use `List.of(...)` or `Collections.unmodifiableList(...)`.",
+      "card_front": "What is the most common misconception about applying `final` to an object reference variable (e.g., `final List<String> seatList = new ArrayList<>();`)?",
+      "card_back": "`final` only locks the reference pointer (it cannot be reassigned to another `List`), while the internal state of the object can still be mutated freely (`add()`, `remove()`).",
+      "card_hint": "final keyword, Immutability, References, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub9",
+      "question": "Why should Java Backend developers prefer the `==` operator over `.equals()` when comparing two Enum values?",
+      "code_snippet": "TicketStatus status = getTicketStatus();\nif (status == TicketStatus.BOOKED) { ... }",
+      "options": [
+        "`==` is faster and completely immune to `NullPointerException`: if `status` is `null`, `status == TicketStatus.BOOKED` safely returns `false` without crashing, whereas `status.equals(...)` throws an NPE.",
+        "Because Java Enums do not have an `.equals()` method.",
+        "Because `==` automatically converts the enum to a `String`.",
+        "Because the Java compiler forbids calling `.equals()` on enums."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Every Enum constant is a unique singleton instance managed by the JVM, so `==` is 100% accurate and null-safe (`null == TicketStatus.BOOKED` evaluates to `false` instead of throwing `NullPointerException`).",
+      "card_front": "Why should Java Backend developers prefer the `==` operator over `.equals()` when comparing two Enum values?",
+      "card_back": "`==` is faster and completely immune to `NullPointerException`: if `status` is `null`, `status == TicketStatus.BOOKED` safely returns `false` without crashing, whereas `status.equals(...)` throws an NPE.",
+      "card_hint": "Enum, Null Safety, Singleton, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s9-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub9",
+      "question": "Can a Java `enum` (such as `TicketTier`) contain custom fields, constructors, and business methods?",
+      "code_snippet": "public enum TicketTier {\n    STANDARD(100_000, \"Standard Seat\"),\n    VIP(250_000, \"VIP Seat\"),\n    VVIP(500_000, \"Super VIP Seat\");\n\n    private final int price;\n    private final String label;\n\n    TicketTier(int price, String label) {\n        this.price = price;\n        this.label = label;\n    }\n    public int getPrice() { return price; }\n}",
+      "options": [
+        "No, Java enums are just plain integer constants like in C.",
+        "Yes; a Java `enum` is a full-featured special class extending `java.lang.Enum` that can have `private` constructors, `final` fields, business methods, and even implement interfaces.",
+        "It can only hold `int` fields, not `String` or constructors.",
+        "Only Java 21 allows methods inside an enum."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java Enums are first-class classes extending `java.lang.Enum`. They can encapsulate `final` fields, `private` constructors, domain methods, and interface implementations.",
+      "card_front": "Can a Java `enum` (such as `TicketTier`) contain custom fields, constructors, and business methods?",
+      "card_back": "Yes; a Java `enum` is a full-featured special class extending `java.lang.Enum` that can have `private` constructors, `final` fields, business methods, and even implement interfaces.",
+      "card_hint": "Enum, OOP, Domain Model, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s10-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub10",
+      "question": "Given the BMI formula `BMI = weight / (height * height)` (weight in kg, height in meters), what serious calculation bug exists in the code snippet?",
+      "code_snippet": "int weight = 70;      // 70 kg\nint heightCm = 175;   // 175 cm\ndouble heightM = heightCm / 100; // Convert to meters\ndouble bmi = weight / (heightM * heightM);\nSystem.out.println(\"BMI: \" + bmi);",
+      "options": [
+        "The code works perfectly and outputs BMI = 22.86.",
+        "Integer Division bug at `heightCm / 100`: because both `175` and `100` are `int`, `175 / 100` truncates to `1.0` instead of `1.75`, miscalculating BMI as `70.0`.",
+        "It throws `ArithmeticException: / by zero`.",
+        "It fails to compile because an `int` division cannot be assigned to a `double`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`175 / 100` performs integer division first (`1`) before widening to `double` (`1.0`). Use `heightCm / 100.0` or `(double) heightCm / 100` to get `1.75`.",
+      "card_front": "Given the BMI formula `BMI = weight / (height * height)` (weight in kg, height in meters), what serious calculation bug exists in the code snippet?",
+      "card_back": "Integer Division bug at `heightCm / 100`: because both `175` and `100` are `int`, `175 / 100` truncates to `1.0` instead of `1.75`, miscalculating BMI as `70.0`.",
+      "card_hint": "BMI Practice, Integer Division, Bug Prevention",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s10-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub10",
+      "question": "According to WHO BMI classification (< 18.5 Underweight, 18.5–24.9 Normal, 25.0–29.9 Overweight, >= 30.0 Obese), why is the `classifyBmi(double bmi)` implementation in the snippet considered clean and optimal?",
+      "code_snippet": "public static String classifyBmi(double bmi) {\n    if (bmi < 18.5) return \"Underweight\";\n    if (bmi < 25.0) return \"Normal\";\n    if (bmi < 30.0) return \"Overweight\";\n    return \"Obese\";\n}",
+      "options": [
+        "Correct and optimal: By using Early Return (Guard Clauses) in ascending order, redundant checks like `bmi >= 18.5 && bmi < 25.0` are unnecessary because smaller values have already returned.",
+        "Incorrect because omitting `else` causes every `if` branch to execute.",
+        "Incorrect because BMI must be an `int` to be compared.",
+        "A `switch-case` is required to classify `double` ranges."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Guard Clauses (Early Return) ordered from lowest threshold upward eliminate redundant compound `&&` checks and keep control flow flat and readable.",
+      "card_front": "According to WHO BMI classification (< 18.5 Underweight, 18.5–24.9 Normal, 25.0–29.9 Overweight, >= 30.0 Obese), why is the `classifyBmi(double bmi)` implementation in the snippet considered clean and optimal?",
+      "card_back": "Correct and optimal: By using Early Return (Guard Clauses) in ascending order, redundant checks like `bmi >= 18.5 && bmi < 25.0` are unnecessary because smaller values have already returned.",
+      "card_hint": "Clean Code, Control Flow, BMI Practice, Guard Clauses",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "What is the core difference between the short-circuit AND (`&&`) and the bitwise AND (`&`) in conditional statements?",
+      "code_snippet": "Ticket ticket = null;\nif (ticket != null && ticket.isAvailable()) { ... } // Statement 1\nif (ticket != null & ticket.isAvailable()) { ... }  // Statement 2",
+      "options": [
+        "Both behave identically.",
+        "Statement 1 (`&&`) is safe: if the left operand is `false`, the right operand is not evaluated; Statement 2 (`&`) always evaluates both operands, causing a `NullPointerException` when `ticket` is `null`.",
+        "Statement 1 only works on Java 8 and below.",
+        "`&&` is only for numbers, while `&` is for objects."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`&&` and `||` short-circuit as soon as the truth value is known. Using `&` in a boolean condition evaluates both sides unconditionally, throwing an NPE if the right side depends on a non-null left side.",
+      "card_front": "What is the core difference between the short-circuit AND (`&&`) and the bitwise AND (`&`) in conditional statements?",
+      "card_back": "Statement 1 (`&&`) is safe: if the left operand is `false`, the right operand is not evaluated; Statement 2 (`&`) always evaluates both operands, causing a `NullPointerException` when `ticket` is `null`.",
+      "card_hint": "Control Flow, Operators, Short-Circuit",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "What major advantages does the modern Switch Expression (`->` syntax in Java 14+) offer over a traditional `switch-case` statement?",
+      "code_snippet": "String badge = switch (seatType) {\n    case VIP -> \"Gold\";\n    case STANDARD -> \"Silver\";\n    default -> \"Standard\";\n};",
+      "options": [
+        "Compile-time exhaustiveness checking, direct value return as an expression, and complete elimination of accidental fall-through bugs caused by missing `break` statements.",
+        "Runs 1,000 times faster than `if-else`.",
+        "Only accepts `boolean` values.",
+        "Replaces SQL databases completely."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Switch Expressions (JEP 361) can return values directly, use arrow `->` labels that do not fall through (no `break` needed), and enforce exhaustiveness across enum constants at compile time.",
+      "card_front": "What major advantages does the modern Switch Expression (`->` syntax in Java 14+) offer over a traditional `switch-case` statement?",
+      "card_back": "Compile-time exhaustiveness checking, direct value return as an expression, and complete elimination of accidental fall-through bugs caused by missing `break` statements.",
+      "card_hint": "Java 14, Switch Expression, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "When iterating over an `ArrayList` with a `for-each` loop, what happens if you call `seats.remove(seat)` directly inside the loop?",
+      "code_snippet": "List<String> seats = new ArrayList<>(List.of(\"A1\", \"A2\", \"A3\"));\nfor (String seat : seats) {\n    if (seat.equals(\"A2\")) {\n        seats.remove(seat);\n    }\n}",
+      "options": [
+        "Element `\"A2\"` is safely removed, leaving `[\"A1\", \"A3\"]`.",
+        "A `ConcurrentModificationException` is thrown because the list’s structural modification count (`modCount`) changes while the internal `Iterator` is traversing.",
+        "The program enters an infinite loop.",
+        "The compiler rejects the code with a syntax error."
+      ],
+      "correct_option_index": 1,
+      "explanation": "A `for-each` loop uses an internal `Iterator`. Calling `seats.remove()` directly mutates `ArrayList.modCount` behind the iterator’s back, triggering `ConcurrentModificationException`. Use `Iterator.remove()` or `seats.removeIf(...)` instead.",
+      "card_front": "When iterating over an `ArrayList` with a `for-each` loop, what happens if you call `seats.remove(seat)` directly inside the loop?",
+      "card_back": "A `ConcurrentModificationException` is thrown because the list’s structural modification count (`modCount`) changes while the internal `Iterator` is traversing.",
+      "card_hint": "Collections, Loops, ConcurrentModificationException",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-04",
+      "question": "How does Java pass arguments into methods (Pass-by-value vs. Pass-by-reference)? Analyze the `modify(myTicket, myDiscount)` snippet:",
+      "code_snippet": "public void modify(Ticket ticket, int discount) {\n    ticket = new Ticket(\"VIP-999\"); // Reassign parameter to new object\n    discount = 50;                  // Modify primitive int copy\n}\n\n// Caller side:\nTicket myTicket = new Ticket(\"STD-001\");\nint myDiscount = 10;\nmodify(myTicket, myDiscount);\n// After calling modify(), what are myTicket.id and myDiscount?",
+      "options": [
+        "`myTicket` has ID `\"VIP-999\"` and `myDiscount` becomes `50`.",
+        "Java is **100% Pass-by-value**. For objects, the value passed is a **copy of the reference address**. Reassigning `ticket = new Ticket(\"VIP-999\")` only updates the local parameter pointer; after the method returns, `myTicket` is still `\"STD-001\"` and `myDiscount` is still `10`.",
+        "The program throws a `NullPointerException`.",
+        "`myTicket` changes to `\"VIP-999\"` while `myDiscount` stays `10`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "In Java, ALL arguments are passed by value. Primitives pass a copy of the value; objects pass a copy of the reference address. Reassigning the parameter variable inside the method never alters the caller’s variable.",
+      "card_front": "How does Java pass arguments into methods (Pass-by-value vs. Pass-by-reference)? Analyze the `modify(myTicket, myDiscount)` snippet:",
+      "card_back": "Java is **100% Pass-by-value**. For objects, the value passed is a **copy of the reference address**. Reassigning `ticket = new Ticket(\"VIP-999\")` only updates the local parameter pointer; after the method returns, `myTicket` is still `\"STD-001\"` and `myDiscount` is still `10`.",
+      "card_hint": "Methods, Pass-By-Value, Memory",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-04",
+      "question": "Are the two `calculateFee(String ticketId)` methods in the snippet valid Method Overloading within the same class?",
+      "code_snippet": "public int calculateFee(String ticketId) { return 100; }\npublic double calculateFee(String ticketId) { return 100.0; }",
+      "options": [
+        "Valid because their return types (`int` vs `double`) are different.",
+        "Invalid (Compile-time Error) because Method Overloading requires different parameter lists (number, types, or order of parameters); the compiler CANNOT distinguish methods solely by return type.",
+        "Only valid when running on Java 21.",
+        "Valid if one of the methods is marked `static`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "A Java method signature consists ONLY of the method name and parameter types. Return type is not part of the signature, so the compiler cannot resolve an ambiguous call like `calculateFee(\"A1\")`.",
+      "card_front": "Are the two `calculateFee(String ticketId)` methods in the snippet valid Method Overloading within the same class?",
+      "card_back": "Invalid (Compile-time Error) because Method Overloading requires different parameter lists (number, types, or order of parameters); the compiler CANNOT distinguish methods solely by return type.",
+      "card_hint": "Overloading, Method Signature, Compiler",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "Why is declaring fields `private` while blindly generating public `get...()` and `set...()` methods for everything considered an Anemic Domain Model that breaks Encapsulation?",
+      "code_snippet": "",
+      "options": [
+        "Because getters and setters make the source file longer than 100 lines.",
+        "Because unrestricted public setters allow any external caller to put the object into an invalid business state (e.g., `setPrice(-500)`), stripping the object of its ability to protect its own invariants.",
+        "Because Spring Data JPA does not support getters and setters.",
+        "Because setter methods slow down CPU execution."
+      ],
+      "correct_option_index": 1,
+      "explanation": "True encapsulation bundles state with the business behavior that guards its invariants. Exposing raw setters everywhere is no safer than public fields; prefer rich domain methods like `holdSeat()` or `confirmPurchase()`.",
+      "card_front": "Why is declaring fields `private` while blindly generating public `get...()` and `set...()` methods for everything considered an Anemic Domain Model that breaks Encapsulation?",
+      "card_back": "Because unrestricted public setters allow any external caller to put the object into an invalid business state (e.g., `setPrice(-500)`), stripping the object of its ability to protect its own invariants.",
+      "card_hint": "OOP, Encapsulation, Anemic Domain Model",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "What is the practical meaning of the Object-Oriented design principle \"Tell, Don’t Ask\"?",
+      "code_snippet": "",
+      "options": [
+        "Instruct an object directly to perform its business behavior rather than pulling its internal state out via getters, checking conditions externally, and mutating it back via setters.",
+        "Require developers to write Javadoc comments on every method.",
+        "Never throw exceptions inside methods.",
+        "Only use interfaces instead of classes."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Instead of asking `if (ticket.getStatus() == AVAILABLE) ticket.setStatus(HELD);`, tell the domain object what to do: `ticket.holdForCheckout(duration);` so business rules remain encapsulated inside `Ticket`.",
+      "card_front": "What is the practical meaning of the Object-Oriented design principle \"Tell, Don’t Ask\"?",
+      "card_back": "Instruct an object directly to perform its business behavior rather than pulling its internal state out via getters, checking conditions externally, and mutating it back via setters.",
+      "card_hint": "Encapsulation, Tell Don’t Ask, Clean Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "Why CANNOT a Constructor in Java be declared with the keywords `static`, `final`, or `abstract`?",
+      "code_snippet": "",
+      "options": [
+        "Because constructors are only allowed to use `public`.",
+        "A constructor initializes a specific new instance on the Heap so it cannot be `static`; constructors are never inherited by subclasses so they cannot be overridden (`final` is redundant); and they must have an implementation body to initialize memory so they cannot be `abstract`.",
+        "Because those keywords are reserved exclusively for interfaces.",
+        "Due to 64-bit OS limitations."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Constructors initialize newly allocated instances (not class-level `static`), are never inherited (so `final` and `abstract` are meaningless), and must execute initialization logic.",
+      "card_front": "Why CANNOT a Constructor in Java be declared with the keywords `static`, `final`, or `abstract`?",
+      "card_back": "A constructor initializes a specific new instance on the Heap so it cannot be `static`; constructors are never inherited by subclasses so they cannot be overridden (`final` is redundant); and they must have an implementation body to initialize memory so they cannot be `abstract`.",
+      "card_hint": "Constructor, Java Keywords, OOP",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-06",
+      "question": "Why is the design principle \"Composition over Inheritance\" strongly recommended in Object-Oriented Design?",
+      "code_snippet": "",
+      "options": [
+        "Because inheritance creates tight compile-time coupling and leads to the \"Fragile Base Class\" problem (changes in a superclass unexpectedly break subclasses), whereas Composition promotes loose coupling and flexible runtime behavior swapping.",
+        "Because the `extends` keyword is deprecated in Java 21.",
+        "Because inheritance doubles the `.class` file size.",
+        "Because Composition only works with interfaces."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Inheritance binds subclasses tightly to superclass implementation details at compile time. Composition (HAS-A) combined with interfaces and Dependency Injection enables loose coupling, easy testing, and runtime flexibility.",
+      "card_front": "Why is the design principle \"Composition over Inheritance\" strongly recommended in Object-Oriented Design?",
+      "card_back": "Because inheritance creates tight compile-time coupling and leads to the \"Fragile Base Class\" problem (changes in a superclass unexpectedly break subclasses), whereas Composition promotes loose coupling and flexible runtime behavior swapping.",
+      "card_hint": "Composition, Inheritance, Design Principles",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-06",
+      "question": "What internal JVM mechanism enables Runtime Polymorphism (Dynamic Method Dispatch)?",
+      "code_snippet": "",
+      "options": [
+        "The JVM parses `.java` source files using regular expressions.",
+        "The JVM uses a Virtual Method Table (`vtable`) storing method pointers and looks up the actual runtime object type on the Heap to invoke the overridden method.",
+        "The JVM queries the database to check the object type.",
+        "`javac` hardcodes the exact memory address at compile time."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Each class in the JVM maintains a Virtual Method Table (`vtable`). When an overridden method is invoked via a superclass/interface reference, the JVM inspects the actual object’s `vtable` on the Heap at runtime.",
+      "card_front": "What internal JVM mechanism enables Runtime Polymorphism (Dynamic Method Dispatch)?",
+      "card_back": "The JVM uses a Virtual Method Table (`vtable`) storing method pointers and looks up the actual runtime object type on the Heap to invoke the overridden method.",
+      "card_hint": "Polymorphism, vtable, JVM Internal",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod7-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-07",
+      "question": "What is the key architectural difference between `HashMap` and `ConcurrentHashMap` in Java?",
+      "code_snippet": "",
+      "options": [
+        "`HashMap` is completely thread-safe for concurrent modifications.",
+        "`ConcurrentHashMap` is thread-safe using fine-grained Lock Striping (CAS operations + `synchronized` on individual bucket head nodes) rather than locking the entire table like `Hashtable` or `Collections.synchronizedMap()`.",
+        "`ConcurrentHashMap` allows `null` keys and `null` values.",
+        "`HashMap` sorts keys alphabetically whereas `ConcurrentHashMap` does not."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`ConcurrentHashMap` achieves high multi-threaded throughput by using CAS (Compare-And-Swap) for lock-free reads/inserts and synchronizing only on individual hash bucket nodes rather than locking the entire map.",
+      "card_front": "What is the key architectural difference between `HashMap` and `ConcurrentHashMap` in Java?",
+      "card_back": "`ConcurrentHashMap` is thread-safe using fine-grained Lock Striping (CAS operations + `synchronized` on individual bucket head nodes) rather than locking the entire table like `Hashtable` or `Collections.synchronizedMap()`.",
+      "card_hint": "Java Core, Collections, ConcurrentHashMap",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod8-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-08",
+      "question": "Why is `try-with-resources` (Java 7+) considered mandatory when working with `Connection`, `InputStream`, or `FileReader`?",
+      "code_snippet": "",
+      "options": [
+        "Because it automatically invokes `.close()` on any resource implementing `AutoCloseable` even when exceptions occur, completely preventing Resource Leaks.",
+        "Because it makes file reading 10 times faster.",
+        "Because `finally` blocks are forbidden in Spring Boot.",
+        "Because `try-with-resources` automatically compresses files."
+      ],
+      "correct_option_index": 0,
+      "explanation": "`try-with-resources` guarantees that all `AutoCloseable` resources are closed in reverse declaration order upon exiting the block and properly preserves the primary exception via Suppressed Exceptions.",
+      "card_front": "Why is `try-with-resources` (Java 7+) considered mandatory when working with `Connection`, `InputStream`, or `FileReader`?",
+      "card_back": "Because it automatically invokes `.close()` on any resource implementing `AutoCloseable` even when exceptions occur, completely preventing Resource Leaks.",
+      "card_hint": "Exceptions, Try-With-Resources, Resource Management",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-09",
+      "question": "When storing an event timestamp (`eventDate`) for a global ticketing system serving users across multiple time zones, which Java Time API type is the gold standard?",
+      "code_snippet": "",
+      "options": [
+        "Legacy `java.util.Date`.",
+        "`Instant` (global UTC point-in-time) or `OffsetDateTime` (ISO-8601 timestamp with UTC offset), mapping cleanly to `TIMESTAMP WITH TIME ZONE` in PostgreSQL.",
+        "`LocalDateTime` without any time zone offset.",
+        "A plain String formatted as `\"dd/MM/yyyy\"`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`LocalDateTime` lacks time zone context, making \"8:00 AM\" ambiguous across Hanoi, Tokyo, and New York. Always store `Instant` or `OffsetDateTime` in UTC and convert to the user’s local time zone only at display time.",
+      "card_front": "When storing an event timestamp (`eventDate`) for a global ticketing system serving users across multiple time zones, which Java Time API type is the gold standard?",
+      "card_back": "`Instant` (global UTC point-in-time) or `OffsetDateTime` (ISO-8601 timestamp with UTC offset), mapping cleanly to `TIMESTAMP WITH TIME ZONE` in PostgreSQL.",
+      "card_hint": "Java Time, DateTime, PostgreSQL, UTC",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod10-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-10",
+      "question": "In Java 21, what is the biggest breakthrough of Virtual Threads (Project Loom) for high-traffic web applications like Ticket Station?",
+      "code_snippet": "",
+      "options": [
+        "Speeds up CPU-bound mathematical calculations by 100x.",
+        "Allows the JVM to manage millions of ultra-lightweight threads (~a few KB stack vs ~1MB for OS Platform Threads), dramatically increasing throughput for blocking I/O-bound tasks (database queries, REST API calls).",
+        "Replaces the Java language entirely with C++.",
+        "Only works on Linux kernels."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Virtual Threads are scheduled by the JVM onto a small pool of carrier OS threads. When a virtual thread hits blocking I/O, the JVM unmounts it immediately so the carrier thread can execute other requests.",
+      "card_front": "In Java 21, what is the biggest breakthrough of Virtual Threads (Project Loom) for high-traffic web applications like Ticket Station?",
+      "card_back": "Allows the JVM to manage millions of ultra-lightweight threads (~a few KB stack vs ~1MB for OS Platform Threads), dramatically increasing throughput for blocking I/O-bound tasks (database queries, REST API calls).",
+      "card_hint": "Java 21, Virtual Threads, Concurrency",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod11-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-11",
+      "question": "How does Hibernate’s Dirty Checking mechanism work inside a Spring Data JPA `@Transactional` method?",
+      "code_snippet": "",
+      "options": [
+        "Hibernate scans every table in the database every 5 seconds looking for modified rows.",
+        "Hibernate keeps a loaded snapshot of each Managed entity in the Persistence Context; before transaction commit/flush, it compares current field values against the snapshot and automatically executes an SQL `UPDATE` if any field changed—even without calling `repository.save()`.",
+        "Developers must manually call `saveAndFlush()` after every setter.",
+        "Dirty Checking only works with MySQL."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Within a `@Transactional` boundary, loaded entities are in the `Managed` state. At flush time, Hibernate compares the entity’s current state with its initial snapshot and automatically issues an `UPDATE` statement.",
+      "card_front": "How does Hibernate’s Dirty Checking mechanism work inside a Spring Data JPA `@Transactional` method?",
+      "card_back": "Hibernate keeps a loaded snapshot of each Managed entity in the Persistence Context; before transaction commit/flush, it compares current field values against the snapshot and automatically executes an SQL `UPDATE` if any field changed—even without calling `repository.save()`.",
+      "card_hint": "JPA, Dirty Checking, Hibernate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod12-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-12",
+      "question": "In a production-grade `docker-compose.yml` for database infrastructure, why is explicitly declaring `name: database_postgres_data` on a named volume important?",
+      "code_snippet": "volumes:\n  postgres_data:\n    driver: local\n    name: database_postgres_data",
+      "options": [
+        "It pins the exact volume name on the Docker host, preventing Docker Compose from prepending the parent directory name (`<folder_name>_postgres_data`) so database data is never misplaced when running Compose from different folder names.",
+        "It makes Docker automatically compress the volume as a ZIP archive.",
+        "It forces Linux to mount the volume on an SSD instead of an HDD.",
+        "It caps PostgreSQL container RAM usage at 2GB."
+      ],
+      "correct_option_index": 0,
+      "explanation": "By default, Docker Compose prefixes volume names with the project/directory name (`<project>_<volume>`). Setting `name: database_postgres_data` guarantees a stable, predictable volume identity on the host.",
+      "card_front": "In a production-grade `docker-compose.yml` for database infrastructure, why is explicitly declaring `name: database_postgres_data` on a named volume important?",
+      "card_back": "It pins the exact volume name on the Docker host, preventing Docker Compose from prepending the parent directory name (`<folder_name>_postgres_data`) so database data is never misplaced when running Compose from different folder names.",
+      "card_hint": "Docker, DevOps, Docker Compose, Production",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Why is setting `spring.jpa.hibernate.ddl-auto=update` strictly FORBIDDEN in enterprise Production environments?",
+      "code_snippet": "",
+      "options": [
+        "Hibernate will automatically drop all existing tables on every application restart.",
+        "Hibernate can only add new columns and never drops or renames old columns, leaving schema garbage, lacking version history/rollback, and risking unmonitored table locks that can bring down a high-traffic production system.",
+        "Hibernate cannot connect to PostgreSQL unless `ddl-auto` is disabled.",
+        "It slows down Spring Boot `SELECT` queries by 50%."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`ddl-auto=update` provides no version control, no rollback strategy, and can trigger unexpected `ALTER TABLE` locks during startup. Production systems must use Flyway or Liquibase with `ddl-auto=validate`.",
+      "card_front": "Why is setting `spring.jpa.hibernate.ddl-auto=update` strictly FORBIDDEN in enterprise Production environments?",
+      "card_back": "Hibernate can only add new columns and never drops or renames old columns, leaving schema garbage, lacking version history/rollback, and risking unmonitored table locks that can bring down a high-traffic production system.",
+      "card_hint": "Flyway, Database, Production, Hibernate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Once a Flyway migration file (e.g., `V1__init_brands_and_events.sql`) has been applied to the database, what happens on the next Spring Boot startup if a developer edits that file?",
+      "code_snippet": "org.flywaydb.core.api.exception.FlywayValidateException: \nValidate failed: Migrations have failed validation\nMigration checksum mismatch for migration version 1\n-> Applied to database : 184920491\n-> Resolved locally    : -491029481",
+      "options": [
+        "Flyway automatically drops the old tables and recreates them with the edited SQL.",
+        "Flyway ignores the change because version 1 is already recorded in `flyway_schema_history`.",
+        "Flyway throws a `FlywayValidateException` (`Migration checksum mismatch`) and halts application startup immediately to protect schema integrity.",
+        "The application starts normally and logs a minor warning."
+      ],
+      "correct_option_index": 2,
+      "explanation": "Flyway calculates a CRC32 checksum for every applied migration and stores it in `flyway_schema_history`. If a previously applied script is modified locally, validation fails and startup aborts.",
+      "card_front": "Once a Flyway migration file (e.g., `V1__init_brands_and_events.sql`) has been applied to the database, what happens on the next Spring Boot startup if a developer edits that file?",
+      "card_back": "Flyway throws a `FlywayValidateException` (`Migration checksum mismatch`) and halts application startup immediately to protect schema integrity.",
+      "card_hint": "Flyway, Checksum, Troubleshooting",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "What is the Gold Standard way to add a new column to the `events` table after `V1__init_brands_and_events.sql` has already been deployed?",
+      "code_snippet": "",
+      "options": [
+        "Edit `V1__init_brands_and_events.sql` directly and run `flyway repair`.",
+        "Create a new sequential migration file, such as `V2__add_status_column_to_events.sql`, containing an `ALTER TABLE` statement.",
+        "Open pgAdmin and manually run `ALTER TABLE` across every environment.",
+        "Drop the `flyway_schema_history` table and re-run all scripts."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Database migrations follow a strict \"Append-only\" rule: once applied, a migration file is immutable. Any subsequent schema change must be placed in a new sequential version file (`V2__...`, `V3__...`).",
+      "card_front": "What is the Gold Standard way to add a new column to the `events` table after `V1__init_brands_and_events.sql` has already been deployed?",
+      "card_back": "Create a new sequential migration file, such as `V2__add_status_column_to_events.sql`, containing an `ALTER TABLE` statement.",
+      "card_hint": "Flyway, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "In the abstract `BaseEntity` class, which annotations are required so Spring Data JPA automatically populates `createdAt` and `updatedAt`?",
+      "code_snippet": "@MappedSuperclass\n@EntityListeners(AuditingEntityListener.class)\npublic abstract class BaseEntity {\n    @CreatedDate\n    @Column(name = \"created_at\", nullable = false, updatable = false)\n    private Instant createdAt;\n\n    @LastModifiedDate\n    @Column(name = \"updated_at\")\n    private Instant updatedAt;\n}",
+      "options": [
+        "Only `@CreatedDate` and `@LastModifiedDate` are needed; no other configuration is required.",
+        "Requires `@EntityListeners(AuditingEntityListener.class)` on the entity/superclass AND `@EnableJpaAuditing` on a Spring Boot configuration class.",
+        "Requires `@Transactional` on `BaseEntity`.",
+        "Must use PostgreSQL database triggers because JPA cannot populate timestamps automatically."
+      ],
+      "correct_option_index": 1,
+      "explanation": "To activate Spring Data JPA auditing (`@CreatedDate`, `@LastModifiedDate`, `@CreatedBy`), you must attach `@EntityListeners(AuditingEntityListener.class)` to the entity and enable `@EnableJpaAuditing` in your Spring config.",
+      "card_front": "In the abstract `BaseEntity` class, which annotations are required so Spring Data JPA automatically populates `createdAt` and `updatedAt`?",
+      "card_back": "Requires `@EntityListeners(AuditingEntityListener.class)` on the entity/superclass AND `@EnableJpaAuditing` on a Spring Boot configuration class.",
+      "card_hint": "JPA, Auditing, BaseEntity",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "In the Ticket Station project, what is the standard Flyway migration file naming convention?",
+      "code_snippet": "",
+      "options": [
+        "`V{version}_{vietnamese_description}.sql` (e.g., `V1_tao_bang_su_kien.sql`)",
+        "`V{version}__{description_in_english}.sql` (e.g., `V1__init_brands_and_events.sql`) with TWO underscores `__`",
+        "`Flyway_{version}_{name}.sql` (e.g., `Flyway_1_Events.sql`)",
+        "`migration-{version}.sql` (e.g., `migration-01.sql`)"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Flyway’s default convention is a capital `V`, followed by the version number, TWO underscores (`__`) as separator, and a snake_case English description (`V1__init_brands_and_events.sql`).",
+      "card_front": "In the Ticket Station project, what is the standard Flyway migration file naming convention?",
+      "card_back": "`V{version}__{description_in_english}.sql` (e.g., `V1__init_brands_and_events.sql`) with TWO underscores `__`",
+      "card_hint": "Flyway, Conventions",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "In the PostgreSQL `docker-compose.yml` file of Ticket Station, what is the technical purpose of the volume configuration shown in the snippet?",
+      "code_snippet": "services:\n  postgres:\n    image: postgres:16-alpine\n    container_name: ticket_station_db_dev\n    volumes:\n      - postgres_data:/var/lib/postgresql/data\n\nvolumes:\n  postgres_data:\n    driver: local\n    name: database_postgres_data",
+      "options": [
+        "Stores database data temporarily in Docker RAM so it resets cleanly on every reboot.",
+        "Mounts `/var/lib/postgresql/data` to a Named Volume explicitly named `database_postgres_data` on the host machine, ensuring Persistent Data that survives container stops, removals, or recreations (`docker compose down && docker compose up -d`).",
+        "Forces Spring Boot to connect only if the JDBC URL specifies `database_postgres_data`.",
+        "Automatically backs up SQL migration files to external cloud storage."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Docker containers are ephemeral by default. Mounting `/var/lib/postgresql/data` to a named volume (`database_postgres_data`) persists PostgreSQL data safely on the host across container restarts and recreations.",
+      "card_front": "In the PostgreSQL `docker-compose.yml` file of Ticket Station, what is the technical purpose of the volume configuration shown in the snippet?",
+      "card_back": "Mounts `/var/lib/postgresql/data` to a Named Volume explicitly named `database_postgres_data` on the host machine, ensuring Persistent Data that survives container stops, removals, or recreations (`docker compose down && docker compose up -d`).",
+      "card_hint": "Docker, PostgreSQL, Docker Compose, Volume",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q7",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Once the `database_postgres_data` volume already contains initialized data, if a developer changes `POSTGRES_PASSWORD` in `docker-compose.yml` and runs `docker compose down` followed by `docker compose up -d`, why is the new password NOT applied?",
+      "code_snippet": "# Change password in docker-compose.yml:\nenvironment:\n  POSTGRES_DB: ticket_station_db_dev\n  POSTGRES_USER: dev_write\n  POSTGRES_PASSWORD: new_secret_pass_2026\n\n# Run: docker compose down && docker compose up -d\n# Database connection result: FATAL: password authentication failed for user \"dev_write\"",
+      "options": [
+        "Because the official PostgreSQL Docker image only runs the initialization script (`initdb`) that reads `POSTGRES_*` environment variables ONCE when `/var/lib/postgresql/data` is empty; if the volume already has data, PostgreSQL skips initialization and keeps existing credentials.",
+        "Because Docker Compose does not support passwords longer than 8 characters.",
+        "Because Spring Boot caches the old password inside `pom.xml`.",
+        "Because the PostgreSQL JDBC driver forbids password changes after compilation."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Per PostgreSQL Docker Official Image documentation, `POSTGRES_USER`, `POSTGRES_PASSWORD`, and `POSTGRES_DB` are only used during initial cluster creation (`initdb`) when the data volume is empty. To reset credentials via compose env vars, remove the volume with `docker compose down -v`.",
+      "card_front": "Once the `database_postgres_data` volume already contains initialized data, if a developer changes `POSTGRES_PASSWORD` in `docker-compose.yml` and runs `docker compose down` followed by `docker compose up -d`, why is the new password NOT applied?",
+      "card_back": "Because the official PostgreSQL Docker image only runs the initialization script (`initdb`) that reads `POSTGRES_*` environment variables ONCE when `/var/lib/postgresql/data` is empty; if the volume already has data, PostgreSQL skips initialization and keeps existing credentials.",
+      "card_hint": "Docker, PostgreSQL, Troubleshooting, Volume, Environment",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q8",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "What is the difference between `docker compose down` and `docker compose down -v` regarding the `database_postgres_data` volume?",
+      "code_snippet": "",
+      "options": [
+        "`docker compose down` stops and removes containers/networks but PRESERVES the `database_postgres_data` volume (data remains intact); adding `-v` (`--volumes`) DELETES all declared named volumes, wiping all database data.",
+        "`docker compose down` wipes the entire computer hard drive, while `-v` only restarts the container.",
+        "Both commands delete the volume identically.",
+        "The `-v` flag only enables verbose logging without deleting volumes."
+      ],
+      "correct_option_index": 0,
+      "explanation": "`docker compose down` safely retains named volumes. Passing `-v` (`--volumes`) explicitly instructs Docker Compose to remove named volumes declared in the compose file, completely resetting the database.",
+      "card_front": "What is the difference between `docker compose down` and `docker compose down -v` regarding the `database_postgres_data` volume?",
+      "card_back": "`docker compose down` stops and removes containers/networks but PRESERVES the `database_postgres_data` volume (data remains intact); adding `-v` (`--volumes`) DELETES all declared named volumes, wiping all database data.",
+      "card_hint": "Docker, Docker Compose, CLI, Volume",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "In which scenario below does the classic Hibernate N+1 Query problem occur?",
+      "code_snippet": "// API fetches 20 events and prints seat count for each event:\nList<Event> events = eventRepository.findAll(); // 1 query fetches 20 events\nfor (Event event : events) {\n    // Loop through each event to access lazy seats collection\n    System.out.println(event.getSeats().size()); // ???\n}",
+      "options": [
+        "Only 1 query is sent to the database thanks to Second-Level Cache.",
+        "A total of 21 queries are executed: 1 initial query fetches 20 `Event` rows, and then each iteration over the 20 events triggers 1 additional `SELECT` query to lazily load its `seats` collection.",
+        "Hibernate automatically merges everything into a single hidden subquery.",
+        "Hibernate immediately throws `ConcurrentModificationException`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "This is the classic N+1 query issue: 1 query fetches N parent entities (20 events), and accessing the lazy collection `event.getSeats()` inside a loop triggers N individual child queries (1 + 20 = 21 queries).",
+      "card_front": "In which scenario below does the classic Hibernate N+1 Query problem occur?",
+      "card_back": "A total of 21 queries are executed: 1 initial query fetches 20 `Event` rows, and then each iteration over the 20 events triggers 1 additional `SELECT` query to lazily load its `seats` collection.",
+      "card_hint": "JPA, Hibernate, N+1 Query, Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "What is the CORE difference between a regular `JOIN` and `JOIN FETCH` in a JPQL query?",
+      "code_snippet": "// Query 1:\n@Query(\"SELECT e FROM Event e JOIN e.seats s WHERE e.id = :id\")\n\n// Query 2:\n@Query(\"SELECT e FROM Event e JOIN FETCH e.seats s WHERE e.id = :id\")",
+      "options": [
+        "Regular `JOIN` loads both parent and child entities into memory, whereas `JOIN FETCH` only filters rows.",
+        "Regular `JOIN` only joins tables for `WHERE` filtering/projection and does NOT initialize the child collection on the parent Entity; `JOIN FETCH` instructs Hibernate to eagerly populate the child collection into the Persistence Context in a single query.",
+        "`JOIN FETCH` only works on MySQL and is unsupported on PostgreSQL.",
+        "Both queries behave 100% identically in Java."
+      ],
+      "correct_option_index": 1,
+      "explanation": "In JPQL, `JOIN e.seats` only performs an SQL join for filtering and leaves `event.getSeats()` uninitialized (still triggering lazy queries when accessed). `JOIN FETCH e.seats` populates the `seats` collection immediately in that single query.",
+      "card_front": "What is the CORE difference between a regular `JOIN` and `JOIN FETCH` in a JPQL query?",
+      "card_back": "Regular `JOIN` only joins tables for `WHERE` filtering/projection and does NOT initialize the child collection on the parent Entity; `JOIN FETCH` instructs Hibernate to eagerly populate the child collection into the Persistence Context in a single query.",
+      "card_hint": "JPQL, Hibernate, Join Fetch",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "What causes `LazyInitializationException: could not initialize proxy - no Session` in Hibernate?",
+      "code_snippet": "",
+      "options": [
+        "The database lost its Internet connection during SQL execution.",
+        "The application attempted to access an uninitialized Lazy relationship after the Hibernate Session / `@Transactional` Persistence Context managing that entity had already closed (e.g., inside a Controller or view layer).",
+        "The field was annotated with `@Transient`.",
+        "Database username and password were not configured."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Hibernate can only fetch lazy associations while the `Session` (Persistence Context) is open. Once the `@Transactional` service method returns and the session closes, the entity becomes `Detached` and accessing uninitialized lazy proxies throws `LazyInitializationException`.",
+      "card_front": "What causes `LazyInitializationException: could not initialize proxy - no Session` in Hibernate?",
+      "card_back": "The application attempted to access an uninitialized Lazy relationship after the Hibernate Session / `@Transactional` Persistence Context managing that entity had already closed (e.g., inside a Controller or view layer).",
+      "card_hint": "Hibernate, Exception, Lazy Loading",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "In Java 16+ and Spring Boot 3+, why should we prefer Java `record` types for Request/Response DTOs over regular classes with Lombok `@Data`?",
+      "code_snippet": "public record EventResponseDto(\n    Long id,\n    String title,\n    BigDecimal basePrice,\n    Instant eventDate,\n    String venue\n) {}",
+      "options": [
+        "Records make the application run 10 times faster than regular classes.",
+        "Records are shallowly immutable by design, concisely auto-generate canonical constructors, accessors, `equals()`, `hashCode()`, and `toString()`, are thread-safe, and require zero third-party annotation processors.",
+        "Records can extend multiple superclasses.",
+        "Hibernate requires JPA `@Entity` classes to be declared as `record`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java `record` classes are immutable data carriers that eliminate boilerplate natively in the JDK, prevent accidental state mutation across layers, and serialize/deserialize seamlessly with Jackson.",
+      "card_front": "In Java 16+ and Spring Boot 3+, why should we prefer Java `record` types for Request/Response DTOs over regular classes with Lombok `@Data`?",
+      "card_back": "Records are shallowly immutable by design, concisely auto-generate canonical constructors, accessors, `equals()`, `hashCode()`, and `toString()`, are thread-safe, and require zero third-party annotation processors.",
+      "card_hint": "Java 21, DTO, Record, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "What is the purpose of RFC 7807 (`ProblemDetail`), built into Spring Boot 3, in RESTful API design?",
+      "code_snippet": "",
+      "options": [
+        "Automatically encrypts sensitive JSON payloads using AES-256.",
+        "Standardizes HTTP API error response JSON payloads with canonical fields (`type`, `title`, `status`, `detail`, `instance`) so clients can parse and handle errors consistently.",
+        "Automatically generates Swagger UI documentation.",
+        "Compresses HTTP response bodies to save bandwidth."
+      ],
+      "correct_option_index": 1,
+      "explanation": "RFC 7807 (\"Problem Details for HTTP APIs\") is the industry standard for structured error responses. Spring Boot 3 provides `ProblemDetail` natively for `@RestControllerAdvice` error handlers.",
+      "card_front": "What is the purpose of RFC 7807 (`ProblemDetail`), built into Spring Boot 3, in RESTful API design?",
+      "card_back": "Standardizes HTTP API error response JSON payloads with canonical fields (`type`, `title`, `status`, `detail`, `instance`) so clients can parse and handle errors consistently.",
+      "card_hint": "REST API, RFC 7807, Spring Boot 3",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "When writing Unit Tests for a Service class (e.g., `EventServiceTest`), why should you use `@ExtendWith(MockitoExtension.class)` instead of `@SpringBootTest`?",
+      "code_snippet": "@ExtendWith(MockitoExtension.class)\nclass EventServiceTest {\n    @Mock\n    private EventRepository eventRepository;\n\n    @InjectMocks\n    private EventService eventService;\n}",
+      "options": [
+        "`@SpringBootTest` does not allow mocking dependencies.",
+        "`@ExtendWith(MockitoExtension.class)` runs purely on the JVM in milliseconds without booting the full Spring `ApplicationContext`, keeping unit tests fast and strictly isolated to business logic.",
+        "Mockito is incompatible with Spring Boot 3.",
+        "Using `@SpringBootTest` wipes the production database."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Unit tests verify a single class in isolation. `@SpringBootTest` boots the entire Spring container, database connections, and hundreds of beans (taking seconds), whereas pure Mockito unit tests execute in milliseconds.",
+      "card_front": "When writing Unit Tests for a Service class (e.g., `EventServiceTest`), why should you use `@ExtendWith(MockitoExtension.class)` instead of `@SpringBootTest`?",
+      "card_back": "`@ExtendWith(MockitoExtension.class)` runs purely on the JVM in milliseconds without booting the full Spring `ApplicationContext`, keeping unit tests fast and strictly isolated to business logic.",
+      "card_hint": "Testing, JUnit 5, Mockito, Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "What is the difference between `@Mock` and `@Spy` in Mockito?",
+      "code_snippet": "",
+      "options": [
+        "`@Mock` creates a complete dummy shell where unstubbed methods return default values (`null`, `0`, `false`); `@Spy` wraps a real object instance, invoking real methods unless a specific method is explicitly stubbed.",
+        "`@Mock` only works on interfaces, whereas `@Spy` only works on abstract classes.",
+        "`@Spy` runs 5 times faster than `@Mock`.",
+        "`@Mock` stores data in a database, whereas `@Spy` stores data in RAM."
+      ],
+      "correct_option_index": 0,
+      "explanation": "A `@Mock` replaces all behavior with empty stubs by default. A `@Spy` (partial mock) delegates calls to the underlying real object unless overridden with `doReturn(...).when(spy).method()`.",
+      "card_front": "What is the difference between `@Mock` and `@Spy` in Mockito?",
+      "card_back": "`@Mock` creates a complete dummy shell where unstubbed methods return default values (`null`, `0`, `false`); `@Spy` wraps a real object instance, invoking real methods unless a specific method is explicitly stubbed.",
+      "card_hint": "Testing, Mockito, Mock vs Spy",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "In JWT security architecture, why is an Access Token designed with a short lifespan (e.g., 15 minutes) while a Refresh Token has a longer lifespan (e.g., 7 days)?",
+      "code_snippet": "",
+      "options": [
+        "Because a longer Access Token TTL makes the Base64 string too large to send over HTTP.",
+        "Because JWT Access Tokens are stateless (not looked up in a server session store on every request), a short TTL limits the window of damage if stolen; the Refresh Token is stored securely (and can be revoked/blacklisted in Redis) to issue new Access Tokens.",
+        "Because the HMAC-SHA256 algorithm mathematically expires after 15 minutes.",
+        "Because web browsers automatically delete all tokens every 15 minutes."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Stateless JWT Access Tokens remain valid until expiration once signed. Keeping their TTL short (15m) minimizes exposure if leaked, while the Refresh Token can be validated against Redis or database revocation lists.",
+      "card_front": "In JWT security architecture, why is an Access Token designed with a short lifespan (e.g., 15 minutes) while a Refresh Token has a longer lifespan (e.g., 7 days)?",
+      "card_back": "Because JWT Access Tokens are stateless (not looked up in a server session store on every request), a short TTL limits the window of damage if stolen; the Refresh Token is stored securely (and can be revoked/blacklisted in Redis) to issue new Access Tokens.",
+      "card_hint": "Security, JWT, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "What is a BOLA (Broken Object Level Authorization / IDOR) vulnerability in the `cancelBooking(bookingId)` endpoint below, and how do you prevent it in Spring Security?",
+      "code_snippet": "// Cancel booking API:\n@DeleteMapping(\"/api/v1/bookings/{bookingId}\")\npublic ResponseEntity<Void> cancelBooking(@PathVariable Long bookingId) {\n    // If we only check isAuthenticated \n    // WITHOUT verifying whether bookingId belongs to the caller!\n    bookingService.cancel(bookingId);\n    return ResponseEntity.noContent().build();\n}",
+      "options": [
+        "An authenticated user manipulates `bookingId` in the URL to view or cancel someone else’s ticket; prevent it by verifying resource ownership, e.g., `@PreAuthorize(\"@bookingSecurity.isOwner(#bookingId, authentication.principal.id)\")`.",
+        "An attacker injects SQL into the URL; prevent it by enabling CORS.",
+        "A user floods the server with requests; prevent it with Redis caching.",
+        "Weak password hashing; prevent it by switching to MD5."
+      ],
+      "correct_option_index": 0,
+      "explanation": "BOLA/IDOR is the #1 OWASP API Security vulnerability. Checking only `isAuthenticated()` is not enough—you must verify that the authenticated user actually owns the target `bookingId`.",
+      "card_front": "What is a BOLA (Broken Object Level Authorization / IDOR) vulnerability in the `cancelBooking(bookingId)` endpoint below, and how do you prevent it in Spring Security?",
+      "card_back": "An authenticated user manipulates `bookingId` in the URL to view or cancel someone else’s ticket; prevent it by verifying resource ownership, e.g., `@PreAuthorize(\"@bookingSecurity.isOwner(#bookingId, authentication.principal.id)\")`.",
+      "card_hint": "Security, OWASP, BOLA, Authorization",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "When 10,000 users simultaneously click \"Hold Seat\" for the exact same VIP seat, which mechanism GUARANTEES zero double-booking across a multi-instance clustered deployment?",
+      "code_snippet": "",
+      "options": [
+        "Using the Java `synchronized` keyword on the `holdSeat()` service method.",
+        "Using a Redis Distributed Lock (e.g., Redisson `RLock`) or a PostgreSQL Pessimistic Write Lock (`SELECT ... FOR UPDATE`) / Optimistic `@Version` check.",
+        "Storing seat status in a `static HashMap` in JVM RAM.",
+        "Using `@Async` to process seat bookings in the background."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java’s `synchronized` or `ReentrantLock` only locks threads within a single JVM process! In a multi-instance cluster behind a Load Balancer, you must coordinate across nodes using a Redis Distributed Lock (Redisson) or database-level locking.",
+      "card_front": "When 10,000 users simultaneously click \"Hold Seat\" for the exact same VIP seat, which mechanism GUARANTEES zero double-booking across a multi-instance clustered deployment?",
+      "card_back": "Using a Redis Distributed Lock (e.g., Redisson `RLock`) or a PostgreSQL Pessimistic Write Lock (`SELECT ... FOR UPDATE`) / Optimistic `@Version` check.",
+      "card_hint": "Concurrency, Distributed Lock, Redis, Redisson",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "How does Optimistic Locking (`@Version`) work in Spring Data JPA?",
+      "code_snippet": "@Entity\n@Table(name = \"seats\")\npublic class Seat {\n    @Id\n    private Long id;\n\n    private String seatNumber;\n\n    @Enumerated(EnumType.STRING)\n    private SeatStatus status;\n\n    @Version\n    private Long version;\n}",
+      "options": [
+        "The database physically locks the row from the moment it is read until the transaction ends.",
+        "No physical DB lock is held during read; on update, Hibernate includes the `@Version` column in the `WHERE` clause (`UPDATE seats SET status=?, version=version+1 WHERE id=? AND version=?`). If another transaction incremented `version` first, 0 rows are updated and Hibernate throws `OptimisticLockingFailureException`.",
+        "Automatically broadcasts a WebSocket message whenever a user views a seat.",
+        "Allows reads but blocks all writes across the entire table for 10 minutes."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Optimistic Locking avoids holding physical database locks during reads. At commit time, it checks whether the `@Version` number in the database still matches the version read initially; if not, it throws `OptimisticLockingFailureException`.",
+      "card_front": "How does Optimistic Locking (`@Version`) work in Spring Data JPA?",
+      "card_back": "No physical DB lock is held during read; on update, Hibernate includes the `@Version` column in the `WHERE` clause (`UPDATE seats SET status=?, version=version+1 WHERE id=? AND version=?`). If another transaction incremented `version` first, 0 rows are updated and Hibernate throws `OptimisticLockingFailureException`.",
+      "card_hint": "JPA, Optimistic Lock, Concurrency",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "What is the \"Cache Stampede\" (Dogpiling) phenomenon, and how is it mitigated in Ticket Station?",
+      "code_snippet": "",
+      "options": [
+        "Redis runs out of memory and wipes all keys.",
+        "When a very \"hot\" cache key (e.g., today’s featured concert) expires (TTL reaches 0), thousands of concurrent requests miss the cache simultaneously and slam the Database to recompute it, crashing the DB; mitigate with TTL jitter, mutex locks on cache rebuild, or proactive background cache warming.",
+        "The network cable between Spring Boot and Redis is unplugged.",
+        "Cached data never expires."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Cache Stampede happens when a hot key expires under heavy traffic and thousands of threads hit the database at once. Solutions include adding random jitter to TTLs, using a distributed mutex lock so only 1 thread rebuilds the cache, or refreshing the cache asynchronously before expiry.",
+      "card_front": "What is the \"Cache Stampede\" (Dogpiling) phenomenon, and how is it mitigated in Ticket Station?",
+      "card_back": "When a very \"hot\" cache key (e.g., today’s featured concert) expires (TTL reaches 0), thousands of concurrent requests miss the cache simultaneously and slam the Database to recompute it, crashing the DB; mitigate with TTL jitter, mutex locks on cache rebuild, or proactive background cache warming.",
+      "card_hint": "Redis, Caching, Cache Stampede, System Design",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "How does the \"Temporary Seat Hold\" business workflow operate when a user selects a concert seat?",
+      "code_snippet": "",
+      "options": [
+        "Charges the user’s credit card immediately and refunds after 24 hours if they cancel.",
+        "Transitions the seat status to `HELD` with `heldUntil = Instant.now().plus(Duration.ofMinutes(10))`; if payment is not completed within 10 minutes, a scheduled worker or Redis TTL expiration automatically releases the seat back to `AVAILABLE`.",
+        "Deletes the seat row from the database so nobody else can see it.",
+        "Blocks the IP addresses of all other users."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Temporary Hold reserves a seat (`HELD`) with an expiration timestamp (`heldUntil`, e.g., 10 minutes) while the customer completes checkout. If the timer expires without payment, the seat automatically returns to `AVAILABLE`.",
+      "card_front": "How does the \"Temporary Seat Hold\" business workflow operate when a user selects a concert seat?",
+      "card_back": "Transitions the seat status to `HELD` with `heldUntil = Instant.now().plus(Duration.ofMinutes(10))`; if payment is not completed within 10 minutes, a scheduled worker or Redis TTL expiration automatically releases the seat back to `AVAILABLE`.",
+      "card_hint": "Business Logic, Ticket Hold, TTL",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "What dangerous distributed systems anti-pattern is present in the `processPaymentSuccess` method below?",
+      "code_snippet": "@Transactional\npublic void processPaymentSuccess(Order order) {\n    order.setStatus(OrderStatus.PAID);\n    orderRepository.save(order); // 1. Save to PostgreSQL\n\n    // 2. Publish event to Kafka to send PDF ticket and email\n    kafkaTemplate.send(\"ticket-booked-topic\", new OrderPaidEvent(order.getId()));\n}",
+      "options": [
+        "There is no issue; this code follows Spring best practices.",
+        "The \"Dual-Write\" hazard: the PostgreSQL transaction and the Kafka message publish are not atomic. If the DB commits but Kafka is down, the ticket email is never sent; if Kafka publishes before the DB transaction rolls back, an unpaid user receives a ticket!",
+        "Spring forbids injecting `KafkaTemplate` into a `@Transactional` class.",
+        "Kafka can only send XML messages, not Java objects."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Writing to two separate infrastructure systems (PostgreSQL + Kafka) inside one method without a coordinated pattern creates the Dual-Write bug, causing data inconsistency whenever partial failures occur.",
+      "card_front": "What dangerous distributed systems anti-pattern is present in the `processPaymentSuccess` method below?",
+      "card_back": "The \"Dual-Write\" hazard: the PostgreSQL transaction and the Kafka message publish are not atomic. If the DB commits but Kafka is down, the ticket email is never sent; if Kafka publishes before the DB transaction rolls back, an unpaid user receives a ticket!",
+      "card_hint": "Kafka, Dual-Write, Distributed Systems, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "How does the Transactional Outbox Pattern eliminate the Dual-Write problem?",
+      "code_snippet": "",
+      "options": [
+        "It persists both the `orders` update and an `outbox_events` record inside the SAME local ACID database transaction; a background Relay Worker or Debezium CDC then reads `outbox_events` and reliably publishes to Kafka.",
+        "It disables database transactions and relies solely on Kafka.",
+        "It forces the frontend client to send two separate HTTP requests: one to PostgreSQL and one to Kafka.",
+        "It configures Kafka to write directly into PostgreSQL tables."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Because both `orders` and `outbox_events` live in the same relational database, a single local ACID transaction guarantees atomicity: either both commit together or both roll back. A background relay then publishes pending outbox rows to Kafka (At-least-once delivery).",
+      "card_front": "How does the Transactional Outbox Pattern eliminate the Dual-Write problem?",
+      "card_back": "It persists both the `orders` update and an `outbox_events` record inside the SAME local ACID database transaction; a background Relay Worker or Debezium CDC then reads `outbox_events` and reliably publishes to Kafka.",
+      "card_hint": "Outbox Pattern, Kafka, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "When a Kafka Consumer repeatedly fails to process a message (e.g., a third-party email service is down or the payload is malformed), what is the standard Production recovery strategy?",
+      "code_snippet": "",
+      "options": [
+        "Silently drop and ignore the failed message immediately.",
+        "Block the consumer thread forever without committing the offset.",
+        "Configure Retry with Exponential Backoff (e.g., 1s, 2s, 4s...); if the message still fails after N attempts, route it to a Dead Letter Queue / Topic (DLQ / DLT) for alerting and inspection without blocking the partition.",
+        "Delete the Kafka topic and recreate it."
+      ],
+      "correct_option_index": 2,
+      "explanation": "Exponential Backoff handles transient network hiccups gracefully, while routing persistently failing (\"poison pill\") messages to a Dead Letter Topic (DLT) prevents partition stalls and preserves the failed message for operational replay.",
+      "card_front": "When a Kafka Consumer repeatedly fails to process a message (e.g., a third-party email service is down or the payload is malformed), what is the standard Production recovery strategy?",
+      "card_back": "Configure Retry with Exponential Backoff (e.g., 1s, 2s, 4s...); if the message still fails after N attempts, route it to a Dead Letter Queue / Topic (DLQ / DLT) for alerting and inspection without blocking the partition.",
+      "card_hint": "Kafka, DLQ, Resilience",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "What does Idempotency mean for the payment endpoint (`POST /payments`) in Ticket Station?",
+      "code_snippet": "",
+      "options": [
+        "The API responds in under 10 milliseconds.",
+        "Even if a client sends the same payment request multiple times (due to network timeouts, retries, or double-clicking), the system charges the customer and processes the order EXACTLY ONCE, returning the same result on subsequent retries without side effects.",
+        "The API only accepts requests from a static IP address.",
+        "Payment records can never be queried after creation."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Payment APIs must be idempotent. When mobile clients or gateways retry a timed-out `POST /payments` request carrying the same `Idempotency-Key`, the server recognizes the key and prevents charging the customer twice.",
+      "card_front": "What does Idempotency mean for the payment endpoint (`POST /payments`) in Ticket Station?",
+      "card_back": "Even if a client sends the same payment request multiple times (due to network timeouts, retries, or double-clicking), the system charges the customer and processes the order EXACTLY ONCE, returning the same result on subsequent retries without side effects.",
+      "card_hint": "Idempotency, API Design, Payment",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "How do you implement a high-performance `@Idempotent` check using Redis in Spring Boot?",
+      "code_snippet": "@PostMapping(\"/charge\")\n@Idempotent(key = \"#request.idempotencyKey\", expireSeconds = 120)\npublic PaymentResponse chargeMoney(@RequestBody PaymentRequest request) { ... }",
+      "options": [
+        "Execute an atomic Redis `SET key value NX EX seconds` (set only if not exists with TTL). If it returns `true`, process the first request; if it returns `false`, reject the duplicate concurrent request or return the cached response.",
+        "Increment a counter with `INCR` and only process odd numbers.",
+        "Save the entire HTTP request into a temporary PostgreSQL table and drop the table every 5 minutes.",
+        "Rely solely on browser cookies."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Redis `SET key value NX EX seconds` is completely atomic. Only the first request succeeds in setting the key (`true`); any duplicate retry arriving within the TTL window receives `false` and is blocked from double-charging.",
+      "card_front": "How do you implement a high-performance `@Idempotent` check using Redis in Spring Boot?",
+      "card_back": "Execute an atomic Redis `SET key value NX EX seconds` (set only if not exists with TTL). If it returns `true`, process the first request; if it returns `false`, reject the duplicate concurrent request or return the cached response.",
+      "card_hint": "Redis, Idempotency, Spring AOP",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "What are the 3 states of a Circuit Breaker in Resilience4j, and how does it transition between them?",
+      "code_snippet": "",
+      "options": [
+        "`START`, `RUNNING`, `STOPPED`",
+        "`CLOSED` (normal operation, requests pass through), `OPEN` (failure rate exceeded threshold, fails fast immediately and invokes fallback), and `HALF_OPEN` (allows a limited number of probe requests to test whether the downstream service has recovered).",
+        "`GREEN`, `YELLOW`, `RED`",
+        "`ACTIVE`, `PASSIVE`, `STANDBY`"
+      ],
+      "correct_option_index": 1,
+      "explanation": "A Circuit Breaker prevents cascading failures: `CLOSED` lets traffic flow normally; when downstream errors exceed the threshold, it trips to `OPEN` to fail fast without exhausting threads; after a wait duration, it enters `HALF_OPEN` to test recovery before returning to `CLOSED`.",
+      "card_front": "What are the 3 states of a Circuit Breaker in Resilience4j, and how does it transition between them?",
+      "card_back": "`CLOSED` (normal operation, requests pass through), `OPEN` (failure rate exceeded threshold, fails fast immediately and invokes fallback), and `HALF_OPEN` (allows a limited number of probe requests to test whether the downstream service has recovered).",
+      "card_hint": "Resilience4j, Circuit Breaker, Fault Tolerance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "Why should Production deployments use a Multi-Stage Dockerfile and run the container as a non-root user (`USER appuser`)?",
+      "code_snippet": "# Stage 1: Build\nFROM maven:3.9.6-eclipse-temurin-21-alpine AS builder\n...\n# Stage 2: Runtime\nFROM eclipse-temurin:21-jre-alpine\nRUN addgroup -S appgroup && adduser -S appuser -G appgroup\nUSER appuser\nCOPY --from=builder /app/target/*.jar app.jar\nENTRYPOINT [\"java\", \"-jar\", \"app.jar\"]",
+      "options": [
+        "Multi-stage builds separate the heavy build environment (Maven, JDK, source code, `.m2` cache) from the minimal JRE runtime image, shrinking image size from ~800MB+ down to ~150MB; running as a non-root user prevents container privilege escalation attacks on the host.",
+        "Non-root users are required to unlock Java 21 Virtual Threads.",
+        "Docker forbids running JAR files unless the username is `appuser`.",
+        "It reduces the line count of `pom.xml`."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Multi-Stage Dockerfiles leave build tools and source code behind, shipping only the compiled JAR inside a slim JRE image. Running as a non-root user adheres to CIS Docker Security Benchmarks by limiting damage if a vulnerability is exploited.",
+      "card_front": "Why should Production deployments use a Multi-Stage Dockerfile and run the container as a non-root user (`USER appuser`)?",
+      "card_back": "Multi-stage builds separate the heavy build environment (Maven, JDK, source code, `.m2` cache) from the minimal JRE runtime image, shrinking image size from ~800MB+ down to ~150MB; running as a non-root user prevents container privilege escalation attacks on the host.",
+      "card_hint": "Docker, Security, Production, DevOps",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.enabledFileTypes": {
+    "jsonc": true
+  },
+  "editor.fontFamily": "'Jetbrains Mono', 'Fira Code'",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', monospace",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "editor.fontSize": 12,
+  "editor.formatOnSave": false,
+  "workbench.editor.enablePreview": false,
+  "cSpell.userWords": [
+    "Pickleball"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "Backoffice"
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic"
+}

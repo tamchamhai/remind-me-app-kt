@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_spring_boot",
+    "title": "Spring Boot",
+    "description": "IoC/DI、Beanライフサイクル、JPA/Hibernate & セキュリティ",
+    "icon_name": "Storage",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_spring_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_spring_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_number": 1,
+      "title": "第1章: IoCコンテナ、DI & Beanスコープ",
+      "description": "@Component, @Service, Singleton と Prototype, コンストラクタインジェクション"
+    },
+    {
+      "id": "chap_spring_2",
+      "topic_id": "topic_spring_boot",
+      "chapter_number": 2,
+      "title": "第2章: Spring Data JPA、N+1問題 & @Transactional",
+      "description": "遅延読み込みと即時読み込み、トランザクション伝播・分離レベル、EntityManager"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_spring_1_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_id": "chap_spring_1",
+      "question": "Spring IoCコンテナにおける Bean のデフォルトスコープは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "prototype",
+        "singleton",
+        "request",
+        "session"
+      ],
+      "correct_option_index": 1,
+      "explanation": "デフォルトでは、すべての Spring Bean は「singleton」スコープを持ちます（ApplicationContext ごとに1つのインスタンスのみが共有されます）。",
+      "card_front": "Spring IoCコンテナにおける Bean のデフォルトスコープは何ですか？",
+      "card_back": "singleton",
+      "card_hint": "Spring Bean Scopes",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_spring_2_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_id": "chap_spring_2",
+      "question": "Spring Data JPA / Hibernate で N+1 クエリ問題を根本的に解決する方法はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "コネクションプールのサイズを増やす",
+        "JPQL の JOIN FETCH または @EntityGraph を使用して関連エンティティを1回のクエリで取得する",
+        "すべての関連を FetchType.EAGER に設定する",
+        "テーブルの外部キー制約を削除する"
+      ],
+      "correct_option_index": 1,
+      "explanation": "JOIN FETCH や @EntityGraph を使用すると、親テーブルと子テーブルのデータを1回の SQL JOIN でまとめて取得でき、N回の追加クエリ発行を防げます。",
+      "card_front": "Spring Data JPA / Hibernate で N+1 クエリ問題を根本的に解決する方法はどれですか？",
+      "card_back": "JPQL の JOIN FETCH または @EntityGraph を使用して関連エンティティを1回のクエリで取得する",
+      "card_hint": "JPA N+1 Query",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

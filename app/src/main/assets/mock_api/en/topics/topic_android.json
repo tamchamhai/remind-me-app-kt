@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_android",
+    "title": "Android & Compose",
+    "description": "Recomposition, State Hoisting, Activity & Service",
+    "icon_name": "PhoneAndroid",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_android_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_android_1",
+      "topic_id": "topic_android",
+      "chapter_number": 1,
+      "title": "Chapter 1: Jetpack Compose & Recomposition",
+      "description": "remember, rememberSaveable, LaunchedEffect, CompositionLocal"
+    },
+    {
+      "id": "chap_android_2",
+      "topic_id": "topic_android",
+      "chapter_number": 2,
+      "title": "Chapter 2: Activity, Service & BroadcastReceiver",
+      "description": "Foreground Service, Lock Screen Activity, Lifecycle"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_android_1_1",
+      "topic_id": "topic_android",
+      "chapter_id": "chap_android_1",
+      "question": "In Jetpack Compose, which function retains state across screen rotations (Configuration Changes)?",
+      "code_snippet": "",
+      "options": [
+        "remember { }",
+        "rememberSaveable { }",
+        "LaunchedEffect { }",
+        "derivedStateOf { }"
+      ],
+      "correct_option_index": 1,
+      "explanation": "rememberSaveable persists state into a Bundle so it survives Activity recreation during configuration changes like screen rotation.",
+      "card_front": "In Jetpack Compose, which function retains state across screen rotations (Configuration Changes)?",
+      "card_back": "rememberSaveable { }",
+      "card_hint": "Jetpack Compose State",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_android_2_1",
+      "topic_id": "topic_android",
+      "chapter_id": "chap_android_2",
+      "question": "To listen for the screen turning on (ACTION_SCREEN_ON) in Android, which approach is required?",
+      "code_snippet": "",
+      "options": [
+        "Declaring the BroadcastReceiver only in AndroidManifest.xml",
+        "Dynamically registering the BroadcastReceiver in code via registerReceiver()",
+        "Using a ContentProvider",
+        "Using WorkManager"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Intent.ACTION_SCREEN_ON is a protected system broadcast delivered only to BroadcastReceivers dynamically registered in code with registerReceiver().",
+      "card_front": "To listen for the screen turning on (ACTION_SCREEN_ON) in Android, which approach is required?",
+      "card_back": "Dynamically registering the BroadcastReceiver in code via registerReceiver()",
+      "card_hint": "Android BroadcastReceiver",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

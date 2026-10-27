@@ -1,0 +1,120 @@
+{
+  "topic": {
+    "id": "topic_kotlin_core",
+    "title": "Kotlin Core",
+    "description": "Null Safety, Scope Functions, Coroutines & Flow",
+    "icon_name": "Bolt",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "chap_kt_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_kt_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 1,
+      "title": "Chương 1: Null Safety, Data Class & Sealed Class",
+      "description": "Elvis operator, copy(), destructuring, sealed class vs enum"
+    },
+    {
+      "id": "chap_kt_2",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 2,
+      "title": "Chương 2: Scope Functions & Inline / Higher-Order",
+      "description": "let, run, apply, also, with, inline, noinline, crossinline"
+    },
+    {
+      "id": "chap_kt_3",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 3,
+      "title": "Chương 3: Coroutines, Dispatchers & Structured Concurrency",
+      "description": "launch vs async, SupervisorJob, Dispatchers.IO/Default/Main"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_kt_1_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_1",
+      "question": "Điểm khác biệt lớn nhất giữa 'sealed class' và 'enum class' trong Kotlin là gì?",
+      "code_snippet": "",
+      "options": [
+        "Enum class không thể dùng trong biểu thức when",
+        "Các subclass của sealed class có thể có nhiều khởi tạo (instances) và mang trạng thái (state) riêng biệt",
+        "Sealed class không hỗ trợ kế thừa",
+        "Enum class có thể kế thừa từ một class khác"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Mỗi hằng số Enum chỉ tồn tại duy nhất 1 instance, trong khi subclass của Sealed Class có thể là data class/class tạo nhiều instance với dữ liệu động.",
+      "card_front": "Điểm khác biệt lớn nhất giữa 'sealed class' và 'enum class' trong Kotlin là gì?",
+      "card_back": "Các subclass của sealed class có thể có nhiều khởi tạo (instances) và mang trạng thái (state) riêng biệt",
+      "card_hint": "Sealed Class vs Enum",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_1_2",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_1",
+      "question": "Toán tử Elvis (?:) trong biểu thức `val len = name?.length ?: 0` hoạt động như thế nào?",
+      "code_snippet": "val len = name?.length ?: 0",
+      "options": [
+        "Ném NullPointerException nếu name là null",
+        "Trả về vế trái nếu khác null, ngược lại trả về giá trị mặc định ở vế phải (0)",
+        "Luôn trả về 0",
+        "Ép kiểu không an toàn sang Int"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Toán tử Elvis ?: trả về giá trị bên trái nếu không null; nếu bên trái là null thì trả về biểu thức bên phải.",
+      "card_front": "Toán tử Elvis (?:) trong biểu thức `val len = name?.length ?: 0` hoạt động như thế nào?",
+      "card_back": "Trả về vế trái nếu khác null, ngược lại trả về giá trị mặc định ở vế phải (0)",
+      "card_hint": "Null Safety - Elvis Operator",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_2_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_2",
+      "question": "Trong các Scope Functions của Kotlin, hàm nào dùng con trỏ 'this' và trả về chính đối tượng ngữ cảnh (Context Object)?",
+      "code_snippet": "",
+      "options": [
+        "let",
+        "apply",
+        "also",
+        "run"
+      ],
+      "correct_option_index": 1,
+      "explanation": "apply dùng 'this' làm receiver và trả về chính object đó (rất hợp để cấu hình/khởi tạo đối tượng).",
+      "card_front": "Trong các Scope Functions của Kotlin, hàm nào dùng con trỏ 'this' và trả về chính đối tượng ngữ cảnh (Context Object)?",
+      "card_back": "apply",
+      "card_hint": "Scope Functions",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_3_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_3",
+      "question": "Sự khác nhau giữa SupervisorJob() và Job() thông thường trong Kotlin Coroutines là gì?",
+      "code_snippet": "",
+      "options": [
+        "SupervisorJob chạy nhanh gấp đôi Job",
+        "Khi 1 coroutine con bị lỗi, SupervisorJob không hủy các coroutine con anh em khác",
+        "SupervisorJob chỉ chạy trên Main Thread",
+        "SupervisorJob tự động retry khi gặp lỗi"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Với SupervisorJob, lỗi của một coroutine con không lan truyền lên làm hủy các coroutine con khác cùng cấp.",
+      "card_front": "Sự khác nhau giữa SupervisorJob() và Job() thông thường trong Kotlin Coroutines là gì?",
+      "card_back": "Khi 1 coroutine con bị lỗi, SupervisorJob không hủy các coroutine con anh em khác",
+      "card_hint": "Coroutines - SupervisorJob",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

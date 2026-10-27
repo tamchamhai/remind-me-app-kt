@@ -1,0 +1,120 @@
+{
+  "topic": {
+    "id": "topic_kotlin_core",
+    "title": "Kotlin Core",
+    "description": "Null Safety, Scope Functions, Coroutines & Flow",
+    "icon_name": "Bolt",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "chap_kt_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_kt_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 1,
+      "title": "Chapter 1: Null Safety, Data Class & Sealed Class",
+      "description": "Elvis operator, copy(), destructuring, sealed class vs enum"
+    },
+    {
+      "id": "chap_kt_2",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 2,
+      "title": "Chapter 2: Scope Functions & Inline / Higher-Order",
+      "description": "let, run, apply, also, with, inline, noinline, crossinline"
+    },
+    {
+      "id": "chap_kt_3",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 3,
+      "title": "Chapter 3: Coroutines, Dispatchers & Structured Concurrency",
+      "description": "launch vs async, SupervisorJob, Dispatchers.IO/Default/Main"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_kt_1_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_1",
+      "question": "What is the biggest difference between a 'sealed class' and an 'enum class' in Kotlin?",
+      "code_snippet": "",
+      "options": [
+        "An enum class cannot be used in a when expression",
+        "Subclasses of a sealed class can have multiple instances and hold their own distinct state",
+        "A sealed class does not support inheritance",
+        "An enum class can inherit from another open class"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Each enum constant exists only as a single instance, whereas subclasses of a sealed class can be data classes or regular classes instantiated multiple times with dynamic state.",
+      "card_front": "What is the biggest difference between a 'sealed class' and an 'enum class' in Kotlin?",
+      "card_back": "Subclasses of a sealed class can have multiple instances and hold their own distinct state",
+      "card_hint": "Sealed Class vs Enum",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_1_2",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_1",
+      "question": "How does the Elvis operator (?:) work in the expression `val len = name?.length ?: 0`?",
+      "code_snippet": "val len = name?.length ?: 0",
+      "options": [
+        "Throws a NullPointerException if name is null",
+        "Returns the left-hand value if it is non-null; otherwise returns the default value on the right (0)",
+        "Always returns 0",
+        "Performs an unsafe cast to Int"
+      ],
+      "correct_option_index": 1,
+      "explanation": "The Elvis operator ?: returns the expression on its left if it is not null; if the left side evaluates to null, it returns the right-hand expression.",
+      "card_front": "How does the Elvis operator (?:) work in the expression `val len = name?.length ?: 0`?",
+      "card_back": "Returns the left-hand value if it is non-null; otherwise returns the default value on the right (0)",
+      "card_hint": "Null Safety - Elvis Operator",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_2_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_2",
+      "question": "Among Kotlin's Scope Functions, which function uses the 'this' receiver and returns the Context Object itself?",
+      "code_snippet": "",
+      "options": [
+        "let",
+        "apply",
+        "also",
+        "run"
+      ],
+      "correct_option_index": 1,
+      "explanation": "apply uses 'this' as its receiver and returns the context object itself, making it ideal for object initialization and configuration.",
+      "card_front": "Among Kotlin's Scope Functions, which function uses the 'this' receiver and returns the Context Object itself?",
+      "card_back": "apply",
+      "card_hint": "Scope Functions",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_3_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_3",
+      "question": "What is the difference between SupervisorJob() and a regular Job() in Kotlin Coroutines?",
+      "code_snippet": "",
+      "options": [
+        "SupervisorJob runs twice as fast as Job",
+        "When one child coroutine fails, SupervisorJob does not cancel its sibling coroutines",
+        "SupervisorJob only runs on the Main Thread",
+        "SupervisorJob automatically retries on failure"
+      ],
+      "correct_option_index": 1,
+      "explanation": "With SupervisorJob, a failure of one child coroutine does not propagate upward to cancel other sibling coroutines.",
+      "card_front": "What is the difference between SupervisorJob() and a regular Job() in Kotlin Coroutines?",
+      "card_back": "When one child coroutine fails, SupervisorJob does not cancel its sibling coroutines",
+      "card_hint": "Coroutines - SupervisorJob",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_sql_db",
+    "title": "SQL & Database",
+    "description": "Indexing, ACID Transactions, Joins & Optimization",
+    "icon_name": "Memory",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_sql_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_sql_1",
+      "topic_id": "topic_sql_db",
+      "chapter_number": 1,
+      "title": "Chương 1: Indexing, B-Tree & Tối ưu Query",
+      "description": "Clustered vs Non-clustered index, Composite index, EXPLAIN"
+    },
+    {
+      "id": "chap_sql_2",
+      "topic_id": "topic_sql_db",
+      "chapter_number": 2,
+      "title": "Chương 2: ACID & Transaction Isolation Levels",
+      "description": "Dirty Read, Non-repeatable Read, Phantom Read, Deadlock"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_sql_1_1",
+      "topic_id": "topic_sql_db",
+      "chapter_id": "chap_sql_1",
+      "question": "Với Composite Index trên các cột (A, B, C), truy vấn có điều kiện WHERE nào sau đây sẽ TẬN DỤNG ĐƯỢC index này?",
+      "code_snippet": "",
+      "options": [
+        "WHERE B = 10 AND C = 20",
+        "WHERE A = 5 AND B = 10",
+        "WHERE C = 20",
+        "WHERE B = 10"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Theo quy tắc Leftmost Prefix (Tiền tố bên trái ngoài cùng), truy vấn phải có mặt cột đầu tiên (A) mới sử dụng được B-Tree index (A, B, C).",
+      "card_front": "Với Composite Index trên các cột (A, B, C), truy vấn có điều kiện WHERE nào sau đây sẽ TẬN DỤNG ĐƯỢC index này?",
+      "card_back": "WHERE A = 5 AND B = 10",
+      "card_hint": "Composite Index Leftmost Prefix",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_sql_2_1",
+      "topic_id": "topic_sql_db",
+      "chapter_id": "chap_sql_2",
+      "question": "Hiện tượng một Transaction đọc được dữ liệu CHƯA COMMIT của một Transaction khác gọi là gì?",
+      "code_snippet": "",
+      "options": [
+        "Phantom Read",
+        "Dirty Read",
+        "Non-repeatable Read",
+        "Lost Update"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Dirty Read xảy ra ở mức READ UNCOMMITTED khi đọc phải dữ liệu chưa được commit (có thể bị rollback sau đó).",
+      "card_front": "Hiện tượng một Transaction đọc được dữ liệu CHƯA COMMIT của một Transaction khác gọi là gì?",
+      "card_back": "Dirty Read",
+      "card_hint": "Transaction Isolation Levels",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "topic": {
+    "id": "topic_kotlin_core",
+    "title": "Kotlin コア",
+    "description": "Null安全性、スコープ関数、コルーチン & Flow",
+    "icon_name": "Bolt",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "chap_kt_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_kt_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 1,
+      "title": "第1章: Null安全性、データクラス & シールドクラス",
+      "description": "Elvis演算子、copy()、分解宣言、sealed class と enum の違い"
+    },
+    {
+      "id": "chap_kt_2",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 2,
+      "title": "第2章: スコープ関数 & インライン / 高階関数",
+      "description": "let, run, apply, also, with, inline, noinline, crossinline"
+    },
+    {
+      "id": "chap_kt_3",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 3,
+      "title": "第3章: コルーチン、Dispatcher & 構造化並行性",
+      "description": "launch と async、SupervisorJob、Dispatchers.IO/Default/Main"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_kt_1_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_1",
+      "question": "Kotlinにおける「sealed class」と「enum class」の最大の違いは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "enum class は when 式で使用できない",
+        "sealed class のサブクラスは複数のインスタンスを持つことができ、それぞれ固有の状態（State）を保持できる",
+        "sealed class は継承をサポートしていない",
+        "enum class は他の通常のクラスを継承できる"
+      ],
+      "correct_option_index": 1,
+      "explanation": "各 enum 定数は単一のインスタンスしか存在しませんが、sealed class のサブクラスは data class や通常のクラスとして定義でき、動的なデータを持つ複数のインスタンスを生成できます。",
+      "card_front": "Kotlinにおける「sealed class」と「enum class」の最大の違いは何ですか？",
+      "card_back": "sealed class のサブクラスは複数のインスタンスを持つことができ、それぞれ固有の状態（State）を保持できる",
+      "card_hint": "Sealed Class vs Enum",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_1_2",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_1",
+      "question": "式 `val len = name?.length ?: 0` におけるエルビス演算子（?:）はどのように動作しますか？",
+      "code_snippet": "val len = name?.length ?: 0",
+      "options": [
+        "name が null の場合に NullPointerException をスローする",
+        "左辺が null でなければその値を返し、null の場合は右辺のデフォルト値（0）を返す",
+        "常に 0 を返す",
+        "Int 型へ安全でないキャストを行う"
+      ],
+      "correct_option_index": 1,
+      "explanation": "エルビス演算子 ?: は左辺の式が null でない場合はその値を返し、null の場合は右辺の式を評価して返します。",
+      "card_front": "式 `val len = name?.length ?: 0` におけるエルビス演算子（?:）はどのように動作しますか？",
+      "card_back": "左辺が null でなければその値を返し、null の場合は右辺のデフォルト値（0）を返す",
+      "card_hint": "Null Safety - Elvis Operator",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_2_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_2",
+      "question": "Kotlinのスコープ関数のうち、レシーバとして「this」を使用し、コンテキストオブジェクト自身を返す関数はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "let",
+        "apply",
+        "also",
+        "run"
+      ],
+      "correct_option_index": 1,
+      "explanation": "apply はレシーバに「this」を使用し、コンテキストオブジェクト自体を返すため、オブジェクトの初期化や設定に最適です。",
+      "card_front": "Kotlinのスコープ関数のうち、レシーバとして「this」を使用し、コンテキストオブジェクト自身を返す関数はどれですか？",
+      "card_back": "apply",
+      "card_hint": "Scope Functions",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_3_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_3",
+      "question": "Kotlin Coroutines における SupervisorJob() と通常の Job() の違いは何ですか？",
+      "code_snippet": "",
+      "options": [
+        "SupervisorJob は Job の2倍の速度で実行される",
+        "1つの子コルーチンで例外が発生しても、SupervisorJob は他の兄弟コルーチンをキャンセルしない",
+        "SupervisorJob はメインスレッドでのみ動作する",
+        "SupervisorJob はエラー時に自動的にリトライする"
+      ],
+      "correct_option_index": 1,
+      "explanation": "SupervisorJob を使用すると、ある子コルーチンの失敗が親や他の兄弟コルーチンに伝播せず、独立して実行を継続できます。",
+      "card_front": "Kotlin Coroutines における SupervisorJob() と通常の Job() の違いは何ですか？",
+      "card_back": "1つの子コルーチンで例外が発生しても、SupervisorJob は他の兄弟コルーチンをキャンセルしない",
+      "card_hint": "Coroutines - SupervisorJob",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

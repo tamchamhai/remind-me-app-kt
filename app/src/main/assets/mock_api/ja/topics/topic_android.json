@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_android",
+    "title": "Android & Compose",
+    "description": "Recomposition、状態ホイスティング、Activity & Service",
+    "icon_name": "PhoneAndroid",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_android_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_android_1",
+      "topic_id": "topic_android",
+      "chapter_number": 1,
+      "title": "第1章: Jetpack Compose & Recomposition",
+      "description": "remember, rememberSaveable, LaunchedEffect, CompositionLocal"
+    },
+    {
+      "id": "chap_android_2",
+      "topic_id": "topic_android",
+      "chapter_number": 2,
+      "title": "第2章: Activity、Service & BroadcastReceiver",
+      "description": "フォアグラウンドサービス、ロック画面Activity、ライフサイクル"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_android_1_1",
+      "topic_id": "topic_android",
+      "chapter_id": "chap_android_1",
+      "question": "Jetpack Composeで、画面回転（Configuration Change）をまたいでも状態（State）を保持するために使用する関数はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "remember { }",
+        "rememberSaveable { }",
+        "LaunchedEffect { }",
+        "derivedStateOf { }"
+      ],
+      "correct_option_index": 1,
+      "explanation": "rememberSaveable は状態を Bundle に保存するため、画面回転などで Activity が再生成されてもデータが失われません。",
+      "card_front": "Jetpack Composeで、画面回転（Configuration Change）をまたいでも状態（State）を保持するために使用する関数はどれですか？",
+      "card_back": "rememberSaveable { }",
+      "card_hint": "Jetpack Compose State",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_android_2_1",
+      "topic_id": "topic_android",
+      "chapter_id": "chap_android_2",
+      "question": "Androidで画面点灯イベント（ACTION_SCREEN_ON）を検知するために必須の方法はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "AndroidManifest.xml にのみ BroadcastReceiver を宣言する",
+        "コード内で registerReceiver() を使って BroadcastReceiver を動的に登録する",
+        "ContentProvider を使用する",
+        "WorkManager を使用する"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Intent.ACTION_SCREEN_ON は保護されたシステムブロードキャストであり、コード内で registerReceiver() によって動的登録されたレシーバにのみ配信されます。",
+      "card_front": "Androidで画面点灯イベント（ACTION_SCREEN_ON）を検知するために必須の方法はどれですか？",
+      "card_back": "コード内で registerReceiver() を使って BroadcastReceiver を動的に登録する",
+      "card_hint": "Android BroadcastReceiver",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

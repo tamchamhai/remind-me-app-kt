@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_sql_db",
+    "title": "SQL & データベース",
+    "description": "インデックス、ACIDトランザクション、JOIN & クエリ最適化",
+    "icon_name": "Memory",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_sql_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_sql_1",
+      "topic_id": "topic_sql_db",
+      "chapter_number": 1,
+      "title": "第1章: インデックス、B-Tree & クエリ最適化",
+      "description": "クラスター化インデックス、複合インデックス、EXPLAIN実行計画"
+    },
+    {
+      "id": "chap_sql_2",
+      "topic_id": "topic_sql_db",
+      "chapter_number": 2,
+      "title": "第2章: ACID特性 & トランザクション分離レベル",
+      "description": "ダーティリード、ファジーリード、ファントムリード、デッドロック"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_sql_1_1",
+      "topic_id": "topic_sql_db",
+      "chapter_id": "chap_sql_1",
+      "question": "カラム (A, B, C) に複合インデックスが作成されている場合、このインデックスが有効に使われる WHERE 条件はどれですか？",
+      "code_snippet": "",
+      "options": [
+        "WHERE B = 10 AND C = 20",
+        "WHERE A = 5 AND B = 10",
+        "WHERE C = 20",
+        "WHERE B = 10"
+      ],
+      "correct_option_index": 1,
+      "explanation": "最左プレフィックス（Leftmost Prefix）の原則により、B-Tree複合インデックス (A, B, C) を利用するには先頭カラム (A) が検索条件に含まれている必要があります。",
+      "card_front": "カラム (A, B, C) に複合インデックスが作成されている場合、このインデックスが有効に使われる WHERE 条件はどれですか？",
+      "card_back": "WHERE A = 5 AND B = 10",
+      "card_hint": "Composite Index Leftmost Prefix",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_sql_2_1",
+      "topic_id": "topic_sql_db",
+      "chapter_id": "chap_sql_2",
+      "question": "あるトランザクションが、別のトランザクションによって変更された「未コミット（UNCOMMITTED）」のデータを読み取ってしまう現象を何と呼びますか？",
+      "code_snippet": "",
+      "options": [
+        "Phantom Read（ファントムリード）",
+        "Dirty Read（ダーティリード）",
+        "Non-repeatable Read（反復불可能読み取り）",
+        "Lost Update（更新損失）"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Dirty Read は READ UNCOMMITTED 分離レベルで発生し、まだコミットされていない（後にロールバックされる可能性がある）データを読み取ってしまう現象です。",
+      "card_front": "あるトランザクションが、別のトランザクションによって変更された「未コミット（UNCOMMITTED）」のデータを読み取ってしまう現象を何と呼びますか？",
+      "card_back": "Dirty Read（ダーティリード）",
+      "card_hint": "Transaction Isolation Levels",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

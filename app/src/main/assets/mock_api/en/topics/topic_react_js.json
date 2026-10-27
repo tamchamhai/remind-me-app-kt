@@ -1,0 +1,100 @@
+{
+  "topic": {
+    "id": "topic_react_js",
+    "title": "React JS",
+    "description": "Virtual DOM, Hooks, Props/State & Performance",
+    "icon_name": "Web",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "chap_react_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_react_1",
+      "topic_id": "topic_react_js",
+      "chapter_number": 1,
+      "title": "Chapter 1: Virtual DOM, JSX, Props & State",
+      "description": "Reconciliation, key prop, one-way data binding, immutability"
+    },
+    {
+      "id": "chap_react_2",
+      "topic_id": "topic_react_js",
+      "chapter_number": 2,
+      "title": "Chapter 2: Advanced React Hooks",
+      "description": "useState, useEffect cleanup, useMemo, useCallback, useRef"
+    },
+    {
+      "id": "chap_react_3",
+      "topic_id": "topic_react_js",
+      "chapter_number": 3,
+      "title": "Chapter 3: Context API, Redux & Render Optimization",
+      "description": "React.memo, avoiding prop drilling, global state management"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_react_1_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_1",
+      "question": "Why shouldn't you use an array index as a 'key' for lists in React when the item order can change?",
+      "code_snippet": "",
+      "options": [
+        "Because React forbids numbers as keys",
+        "Because it breaks Reconciliation, causing React to retain stale component state and degrading performance",
+        "Because array index keys only work in production builds",
+        "Because it immediately causes a browser out-of-memory crash"
+      ],
+      "correct_option_index": 1,
+      "explanation": "When items are inserted, deleted, or reordered, their indices shift, causing React to misidentify DOM nodes and attach old internal state to the wrong items.",
+      "card_front": "Why shouldn't you use an array index as a 'key' for lists in React when the item order can change?",
+      "card_back": "Because it breaks Reconciliation, causing React to retain stale component state and degrading performance",
+      "card_hint": "React Lists & Keys",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_react_2_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_2",
+      "question": "What is the difference between useMemo and useCallback in React?",
+      "code_snippet": "",
+      "options": [
+        "useMemo memoizes the computed return value of a function, whereas useCallback memoizes the function reference itself",
+        "useMemo runs asynchronously whereas useCallback runs synchronously",
+        "useCallback is for class components whereas useMemo is for function components",
+        "Both hooks behave identically"
+      ],
+      "correct_option_index": 0,
+      "explanation": "useMemo(() => compute(a, b), [a, b]) caches the calculated value, while useCallback(fn, deps) caches the function instance itself to prevent creating a new reference on every render.",
+      "card_front": "What is the difference between useMemo and useCallback in React?",
+      "card_back": "useMemo memoizes the computed return value of a function, whereas useCallback memoizes the function reference itself",
+      "card_hint": "React Hooks - useMemo vs useCallback",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_react_3_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_3",
+      "question": "What does the Higher-Order Component `React.memo(MyComponent)` do?",
+      "code_snippet": "",
+      "options": [
+        "Saves component state into LocalStorage",
+        "Skips re-rendering the component if its props have not changed (via shallow comparison)",
+        "Automatically calls an API when the component mounts",
+        "Completely replaces useState"
+      ],
+      "correct_option_index": 1,
+      "explanation": "React.memo performs a shallow comparison of previous and next props; if they are equal, it skips re-rendering the child component.",
+      "card_front": "What does the Higher-Order Component `React.memo(MyComponent)` do?",
+      "card_back": "Skips re-rendering the component if its props have not changed (via shallow comparison)",
+      "card_hint": "React Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

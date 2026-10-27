@@ -1,0 +1,16 @@
+{
+  "api_version": "v1",
+  "supported_languages": [
+    "vi",
+    "en",
+    "ja"
+  ],
+  "topic_files": [
+    "topic_java_core.json",
+    "topic_kotlin_core.json",
+    "topic_react_js.json",
+    "topic_spring_boot.json",
+    "topic_sql_db.json",
+    "topic_android.json"
+  ]
+}

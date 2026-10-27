@@ -1,0 +1,100 @@
+{
+  "topic": {
+    "id": "topic_react_js",
+    "title": "React JS",
+    "description": "Virtual DOM, Hooks, Props/State & Performance",
+    "icon_name": "Web",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "chap_react_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_react_1",
+      "topic_id": "topic_react_js",
+      "chapter_number": 1,
+      "title": "Chương 1: Virtual DOM, JSX, Props & State",
+      "description": "Reconciliation, key prop, one-way data binding, immutability"
+    },
+    {
+      "id": "chap_react_2",
+      "topic_id": "topic_react_js",
+      "chapter_number": 2,
+      "title": "Chương 2: React Hooks chuyên sâu",
+      "description": "useState, useEffect cleanup, useMemo, useCallback, useRef"
+    },
+    {
+      "id": "chap_react_3",
+      "topic_id": "topic_react_js",
+      "chapter_number": 3,
+      "title": "Chương 3: Context API, Redux & Tối ưu Render",
+      "description": "React.memo, tránh prop drilling, quản lý global state"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_react_1_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_1",
+      "question": "Tại sao không nên dùng chỉ số mảng (index) làm 'key' cho danh sách trong React khi thứ tự phần tử có thể thay đổi?",
+      "code_snippet": "",
+      "options": [
+        "Vì React cấm dùng số làm key",
+        "Vì làm sai lệch quá trình Reconciliation, gây lỗi giữ nhầm state của phần tử cũ và giảm hiệu năng",
+        "Vì index chỉ hoạt động ở môi trường production",
+        "Vì làm trình duyệt bị tràn bộ nhớ ngay lập tức"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Khi thêm/xóa/đảo phần tử, index thay đổi khiến React nhận diện nhầm định danh các DOM node và giữ sai state nội bộ.",
+      "card_front": "Tại sao không nên dùng chỉ số mảng (index) làm 'key' cho danh sách trong React khi thứ tự phần tử có thể thay đổi?",
+      "card_back": "Vì làm sai lệch quá trình Reconciliation, gây lỗi giữ nhầm state của phần tử cũ và giảm hiệu năng",
+      "card_hint": "React Lists & Keys",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_react_2_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_2",
+      "question": "Sự khác biệt giữa useMemo và useCallback trong React là gì?",
+      "code_snippet": "",
+      "options": [
+        "useMemo ghi nhớ kết quả trả về của hàm, còn useCallback ghi nhớ chính tham chiếu của hàm (function instance)",
+        "useMemo chạy bất đồng bộ còn useCallback chạy đồng bộ",
+        "useCallback dùng cho class component còn useMemo dùng cho function component",
+        "Hai hook này hoàn toàn giống nhau"
+      ],
+      "correct_option_index": 0,
+      "explanation": "useMemo(() => compute(a, b), [a, b]) cache giá trị tính toán; còn useCallback(fn, deps) cache chính hàm fn để tránh tạo lại tham chiếu mới.",
+      "card_front": "Sự khác biệt giữa useMemo và useCallback trong React là gì?",
+      "card_back": "useMemo ghi nhớ kết quả trả về của hàm, còn useCallback ghi nhớ chính tham chiếu của hàm (function instance)",
+      "card_hint": "React Hooks - useMemo vs useCallback",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_react_3_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_3",
+      "question": "Higher-Order Component `React.memo(MyComponent)` có tác dụng gì?",
+      "code_snippet": "",
+      "options": [
+        "Lưu dữ liệu của component vào LocalStorage",
+        "Bỏ qua việc re-render component nếu các props truyền vào không thay đổi (shallow comparison)",
+        "Tự động gọi API khi component mount",
+        "Thay thế hoàn toàn cho useState"
+      ],
+      "correct_option_index": 1,
+      "explanation": "React.memo so sánh nông (shallow compare) props trước và sau; nếu không đổi thì bỏ qua bước re-render component con.",
+      "card_front": "Higher-Order Component `React.memo(MyComponent)` có tác dụng gì?",
+      "card_back": "Bỏ qua việc re-render component nếu các props truyền vào không thay đổi (shallow comparison)",
+      "card_hint": "React Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

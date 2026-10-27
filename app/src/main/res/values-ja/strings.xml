@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RemindMe</string>
+    <string name="lockscreen_service_title">RemindMe ロック画面有効</string>
+    <string name="lockscreen_service_desc">画面点灯時にクイズや暗記カードを自動表示します</string>
+    <string name="lockscreen_action_review_now">今すぐ復習</string>
+</resources>
+

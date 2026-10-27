@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RemindMe</string>
+    <string name="lockscreen_service_title">RemindMe đang bật trên màn hình khóa</string>
+    <string name="lockscreen_service_desc">Tự động hiển thị câu hỏi ôn tập mỗi khi bạn bật màn hình</string>
+    <string name="lockscreen_action_review_now">Ôn tập ngay</string>
+</resources>
+

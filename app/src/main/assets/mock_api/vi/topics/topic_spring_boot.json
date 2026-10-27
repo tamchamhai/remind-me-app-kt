@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_spring_boot",
+    "title": "Spring Boot",
+    "description": "IoC/DI, Bean Lifecycle, JPA/Hibernate & Security",
+    "icon_name": "Storage",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_spring_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_spring_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_number": 1,
+      "title": "Chương 1: IoC Container, DI & Bean Scopes",
+      "description": "@Component, @Service, Singleton vs Prototype, Constructor Injection"
+    },
+    {
+      "id": "chap_spring_2",
+      "topic_id": "topic_spring_boot",
+      "chapter_number": 2,
+      "title": "Chương 2: Spring Data JPA, N+1 Query & @Transactional",
+      "description": "Lazy vs Eager loading, Propagation, Isolation, EntityManager"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_spring_1_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_id": "chap_spring_1",
+      "question": "Scope mặc định của một Bean trong Spring IoC Container là gì?",
+      "code_snippet": "",
+      "options": [
+        "prototype",
+        "singleton",
+        "request",
+        "session"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Mặc định mọi Spring Bean có scope là 'singleton' (chỉ có 1 instance duy nhất trong mỗi ApplicationContext).",
+      "card_front": "Scope mặc định của một Bean trong Spring IoC Container là gì?",
+      "card_back": "singleton",
+      "card_hint": "Spring Bean Scopes",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_spring_2_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_id": "chap_spring_2",
+      "question": "Cách nào giúp giải quyết triệt để lỗi N+1 Query trong Spring Data JPA / Hibernate?",
+      "code_snippet": "",
+      "options": [
+        "Tăng kích thước Connection Pool",
+        "Sử dụng JOIN FETCH trong JPQL hoặc @EntityGraph để tải luôn quan hệ trong 1 câu truy vấn",
+        "Đặt tất cả quan hệ thành FetchType.EAGER",
+        "Xóa khóa ngoại trong bảng"
+      ],
+      "correct_option_index": 1,
+      "explanation": "JOIN FETCH hoặc @EntityGraph giúp gom dữ liệu bảng cha và bảng con vào 1 câu SQL JOIN duy nhất thay vì bắn thêm N câu lệnh con.",
+      "card_front": "Cách nào giúp giải quyết triệt để lỗi N+1 Query trong Spring Data JPA / Hibernate?",
+      "card_back": "Sử dụng JOIN FETCH trong JPQL hoặc @EntityGraph để tải luôn quan hệ trong 1 câu truy vấn",
+      "card_hint": "JPA N+1 Query",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

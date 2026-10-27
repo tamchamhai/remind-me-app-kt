@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_android",
+    "title": "Android & Compose",
+    "description": "Recomposition, State Hoisting, Activity & Service",
+    "icon_name": "PhoneAndroid",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_android_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_android_1",
+      "topic_id": "topic_android",
+      "chapter_number": 1,
+      "title": "Chương 1: Jetpack Compose & Recomposition",
+      "description": "remember, rememberSaveable, LaunchedEffect, CompositionLocal"
+    },
+    {
+      "id": "chap_android_2",
+      "topic_id": "topic_android",
+      "chapter_number": 2,
+      "title": "Chương 2: Activity, Service & BroadcastReceiver",
+      "description": "Foreground Service, Lock Screen Activity, Lifecycle"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_android_1_1",
+      "topic_id": "topic_android",
+      "chapter_id": "chap_android_1",
+      "question": "Trong Jetpack Compose, hàm nào dùng để giữ trạng thái qua cả khi xoay màn hình (Configuration Change)?",
+      "code_snippet": "",
+      "options": [
+        "remember { }",
+        "rememberSaveable { }",
+        "LaunchedEffect { }",
+        "derivedStateOf { }"
+      ],
+      "correct_option_index": 1,
+      "explanation": "rememberSaveable lưu trạng thái vào Bundle nên không bị mất khi Activity bị tạo lại do xoay màn hình.",
+      "card_front": "Trong Jetpack Compose, hàm nào dùng để giữ trạng thái qua cả khi xoay màn hình (Configuration Change)?",
+      "card_back": "rememberSaveable { }",
+      "card_hint": "Jetpack Compose State",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_android_2_1",
+      "topic_id": "topic_android",
+      "chapter_id": "chap_android_2",
+      "question": "Để lắng nghe sự kiện bật sáng màn hình (ACTION_SCREEN_ON) trong Android, cách nào bắt buộc phải dùng?",
+      "code_snippet": "",
+      "options": [
+        "Chỉ khai báo BroadcastReceiver trong AndroidManifest.xml",
+        "Đăng ký BroadcastReceiver động bằng registerReceiver() trong code",
+        "Dùng ContentProvider",
+        "Dùng WorkManager"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Intent.ACTION_SCREEN_ON là broadcast hệ thống chỉ gửi cho các BroadcastReceiver được đăng ký động bằng registerReceiver().",
+      "card_front": "Để lắng nghe sự kiện bật sáng màn hình (ACTION_SCREEN_ON) trong Android, cách nào bắt buộc phải dùng?",
+      "card_back": "Đăng ký BroadcastReceiver động bằng registerReceiver() trong code",
+      "card_hint": "Android BroadcastReceiver",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

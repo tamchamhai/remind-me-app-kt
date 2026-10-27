@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_spring_boot",
+    "title": "Spring Boot",
+    "description": "IoC/DI, Bean Lifecycle, JPA/Hibernate & Security",
+    "icon_name": "Storage",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_spring_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_spring_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_number": 1,
+      "title": "Chapter 1: IoC Container, DI & Bean Scopes",
+      "description": "@Component, @Service, Singleton vs Prototype, Constructor Injection"
+    },
+    {
+      "id": "chap_spring_2",
+      "topic_id": "topic_spring_boot",
+      "chapter_number": 2,
+      "title": "Chapter 2: Spring Data JPA, N+1 Query & @Transactional",
+      "description": "Lazy vs Eager loading, Propagation, Isolation, EntityManager"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_spring_1_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_id": "chap_spring_1",
+      "question": "What is the default scope of a Bean in the Spring IoC Container?",
+      "code_snippet": "",
+      "options": [
+        "prototype",
+        "singleton",
+        "request",
+        "session"
+      ],
+      "correct_option_index": 1,
+      "explanation": "By default, every Spring Bean has the 'singleton' scope (only a single shared instance exists per ApplicationContext).",
+      "card_front": "What is the default scope of a Bean in the Spring IoC Container?",
+      "card_back": "singleton",
+      "card_hint": "Spring Bean Scopes",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_spring_2_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_id": "chap_spring_2",
+      "question": "Which approach thoroughly resolves the N+1 Query problem in Spring Data JPA / Hibernate?",
+      "code_snippet": "",
+      "options": [
+        "Increasing the database Connection Pool size",
+        "Using JOIN FETCH in JPQL or @EntityGraph to fetch the association in a single SQL query",
+        "Setting all relationships to FetchType.EAGER",
+        "Dropping foreign keys from the database table"
+      ],
+      "correct_option_index": 1,
+      "explanation": "JOIN FETCH or @EntityGraph fetches both the parent and child entities in a single SQL JOIN query instead of executing N additional child queries.",
+      "card_front": "Which approach thoroughly resolves the N+1 Query problem in Spring Data JPA / Hibernate?",
+      "card_back": "Using JOIN FETCH in JPQL or @EntityGraph to fetch the association in a single SQL query",
+      "card_hint": "JPA N+1 Query",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

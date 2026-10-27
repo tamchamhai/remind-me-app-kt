@@ -1,0 +1,2164 @@
+{
+  "topic": {
+    "id": "topic_java_core",
+    "title": "Java Core & Thực Chiến",
+    "description": "Trọn bộ 12 Chuyên đề Java Core & 6 Chặng Thực Chiến từ java-quiz-app (95 câu hỏi)",
+    "icon_name": "Code",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "mod1-sub1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "mod1-sub1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 1,
+      "title": "[M01.1] Nhập môn & Tư duy lập trình: tổng quan",
+      "description": "Tổng quan lộ trình học Java Core thực chiến, phương pháp học hiệu quả, phân tích hệ thống bán vé Ticket Station và mindset giải quyết bài toán."
+    },
+    {
+      "id": "mod1-sub2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 2,
+      "title": "[M01.2] Java là gì? — Write Once, Run Anywhere",
+      "description": "Lịch sử phát triển của Java, triết lý Write Once Run Anywhere (WORA), cơ chế Bytecode và máy ảo JVM giúp Java chạy độc lập với phần cứng."
+    },
+    {
+      "id": "mod1-sub3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 3,
+      "title": "[M01.3] JVM, JRE, JDK — ba khái niệm nền tảng",
+      "description": "Phân tích bản chất và mối quan hệ giữa JDK, JRE và JVM, kiến trúc nội bộ của máy ảo Java, sự thay đổi từ Java 11 trở đi (bỏ JRE rời)."
+    },
+    {
+      "id": "mod1-sub4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 4,
+      "title": "[M01.4] Cài đặt môi trường — JDK 21 và IntelliJ IDEA",
+      "description": "Cài đặt OpenJDK 21 LTS, cấu hình biến môi trường JAVA_HOME và PATH, làm quen với IntelliJ IDEA IDE và phím tắt cơ bản."
+    },
+    {
+      "id": "mod1-sub5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 5,
+      "title": "[M01.5] Hello World — cấu trúc một class Java",
+      "description": "Giải phẫu chi tiết cấu trúc một file mã nguồn Java: khai báo package, public class, hàm main (public static void main), System.out.println."
+    },
+    {
+      "id": "mod1-sub6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 6,
+      "title": "[M01.6] Tư duy lập trình — input, xử lý, output",
+      "description": "Mô hình tư duy IPO (Input - Process - Output), phân tích luồng dữ liệu nghiệp vụ bán vé, xử lý dữ liệu nhập từ bàn phím bằng java.util.Scanner."
+    },
+    {
+      "id": "mod1-sub7",
+      "topic_id": "topic_java_core",
+      "chapter_number": 7,
+      "title": "[M01.7] Compile & Run — javac, bytecode, và vòng đời một chương trình Java",
+      "description": "Vòng đời hoàn chỉnh của một chương trình Java: từ code .java, quá trình javac biên dịch, cấu trúc file .class, ClassLoader nạp vào bộ nhớ, Bytecode Verifier kiểm tra an toàn, JIT Compiler thực thi."
+    },
+    {
+      "id": "mod1-sub8",
+      "topic_id": "topic_java_core",
+      "chapter_number": 8,
+      "title": "[M01.8] Mini-challenge: In lịch tháng hiện tại",
+      "description": "Thử thách lập trình mini-challenge: Phân tích thuật toán và áp dụng vòng lặp, toán tử chia lấy dư %, cấu trúc điều kiện để in bảng lịch tháng theo dạng lưới 7 ngày (T2 - CN)."
+    },
+    {
+      "id": "mod1-sub9",
+      "topic_id": "topic_java_core",
+      "chapter_number": 9,
+      "title": "[M01.9] Tổng kết & cheat sheet",
+      "description": "Tóm tắt các kiến thức cốt lõi của Module 1, bảng cheat sheet các lệnh terminal quan trọng, các lỗi sơ khai hay gặp và lưu ý chuẩn bị cho Module 2."
+    },
+    {
+      "id": "mod2-sub1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 10,
+      "title": "[M02.1] Biến và khai báo – cái tên gắn với một giá trị",
+      "description": "Quy tắc đặt tên biến, phạm vi (scope) biến cục bộ vs biến thực thể, từ khóa var (Local Variable Type Inference - Java 10+), cơ chế khởi tạo giá trị mặc định."
+    },
+    {
+      "id": "mod2-sub2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 11,
+      "title": "[M02.2] Kiểu nguyên thuỷ trong Java: 8 loại, size và overflow",
+      "description": "8 kiểu dữ liệu nguyên thủy (byte, short, int, long, float, double, char, boolean), kích thước byte, hiện tượng tràn số (Overflow/Underflow), sai số số thực IEEE 754 và giải pháp BigDecimal."
+    },
+    {
+      "id": "mod2-sub3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 12,
+      "title": "[M02.3] Kiểu tham chiếu — null, NPE, wrapper class, autoboxing và Stack vs Heap",
+      "description": "Reference types, con trỏ tham chiếu trên Stack vs Object trên Heap, vòng đời LIFO vs Garbage Collector, IntegerCache và lỗi StackOverflowError vs OutOfMemoryError."
+    },
+    {
+      "id": "mod2-sub4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 13,
+      "title": "[M02.4] Toán tử số học và so sánh — phép chia nguyên, modulo âm và ép kiểu ngầm định",
+      "description": "Phép chia số nguyên (Integer Division truncates decimals), quy tắc dấu của toán tử modulo (%) với số âm, thứ tự ưu tiên của toán tử số học."
+    },
+    {
+      "id": "mod2-sub5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 14,
+      "title": "[M02.5] Toán tử logic và bitwise — short-circuit, cờ bit và thứ tự ưu tiên",
+      "description": "Toán tử logic ngắn mạch (&&, ||) vs Bitwise (&, |), thứ tự ưu tiên toán tử, ứng dụng Bitmask để quản lý cờ phân quyền (Permissions)."
+    },
+    {
+      "id": "mod2-sub6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 15,
+      "title": "[M02.6] Ép kiểu trong Java: Widening, Narrowing và Safe Cast",
+      "description": "Ép kiểu mở rộng (Widening/Implicit Casting), ép kiểu thu hẹp (Narrowing/Explicit Casting), cạm bẫy mất mát dữ liệu và cách ép kiểu an toàn."
+    },
+    {
+      "id": "mod2-sub7",
+      "topic_id": "topic_java_core",
+      "chapter_number": 16,
+      "title": "[M02.7] String, Text Block và StringBuilder trong Java hiện đại",
+      "description": "Tính bất biến của String, String Constant Pool, tối ưu hóa Constant Folding, Text Block (\"\"\"), StringBuilder vs toán tử + trong vòng lặp."
+    },
+    {
+      "id": "mod2-sub8",
+      "topic_id": "topic_java_core",
+      "chapter_number": 17,
+      "title": "[M02.8] Hằng số và final — giá trị khắc trên đá",
+      "description": "Từ khóa final trên biến, tham chiếu bất biến vs trạng thái đối tượng, hằng số thời gian biên dịch (Compile-time Constant) và tối ưu Constant Folding."
+    },
+    {
+      "id": "mod2-sub9",
+      "topic_id": "topic_java_core",
+      "chapter_number": 18,
+      "title": "[M02.9] Enum — tập giá trị cố định, type-safe thay cho magic number",
+      "description": "Enum trong Java: Type-safety, Singleton pattern, thuộc tính và phương thức trong Enum, so sánh Enum bằng == an toàn tuyệt đối."
+    },
+    {
+      "id": "mod2-sub10",
+      "topic_id": "topic_java_core",
+      "chapter_number": 19,
+      "title": "[M02.10] Thực hành tính chỉ số BMI và phân loại theo chuẩn WHO",
+      "description": "Thực hành tổng hợp cú pháp, biến, kiểu dữ liệu, toán tử số học, điều kiện if-else bậc thang với bài toán tính chỉ số khối cơ thể BMI theo tiêu chuẩn WHO."
+    },
+    {
+      "id": "module-03",
+      "topic_id": "topic_java_core",
+      "chapter_number": 20,
+      "title": "[M03] Điều kiện & Vòng lặp",
+      "description": "if-else, switch expression (Java 14+), vòng lặp for, while, toán tử ngắn mạch, break with labels."
+    },
+    {
+      "id": "module-04",
+      "topic_id": "topic_java_core",
+      "chapter_number": 21,
+      "title": "[M04] Phương thức (method)",
+      "description": "Khai báo phương thức, Tham số, Pass-by-value, Method Overloading, Varargs, Recursion."
+    },
+    {
+      "id": "module-05",
+      "topic_id": "topic_java_core",
+      "chapter_number": 22,
+      "title": "[M05] OOP cơ bản — class, object, encapsulation",
+      "description": "Class, Object, Access Modifiers, Constructor, this, Encapsulation, Tell Don’t Ask, Invariant Protection."
+    },
+    {
+      "id": "module-06",
+      "topic_id": "topic_java_core",
+      "chapter_number": 23,
+      "title": "[M06] OOP nâng cao — Kế thừa, Đa hình & Trừu tượng",
+      "description": "Inheritance, Abstraction, Polymorphism, Diamond Problem, vtable, Composition over Inheritance, LSP."
+    },
+    {
+      "id": "module-07",
+      "topic_id": "topic_java_core",
+      "chapter_number": 24,
+      "title": "[M07] Collections Framework & Generics",
+      "description": "List, Set, Map, HashMap vs ConcurrentHashMap, equals & hashCode, Generics Wildcards, CopyOnWriteArrayList."
+    },
+    {
+      "id": "module-08",
+      "topic_id": "topic_java_core",
+      "chapter_number": 25,
+      "title": "[M08] Xử lý Ngoại lệ (Exception Handling)",
+      "description": "Checked vs Unchecked Exception, try-with-resources, AutoCloseable, Best Practices, Custom Exceptions."
+    },
+    {
+      "id": "module-09",
+      "topic_id": "topic_java_core",
+      "chapter_number": 26,
+      "title": "[M09] Java Time API & Stream API",
+      "description": "Instant, OffsetDateTime, Duration, Stream Operations (map, filter, flatMap), Collectors, Pure Functions."
+    },
+    {
+      "id": "module-10",
+      "topic_id": "topic_java_core",
+      "chapter_number": 27,
+      "title": "[M10] Đa luồng & Concurrency Basics",
+      "description": "Thread Lifecycle, Race Condition, synchronized, ReentrantLock, Virtual Threads Java 21, Thread Pool."
+    },
+    {
+      "id": "module-11",
+      "topic_id": "topic_java_core",
+      "chapter_number": 28,
+      "title": "[M11] Spring Boot Core & Database JPA",
+      "description": "IoC Container, Constructor Injection, Bean Scope, Hibernate Dirty Checking, N+1 Query, Flyway."
+    },
+    {
+      "id": "module-12",
+      "topic_id": "topic_java_core",
+      "chapter_number": 29,
+      "title": "[M12] Tư Duy Production & Docker",
+      "description": "Docker Named Volumes, Soft Delete vs Hard Delete, Idempotency, Audit Trail, Resilience."
+    },
+    {
+      "id": "milestone-1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 30,
+      "title": "[Thực chiến] Chặng 1: Khởi Tạo & Flyway",
+      "description": "Dựng khung Spring Boot 3.4 + Java 21, kết nối PostgreSQL, quản lý schema hoàn toàn bằng Flyway Migration, thiết kế BaseEntity và Audit Trail."
+    },
+    {
+      "id": "milestone-2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 31,
+      "title": "[Thực chiến] Chặng 2: REST API & Diệt N+1",
+      "description": "Xây dựng API sự kiện và sơ đồ ghế ngồi chuẩn RFC 7807; bảo vệ Entity bằng DTO Record; hiểu bản chất và triệt tiêu hoàn toàn vấn đề N+1 query."
+    },
+    {
+      "id": "milestone-3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 32,
+      "title": "[Thực chiến] Chặng 3: Mockito & Security JWT",
+      "description": "Viết Unit Test cô lập với JUnit 5 & Mockito; triển khai cơ chế Stateless JWT Token (Access 15m / Refresh 7d) và kiểm soát phân quyền RBAC."
+    },
+    {
+      "id": "milestone-4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 33,
+      "title": "[Thực chiến] Chặng 4: Khóa Ghế & Concurrency",
+      "description": "Xử lý triệt để bài toán Race Condition khi mở bán vé; so sánh Optimistic vs Pessimistic vs Distributed Lock (Redisson); xây dựng cơ chế Temporary Seat Hold."
+    },
+    {
+      "id": "milestone-5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 34,
+      "title": "[Thực chiến] Chặng 5: Kafka & Transactional Outbox",
+      "description": "Giải quyết triệt để thảm họa Dual-Write; áp dụng Transactional Outbox Pattern; cấu hình Kafka Consumer với Dead Letter Queue và Exponential Retry."
+    },
+    {
+      "id": "milestone-6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 35,
+      "title": "[Thực chiến] Chặng 6: Idempotency & Docker",
+      "description": "Đảm bảo API thanh toán không bao giờ bị trừ tiền 2 lần; bảo vệ hệ thống bằng Circuit Breaker (Resilience4j); đóng gói container multi-stage tối ưu."
+    }
+  ],
+  "questions": [
+    {
+      "id": "mod1-s1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub1",
+      "question": "Mục tiêu cốt lõi của việc rèn luyện tư duy lập trình khi tiếp cận dự án Ticket Station là gì?",
+      "code_snippet": "",
+      "options": [
+        "Chỉ cần học thuộc lòng toàn bộ cú pháp từ khóa của Java và sao chép mã nguồn có sẵn.",
+        "Rèn luyện khả năng phân rã bài toán lớn (Decomposition), mô hình hóa luồng dữ liệu (IPO), tư duy thuật toán và kiểm soát các ca biên (edge cases) của hệ thống bán vé.",
+        "Học cách cài đặt các framework phức tạp ngay từ đầu mà không cần hiểu kiến thức nền tảng.",
+        "Chỉ tập trung vào giao diện đồ họa người dùng mà bỏ qua logic xử lý dữ liệu backend."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Tư duy lập trình cốt lõi là khả năng phân tích, bẻ nhỏ yêu cầu nghiệp vụ phức tạp thành các bài toán con logic, mô hình hóa dữ liệu chính xác và kiểm soát mọi ngoại lệ thực tế trong hệ thống bán vé.",
+      "card_front": "Mục tiêu cốt lõi của việc rèn luyện tư duy lập trình khi tiếp cận dự án Ticket Station là gì?",
+      "card_back": "Rèn luyện khả năng phân rã bài toán lớn (Decomposition), mô hình hóa luồng dữ liệu (IPO), tư duy thuật toán và kiểm soát các ca biên (edge cases) của hệ thống bán vé.",
+      "card_hint": "Programming Mindset, Problem Solving, Overview",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub1",
+      "question": "Tại sao các hệ thống tài chính và bán vé quy mô lớn như Ticket Station lại ưu tiên chọn Java làm ngôn ngữ backend chủ lực?",
+      "code_snippet": "",
+      "options": [
+        "Vì Java không yêu cầu lập trình viên phải khai báo kiểu dữ liệu cho biến.",
+        "Nhờ cơ chế định kiểu tĩnh mạnh mẽ (Strong Static Typing), quản lý bộ nhớ tự động, kiến trúc xử lý đồng thời mạnh mẽ và hệ sinh thái thư viện doanh nghiệp cực kỳ ổn định, bảo mật cao.",
+        "Vì Java không cần máy ảo mà biên dịch trực tiếp ra mã nhị phân của riêng Windows.",
+        "Vì Java chỉ chạy được trên các máy chủ cấu hình yếu."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Hệ thống bán vé đòi hỏi tính toàn vẹn dữ liệu cao, xử lý đồng thời hàng nghìn giao dịch và độ ổn định liên tục 24/7. Định kiểu tĩnh của Java giúp bắt lỗi sớm ngay lúc biên dịch, kết hợp cùng JVM tối ưu hóa cao độ giúp đáp ứng hoàn hảo yêu cầu khắt khe của doanh nghiệp.",
+      "card_front": "Tại sao các hệ thống tài chính và bán vé quy mô lớn như Ticket Station lại ưu tiên chọn Java làm ngôn ngữ backend chủ lực?",
+      "card_back": "Nhờ cơ chế định kiểu tĩnh mạnh mẽ (Strong Static Typing), quản lý bộ nhớ tự động, kiến trúc xử lý đồng thời mạnh mẽ và hệ sinh thái thư viện doanh nghiệp cực kỳ ổn định, bảo mật cao.",
+      "card_hint": "Enterprise Java, Static Typing, System Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub2",
+      "question": "Tại sao mã nguồn Java lại đạt được tính chất \"Write Once, Run Anywhere\" (Viết một lần, chạy mọi nơi)?",
+      "code_snippet": "",
+      "options": [
+        "Vì trình biên dịch `javac` biên dịch thẳng file `.java` thành mã máy (Machine Code) chung cho mọi CPU.",
+        "Vì `javac` biên dịch code thành Bytecode trung gian (file `.class`), sau đó JVM của từng hệ điều hành cụ thể (Windows, Linux, macOS) sẽ thông dịch và biên dịch JIT bytecode đó thành mã máy tương ứng.",
+        "Vì mọi máy tính đều sử dụng chung một loại vi xử lý Intel.",
+        "Vì Java chạy hoàn toàn bên trong trình duyệt web giống như JavaScript."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Bytecode là mã máy ảo chuẩn hóa độc lập với phần cứng. Mỗi hệ điều hành có một bản cài đặt JVM riêng biệt để chuyển đổi Bytecode thành Machine Code thực tế, giúp file .class chạy được ở mọi nơi có JVM.",
+      "card_front": "Tại sao mã nguồn Java lại đạt được tính chất \"Write Once, Run Anywhere\" (Viết một lần, chạy mọi nơi)?",
+      "card_back": "Vì `javac` biên dịch code thành Bytecode trung gian (file `.class`), sau đó JVM của từng hệ điều hành cụ thể (Windows, Linux, macOS) sẽ thông dịch và biên dịch JIT bytecode đó thành mã máy tương ứng.",
+      "card_hint": "Bytecode, JVM, WORA, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub2",
+      "question": "Tệp tin có phần mở rộng `.class` sau khi biên dịch từ mã nguồn Java `.java` chứa loại dữ liệu nào sau đây?",
+      "code_snippet": "",
+      "options": [
+        "Chứa trực tiếp mã nhị phân máy tính (Native Machine Code) của chip x86/ARM.",
+        "Chứa mã trung gian Java Bytecode chuẩn hóa mà JVM có thể nạp, xác thực và thực thi.",
+        "Chứa văn bản mã nguồn gốc dưới dạng nén ZIP.",
+        "Chứa mã hợp ngữ Assembly của hệ điều hành Linux."
+      ],
+      "correct_option_index": 1,
+      "explanation": "File `.class` chứa Bytecode nhị phân được chuẩn hóa theo Java Virtual Machine Specification. Bất kỳ JVM nào tuân thủ đặc tả này đều đọc hiểu và thực thi được file `.class` dù nó được biên dịch trên hệ điều hành nào.",
+      "card_front": "Tệp tin có phần mở rộng `.class` sau khi biên dịch từ mã nguồn Java `.java` chứa loại dữ liệu nào sau đây?",
+      "card_back": "Chứa mã trung gian Java Bytecode chuẩn hóa mà JVM có thể nạp, xác thực và thực thi.",
+      "card_hint": "Bytecode, Compiler, Class File",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub3",
+      "question": "Mối quan hệ giữa JDK, JRE và JVM trong hệ sinh thái Java được hiểu chính xác nhất như thế nào?",
+      "code_snippet": "",
+      "options": [
+        "JVM chứa JRE, và JRE chứa JDK.",
+        "JDK (bộ công cụ phát triển) bao gồm JRE (môi trường thực thi) và các công cụ như javac; JRE bao gồm JVM (máy ảo thực thi bytecode) cùng các thư viện chuẩn Core API.",
+        "Cả 3 là một phần mềm duy nhất chỉ khác tên gọi.",
+        "JDK chỉ dành cho hệ điều hành Windows, còn JVM chạy trên Linux."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Công thức kinh điển: JDK = JRE + Development Tools (javac, jar, jdb); JRE = JVM + Core Libraries. Lập trình viên cần cài JDK để code và biên dịch, máy chủ production chỉ cần JRE (hoặc bản build jlink rút gọn) để chạy.",
+      "card_front": "Mối quan hệ giữa JDK, JRE và JVM trong hệ sinh thái Java được hiểu chính xác nhất như thế nào?",
+      "card_back": "JDK (bộ công cụ phát triển) bao gồm JRE (môi trường thực thi) và các công cụ như javac; JRE bao gồm JVM (máy ảo thực thi bytecode) cùng các thư viện chuẩn Core API.",
+      "card_hint": "Java Basics, JVM, JDK, JRE",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub3",
+      "question": "Kể từ phiên bản Java 11 LTS trở đi, hệ sinh thái OpenJDK đã có thay đổi quan trọng nào liên quan đến gói phân phối JRE?",
+      "code_snippet": "",
+      "options": [
+        "Không còn tồn tại máy ảo JVM nữa mà Java biên dịch thẳng ra file .exe.",
+        "Oracle và các bản phân phối OpenJDK ngừng cung cấp bộ cài đặt JRE độc lập; lập trình viên cài JDK, còn khi deploy server có thể dùng công cụ `jlink` để tạo Custom Runtime Image siêu nhẹ.",
+        "JRE bắt buộc phải mua bản quyền thương mại đối với tất cả các trường hợp sử dụng cá nhân.",
+        "JRE được tích hợp sẵn vào trong nhân hệ điều hành Windows."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Từ Java 11 (với hệ thống Java Module System - JPMS), Oracle đã ngừng phát hành các gói cài đặt JRE riêng biệt. Thay vào đó, lập trình viên sử dụng JDK để phát triển, và sử dụng lệnh `jlink` để đóng gói runtime image tối giản chỉ chứa đúng các module ứng dụng cần.",
+      "card_front": "Kể từ phiên bản Java 11 LTS trở đi, hệ sinh thái OpenJDK đã có thay đổi quan trọng nào liên quan đến gói phân phối JRE?",
+      "card_back": "Oracle và các bản phân phối OpenJDK ngừng cung cấp bộ cài đặt JRE độc lập; lập trình viên cài JDK, còn khi deploy server có thể dùng công cụ `jlink` để tạo Custom Runtime Image siêu nhẹ.",
+      "card_hint": "Java 11, JRE, jlink, OpenJDK",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub4",
+      "question": "Biến môi trường `JAVA_HOME` và biến `PATH` có vai trò kỹ thuật chính xác là gì trên hệ điều hành?",
+      "code_snippet": "",
+      "options": [
+        "`JAVA_HOME` lưu mật khẩu tài khoản Java, còn `PATH` lưu mã nguồn của ứng dụng.",
+        "`JAVA_HOME` trỏ đến thư mục gốc cài đặt JDK để các công cụ như Maven, Gradle, IntelliJ nhận diện; biến `PATH` bổ sung thư mục `%JAVA_HOME%/bin` để hệ điều hành nhận diện được các lệnh `java`, `javac` từ bất kỳ cửa sổ dòng lệnh nào.",
+        "Cả hai biến này chỉ cần thiết trên Linux, hệ điều hành Windows không bao giờ cần thiết lập.",
+        "`JAVA_HOME` tăng dung lượng RAM cho máy tính khi chạy Java."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`JAVA_HOME` là biến môi trường tiêu chuẩn trỏ tới thư mục cài đặt JDK. Các build tool (Maven, Gradle) và server (Tomcat) đều đọc biến này để xác định vị trí JDK. Còn `PATH` cho phép bạn gọi trực tiếp các file thực thi trong thư mục `bin` (như `javac`, `java`, `jar`) ở mọi nơi.",
+      "card_front": "Biến môi trường `JAVA_HOME` và biến `PATH` có vai trò kỹ thuật chính xác là gì trên hệ điều hành?",
+      "card_back": "`JAVA_HOME` trỏ đến thư mục gốc cài đặt JDK để các công cụ như Maven, Gradle, IntelliJ nhận diện; biến `PATH` bổ sung thư mục `%JAVA_HOME%/bin` để hệ điều hành nhận diện được các lệnh `java`, `javac` từ bất kỳ cửa sổ dòng lệnh nào.",
+      "card_hint": "JAVA_HOME, Environment Variables, IntelliJ, Setup",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub4",
+      "question": "Khi kiểm tra môi trường bằng lệnh `javac -version` và `java -version`, kết quả nào sau đây cho thấy môi trường sẵn sàng tốt nhất cho dự án Ticket Station?",
+      "code_snippet": "",
+      "options": [
+        "Cả hai lệnh đều hiển thị phiên bản Java 21 LTS (ví dụ: `javac 21.0.x` và `openjdk version \"21.0.x\"` 64-Bit Server VM).",
+        "Lệnh `javac` hiển thị Java 8 còn `java` hiển thị Java 21.",
+        "Terminal báo lỗi: `javac is not recognized as an internal or external command`.",
+        "Chỉ cần lệnh `node -v` hiển thị thành công."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Dự án backend hiện đại sử dụng Java 21 LTS. Việc cả `javac` (compiler) và `java` (runtime) đều đồng nhất ở phiên bản 21 64-bit đảm bảo không gặp lỗi xung đột phiên bản bytecode (UnsupportedClassVersionError).",
+      "card_front": "Khi kiểm tra môi trường bằng lệnh `javac -version` và `java -version`, kết quả nào sau đây cho thấy môi trường sẵn sàng tốt nhất cho dự án Ticket Station?",
+      "card_back": "Cả hai lệnh đều hiển thị phiên bản Java 21 LTS (ví dụ: `javac 21.0.x` và `openjdk version \"21.0.x\"` 64-Bit Server VM).",
+      "card_hint": "JDK 21, CLI, Verification",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub5",
+      "question": "Tại sao phương thức khởi động `main` tiêu chuẩn trong Java bắt buộc phải có từ khóa `static` (`public static void main(String[] args)`)?",
+      "code_snippet": "",
+      "options": [
+        "Để phương thức có thể chạy nhanh gấp đôi so với phương thức thông thường.",
+        "Để JVM có thể gọi thực thi phương thức này trực tiếp thông qua Class mà không cần phải cấp phát và khởi tạo đối tượng (new instance) của Class đó trước.",
+        "Vì từ khóa static ngăn không cho ai sửa đổi nội dung bên trong hàm main.",
+        "Từ khóa static là tùy chọn, có thể bỏ qua từ Java 8."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Khi chương trình bắt đầu, chưa có đối tượng nào tồn tại trong bộ nhớ Heap. Việc khai báo `static` cho phép JVM gọi trực tiếp `TicketStationApp.main()` ngay sau khi class được nạp vào bộ nhớ mà không cần gọi constructor.",
+      "card_front": "Tại sao phương thức khởi động `main` tiêu chuẩn trong Java bắt buộc phải có từ khóa `static` (`public static void main(String[] args)`)?",
+      "card_back": "Để JVM có thể gọi thực thi phương thức này trực tiếp thông qua Class mà không cần phải cấp phát và khởi tạo đối tượng (new instance) của Class đó trước.",
+      "card_hint": "Main Method, static keyword, JVM Entry Point",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub5",
+      "question": "Trong câu lệnh in màn hình console kinh điển `System.out.println(\"Ticket Station\");`, bản chất các thành phần là gì?",
+      "code_snippet": "",
+      "options": [
+        "`System` là biến, `out` là class, `println` là gói package.",
+        "`System` là một class thuộc gói `java.lang`, `out` là biến trường tĩnh (static field) kiểu `PrintStream`, và `println()` là phương thức của đối tượng `PrintStream` đó.",
+        "Cả 3 từ này là một từ khóa duy nhất trong cú pháp Java.",
+        "`out` là một phương thức private của hệ điều hành."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`java.lang.System` là một class tiện ích chuẩn. Trong đó `public static final PrintStream out` đại diện cho luồng xuất tiêu chuẩn (Standard Output Stream). Lệnh gọi `System.out.println()` thực chất là gọi phương thức `println` trên instance `PrintStream` này.",
+      "card_front": "Trong câu lệnh in màn hình console kinh điển `System.out.println(\"Ticket Station\");`, bản chất các thành phần là gì?",
+      "card_back": "`System` là một class thuộc gói `java.lang`, `out` là biến trường tĩnh (static field) kiểu `PrintStream`, và `println()` là phương thức của đối tượng `PrintStream` đó.",
+      "card_hint": "Syntax, System.out.println, Core API",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub6",
+      "question": "Mô hình tư duy IPO (Input - Process - Output) được áp dụng vào tính năng \"Tính tiền vé sau khi áp mã voucher giảm giá 10%\" như thế nào?",
+      "code_snippet": "",
+      "options": [
+        "Input: Màn hình hiển thị; Process: Bàn phím gõ; Output: Giá trị trong cơ sở dữ liệu.",
+        "Input: Giá vé gốc và mã voucher từ người dùng; Process: Kiểm tra tính hợp lệ của voucher và nhân giá vé với 0.9; Output: Số tiền thanh toán cuối cùng và thông báo áp dụng thành công.",
+        "Input: Bật máy tính; Process: Chạy quạt tản nhiệt; Output: Tắt máy.",
+        "Mô hình IPO chỉ áp dụng cho phần cứng, không áp dụng cho lập trình logic."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Tư duy IPO là nền tảng giải quyết mọi bài toán thuật toán: Xác định dữ liệu đầu vào (Input), logic biến đổi tính toán và xử lý điều kiện (Process), dữ liệu hoặc kết quả hiển thị trả về cho người dùng (Output).",
+      "card_front": "Mô hình tư duy IPO (Input - Process - Output) được áp dụng vào tính năng \"Tính tiền vé sau khi áp mã voucher giảm giá 10%\" như thế nào?",
+      "card_back": "Input: Giá vé gốc và mã voucher từ người dùng; Process: Kiểm tra tính hợp lệ của voucher và nhân giá vé với 0.9; Output: Số tiền thanh toán cuối cùng và thông báo áp dụng thành công.",
+      "card_hint": "IPO Model, Problem Solving, Logic",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub6",
+      "question": "Hiện tượng \"trôi lệnh\" (chương trình bỏ qua bước nhập chuỗi) khi dùng `Scanner` thường xảy ra trong tình huống nào?",
+      "code_snippet": "Scanner scanner = new Scanner(System.in);\nSystem.out.print(\"Nhập số lượng vé: \");\nint count = scanner.nextInt();\nSystem.out.print(\"Nhập họ tên khách hàng: \");\nString name = scanner.nextLine(); // Bị trôi qua không kịp nhập!",
+      "options": [
+        "Do `scanner.nextLine()` bị lỗi cú pháp trong Java 21.",
+        "Do `scanner.nextInt()` chỉ đọc phần số mà để lại ký tự xuống dòng `\\n` (Enter) trong bộ đệm; `scanner.nextLine()` kế tiếp sẽ đọc ngay ký tự `\\n` đó và kết thúc nhập.",
+        "Do biến `count` chiếm toàn bộ bộ nhớ của `Scanner`.",
+        "Do Java cấm nhập cả số và chuỗi trong cùng một hàm main."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Đây là cạm bẫy kinh điển cho người mới học Java: Các phương thức `nextInt()`, `nextDouble()` chỉ consume token số, phím Enter (`\\n`) vẫn còn nằm lại trong Input Buffer. Cần gọi thêm một lệnh `scanner.nextLine()` để dọn sạch buffer trước khi đọc chuỗi tiếp theo.",
+      "card_front": "Hiện tượng \"trôi lệnh\" (chương trình bỏ qua bước nhập chuỗi) khi dùng `Scanner` thường xảy ra trong tình huống nào?",
+      "card_back": "Do `scanner.nextInt()` chỉ đọc phần số mà để lại ký tự xuống dòng `\\n` (Enter) trong bộ đệm; `scanner.nextLine()` kế tiếp sẽ đọc ngay ký tự `\\n` đó và kết thúc nhập.",
+      "card_hint": "Scanner, Console Input, Common Pitfalls",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s7-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub7",
+      "question": "Khi lập trình viên thực hiện liên tiếp 2 lệnh trên terminal: `javac TicketApp.java` và `java TicketApp`, điều gì diễn ra ở từng giai đoạn?",
+      "code_snippet": "",
+      "options": [
+        "Lệnh 1 chạy chương trình, lệnh 2 xóa file mã nguồn.",
+        "`javac` kiểm tra cú pháp và biên dịch file nguồn thành file bytecode `TicketApp.class`; `java` khởi động máy ảo JVM, nạp class vào bộ nhớ và thực thi phương thức `main`.",
+        "Cả 2 lệnh đều biên dịch lại file từ đầu.",
+        "Lệnh `java TicketApp` tìm file `TicketApp.java` để dịch trực tiếp sang mã máy."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`javac` là Java Compiler chịu trách nhiệm dịch source code sang Bytecode trung gian. Lệnh `java` là Java Application Launcher chịu trách nhiệm khởi động JVM để chạy Bytecode của class đã được biên dịch.",
+      "card_front": "Khi lập trình viên thực hiện liên tiếp 2 lệnh trên terminal: `javac TicketApp.java` và `java TicketApp`, điều gì diễn ra ở từng giai đoạn?",
+      "card_back": "`javac` kiểm tra cú pháp và biên dịch file nguồn thành file bytecode `TicketApp.class`; `java` khởi động máy ảo JVM, nạp class vào bộ nhớ và thực thi phương thức `main`.",
+      "card_hint": "javac, java, Execution Lifecycle, CLI",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s7-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub7",
+      "question": "Thành phần `Bytecode Verifier` trong kiến trúc nạp lớp của JVM đóng vai trò bảo mật quan trọng nào?",
+      "code_snippet": "",
+      "options": [
+        "Tự động kiểm tra chính tả các chú thích (comment) trong code.",
+        "Kiểm tra mã Bytecode trước khi thực thi để đảm bảo không vi phạm an toàn bộ nhớ, không làm tràn ngăn xếp (stack overflow), không ép kiểu bất hợp pháp và tuân thủ các quy tắc bảo mật của Java.",
+        "Kiểm tra xem máy tính có kết nối mạng internet hay không.",
+        "Nén nhỏ dung lượng file `.class` trên ổ cứng."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Bytecode Verifier là tấm khiên bảo vệ của JVM. Nó kiểm tra file `.class` (kể cả các file tải từ mạng về) trước khi đưa vào Execution Engine, nhằm ngăn chặn bytecode độc hại can thiệp trái phép vào bộ nhớ hệ thống.",
+      "card_front": "Thành phần `Bytecode Verifier` trong kiến trúc nạp lớp của JVM đóng vai trò bảo mật quan trọng nào?",
+      "card_back": "Kiểm tra mã Bytecode trước khi thực thi để đảm bảo không vi phạm an toàn bộ nhớ, không làm tràn ngăn xếp (stack overflow), không ép kiểu bất hợp pháp và tuân thủ các quy tắc bảo mật của Java.",
+      "card_hint": "Bytecode Verifier, JVM Security, ClassLoader",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s8-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub8",
+      "question": "Để giải quyết bài toán Mini-challenge \"In lịch tháng hiện tại\" ra màn hình console theo định dạng 7 cột (T2 đến CN), 2 thông số kỹ thuật tiên quyết cần tính toán là gì?",
+      "code_snippet": "",
+      "options": [
+        "Tốc độ CPU và độ phân giải màn hình máy tính.",
+        "Ngày đầu tiên của tháng rơi vào thứ mấy trong tuần (để in các khoảng trắng thụt lề đầu tiên) và tổng số ngày có trong tháng đó.",
+        "Dung lượng ổ đĩa còn trống và mã vùng quốc gia.",
+        "Số lượng vé đã bán trong tháng."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Để vẽ bảng lịch tháng 7 cột: 1. Cần biết ngày 1 của tháng rơi vào thứ mấy (Thứ Hai, Thứ Ba... hay Chủ Nhật) để in đúng số ô khoảng trắng đầu tiên; 2. Cần biết tổng số ngày trong tháng (28, 29, 30 hoặc 31 ngày) để lặp từ ngày 1 đến ngày cuối cùng và ngắt dòng sau mỗi 7 ô.",
+      "card_front": "Để giải quyết bài toán Mini-challenge \"In lịch tháng hiện tại\" ra màn hình console theo định dạng 7 cột (T2 đến CN), 2 thông số kỹ thuật tiên quyết cần tính toán là gì?",
+      "card_back": "Ngày đầu tiên của tháng rơi vào thứ mấy trong tuần (để in các khoảng trắng thụt lề đầu tiên) và tổng số ngày có trong tháng đó.",
+      "card_hint": "Mini-challenge, Calendar Algorithm, java.time",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s8-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub8",
+      "question": "Trong Java 8+, phương thức nào của `YearMonth` trả về chính xác số ngày trong tháng (xử lý tự động cả năm nhuận)?",
+      "code_snippet": "YearMonth ym = YearMonth.of(2024, 2); // Tháng 2 năm 2024 (năm nhuận)\nint daysInMonth = ym.lengthOfMonth();\nSystem.out.println(daysInMonth);",
+      "options": [
+        "`lengthOfMonth()` in ra giá trị 29.",
+        "`lengthOfMonth()` luôn luôn in ra giá trị 28 cho mọi tháng 2.",
+        "`lengthOfMonth()` bị lỗi vì tháng 2 bắt buộc phải truyền thêm số ngày.",
+        "`lengthOfMonth()` in ra giá trị 30."
+      ],
+      "correct_option_index": 0,
+      "explanation": "`java.time.YearMonth.lengthOfMonth()` tự động tính toán chính xác số ngày trong tháng dựa trên lịch Gregory, tự động xác định năm nhuận (2024 chia hết cho 4 nên tháng 2 có 29 ngày).",
+      "card_front": "Trong Java 8+, phương thức nào của `YearMonth` trả về chính xác số ngày trong tháng (xử lý tự động cả năm nhuận)?",
+      "card_back": "`lengthOfMonth()` in ra giá trị 29.",
+      "card_hint": "java.time, YearMonth, Leap Year",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub9",
+      "question": "Lỗi biên dịch `error: cannot find symbol` trong Java thường xuất phát từ nguyên nhân nào sau đây?",
+      "code_snippet": "",
+      "options": [
+        "Do JVM bị hết bộ nhớ RAM.",
+        "Do gọi tên biến/phương thức bị sai chính tả (phân biệt hoa thường), biến chưa được khai báo, hoặc chưa `import` class thư viện tương ứng.",
+        "Do file `.class` bị hỏng lúc đang chạy.",
+        "Do hệ điều hành không hỗ trợ font chữ tiếng Việt."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`cannot find symbol` là lỗi compile-time kinh điển nhất: Trình biên dịch không tìm thấy định nghĩa của định danh (variable, method, class) do gõ sai chữ hoa/thường, chưa khai báo biến trong scope, hoặc quên import package.",
+      "card_front": "Lỗi biên dịch `error: cannot find symbol` trong Java thường xuất phát từ nguyên nhân nào sau đây?",
+      "card_back": "Do gọi tên biến/phương thức bị sai chính tả (phân biệt hoa thường), biến chưa được khai báo, hoặc chưa `import` class thư viện tương ứng.",
+      "card_hint": "Compiler Errors, Troubleshooting, Cheat Sheet",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s9-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub9",
+      "question": "Lỗi runtime `Error: Could not find or load main class com.ticket.MainApp` khi chạy lệnh `java` trên terminal thường bắt nguồn từ đâu?",
+      "code_snippet": "",
+      "options": [
+        "Do máy tính chưa cắm tai nghe.",
+        "Do chạy lệnh sai thư mục, không đúng đường dẫn classpath, hoặc class có khai báo package nhưng chạy lệnh không dùng tên đầy đủ (Fully Qualified Name).",
+        "Do Java 21 không hỗ trợ class có tên MainApp.",
+        "Do biến `System.out.println` bị thiếu trong hàm main."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Khi class thuộc một package (ví dụ `package com.ticket;`), JVM yêu cầu bạn phải đứng ở thư mục gốc của classpath và gọi lệnh `java com.ticket.MainApp`. Nếu đứng bên trong thư mục `com/ticket` mà gõ `java MainApp`, JVM sẽ không thể xác định được package và báo lỗi này.",
+      "card_front": "Lỗi runtime `Error: Could not find or load main class com.ticket.MainApp` khi chạy lệnh `java` trên terminal thường bắt nguồn từ đâu?",
+      "card_back": "Do chạy lệnh sai thư mục, không đúng đường dẫn classpath, hoặc class có khai báo package nhưng chạy lệnh không dùng tên đầy đủ (Fully Qualified Name).",
+      "card_hint": "Classpath, Package, Troubleshooting, Cheat Sheet",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Bản chất kỹ thuật của từ khóa `var` (được giới thiệu từ Java 10) là gì và nó khác gì so với `var` trong JavaScript?",
+      "code_snippet": "var ticketPrice = 150_000;\n// ticketPrice = \"FREE\"; // Dòng này có hợp lệ không?",
+      "options": [
+        "`var` trong Java biến Java thành ngôn ngữ Dynamic Typing (kiểu động), cho phép gán lại biến `ticketPrice` bằng chuỗi \"FREE\" bất kỳ lúc nào giống như trong JavaScript.",
+        "`var` trong Java chỉ là cú pháp viết tắt (Syntactic Sugar) cho Local Variable Type Inference: Kiểu dữ liệu tĩnh (`int`) được xác định chính xác ngay tại thời điểm biên dịch (Compile-time); dòng gán `ticketPrice = \"FREE\"` sẽ bị lỗi biên dịch Compile-time Error.",
+        "`var` là một kiểu dữ liệu mới trong JVM tương đương với `Object` và tự động unbox lúc chạy.",
+        "`var` làm giảm hiệu năng thực thi của ứng dụng vì JVM phải đoán kiểu dữ liệu tại thời điểm chạy (Runtime)."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Trong Java, `var` KHÔNG phải là kiểu dữ liệu mà là cơ chế suy luận kiểu biến cục bộ (Local Variable Type Inference - JEP 286). Java vẫn là ngôn ngữ định kiểu tĩnh (Statically Typed) 100%. Trình biên dịch javac tự động suy luận kiểu là `int` và ghi thẳng kiểu `int` vào file bytecode .class. Do đó không gây tổn thất hiệu năng lúc chạy và không thể gán lại giá trị khác kiểu.",
+      "card_front": "Bản chất kỹ thuật của từ khóa `var` (được giới thiệu từ Java 10) là gì và nó khác gì so với `var` trong JavaScript?",
+      "card_back": "`var` trong Java chỉ là cú pháp viết tắt (Syntactic Sugar) cho Local Variable Type Inference: Kiểu dữ liệu tĩnh (`int`) được xác định chính xác ngay tại thời điểm biên dịch (Compile-time); dòng gán `ticketPrice = \"FREE\"` sẽ bị lỗi biên dịch Compile-time Error.",
+      "card_hint": "Java 10, var keyword, Type Inference, Static Typing",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Tác dụng và lợi ích chính của việc sử dụng từ khóa `var` (Local Variable Type Inference) trong Java là gì?",
+      "code_snippet": "// Cách truyền thống (trước Java 10):\nMap<String, List<TicketOrder>> orderMap = new HashMap<String, List<TicketOrder>>();\n\n// Cách hiện đại (từ Java 10+):\nvar orderMap = new HashMap<String, List<TicketOrder>>();",
+      "options": [
+        "Giúp chương trình chạy nhanh hơn và giảm tiêu thụ bộ nhớ RAM vì JVM không cần cấp phát trước kiểu dữ liệu tĩnh.",
+        "Giảm thiểu mã thừa lặp lại dài dòng (Boilerplate Code), tăng tính trực quan và khả năng đọc hiểu (Readability), giúp lập trình viên tập trung vào tên biến có ý nghĩa trong khi vẫn đảm bảo 100% tính an toàn kiểu tĩnh (Static Type Safety) tại thời điểm biên dịch.",
+        "Cho phép biến có thể tự do gán lại giá trị thuộc các kiểu dữ liệu khác nhau trong suốt quá trình chạy (Dynamic Typing).",
+        "Tự động kiểm tra và triệt tiêu hoàn toàn ngoại lệ NullPointerException khi thao tác với biến."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Tác dụng cốt lõi của `var` (theo tài liệu hướng dẫn JEP 286 của OpenJDK):\n1. Loại bỏ việc lặp lại tên kiểu dữ liệu cồng kềnh (Boilerplate) ở cả 2 vế của phép gán.\n2. Tăng tính dễ đọc (Readability): chuyển sự chú ý của người đọc code vào tên biến có ý nghĩa (Meaningful Variable Names) thay vì kiểu dữ liệu lặp đi lặp lại.\n3. Bảo toàn 100% Type Safety: Không phải kiểu động (Dynamic typing), không suy giảm hiệu năng lúc Runtime vì mã bytecode được javac sinh ra hoàn toàn giống hệt như khi khai báo kiểu tường minh.",
+      "card_front": "Tác dụng và lợi ích chính của việc sử dụng từ khóa `var` (Local Variable Type Inference) trong Java là gì?",
+      "card_back": "Giảm thiểu mã thừa lặp lại dài dòng (Boilerplate Code), tăng tính trực quan và khả năng đọc hiểu (Readability), giúp lập trình viên tập trung vào tên biến có ý nghĩa trong khi vẫn đảm bảo 100% tính an toàn kiểu tĩnh (Static Type Safety) tại thời điểm biên dịch.",
+      "card_hint": "Java 10, var keyword, Best Practices, Readability, Boilerplate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Trong các trường hợp khai báo sau đây, trường hợp nào sử dụng từ khóa `var` là HỢP LỆ trong Java?",
+      "code_snippet": "// Trường hợp 1: var ticketCount;\n// Trường hợp 2: var user = null;\n// Trường hợp 3: var seatList = new ArrayList<String>();\n// Trường hợp 4: public var calculateTotal(var price) { return price * 2; }",
+      "options": [
+        "Trường hợp 1, 2 và 3.",
+        "Chỉ duy nhất Trường hợp 3 hợp lệ; các trường hợp 1, 2 và 4 đều bị trình biên dịch từ chối báo lỗi.",
+        "Cả 4 trường hợp đều hợp lệ từ phiên bản Java 17 LTS.",
+        "Trường hợp 2 và 4 hợp lệ."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Quy tắc sử dụng `var` trong Java:\n1. `var ticketCount;` -> LỖI: Bắt buộc phải có biểu thức gán giá trị khởi tạo để compiler suy luận kiểu.\n2. `var user = null;` -> LỖI: `null` không có kiểu cụ thể nên compiler không thể suy luận được.\n3. `var seatList = new ArrayList<String>();` -> HỢP LỆ: Compiler suy luận kiểu là `ArrayList<String>`.\n4. `public var calculateTotal(var price)` -> LỖI: `var` không được phép dùng cho tham số hàm (parameters) hoặc kiểu trả về (return type) của phương thức.",
+      "card_front": "Trong các trường hợp khai báo sau đây, trường hợp nào sử dụng từ khóa `var` là HỢP LỆ trong Java?",
+      "card_back": "Chỉ duy nhất Trường hợp 3 hợp lệ; các trường hợp 1, 2 và 4 đều bị trình biên dịch từ chối báo lỗi.",
+      "card_hint": "Java 10, var keyword, Compiler Rules, Limitations",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Cạm bẫy phổ biến khi kết hợp từ khóa `var` với toán tử kim cương (Diamond Operator `<>`) rỗng là gì?",
+      "code_snippet": "var list = new ArrayList<>();\nlist.add(\"VIP-Ticket\");\n// String ticket = list.get(0); // Dòng này bị lỗi gì?",
+      "options": [
+        "`var` tự động nhận diện phần tử đầu tiên được add và ép kiểu danh sách thành `ArrayList<String>`.",
+        "Do cả vế trái (`var`) và vế phải (`<>`) đều không chỉ định kiểu generic, trình biên dịch suy luận kiểu là `ArrayList<Object>`, khiến `list.get(0)` trả về `Object` và báo lỗi không thể gán trực tiếp cho biến `String` nếu không ép kiểu thủ công.",
+        "Trình biên dịch ném ngoại lệ `NullPointerException` ngay khi gọi `list.add()`.",
+        "Từ khóa `var` cấm hoàn toàn việc sử dụng với Collection Framework."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Khi kết hợp `var` với diamond operator `<>` rỗng ở vế phải, compiler không có thông tin nào để suy luận kiểu generic ngoài `Object`. Do đó biến `list` sẽ có kiểu tĩnh là `ArrayList<Object>`. Đây là cạm bẫy kinh điển: khi dùng `var`, bạn bắt buộc phải chỉ định rõ generic type ở vế phải (ví dụ: `var list = new ArrayList<String>();`).",
+      "card_front": "Cạm bẫy phổ biến khi kết hợp từ khóa `var` với toán tử kim cương (Diamond Operator `<>`) rỗng là gì?",
+      "card_back": "Do cả vế trái (`var`) và vế phải (`<>`) đều không chỉ định kiểu generic, trình biên dịch suy luận kiểu là `ArrayList<Object>`, khiến `list.get(0)` trả về `Object` và báo lỗi không thể gán trực tiếp cho biến `String` nếu không ép kiểu thủ công.",
+      "card_hint": "var keyword, Generics, Diamond Operator, Type Safety",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Đoạn mã sử dụng từ khóa `var` với biểu thức Lambda sau đây có hợp lệ trong Java hay không và vì sao?",
+      "code_snippet": "// Khai báo 1:\nvar printer = (String s) -> System.out.println(s);\n\n// Khai báo 2:\nConsumer<String> consumer = (var s) -> System.out.println(s);",
+      "options": [
+        "Cả hai khai báo đều hoàn toàn hợp lệ từ Java 10.",
+        "Khai báo 1 BỊ LỖI biên dịch vì Lambda Expression cần Target Type (Functional Interface) cụ thể; còn Khai báo 2 HỢP LỆ từ Java 11 (hỗ trợ `var` cho tham số lambda để có thể gắn annotation như `@Nonnull var s`).",
+        "Cả hai khai báo đều bị lỗi biên dịch vì Java cấm dùng `var` trong mọi biểu thức lambda.",
+        "Khai báo 1 hợp lệ, còn Khai báo 2 bị lỗi."
+      ],
+      "correct_option_index": 1,
+      "explanation": "1. `var printer = (String s) -> ...;` -> LỖI: Biểu thức Lambda trong Java không có kiểu độc lập (explicit type), nó đòi hỏi Target Type cụ thể (như Consumer, Function...). Bản thân `var` lại đòi hỏi vế phải phải có kiểu rõ ràng để suy luận, dẫn đến vòng lặp bế tắc nên compiler từ chối.\n2. Khai báo 2 -> HỢP LỆ (từ Java 11 - JEP 323): Cho phép dùng `var` cho tham số của Lambda để có thể đính kèm các type annotation (ví dụ: `(@NotNull var s) -> ...`).",
+      "card_front": "Đoạn mã sử dụng từ khóa `var` với biểu thức Lambda sau đây có hợp lệ trong Java hay không và vì sao?",
+      "card_back": "Khai báo 1 BỊ LỖI biên dịch vì Lambda Expression cần Target Type (Functional Interface) cụ thể; còn Khai báo 2 HỢP LỆ từ Java 11 (hỗ trợ `var` cho tham số lambda để có thể gắn annotation như `@Nonnull var s`).",
+      "card_hint": "Java 11, var keyword, Lambda, Target Type",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Điều gì xảy ra khi một biến cục bộ (local variable) trong phương thức được khai báo nhưng chưa được gán giá trị mà lập trình viên đã cố tình đọc giá trị của nó?",
+      "code_snippet": "public void processOrder() {\n    int availableTickets;\n    System.out.println(availableTickets); // Dòng này chạy ra sao?\n}",
+      "options": [
+        "Biến tự động nhận giá trị mặc định là 0 giống như biến thực thể của Class.",
+        "Trình biên dịch báo lỗi Compile-time Error: `variable availableTickets might not have been initialized`.",
+        "Bị ném ngoại lệ `NullPointerException` tại thời điểm chạy (Runtime).",
+        "Chương trình in ra một giá trị rác ngẫu nhiên còn sót lại trong bộ nhớ RAM."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Trong Java, biến cục bộ (local variables nằm trên Stack) KHÔNG được JVM tự động gán giá trị mặc định (để bảo vệ hiệu năng và ngăn ngừa lỗi logic). Trình biên dịch Java bắt buộc biến cục bộ phải được gán giá trị cụ thể trên mọi nhánh rẽ trước khi đọc. Ngược lại, biến instance/static trên Heap mới được khởi tạo mặc định (0, 0.0, false, null).",
+      "card_front": "Điều gì xảy ra khi một biến cục bộ (local variable) trong phương thức được khai báo nhưng chưa được gán giá trị mà lập trình viên đã cố tình đọc giá trị của nó?",
+      "card_back": "Trình biên dịch báo lỗi Compile-time Error: `variable availableTickets might not have been initialized`.",
+      "card_hint": "Variables, Local Scope, Default Values, Compiler Error",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "Trong hệ thống bán vé hoặc thanh toán tài chính, tại sao tuyệt đối KHÔNG ĐƯỢC dùng kiểu `double` hay `float` để lưu giá vé và số dư tiền?",
+      "code_snippet": "double priceA = 0.1;\ndouble priceB = 0.2;\nSystem.out.println(priceA + priceB == 0.3); // Output: false! (0.30000000000000004)",
+      "options": [
+        "Vì double tốn nhiều bộ nhớ RAM hơn BigDecimal.",
+        "Vì double và float biểu diễn số theo chuẩn nhị phân IEEE 754, gây ra sai số làm tròn dấu phẩy động (Floating-point precision issue); phải dùng `BigDecimal` để đảm bảo độ chính xác tuyệt đối.",
+        "Vì PostgreSQL không hỗ trợ kiểu dữ liệu double.",
+        "Vì kiểu double không thể lưu được số tiền lớn hơn 100 triệu."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Máy tính biểu diễn số thực bằng hệ nhị phân lũy thừa của 2, không thể biểu diễn chính xác tuyệt đối các phân số thập phân như 0.1 hay 0.2, dẫn đến sai số tiền tệ khi cộng dồn hàng nghìn giao dịch. Bắt buộc dùng BigDecimal.",
+      "card_front": "Trong hệ thống bán vé hoặc thanh toán tài chính, tại sao tuyệt đối KHÔNG ĐƯỢC dùng kiểu `double` hay `float` để lưu giá vé và số dư tiền?",
+      "card_back": "Vì double và float biểu diễn số theo chuẩn nhị phân IEEE 754, gây ra sai số làm tròn dấu phẩy động (Floating-point precision issue); phải dùng `BigDecimal` để đảm bảo độ chính xác tuyệt đối.",
+      "card_hint": "Data Types, BigDecimal, Precision, Finance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "Hiện tượng tràn số (Integer Overflow) xảy ra như thế nào trong đoạn mã sau?",
+      "code_snippet": "byte maxTickets = 127;\nmaxTickets++;\nSystem.out.println(maxTickets); // Output: ?",
+      "options": [
+        "In ra `128`.",
+        "In ra `-128` do kiểu `byte` trong Java có kích thước 8-bit có dấu (khoảng giá trị từ -128 đến 127); khi vượt quá giá trị cực đại, số nhị phân quay vòng về giá trị cực tiểu theo chuẩn mã bù hai (Two's complement).",
+        "Bị ném ngoại lệ `ArithmeticException: integer overflow`.",
+        "Lỗi biên dịch vì không thể tăng giá trị quá giới hạn của byte."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Các kiểu số nguyên trong Java đều là kiểu có dấu biểu diễn theo mã bù hai (Two's complement). Khi giá trị nhị phân `01111111` (127) cộng thêm 1, nó chuyển thành `10000000` (-128) trong biểu diễn nhị phân, gây ra lỗi tràn số âm nguy hiểm nếu không dùng kiểu dữ liệu lớn hơn hoặc `Math.addExact()`.",
+      "card_front": "Hiện tượng tràn số (Integer Overflow) xảy ra như thế nào trong đoạn mã sau?",
+      "card_back": "In ra `-128` do kiểu `byte` trong Java có kích thước 8-bit có dấu (khoảng giá trị từ -128 đến 127); khi vượt quá giá trị cực đại, số nhị phân quay vòng về giá trị cực tiểu theo chuẩn mã bù hai (Two's complement).",
+      "card_hint": "Primitive Types, Integer Overflow, Byte, Bitwise",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "Tại sao trong Java, biểu thức `(0.1 + 0.2 == 0.3)` lại trả về `false` và in ra kết quả `0.30000000000000004`?",
+      "code_snippet": "double a = 0.1;\ndouble b = 0.2;\nSystem.out.println(a + b);        // 0.30000000000000004\nSystem.out.println(a + b == 0.3); // false",
+      "options": [
+        "Do JVM gặp lỗi phần cứng khi thực hiện phép cộng trên chip vi xử lý Intel/AMD.",
+        "Do kiểu `double` tuân theo chuẩn nhị phân IEEE 754: Con số thập phân `0.1` (1/10) khi chuyển sang hệ nhị phân (cơ số 2) là một dãy số tuần hoàn vô hạn (`0.0001100110011...₂`), do bộ nhớ 64-bit có hạn nên máy tính buộc phải làm tròn, dẫn đến tích lũy sai số sau phép cộng.",
+        "Do Java tự động ép kiểu `a + b` sang chuỗi `String` trước khi so sánh.",
+        "Do toán tử `==` trong Java bị cấm sử dụng cho mọi kiểu dữ liệu số thực."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Giống như phép chia 1/3 = 0.333... vô hạn trong hệ thập phân của con người, phân số 1/10 = 0.0001100110011... là số tuần hoàn vô hạn trong hệ nhị phân (cơ số 2 của máy tính). Với độ dài 64-bit hữu hạn của kiểu double, máy tính buộc phải cắt đuôi và làm tròn, khiến tổng của 0.1 và 0.2 trở thành 0.30000000000000004, khác với biểu diễn nhị phân của số 0.3.",
+      "card_front": "Tại sao trong Java, biểu thức `(0.1 + 0.2 == 0.3)` lại trả về `false` và in ra kết quả `0.30000000000000004`?",
+      "card_back": "Do kiểu `double` tuân theo chuẩn nhị phân IEEE 754: Con số thập phân `0.1` (1/10) khi chuyển sang hệ nhị phân (cơ số 2) là một dãy số tuần hoàn vô hạn (`0.0001100110011...₂`), do bộ nhớ 64-bit có hạn nên máy tính buộc phải làm tròn, dẫn đến tích lũy sai số sau phép cộng.",
+      "card_hint": "IEEE 754, Floating Point, Precision, Binary Fraction",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "Khi chuyển sang `BigDecimal` để tính toán tài chính chính xác tuyệt đối, cách khởi tạo nào sau đây là ĐÚNG CHUẨN và KHÔNG bị dính sai số dấu phẩy động?",
+      "code_snippet": "// Cách 1:\nBigDecimal price1 = new BigDecimal(0.1);\n\n// Cách 2:\nBigDecimal price2 = new BigDecimal(\"0.1\");\n\n// Cách 3:\nBigDecimal price3 = BigDecimal.valueOf(0.1);",
+      "options": [
+        "Cách 1 là chuẩn nhất vì truyền trực tiếp giá trị số double nguyên thủy.",
+        "Chỉ có Cách 2 và Cách 3 là đúng chuẩn; Cách 1 bị dính cạm bẫy vì truyền số double `0.1` đã bị làm tròn sẵn trong RAM vào constructor, tạo ra giá trị `0.1000000000000000055511151231...`.",
+        "Cả 3 cách đều sinh ra kết quả sai lệch giống hệt nhau.",
+        "`BigDecimal` bắt buộc phải khởi tạo thông qua `Double.toBigDecimal()`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Cạm bẫy kinh điển: Constructor `new BigDecimal(double)` sẽ lấy chính xác giá trị nhị phân đã bị sai số của biến double trong RAM (0.10000000000000000555...). Vì vậy, tài liệu Oracle khuyến nghị luôn dùng constructor chuỗi `new BigDecimal(\"0.1\")` hoặc phương thức tiện ích `BigDecimal.valueOf(0.1)` (bên trong tự gọi Double.toString(val)).",
+      "card_front": "Khi chuyển sang `BigDecimal` để tính toán tài chính chính xác tuyệt đối, cách khởi tạo nào sau đây là ĐÚNG CHUẨN và KHÔNG bị dính sai số dấu phẩy động?",
+      "card_back": "Chỉ có Cách 2 và Cách 3 là đúng chuẩn; Cách 1 bị dính cạm bẫy vì truyền số double `0.1` đã bị làm tròn sẵn trong RAM vào constructor, tạo ra giá trị `0.1000000000000000055511151231...`.",
+      "card_hint": "BigDecimal, Constructors, Best Practices, Floating Point",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Cạm bẫy nguy hiểm nhất khi sử dụng Autounboxing giữa Wrapper Class (`Integer`) và kiểu nguyên thủy (`int`) là gì?",
+      "code_snippet": "Integer seatCount = null;\nint availableSeats = seatCount; // Dòng này chạy ra kết quả gì?",
+      "options": [
+        "Biến `availableSeats` tự động nhận giá trị mặc định là 0.",
+        "Bị ném ngoại lệ `NullPointerException` tại thời điểm chạy (Runtime) vì JVM tự động gọi `seatCount.intValue()`.",
+        "Lỗi biên dịch (Compile-time error).",
+        "Biến `availableSeats` nhận giá trị âm."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Khi unbox từ Wrapper sang Primitive, JVM tự động gọi phương thức `.intValue()` ngầm bên dưới. Nếu đối tượng Wrapper mang giá trị null, việc gọi method trên null sẽ gây sập luồng với NullPointerException.",
+      "card_front": "Cạm bẫy nguy hiểm nhất khi sử dụng Autounboxing giữa Wrapper Class (`Integer`) và kiểu nguyên thủy (`int`) là gì?",
+      "card_back": "Bị ném ngoại lệ `NullPointerException` tại thời điểm chạy (Runtime) vì JVM tự động gọi `seatCount.intValue()`.",
+      "card_hint": "Wrapper Class, Autoboxing, NullPointerException",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q11",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Đoạn mã sau xuất ra kết quả gì và cơ chế bộ nhớ nào của JVM giải thích sự khác biệt giữa hai phép so sánh `==` này?",
+      "code_snippet": "Integer a1 = 100, a2 = 100;\nInteger b1 = 128, b2 = 128;\n\nSystem.out.println((a1 == a2) + \" \" + (b1 == b2));",
+      "options": [
+        "`true true` vì cả 100 và 128 đều là các số nguyên có giá trị bằng nhau.",
+        "`false false` vì `Integer` là kiểu đối tượng (Wrapper Class) nên toán tử `==` luôn so sánh hai địa chỉ tham chiếu khác nhau trên Heap.",
+        "`true false` vì cơ chế Autoboxing gọi ngầm `Integer.valueOf()`; JVM duy trì bộ nhớ đệm `IntegerCache` trong khoảng `[-128, 127]` nên `a1` và `a2` cùng trỏ tới một instance có sẵn, còn giá trị `128` vượt quá khoảng cache buộc JVM tạo ra 2 object riêng biệt trên Heap.",
+        "`false true` vì số lớn hơn 127 được JVM tự động gộp ô nhớ trong String/Integer Pool còn số nhỏ thì không."
+      ],
+      "correct_option_index": 2,
+      "explanation": "Khi gán `Integer a = 100;`, trình biên dịch Java thực hiện Autoboxing thành `Integer.valueOf(100)`. Lớp `Integer` chứa một static inner class `IntegerCache` lưu sẵn các đối tượng có giá trị từ `-128` đến `127`. Luôn dùng `.equals()` khi so sánh Wrapper Class!",
+      "card_front": "Đoạn mã sau xuất ra kết quả gì và cơ chế bộ nhớ nào của JVM giải thích sự khác biệt giữa hai phép so sánh `==` này?",
+      "card_back": "`true false` vì cơ chế Autoboxing gọi ngầm `Integer.valueOf()`; JVM duy trì bộ nhớ đệm `IntegerCache` trong khoảng `[-128, 127]` nên `a1` và `a2` cùng trỏ tới một instance có sẵn, còn giá trị `128` vượt quá khoảng cache buộc JVM tạo ra 2 object riêng biệt trên Heap.",
+      "card_hint": "Wrapper Class, IntegerCache, Autoboxing, Memory Trap",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q14",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Trong ứng dụng Spring Boot / JPA, tại sao việc so sánh hai ID bằng toán tử `==` như `currentUserId == requestUserId` là một lỗi tai hại thường \"lọt lưới\" qua khâu Unit Test nhưng lại phát tác bug nghiêm trọng trên Production?",
+      "code_snippet": "// Trong OrderService.java\nLong currentUserId = user.getId(); // Kiểu Long\nLong requestUserId = request.getUserId();\n\nif (currentUserId == requestUserId) {\n    // Cho phép hủy vé / hoàn tiền\n}",
+      "options": [
+        "Vì trên Production hệ điều hành Linux xử lý toán tử `==` khác với môi trường Windows/Mac ở Local.",
+        "Trong môi trường Dev/Test có ít dữ liệu mẫu nên ID thường nhỏ hơn hoặc bằng 127, `LongCache` tái sử dụng cùng object khiến `==` vô tình trả về `true` (test pass); nhưng lên Production khi ID tăng vượt quá 127, JVM tạo ra 2 object riêng biệt trên Heap khiến `==` trả về `false`, làm tính năng bị từ chối sai nghiệp vụ. Bắt buộc luôn dùng `Objects.equals()` hoặc `.equals()`.",
+        "Vì kiểu `Long` trong PostgreSQL không tương thích với kiểu `Long` của Java khi so sánh bằng toán tử `==`.",
+        "Vì Spring Boot tự động kích hoạt tính năng unbox ngầm của Lombok chỉ ở môi trường test."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Đây là bug kinh điển trong các dự án Java Backend. Tương tự IntegerCache, `LongCache` lưu sẵn các giá trị từ -128 đến 127. Khi test ở local với data ít (ID = 1, 2, 10...), phép so sánh `id1 == id2` trả về true một cách tình cờ. Khi lên production với ID thật (ví dụ ID = 10005), `==` so sánh 2 địa chỉ ô nhớ khác nhau và trả về false. Luôn sử dụng `Objects.equals(id1, id2)` để đảm bảo an toàn tuyệt đối.",
+      "card_front": "Trong ứng dụng Spring Boot / JPA, tại sao việc so sánh hai ID bằng toán tử `==` như `currentUserId == requestUserId` là một lỗi tai hại thường \"lọt lưới\" qua khâu Unit Test nhưng lại phát tác bug nghiêm trọng trên Production?",
+      "card_back": "Trong môi trường Dev/Test có ít dữ liệu mẫu nên ID thường nhỏ hơn hoặc bằng 127, `LongCache` tái sử dụng cùng object khiến `==` vô tình trả về `true` (test pass); nhưng lên Production khi ID tăng vượt quá 127, JVM tạo ra 2 object riêng biệt trên Heap khiến `==` trả về `false`, làm tính năng bị từ chối sai nghiệp vụ. Bắt buộc luôn dùng `Objects.equals()` hoặc `.equals()`.",
+      "card_hint": "Production Bug, Spring Boot, LongCache, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Đoạn mã sau đây in ra kết quả gì trên console và cơ chế truyền tham số của Java đối với kiểu tham chiếu (Reference Type) giải thích điều này ra sao?",
+      "code_snippet": "String s = \"hi\";\nchangeIt(s);\nSystem.out.println(s);\n\n// Định nghĩa phương thức:\n// void changeIt(String x) { x = \"bye\"; }",
+      "options": [
+        "In ra `bye` vì `String` là kiểu tham chiếu (Reference Type) nên Java truyền tham chiếu (Pass-by-reference), làm thay đổi giá trị của biến `s` ban đầu.",
+        "In ra `hi` vì Java luôn luôn là Pass-by-value (truyền tham trị) 100%; giá trị được truyền vào ở đây là bản copy của địa chỉ tham chiếu (copy of reference). Phép gán `x = \"bye\"` chỉ đổi biến cục bộ `x` trỏ sang đối tượng String mới mà không làm thay đổi biến `s` của caller.",
+        "In ra `null` vì chuỗi ban đầu bị Garbage Collector dọn dẹp ngay khi thoát khỏi hàm `changeIt`.",
+        "Báo lỗi biên dịch Compile-time Error vì không thể truyền tham số `String` vào một phương thức trả về `void`."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Trong Java, ngôn ngữ LUÔN LUÔN hoạt động theo cơ chế pass-by-value 100% (truyền tham trị), hoàn toàn không có pass-by-reference như trong C++ hay C# (ref/out):\n1. Với kiểu tham chiếu (Object Reference), \"giá trị\" được truyền vào hàm chính là bản copy của địa chỉ tham chiếu (copy of reference).\n2. Khi gọi `changeIt(s)`, biến cục bộ `x` (nằm trên Stack của hàm) nhận bản sao địa chỉ và tạm thời cùng trỏ tới chuỗi `\"hi\"` với `s`.\n3. Lệnh `x = \"bye\"` chỉ gán lại địa chỉ của biến cục bộ `x` sang đối tượng chuỗi mới trong String Pool/Heap, biến `s` của caller vẫn giữ nguyên địa chỉ trỏ tới `\"hi\"`.\n4. Muốn caller thấy giá trị mới, hàm bắt buộc phải `return` giá trị mới về và caller thực hiện gán lại: `s = changeIt(s);`.",
+      "card_front": "Đoạn mã sau đây in ra kết quả gì trên console và cơ chế truyền tham số của Java đối với kiểu tham chiếu (Reference Type) giải thích điều này ra sao?",
+      "card_back": "In ra `hi` vì Java luôn luôn là Pass-by-value (truyền tham trị) 100%; giá trị được truyền vào ở đây là bản copy của địa chỉ tham chiếu (copy of reference). Phép gán `x = \"bye\"` chỉ đổi biến cục bộ `x` trỏ sang đối tượng String mới mà không làm thay đổi biến `s` của caller.",
+      "card_hint": "Pass-by-value, Reference Types, String, Memory Model, Method Parameters",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Xem xét đoạn mã khởi tạo vé sau đây: Cơ chế phân bổ bộ nhớ giữa Stack và Heap của JVM diễn ra CHÍNH XÁC như thế nào?",
+      "code_snippet": "public void createBooking() {\n    int ticketCount = 2;\n    String customerName = \"Nguyen Van A\";\n    TicketOrder order = new TicketOrder(101L, customerName);\n}",
+      "options": [
+        "Toàn bộ các biến `ticketCount`, `customerName`, `order` và dữ liệu của đối tượng `TicketOrder` đều được lưu trên Heap vì phương thức này tạo đối tượng mới.",
+        "Các biến cục bộ (`ticketCount` với giá trị nguyên thủy `2`, biến tham chiếu `customerName`, và biến tham chiếu `order`) được lưu trên Stack Frame của phương thức `createBooking`; trong khi các đối tượng thực sự (`new TicketOrder(...)` và chuỗi String) được cấp phát trên bộ nhớ Heap.",
+        "Biến `ticketCount` nằm trên Stack, nhưng biến `order` nằm trên Heap cùng với đối tượng `TicketOrder`.",
+        "Stack chỉ lưu mã bytecode của hàm, còn tất cả các loại biến trong Java đều bắt buộc lưu trên Heap."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Mô hình phân bổ bộ nhớ kinh điển trong JVM:\n1. Stack Memory: Lưu trữ các Stack Frame của từng lời gọi hàm. Tại đây chứa các biến cục bộ (local variables). Với kiểu nguyên thủy (`int ticketCount = 2`), giá trị thô `2` nằm trực tiếp trên Stack. Với kiểu đối tượng (`customerName`, `order`), Stack chỉ chứa biến tham chiếu (con trỏ địa chỉ ô nhớ 4 hoặc 8 byte).\n2. Heap Memory: Nơi cấp phát thực tế của tất cả các instance đối tượng (`new TicketOrder(...)`, `String`) và các trường (fields) bên trong đối tượng đó.\n3. Khi hàm `createBooking()` kết thúc (return), toàn bộ Stack Frame tự động bị hủy, nhưng các đối tượng trên Heap vẫn tồn tại cho đến khi GC phát hiện không còn tham chiếu nào trỏ tới.",
+      "card_front": "Xem xét đoạn mã khởi tạo vé sau đây: Cơ chế phân bổ bộ nhớ giữa Stack và Heap của JVM diễn ra CHÍNH XÁC như thế nào?",
+      "card_back": "Các biến cục bộ (`ticketCount` với giá trị nguyên thủy `2`, biến tham chiếu `customerName`, và biến tham chiếu `order`) được lưu trên Stack Frame của phương thức `createBooking`; trong khi các đối tượng thực sự (`new TicketOrder(...)` và chuỗi String) được cấp phát trên bộ nhớ Heap.",
+      "card_hint": "Stack vs Heap, Memory Allocation, JVM Architecture, Local Variables",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Bảng so sánh nào sau đây mô tả ĐÚNG NHẤT các đặc điểm nổi bật về phạm vi, tốc độ và cơ chế giải phóng bộ nhớ giữa Stack và Heap trong Java?",
+      "code_snippet": "",
+      "options": [
+        "Stack dùng chung cho toàn bộ ứng dụng; Heap cấp phát riêng cho từng Thread.",
+        "Stack do Garbage Collector định kỳ quét dọn; Heap tự động giải phóng theo cơ chế FIFO (First In First Out).",
+        "Stack được cấp phát riêng cho từng Thread (Thread-safe tự nhiên), truy xuất cực nhanh theo cơ chế LIFO (Last In First Out) và tự động giải phóng ngay khi hàm kết thúc; Heap là vùng nhớ dùng chung (Shared) cho tất cả các Thread, lưu trữ object dài hạn và bắt buộc phải có Garbage Collector (GC) thu gom rác.",
+        "Stack có dung lượng lớn hơn nhiều so với Heap và có thể mở rộng tự do không giới hạn."
+      ],
+      "correct_option_index": 2,
+      "explanation": "Sự khác biệt cốt lõi giữa Stack và Heap:\n- Phạm vi (Scope): Mỗi Thread có 1 Stack riêng biệt (dữ liệu biến cục bộ tự an toàn luồng - Thread-safe). Ngược lại, Heap là vùng nhớ duy nhất dùng chung cho mọi Thread của tiến trình JVM (cần đồng bộ synchronized/Atomic khi nhiều luồng cùng sửa 1 object).\n- Tốc độ: Stack nhanh hơn Heap rất nhiều vì CPU chỉ cần dịch chuyển con trỏ Stack Pointer (LIFO). Heap phải tìm khối nhớ trống đủ lớn và giải quyết phân mảnh.\n- Vòng đời: Stack giải phóng ngay lập tức khi ra khỏi scope của hàm. Heap phụ thuộc vào thuật toán GC (Generational GC: Eden -> Survivor -> Old Gen) để dọn dẹp khi object trở thành \"mồ côi\" (unreachable).",
+      "card_front": "Bảng so sánh nào sau đây mô tả ĐÚNG NHẤT các đặc điểm nổi bật về phạm vi, tốc độ và cơ chế giải phóng bộ nhớ giữa Stack và Heap trong Java?",
+      "card_back": "Stack được cấp phát riêng cho từng Thread (Thread-safe tự nhiên), truy xuất cực nhanh theo cơ chế LIFO (Last In First Out) và tự động giải phóng ngay khi hàm kết thúc; Heap là vùng nhớ dùng chung (Shared) cho tất cả các Thread, lưu trữ object dài hạn và bắt buộc phải có Garbage Collector (GC) thu gom rác.",
+      "card_hint": "Stack vs Heap, Thread Safety, Garbage Collection, LIFO",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q7",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "Quan sát 2 đoạn mã sau: Ngoại lệ / lỗi JVM tương ứng sinh ra ở từng trường hợp là gì và do nguyên nhân nào?",
+      "code_snippet": "// Trường hợp 1:\npublic void calculateTicketDiscount() {\n    calculateTicketDiscount(); // Đệ quy không có điểm dừng\n}\n\n// Trường hợp 2:\npublic void loadAllOrders() {\n    List<byte[]> list = new ArrayList<>();\n    while (true) {\n        list.add(new byte[10 * 1024 * 1024]); // Cấp phát 10MB liên tục vào List\n    }\n}",
+      "options": [
+        "Cả 2 trường hợp đều ném ra lỗi `NullPointerException`.",
+        "Trường hợp 1 gây `StackOverflowError` do mỗi lần gọi đệ quy tạo thêm một Stack Frame mới làm đầy bộ nhớ Stack; Trường hợp 2 gây `OutOfMemoryError: Java heap space` do tạo quá nhiều mảng byte trên vùng nhớ Heap mà Garbage Collector không thể giải phóng được vì chúng vẫn đang được `list` tham chiếu tới.",
+        "Trường hợp 1 gây `OutOfMemoryError`; Trường hợp 2 gây `StackOverflowError`.",
+        "Trình biên dịch Java (`javac`) phát hiện vòng lặp vô hạn và báo lỗi Compile-time Error ở cả 2 trường hợp."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Phân biệt 2 lỗi cạn kiệt bộ nhớ kinh điển của JVM:\n1. StackOverflowError: Xảy ra khi độ sâu của Call Stack vượt quá dung lượng cấp phát cho Thread Stack (mặc định cấu hình qua cờ -Xss, thường là 1MB). Mỗi lời gọi hàm lồng nhau đẩy 1 Stack Frame vào Stack, đệ quy vô hạn sẽ làm tràn bộ nhớ Stack.\n2. OutOfMemoryError: Java heap space: Xảy ra khi bộ nhớ Heap (cấu hình qua cờ -Xms, -Xmx) không còn đủ chỗ trống để cấp phát đối tượng mới (ví dụ new byte[...]), mặc dù Garbage Collector đã cố gắng chạy Full GC nhưng không thể thu hồi vì các object này vẫn nối liền với GC Roots (ở đây là biến list).",
+      "card_front": "Quan sát 2 đoạn mã sau: Ngoại lệ / lỗi JVM tương ứng sinh ra ở từng trường hợp là gì và do nguyên nhân nào?",
+      "card_back": "Trường hợp 1 gây `StackOverflowError` do mỗi lần gọi đệ quy tạo thêm một Stack Frame mới làm đầy bộ nhớ Stack; Trường hợp 2 gây `OutOfMemoryError: Java heap space` do tạo quá nhiều mảng byte trên vùng nhớ Heap mà Garbage Collector không thể giải phóng được vì chúng vẫn đang được `list` tham chiếu tới.",
+      "card_hint": "StackOverflowError, OutOfMemoryError, Troubleshooting, JVM Memory",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub4",
+      "question": "Đoạn mã sau tính tỷ lệ phần trăm vé đã bán trong hệ thống Ticket Station sẽ in ra kết quả gì?",
+      "code_snippet": "int soldTickets = 50;\nint totalTickets = 200;\ndouble percentage = (soldTickets / totalTickets) * 100;\nSystem.out.println(percentage);",
+      "options": [
+        "`25.0`",
+        "`0.0` vì `soldTickets / totalTickets` là phép chia giữa hai số nguyên (`int / int`), kết quả `50 / 200` bị cắt bỏ phần thập phân thành `0`, sau đó `0 * 100` ra `0.0`.",
+        "`50.0`",
+        "Lỗi biên dịch do không tương thích kiểu số."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Phép chia 2 số `int` trong Java luôn trả về số `int` (bỏ phần dư). `50 / 200 = 0`. Để có kết quả chính xác 25.0, phải ép ít nhất 1 toán hạng sang kiểu số thực: `(double) soldTickets / totalTickets * 100` hoặc `(soldTickets * 100.0) / totalTickets`.",
+      "card_front": "Đoạn mã sau tính tỷ lệ phần trăm vé đã bán trong hệ thống Ticket Station sẽ in ra kết quả gì?",
+      "card_back": "`0.0` vì `soldTickets / totalTickets` là phép chia giữa hai số nguyên (`int / int`), kết quả `50 / 200` bị cắt bỏ phần thập phân thành `0`, sau đó `0 * 100` ra `0.0`.",
+      "card_hint": "Arithmetic, Integer Division, Type Promotion",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub4",
+      "question": "Trong Java, quy tắc tính toán của toán tử Modulo (`%`) với các số âm được định nghĩa như thế nào và đoạn mã sau in ra kết quả gì?",
+      "code_snippet": "System.out.println((-7 % 3) + \" \" + (7 % -3));",
+      "options": [
+        "`1 1`",
+        "`-1 1` vì dấu của kết quả phép chia lấy dư `%` trong Java luôn theo dấu của số bị chia (toán hạng bên trái: Dividend), không phụ thuộc vào dấu của số chia (Divisor).",
+        "`-1 -1`",
+        "`1 -1`"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Theo chuẩn Java Language Specification: `a % b = a - (a / b) * b`. Do đó `-7 % 3 = -7 - (-7 / 3) * 3 = -7 - (-2) * 3 = -7 - (-6) = -1`. Tương tự, `7 % -3 = 7 - (7 / -3) * (-3) = 7 - (-2) * (-3) = 7 - 6 = 1`. Dấu của kết quả `%` luôn cùng dấu với toán hạng bên trái!",
+      "card_front": "Trong Java, quy tắc tính toán của toán tử Modulo (`%`) với các số âm được định nghĩa như thế nào và đoạn mã sau in ra kết quả gì?",
+      "card_back": "`-1 1` vì dấu của kết quả phép chia lấy dư `%` trong Java luôn theo dấu của số bị chia (toán hạng bên trái: Dividend), không phụ thuộc vào dấu của số chia (Divisor).",
+      "card_hint": "Operators, Modulo, Arithmetic Rules",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub5",
+      "question": "Sự khác biệt cốt lõi giữa toán tử logic ngắn mạch `&&` (Short-circuit AND) và toán tử bitwise `&` trong câu lệnh điều kiện là gì?",
+      "code_snippet": "Ticket ticket = null;\nif (ticket != null && ticket.isAvailable()) { ... } // Đoạn 1\nif (ticket != null & ticket.isAvailable()) { ... }  // Đoạn 2",
+      "options": [
+        "Cả 2 đoạn code chạy giống hệt nhau, không có sự khác biệt.",
+        "Đoạn 1 an toàn: nếu vế trái `false`, vế phải sẽ không được tính toán; Đoạn 2 nguy hiểm: `&` luôn bắt buộc tính toán cả 2 vế, dẫn đến `NullPointerException` khi `ticket` là null.",
+        "Đoạn 1 chỉ chạy được trên Java 8 trở xuống.",
+        "`&&` chỉ dùng cho số, còn `&` dùng cho kiểu đối tượng."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Toán tử `&&` và `||` có tính năng ngắn mạch (Short-circuit): dừng đánh giá ngay khi kết quả đã chắc chắn. Dùng `&` hoặc `|` trong điều kiện logic sẽ buộc JVM tính toán cả 2 vế, gây crash nếu vế phải giả định vế trái khác null.",
+      "card_front": "Sự khác biệt cốt lõi giữa toán tử logic ngắn mạch `&&` (Short-circuit AND) và toán tử bitwise `&` trong câu lệnh điều kiện là gì?",
+      "card_back": "Đoạn 1 an toàn: nếu vế trái `false`, vế phải sẽ không được tính toán; Đoạn 2 nguy hiểm: `&` luôn bắt buộc tính toán cả 2 vế, dẫn đến `NullPointerException` khi `ticket` là null.",
+      "card_hint": "Control Flow, Operators, Short-Circuit",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub5",
+      "question": "Trong hệ thống phân quyền (RBAC), kỹ thuật Bitmask dùng toán tử Bitwise nào để kiểm tra xem một người dùng có quyền `READ` (`0b0001`) trong biến `userPermissions` hay không?",
+      "code_snippet": "int PERM_READ = 1;   // 0001\nint PERM_WRITE = 2;  // 0010\nint PERM_DELETE = 4; // 0100\nint userPerms = PERM_READ | PERM_WRITE; // 0011\n\n// Biểu thức kiểm tra xem userPerms có chứa quyền PERM_READ:\nboolean hasRead = ...;",
+      "options": [
+        "`(userPerms & PERM_READ) == PERM_READ`",
+        "`(userPerms | PERM_READ) == 0`",
+        "`(userPerms ^ PERM_READ) == 0`",
+        "`userPerms << PERM_READ`"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Toán tử `&` (Bitwise AND) giữ lại các bit cùng là 1. Nếu `(userPerms & PERM_READ) == PERM_READ`, chứng tỏ bit quyền đó đã được bật. Đây là kỹ thuật lưu nhiều cờ nhị phân (Bitmask) cực kỳ tiết kiệm bộ nhớ và tối ưu hiệu năng trong hệ thống lớn.",
+      "card_front": "Trong hệ thống phân quyền (RBAC), kỹ thuật Bitmask dùng toán tử Bitwise nào để kiểm tra xem một người dùng có quyền `READ` (`0b0001`) trong biến `userPermissions` hay không?",
+      "card_back": "`(userPerms & PERM_READ) == PERM_READ`",
+      "card_hint": "Bitwise, Bitmask, Permissions, Binary",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub6",
+      "question": "Điều gì xảy ra khi thực hiện ép kiểu thu hẹp (Narrowing Primitive Conversion) từ `int` sang `byte` như đoạn mã dưới đây?",
+      "code_snippet": "int largeNumber = 130;\nbyte b = (byte) largeNumber;\nSystem.out.println(b);",
+      "options": [
+        "In ra `130` bình thường.",
+        "In ra `-126` do JVM chỉ giữ lại 8 bit thấp nhất của số nguyên 130 (`00000000 00000000 00000000 10000010` -> `10000010` = -126 trong hệ bù hai).",
+        "Ném ngoại lệ `ClassCastException` tại Runtime.",
+        "Trình biên dịch báo lỗi Compile-time Error."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Narrowing conversion cắt bỏ các bit bậc cao (high-order bits) và chỉ giữ lại số bit tương ứng của kiểu đích. 130 trong nhị phân 32-bit là `...0000 10000010`. Khi ép xuống 8-bit, bit dấu là 1 (số âm), giá trị bù hai là `- (256 - 130) = -126`.",
+      "card_front": "Điều gì xảy ra khi thực hiện ép kiểu thu hẹp (Narrowing Primitive Conversion) từ `int` sang `byte` như đoạn mã dưới đây?",
+      "card_back": "In ra `-126` do JVM chỉ giữ lại 8 bit thấp nhất của số nguyên 130 (`00000000 00000000 00000000 10000010` -> `10000010` = -126 trong hệ bù hai).",
+      "card_hint": "Casting, Narrowing, Bitwise, Overflow",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub6",
+      "question": "Trong Java, cặp chuyển đổi kiểu nguyên thủy nào dưới đây KHÔNG THỂ tự động ép kiểu mở rộng (Widening) mà bắt buộc phải ép kiểu tường minh `(cast)`?",
+      "code_snippet": "",
+      "options": [
+        "`byte` sang `int`",
+        "`int` sang `long`",
+        "`char` sang `short` (hoặc ngược lại)",
+        "`float` sang `double`"
+      ],
+      "correct_option_index": 2,
+      "explanation": "Mặc dù cả `char` và `short` đều chiếm 16-bit (2 bytes) trong bộ nhớ, nhưng `short` là kiểu số nguyên có dấu `[-32,768 đến 32,767]`, còn `char` là kiểu số nguyên không dấu Unicode `[0 đến 65,535]`. Vì khoảng giá trị của chúng không bao hàm nhau hoàn toàn, Java bắt buộc phải ép kiểu tường minh `(short) c` hoặc `(char) s`.",
+      "card_front": "Trong Java, cặp chuyển đổi kiểu nguyên thủy nào dưới đây KHÔNG THỂ tự động ép kiểu mở rộng (Widening) mà bắt buộc phải ép kiểu tường minh `(cast)`?",
+      "card_back": "`char` sang `short` (hoặc ngược lại)",
+      "card_hint": "Type Casting, Widening, char vs short",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "Đoạn code sau đây xuất ra kết quả gì và cơ chế nào bên dưới của Java giải thích hiện tượng này?",
+      "code_snippet": "String s1 = \"TicketStation\";\nString s2 = \"TicketStation\";\nString s3 = new String(\"TicketStation\");\n\nSystem.out.println((s1 == s2) + \" \" + (s1 == s3));",
+      "options": [
+        "`true true`",
+        "`false false`",
+        "`true false` vì s1 và s2 cùng trỏ vào một vùng nhớ trong String Constant Pool trên Heap, còn từ khóa `new` tạo ra một đối tượng hoàn toàn mới ở ngoài pool.",
+        "`false true`"
+      ],
+      "correct_option_index": 2,
+      "explanation": "Khi khai báo chuỗi bằng String Literal (dấu ngoặc kép), JVM lưu và tái sử dụng chuỗi trong String Constant Pool (s1 == s2 true). Khi dùng `new String()`, JVM bắt buộc cấp phát một object mới trên Heap (s1 == s3 false). Khi so sánh nội dung chuỗi luôn dùng `.equals()`.",
+      "card_front": "Đoạn code sau đây xuất ra kết quả gì và cơ chế nào bên dưới của Java giải thích hiện tượng này?",
+      "card_back": "`true false` vì s1 và s2 cùng trỏ vào một vùng nhớ trong String Constant Pool trên Heap, còn từ khóa `new` tạo ra một đối tượng hoàn toàn mới ở ngoài pool.",
+      "card_hint": "String, String Pool, Memory Management",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q10",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "Tại sao việc nối chuỗi bằng toán tử `+` bên trong một vòng lặp lớn (ví dụ: tạo mã vé hoặc xuất báo cáo) lại là một Anti-pattern nghiêm trọng về hiệu năng trong Java?",
+      "code_snippet": "// Đoạn mã tạo chuỗi mã vé trong dịch vụ Ticket Station\nString ticketSummary = \"\";\nfor (int i = 1; i <= 10_000; i++) {\n    ticketSummary += \"TICKET-\" + i + \";\";\n}",
+      "options": [
+        "Vì toán tử `+` không thread-safe và sẽ luôn gây ra lỗi `ConcurrentModificationException` trong vòng lặp.",
+        "Vì ở mỗi vòng lặp, JVM phải tạo mới một `StringBuilder` và tạo mới đối tượng `String` qua `toString()`, dẫn đến độ phức tạp thời gian O(n²) và xả ra hàng vạn đối tượng rác trên Heap làm nghẽn bộ gom rác Garbage Collector (GC); giải pháp chuẩn là dùng 1 đối tượng `StringBuilder` duy nhất khởi tạo ngoài vòng lặp.",
+        "Vì vòng lặp sẽ bị dừng đột ngột bởi ngoại lệ `StackOverflowError`.",
+        "Vì Java không hỗ trợ ép kiểu tự động giữa số nguyên `i` và chuỗi trong vòng lặp."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Do String trong Java là Immutable (bất biến), mỗi phép `ticketSummary += ...` trong vòng lặp buộc JVM phải tạo một đối tượng StringBuilder mới, append nội dung cũ và mới, rồi gọi toString() tạo một String mới và vứt bỏ String cũ. Với 10,000 vòng lặp, nó tạo ra O(n) đối tượng rác và copy dữ liệu liên tục (O(n²)). Khắc phục bằng cách dùng: `StringBuilder sb = new StringBuilder(); for (...) sb.append(...);`.",
+      "card_front": "Tại sao việc nối chuỗi bằng toán tử `+` bên trong một vòng lặp lớn (ví dụ: tạo mã vé hoặc xuất báo cáo) lại là một Anti-pattern nghiêm trọng về hiệu năng trong Java?",
+      "card_back": "Vì ở mỗi vòng lặp, JVM phải tạo mới một `StringBuilder` và tạo mới đối tượng `String` qua `toString()`, dẫn đến độ phức tạp thời gian O(n²) và xả ra hàng vạn đối tượng rác trên Heap làm nghẽn bộ gom rác Garbage Collector (GC); giải pháp chuẩn là dùng 1 đối tượng `StringBuilder` duy nhất khởi tạo ngoài vòng lặp.",
+      "card_hint": "Performance, Garbage Collection, StringBuilder, Anti-pattern",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s7-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "Tính năng Text Block (`\"\"\" ... \"\"\"`) được chính thức giới thiệu từ Java 15 mang lại lợi ích nổi bật nào khi viết câu lệnh SQL hoặc payload JSON trong mã nguồn Java?",
+      "code_snippet": "String query = \"\"\"\n    SELECT id, title, base_price \n    FROM events \n    WHERE status = 'ACTIVE'\n    \"\"\";",
+      "options": [
+        "Text Block tự động mã hóa SQL để chống tấn công SQL Injection.",
+        "Cho phép viết chuỗi nhiều dòng (multi-line string) tự nhiên, tự động loại bỏ các khoảng trắng thụt lề ngẫu nhiên (incidental whitespace), không cần nối chuỗi `+` và không cần escape các dấu nháy kép `\"` bên trong.",
+        "Text Block chỉ dùng được trong các file cấu hình YAML.",
+        "Giúp câu lệnh SQL chạy nhanh hơn gấp 2 lần."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Text Block (JEP 378 từ Java 15) giải quyết sự phiền toái khi viết HTML, JSON, SQL nhiều dòng. Nó giữ nguyên định dạng xuống dòng, không cần escape `\"` và tự động căn chỉnh lề thông minh (stripIndent).",
+      "card_front": "Tính năng Text Block (`\"\"\" ... \"\"\"`) được chính thức giới thiệu từ Java 15 mang lại lợi ích nổi bật nào khi viết câu lệnh SQL hoặc payload JSON trong mã nguồn Java?",
+      "card_back": "Cho phép viết chuỗi nhiều dòng (multi-line string) tự nhiên, tự động loại bỏ các khoảng trắng thụt lề ngẫu nhiên (incidental whitespace), không cần nối chuỗi `+` và không cần escape các dấu nháy kép `\"` bên trong.",
+      "card_hint": "Java 15, Text Block, Multi-line String, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s7-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "Khi xử lý thông tin nhạy cảm như mật khẩu (Password) từ người dùng nhập vào, tại sao chuẩn bảo mật của Java khuyến nghị nên dùng `char[]` thay vì `String`?",
+      "code_snippet": "// Phương án 1:\nString passwordStr = readPassword();\n\n// Phương án 2 (Khuyến nghị bảo mật):\nchar[] passwordChars = readPasswordAsChars();\n// Sau khi xác thực xong với database:\nArrays.fill(passwordChars, ' '); // Xóa sạch dữ liệu khỏi RAM",
+      "options": [
+        "Vì `char[]` tốn ít dung lượng RAM hơn `String` gấp 2 lần, giúp tối ưu hiệu năng cho hệ thống có hàng triệu user.",
+        "Vì `String` trong Java là bất biến (Immutable), giá trị mật khẩu sẽ nằm lưu lại trên Heap một cách không kiểm soát cho tới khi GC dọn rác; trong khi `char[]` cho phép dùng `Arrays.fill(...)` để chủ động ghi đè/xóa sạch khỏi RAM ngay khi dùng xong, ngăn ngừa nguy cơ rò rỉ mật khẩu qua Heap dump hay Memory scan.",
+        "Vì kiểu `String` không hỗ trợ các ký tự Unicode và ký tự đặc biệt thường có trong mật khẩu mạnh.",
+        "Vì mảng `char[]` tự động mã hóa băm (Hash) thành chuỗi bcrypt trước khi gửi qua mạng."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Lý do chuyên sâu từ kiến trúc bộ nhớ JVM và chuẩn bảo mật Java:\n1. Tính bất biến của String (Immutability): Khi tạo một String chứa password, đối tượng sẽ nằm trên Heap (hoặc String Constant Pool) cho tới khi GC quét dọn mà lập trình viên hoàn toàn không thể kiểm soát thời điểm này. Nếu kẻ tấn công khai thác được Heap dump hoặc Memory scan, mật khẩu dạng văn bản thô (Plaintext) sẽ bị lộ.\n2. Khả năng chủ động xóa bộ nhớ của char[]: char[] là mảng có thể thay đổi (mutable). Ngay sau khi xác thực hoặc băm mật khẩu, lập trình viên có thể gọi `Arrays.fill(password, ' ')` để ghi đè ngay lập tức, triệt tiêu thời gian mật khẩu tồn tại trong RAM.\n3. Đặc tả Java chính thức đồng thuận: Các thư viện bảo mật chuẩn của Java như `JPasswordField.getPassword()` (Swing) và `PasswordCallback.getPassword()` (JAAS / Java Security) đều trả về `char[]` chứ không bao giờ trả về `String`.",
+      "card_front": "Khi xử lý thông tin nhạy cảm như mật khẩu (Password) từ người dùng nhập vào, tại sao chuẩn bảo mật của Java khuyến nghị nên dùng `char[]` thay vì `String`?",
+      "card_back": "Vì `String` trong Java là bất biến (Immutable), giá trị mật khẩu sẽ nằm lưu lại trên Heap một cách không kiểm soát cho tới khi GC dọn rác; trong khi `char[]` cho phép dùng `Arrays.fill(...)` để chủ động ghi đè/xóa sạch khỏi RAM ngay khi dùng xong, ngăn ngừa nguy cơ rò rỉ mật khẩu qua Heap dump hay Memory scan.",
+      "card_hint": "Security, String Immutability, char[], Memory Dump, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q8",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub8",
+      "question": "Nếu thêm từ khóa `final` vào biến `sub` như đoạn mã dưới đây, kết quả in ra của biểu thức `s1 == s3` sẽ là gì và tại sao?",
+      "code_snippet": "String s1 = \"hello\";\nfinal String sub = \"hel\"; // Thêm từ khóa final\nString s3 = sub + \"lo\";\n\nSystem.out.println(s1 == s3);",
+      "options": [
+        "`false` vì mọi phép cộng chuỗi có chứa biến tham chiếu đều được tính toán tại Runtime.",
+        "`true` vì khi có từ khóa `final`, biến `sub` trở thành Hằng số thời gian biên dịch (Compile-time Constant) với thuộc tính ConstantValue trong bytecode; javac tự động kích hoạt cơ chế Constant Folding gộp `sub + \"lo\"` thành `\"hello\"` trong String Pool.",
+        "Trình biên dịch báo lỗi cú pháp vì từ khóa `final` không cho phép biến được dùng trong biểu thức ghép chuỗi `+`.",
+        "`false` vì từ khóa `final` chỉ giữ cố định địa chỉ tham chiếu, còn JVM vẫn phải gọi StringBuilder tại Runtime."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Khi một biến String được khai báo `final` và khởi tạo trực tiếp bằng String Literal, trình biên dịch Java nhận diện đây là một Compile-Time Constant (Hằng số thời gian biên dịch). Biến `sub` được đánh dấu thuộc tính `ConstantValue` trong class file. Javac áp dụng Constant Folding, tự động thay thế `sub` bằng `\"hel\"` và gộp `\"hel\" + \"lo\"` thành chuỗi literal `\"hello\"` ngay trong file .class. Khi chạy, `s3` trỏ thẳng vào String Constant Pool nên `s1 == s3` cho kết quả `true`.",
+      "card_front": "Nếu thêm từ khóa `final` vào biến `sub` như đoạn mã dưới đây, kết quả in ra của biểu thức `s1 == s3` sẽ là gì và tại sao?",
+      "card_back": "`true` vì khi có từ khóa `final`, biến `sub` trở thành Hằng số thời gian biên dịch (Compile-time Constant) với thuộc tính ConstantValue trong bytecode; javac tự động kích hoạt cơ chế Constant Folding gộp `sub + \"lo\"` thành `\"hello\"` trong String Pool.",
+      "card_hint": "final, Constant Folding, Bytecode, String Pool",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s8-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub8",
+      "question": "Sự hiểu lầm phổ biến nhất về từ khóa `final` khi áp dụng lên một biến tham chiếu đối tượng (ví dụ: `final List<String> seatList = new ArrayList<>();`) là gì?",
+      "code_snippet": "final List<String> seatList = new ArrayList<>();\nseatList.add(\"VIP-01\"); // Lệnh này có hợp lệ không?",
+      "options": [
+        "`final` biến danh sách thành bất biến tuyệt đối (immutable), nên gọi `seatList.add(...)` sẽ ném ngoại lệ UnsupportedOperationException.",
+        "`final` chỉ cố định địa chỉ tham chiếu (không thể gán `seatList = new ArrayList<>()` khác), còn trạng thái bên trong đối tượng vẫn có thể bị thay đổi tự do (vẫn gọi `add()`, `remove()` bình thường).",
+        "Từ khóa `final` không thể dùng cho kiểu dữ liệu Collection trong Java.",
+        "Trình biên dịch báo lỗi compile error ngay tại dòng gọi method add."
+      ],
+      "correct_option_index": 1,
+      "explanation": "`final` trên biến tham chiếu chỉ bảo vệ con trỏ (địa chỉ ô nhớ) không bị gán lại sang instance khác. Nó KHÔNG làm cho nội dung đối tượng được trỏ tới trở thành bất biến. Để có danh sách bất biến thực sự, phải dùng `List.of()` hoặc `Collections.unmodifiableList()`.",
+      "card_front": "Sự hiểu lầm phổ biến nhất về từ khóa `final` khi áp dụng lên một biến tham chiếu đối tượng (ví dụ: `final List<String> seatList = new ArrayList<>();`) là gì?",
+      "card_back": "`final` chỉ cố định địa chỉ tham chiếu (không thể gán `seatList = new ArrayList<>()` khác), còn trạng thái bên trong đối tượng vẫn có thể bị thay đổi tự do (vẫn gọi `add()`, `remove()` bình thường).",
+      "card_hint": "final keyword, Immutability, References, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub9",
+      "question": "Tại sao trong Java Backend chúng ta nên ưu tiên dùng toán tử `==` thay vì phương thức `.equals()` khi so sánh hai giá trị của Enum?",
+      "code_snippet": "TicketStatus status = getTicketStatus();\nif (status == TicketStatus.BOOKED) { ... }",
+      "options": [
+        "`==` chạy nhanh hơn và quan trọng nhất là an toàn tuyệt đối trước `NullPointerException`: nếu `status` mang giá trị `null`, biểu thức `status == TicketStatus.BOOKED` trả về `false` một cách an toàn mà không bị crash như khi gọi `status.equals(...)`.",
+        "Vì Enum trong Java không có phương thức `.equals()`.",
+        "Vì toán tử `==` tự động ép kiểu enum sang chuỗi String.",
+        "Vì Java quy định cấm dùng `.equals()` trên kiểu enum."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Mỗi hằng số Enum trong Java là một Singleton instance duy nhất được JVM nạp tại lúc khởi tạo class. Do đó toán tử `==` đảm bảo so sánh chính xác 100%. Hơn nữa, nếu biến `status` là `null`, gọi `status.equals(...)` sẽ ném NullPointerException, trong khi `status == TicketStatus.BOOKED` an toàn trả về `false`.",
+      "card_front": "Tại sao trong Java Backend chúng ta nên ưu tiên dùng toán tử `==` thay vì phương thức `.equals()` khi so sánh hai giá trị của Enum?",
+      "card_back": "`==` chạy nhanh hơn và quan trọng nhất là an toàn tuyệt đối trước `NullPointerException`: nếu `status` mang giá trị `null`, biểu thức `status == TicketStatus.BOOKED` trả về `false` một cách an toàn mà không bị crash như khi gọi `status.equals(...)`.",
+      "card_hint": "Enum, Null Safety, Singleton, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s9-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub9",
+      "question": "Trong ứng dụng Ticket Station, một Enum có thể chứa các trường dữ liệu (fields), constructor và phương thức nghiệp vụ hay không?",
+      "code_snippet": "public enum TicketTier {\n    STANDARD(100_000, \"Ghế Thường\"),\n    VIP(250_000, \"Ghế VIP\"),\n    VVIP(500_000, \"Ghế Siêu VIP\");\n\n    private final int price;\n    private final String label;\n\n    TicketTier(int price, String label) {\n        this.price = price;\n        this.label = label;\n    }\n    public int getPrice() { return price; }\n}",
+      "options": [
+        "Không thể, Enum trong Java chỉ là danh sách các tên hằng số thuần túy giống như trong ngôn ngữ C.",
+        "Hoàn toàn có thể; Enum trong Java là một Class đặc biệt kế thừa từ `java.lang.Enum`, có thể khai báo constructor private, biến thực thể `final`, các phương thức nghiệp vụ và thậm chí triển khai (implements) interface.",
+        "Chỉ có thể chứa trường kiểu int, không thể chứa String hay constructor.",
+        "Chỉ phiên bản Java 21 mới cho phép Enum có phương thức."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Enum trong Java là First-class Citizen đầy đủ sức mạnh của một Class: có constructor (luôn private ngầm định), các trường hằng số, phương thức tính toán, và có thể implement các Interface giúp tổ chức domain logic cực kỳ trong sáng và type-safe.",
+      "card_front": "Trong ứng dụng Ticket Station, một Enum có thể chứa các trường dữ liệu (fields), constructor và phương thức nghiệp vụ hay không?",
+      "card_back": "Hoàn toàn có thể; Enum trong Java là một Class đặc biệt kế thừa từ `java.lang.Enum`, có thể khai báo constructor private, biến thực thể `final`, các phương thức nghiệp vụ và thậm chí triển khai (implements) interface.",
+      "card_hint": "Enum, OOP, Domain Model, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s10-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub10",
+      "question": "Cho công thức tính chỉ số BMI: BMI = weight / (height * height) (cân nặng tính bằng kg, chiều cao tính bằng mét). Đoạn mã Java sau đây mắc phải lỗi tính toán logic nghiêm trọng nào?",
+      "code_snippet": "int weight = 70;      // 70 kg\nint heightCm = 175;   // 175 cm\ndouble heightM = heightCm / 100; // Đổi sang mét\ndouble bmi = weight / (heightM * heightM);\nSystem.out.println(\"BMI: \" + bmi);",
+      "options": [
+        "Đoạn code chạy hoàn hảo, cho ra kết quả BMI = 22.86.",
+        "Lỗi Integer Division ở dòng `heightCm / 100`: do cả 175 và 100 là số nguyên `int`, phép chia bị cắt phần thập phân thành `1.0` thay vì `1.75`, dẫn đến tính sai hoàn toàn chỉ số BMI thành `70.0` (béo phì độ III sai lệch).",
+        "Bị lỗi chia cho 0 (`ArithmeticException: / by zero`).",
+        "Lỗi biên dịch vì không thể gán phép chia int cho biến double."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Đây là cạm bẫy kinh điển cho lập trình viên mới: `175 / 100` thực hiện phép chia nguyên trước rồi mới ép kiểu sang `double`, cho ra `1.0`. Cần sửa thành `heightCm / 100.0` hoặc `(double) heightCm / 100` để có kết quả `1.75`.",
+      "card_front": "Cho công thức tính chỉ số BMI: BMI = weight / (height * height) (cân nặng tính bằng kg, chiều cao tính bằng mét). Đoạn mã Java sau đây mắc phải lỗi tính toán logic nghiêm trọng nào?",
+      "card_back": "Lỗi Integer Division ở dòng `heightCm / 100`: do cả 175 và 100 là số nguyên `int`, phép chia bị cắt phần thập phân thành `1.0` thay vì `1.75`, dẫn đến tính sai hoàn toàn chỉ số BMI thành `70.0` (béo phì độ III sai lệch).",
+      "card_hint": "BMI Practice, Integer Division, Bug Prevention",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s10-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub10",
+      "question": "Theo chuẩn phân loại của Tổ chức Y tế Thế giới (WHO): BMI < 18.5 (Thiếu cân), 18.5 đến 24.9 (Bình thường), 25.0 đến 29.9 (Thừa cân), >= 30.0 (Béo phì). Cấu trúc điều kiện `if` nào dưới đây biểu diễn logic phân loại này một cách sạch và chuẩn xác nhất?",
+      "code_snippet": "public static String classifyBmi(double bmi) {\n    if (bmi < 18.5) return \"Underweight\";\n    if (bmi < 25.0) return \"Normal\";\n    if (bmi < 30.0) return \"Overweight\";\n    return \"Obese\";\n}",
+      "options": [
+        "Đúng và tối ưu nhất: Nhờ cơ chế Return Early và cấu trúc bậc thang tăng dần, không cần viết rườm rà `if (bmi >= 18.5 && bmi < 25.0)` vì điều kiện trước đó đã loại trừ các giá trị nhỏ hơn.",
+        "Sai vì thiếu từ khóa else nên tất cả các if đều bị chạy lặp lại.",
+        "Sai vì BMI phải là kiểu int thì mới so sánh được trong Java.",
+        "Phải dùng switch-case mới phân loại được số thực double."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Kỹ thuật Guard Clauses / Early Return kết hợp điều kiện tăng dần giúp code ngắn gọn, dễ đọc, loại bỏ điều kiện kép dư thừa `&&` và tự động bao phủ trọn vẹn toàn bộ miền giá trị của BMI.",
+      "card_front": "Theo chuẩn phân loại của Tổ chức Y tế Thế giới (WHO): BMI < 18.5 (Thiếu cân), 18.5 đến 24.9 (Bình thường), 25.0 đến 29.9 (Thừa cân), >= 30.0 (Béo phì). Cấu trúc điều kiện `if` nào dưới đây biểu diễn logic phân loại này một cách sạch và chuẩn xác nhất?",
+      "card_back": "Đúng và tối ưu nhất: Nhờ cơ chế Return Early và cấu trúc bậc thang tăng dần, không cần viết rườm rà `if (bmi >= 18.5 && bmi < 25.0)` vì điều kiện trước đó đã loại trừ các giá trị nhỏ hơn.",
+      "card_hint": "Clean Code, Control Flow, BMI Practice, Guard Clauses",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "Sự khác biệt cốt lõi giữa toán tử logic ngắn mạch `&&` (Short-circuit AND) và toán tử `&` (Bitwise AND) trong câu lệnh điều kiện là gì?",
+      "code_snippet": "Ticket ticket = null;\nif (ticket != null && ticket.isAvailable()) { ... } // Đoạn 1\nif (ticket != null & ticket.isAvailable()) { ... }  // Đoạn 2",
+      "options": [
+        "Cả 2 đoạn code chạy giống hệt nhau, không có sự khác biệt.",
+        "Đoạn 1 an toàn: nếu vế trái `false`, vế phải sẽ không được tính toán; Đoạn 2 nguy hiểm: `&` luôn bắt buộc tính toán cả 2 vế, dẫn đến `NullPointerException` khi `ticket` là null.",
+        "Đoạn 1 chỉ chạy được trên Java 8 trở xuống.",
+        "`&&` chỉ dùng cho số, còn `&` dùng cho kiểu đối tượng."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Toán tử `&&` và `||` có tính năng ngắn mạch (Short-circuit): dừng đánh giá ngay khi kết quả đã chắc chắn. Dùng `&` hoặc `|` trong điều kiện logic sẽ buộc JVM tính toán cả 2 vế, gây crash nếu vế phải giả định vế trái khác null.",
+      "card_front": "Sự khác biệt cốt lõi giữa toán tử logic ngắn mạch `&&` (Short-circuit AND) và toán tử `&` (Bitwise AND) trong câu lệnh điều kiện là gì?",
+      "card_back": "Đoạn 1 an toàn: nếu vế trái `false`, vế phải sẽ không được tính toán; Đoạn 2 nguy hiểm: `&` luôn bắt buộc tính toán cả 2 vế, dẫn đến `NullPointerException` khi `ticket` là null.",
+      "card_hint": "Control Flow, Operators, Short-Circuit",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "Tính năng Switch Expression cải tiến trong Java 14+ với cú pháp mũi tên `->` mang lại ưu thế vượt trội nào so với `switch-case` truyền thống?",
+      "code_snippet": "String badge = switch (seatType) {\n    case VIP -> \"Vàng\";\n    case STANDARD -> \"Bạc\";\n    default -> \"Thường\";\n};",
+      "options": [
+        "Tự động kiểm tra tính toàn vẹn (exhaustiveness), có thể trả về giá trị trực tiếp như một biểu thức, và loại bỏ hoàn toàn lỗi quên từ khóa `break` gây tràn nhánh (fall-through bug).",
+        "Giúp mã nguồn chạy nhanh hơn 1000 lần so với if-else.",
+        "Chỉ chấp nhận kiểu dữ liệu boolean.",
+        "Cho phép thay thế toàn bộ database SQL."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Switch Expression mới (JEP 361) cho phép trả về giá trị, cú pháp mũi tên `->` không bị fall-through (không cần break), và compiler kiểm tra đầy đủ các trường hợp của enum giúp code cực kỳ an toàn.",
+      "card_front": "Tính năng Switch Expression cải tiến trong Java 14+ với cú pháp mũi tên `->` mang lại ưu thế vượt trội nào so với `switch-case` truyền thống?",
+      "card_back": "Tự động kiểm tra tính toàn vẹn (exhaustiveness), có thể trả về giá trị trực tiếp như một biểu thức, và loại bỏ hoàn toàn lỗi quên từ khóa `break` gây tràn nhánh (fall-through bug).",
+      "card_hint": "Java 14, Switch Expression, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "Khi duyệt qua một `ArrayList` bằng vòng lặp for-each, điều gì xảy ra nếu bạn gọi phương thức `list.remove(item)` trực tiếp?",
+      "code_snippet": "List<String> seats = new ArrayList<>(List.of(\"A1\", \"A2\", \"A3\"));\nfor (String seat : seats) {\n    if (seat.equals(\"A2\")) {\n        seats.remove(seat);\n    }\n}",
+      "options": [
+        "Phần tử \"A2\" được xóa an toàn, danh sách còn lại [\"A1\", \"A3\"].",
+        "Ném ra ngoại lệ `ConcurrentModificationException` vì cấu trúc danh sách bị thay đổi trong khi Iterator đang duyệt.",
+        "Chương trình rơi vào vòng lặp vô tận.",
+        "Compiler báo lỗi cú pháp không cho phép biên dịch."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Vòng lặp for-each bản chất sử dụng Iterator. ArrayList có biến `modCount` đếm số lần sửa đổi. Khi gọi `seats.remove()`, modCount thay đổi khiến Iterator phát hiện danh sách bị can thiệp và ném ConcurrentModificationException. Muốn xóa an toàn, dùng `Iterator.remove()` hoặc `seats.removeIf(...)`.",
+      "card_front": "Khi duyệt qua một `ArrayList` bằng vòng lặp for-each, điều gì xảy ra nếu bạn gọi phương thức `list.remove(item)` trực tiếp?",
+      "card_back": "Ném ra ngoại lệ `ConcurrentModificationException` vì cấu trúc danh sách bị thay đổi trong khi Iterator đang duyệt.",
+      "card_hint": "Collections, Loops, ConcurrentModificationException",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-04",
+      "question": "Java truyền tham số vào phương thức theo cơ chế nào (Pass-by-value hay Pass-by-reference)? Hãy phân tích đoạn code sau:",
+      "code_snippet": "public void modify(Ticket ticket, int discount) {\n    ticket = new Ticket(\"VIP-999\"); // Gán sang object mới\n    discount = 50;                  // Sửa giá trị int\n}\n\n// Bên ngoài:\nTicket myTicket = new Ticket(\"STD-001\");\nint myDiscount = 10;\nmodify(myTicket, myDiscount);\n// Sau khi gọi hàm, myTicket.id và myDiscount có giá trị là gì?",
+      "options": [
+        "`myTicket` mang id \"VIP-999\" và `myDiscount` bằng 50.",
+        "Java là **100% Pass-by-value** (truyền bản sao giá trị). Đối với Object, giá trị được truyền là **bản sao của địa chỉ tham chiếu**. Việc gán lại `ticket = new ...` chỉ đổi con trỏ cục bộ bên trong hàm; sau khi thoát hàm `myTicket` vẫn là \"STD-001\" và `myDiscount` vẫn là 10.",
+        "Chương trình báo lỗi NullPointerException.",
+        "myTicket đổi thành VIP-999 nhưng myDiscount giữ nguyên 10."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Trong Java, TẤT CẢ mọi thứ đều được truyền theo giá trị (Pass-by-value). Với primitive, truyền bản sao dữ liệu. Với Object, truyền bản sao của địa chỉ ô nhớ. Bạn có thể thay đổi thuộc tính bên trong object qua con trỏ, nhưng việc gán biến tham số sang object mới hoàn toàn không ảnh hưởng biến bên ngoài.",
+      "card_front": "Java truyền tham số vào phương thức theo cơ chế nào (Pass-by-value hay Pass-by-reference)? Hãy phân tích đoạn code sau:",
+      "card_back": "Java là **100% Pass-by-value** (truyền bản sao giá trị). Đối với Object, giá trị được truyền là **bản sao của địa chỉ tham chiếu**. Việc gán lại `ticket = new ...` chỉ đổi con trỏ cục bộ bên trong hàm; sau khi thoát hàm `myTicket` vẫn là \"STD-001\" và `myDiscount` vẫn là 10.",
+      "card_hint": "Methods, Pass-By-Value, Memory",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-04",
+      "question": "Hai phương thức sau có được coi là nạp chồng (Overloading) hợp lệ trong cùng một class không?",
+      "code_snippet": "public int calculateFee(String ticketId) { return 100; }\npublic double calculateFee(String ticketId) { return 100.0; }",
+      "options": [
+        "Hợp lệ vì kiểu trả về (int và double) khác nhau.",
+        "Không hợp lệ (Lỗi biên dịch) vì Overloading bắt buộc phải khác nhau về danh sách tham số (số lượng hoặc kiểu dữ liệu tham số); compiler KHÔNG phân biệt phương thức chỉ dựa vào kiểu trả về.",
+        "Chỉ hợp lệ nếu chạy trên Java 21.",
+        "Hợp lệ nếu một trong 2 phương thức là static."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Chữ ký phương thức (Method Signature) chỉ bao gồm Tên phương thức + Danh sách kiểu tham số. Kiểu trả về không nằm trong chữ ký phương thức, do đó compiler không thể phân biệt khi người gọi viết `calculateFee(\"A1\")`.",
+      "card_front": "Hai phương thức sau có được coi là nạp chồng (Overloading) hợp lệ trong cùng một class không?",
+      "card_back": "Không hợp lệ (Lỗi biên dịch) vì Overloading bắt buộc phải khác nhau về danh sách tham số (số lượng hoặc kiểu dữ liệu tham số); compiler KHÔNG phân biệt phương thức chỉ dựa vào kiểu trả về.",
+      "card_hint": "Overloading, Method Signature, Compiler",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "Tại sao việc khai báo trường `private` nhưng lại tự động sinh hàng loạt `get...()` và `set...()` bừa bãi lại bị coi là phản mẫu thiết kế (Anemic Domain Model) phá vỡ Encapsulation?",
+      "code_snippet": "",
+      "options": [
+        "Vì việc sinh getter/setter làm file code dài hơn 100 dòng.",
+        "Vì nếu cung cấp `set...()` vô điều kiện, bất kỳ tầng bên ngoài nào cũng có thể tự do gán dữ liệu sai nghiệp vụ (như `setPrice(-500)`); đối tượng mất hoàn toàn khả năng tự bảo vệ tính toàn vẹn trạng thái (Invariants).",
+        "Vì Spring Data JPA không hỗ trợ getter/setter.",
+        "Vì các phương thức set làm giảm hiệu năng của CPU."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Encapsulation thực thụ đòi hỏi đóng gói cả dữ liệu lẫn hành vi bảo vệ dữ liệu. Cung cấp setter tự do chẳng khác nào để biến public. Cần áp dụng nguyên tắc \"Tell, Don't Ask\" bằng các business methods như `holdSeat()`, `confirmPurchase()`.",
+      "card_front": "Tại sao việc khai báo trường `private` nhưng lại tự động sinh hàng loạt `get...()` và `set...()` bừa bãi lại bị coi là phản mẫu thiết kế (Anemic Domain Model) phá vỡ Encapsulation?",
+      "card_back": "Vì nếu cung cấp `set...()` vô điều kiện, bất kỳ tầng bên ngoài nào cũng có thể tự do gán dữ liệu sai nghiệp vụ (như `setPrice(-500)`); đối tượng mất hoàn toàn khả năng tự bảo vệ tính toàn vẹn trạng thái (Invariants).",
+      "card_hint": "OOP, Encapsulation, Anemic Domain Model",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "Nguyên tắc thiết kế \"Tell, Don't Ask\" trong lập trình hướng đối tượng có ý nghĩa thực tiễn là gì?",
+      "code_snippet": "",
+      "options": [
+        "Ra lệnh trực tiếp cho đối tượng thực hiện hành vi nghiệp vụ của nó, thay vì dùng getter để lôi dữ liệu ra ngoài kiểm tra rồi dùng setter gán ngược trở lại.",
+        "Bắt buộc lập trình viên phải viết comment giải thích cho mọi method.",
+        "Không được phép ném ngoại lệ trong phương thức.",
+        "Chỉ sử dụng interface thay vì class."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Thay vì viết: `if (ticket.getStatus() == AVAILABLE) { ticket.setStatus(HELD); }` (Ask), hãy viết: `ticket.holdForCheckout(duration);` (Tell). Khi đó toàn bộ quy tắc kiểm tra nằm gọn gàng bên trong class Ticket.",
+      "card_front": "Nguyên tắc thiết kế \"Tell, Don't Ask\" trong lập trình hướng đối tượng có ý nghĩa thực tiễn là gì?",
+      "card_back": "Ra lệnh trực tiếp cho đối tượng thực hiện hành vi nghiệp vụ của nó, thay vì dùng getter để lôi dữ liệu ra ngoài kiểm tra rồi dùng setter gán ngược trở lại.",
+      "card_hint": "Encapsulation, Tell Don’t Ask, Clean Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "Tại sao Constructor trong Java KHÔNG THỂ khai báo với các từ khóa `static`, `final` hay `abstract`?",
+      "code_snippet": "",
+      "options": [
+        "Vì Constructor chỉ được phép có từ khóa public.",
+        "Constructor thuộc về vòng đời cấp phát instance cụ thể trên Heap nên không thể là `static`; constructor vốn không được kế thừa nên không thể override (do đó `final` vô nghĩa); và constructor phải có thân hàm để khởi tạo vùng nhớ nên không thể là `abstract`.",
+        "Vì các từ khóa này chỉ dành riêng cho Interface.",
+        "Do hạn chế của hệ điều hành 64-bit."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Constructor chỉ dùng để tạo và khởi tạo instance. Nó không thể là static (vì static thuộc về class), không thể là abstract (vì không thể để class con override), và không thể final (vì không ai có thể override nó).",
+      "card_front": "Tại sao Constructor trong Java KHÔNG THỂ khai báo với các từ khóa `static`, `final` hay `abstract`?",
+      "card_back": "Constructor thuộc về vòng đời cấp phát instance cụ thể trên Heap nên không thể là `static`; constructor vốn không được kế thừa nên không thể override (do đó `final` vô nghĩa); và constructor phải có thân hàm để khởi tạo vùng nhớ nên không thể là `abstract`.",
+      "card_hint": "Constructor, Java Keywords, OOP",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-06",
+      "question": "Nguyên tắc thiết kế \"Composition over Inheritance\" (Ưu tiên kết hợp hơn kế thừa) được khuyến nghị vì lý do hàng đầu nào?",
+      "code_snippet": "",
+      "options": [
+        "Vì kế thừa tạo ra khớp nối quá chặt (Tight Coupling) và dễ dẫn đến thảm họa \"Fragile Base Class\" (sửa class cha làm vỡ logic class con); trong khi Composition giúp khớp nối lỏng và dễ thay đổi cài đặt tại runtime.",
+        "Vì từ khóa extends đã bị deprecated trong Java 21.",
+        "Vì kế thừa làm tăng gấp đôi dung lượng file .class.",
+        "Vì Composition chỉ chạy được với Interface."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Kế thừa là liên kết cứng ở compile-time. Khi class cha thay đổi chi tiết nội bộ, hành vi của class con có thể bị sai lệch ngoài ý muốn. Composition (HAS-A) kết hợp Dependency Injection cho phép linh hoạt hoán đổi hành vi và kiểm thử dễ dàng hơn rất nhiều.",
+      "card_front": "Nguyên tắc thiết kế \"Composition over Inheritance\" (Ưu tiên kết hợp hơn kế thừa) được khuyến nghị vì lý do hàng đầu nào?",
+      "card_back": "Vì kế thừa tạo ra khớp nối quá chặt (Tight Coupling) và dễ dẫn đến thảm họa \"Fragile Base Class\" (sửa class cha làm vỡ logic class con); trong khi Composition giúp khớp nối lỏng và dễ thay đổi cài đặt tại runtime.",
+      "card_hint": "Composition, Inheritance, Design Principles",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-06",
+      "question": "Cơ chế bên dưới của JVM giúp thực thi tính Đa hình lúc chạy (Runtime Polymorphism / Dynamic Binding) là gì?",
+      "code_snippet": "",
+      "options": [
+        "JVM duyệt file mã nguồn .java bằng biểu thức chính quy (Regex).",
+        "JVM sử dụng Bảng phương thức ảo (Virtual Method Table - vtable) chứa các con trỏ hàm, tra cứu dựa trên kiểu đối tượng thực tế trên vùng nhớ Heap lúc runtime để gọi đúng phương thức được override.",
+        "JVM gửi truy vấn xuống database để hỏi kiểu dữ liệu.",
+        "Do trình biên dịch javac gán cứng địa chỉ hàm ngay lúc compile."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Mỗi class trong JVM có một vtable. Khi class con override method, con trỏ tương ứng trong vtable trỏ tới bytecode của class con. Khi gọi hàm trên tham chiếu cha trỏ vào con, JVM tra cứu vtable của instance thật trên Heap để nhảy tới method của con.",
+      "card_front": "Cơ chế bên dưới của JVM giúp thực thi tính Đa hình lúc chạy (Runtime Polymorphism / Dynamic Binding) là gì?",
+      "card_back": "JVM sử dụng Bảng phương thức ảo (Virtual Method Table - vtable) chứa các con trỏ hàm, tra cứu dựa trên kiểu đối tượng thực tế trên vùng nhớ Heap lúc runtime để gọi đúng phương thức được override.",
+      "card_hint": "Polymorphism, vtable, JVM Internal",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod7-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-07",
+      "question": "Sự khác biệt quan trọng giữa `HashMap` và `ConcurrentHashMap` trong Java là gì?",
+      "code_snippet": "",
+      "options": [
+        "`HashMap` cho phép đa luồng truy cập cùng lúc an toàn.",
+        "`ConcurrentHashMap` an toàn luồng (Thread-safe) nhờ cơ chế khóa phân đoạn (Lock Striping / CAS + synchronized trên từng bucket node), không khóa toàn bộ bảng như `Hashtable` hay `Collections.synchronizedMap()`.",
+        "`ConcurrentHashMap` cho phép lưu key `null`.",
+        "`HashMap` có thứ tự sắp xếp theo chữ cái còn `ConcurrentHashMap` thì không."
+      ],
+      "correct_option_index": 1,
+      "explanation": "ConcurrentHashMap tối ưu hóa hiệu năng cao trong môi trường đa luồng: nó dùng CAS (Compare-And-Swap) và chỉ đồng bộ hóa trên từng Node hoặc Bucket đầu tiên, cho phép nhiều luồng cùng đọc và ghi đồng thời mà không nghẽn.",
+      "card_front": "Sự khác biệt quan trọng giữa `HashMap` và `ConcurrentHashMap` trong Java là gì?",
+      "card_back": "`ConcurrentHashMap` an toàn luồng (Thread-safe) nhờ cơ chế khóa phân đoạn (Lock Striping / CAS + synchronized trên từng bucket node), không khóa toàn bộ bảng như `Hashtable` hay `Collections.synchronizedMap()`.",
+      "card_hint": "Java Core, Collections, ConcurrentHashMap",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod8-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-08",
+      "question": "Tại sao tính năng `try-with-resources` (Java 7+) lại được coi là tiêu chuẩn bắt buộc khi làm việc với `Connection`, `InputStream` hay `FileReader`?",
+      "code_snippet": "",
+      "options": [
+        "Vì nó tự động gọi phương thức `.close()` của các đối tượng triển khai `AutoCloseable` kể cả khi có ngoại lệ xảy ra, loại bỏ hoàn toàn nguy cơ rò rỉ tài nguyên (Resource Leak).",
+        "Vì nó làm tăng tốc độ đọc file nhanh gấp 10 lần.",
+        "Vì khối finally bị cấm sử dụng trong Spring Boot.",
+        "Vì try-with-resources tự động nén dung lượng file."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Trước Java 7, việc đóng tài nguyên trong finally rất rườm rà và dễ nuốt mất exception ban đầu. try-with-resources tự động đóng tài nguyên theo thứ tự ngược lại và hỗ trợ Suppressed Exceptions chuẩn mực.",
+      "card_front": "Tại sao tính năng `try-with-resources` (Java 7+) lại được coi là tiêu chuẩn bắt buộc khi làm việc với `Connection`, `InputStream` hay `FileReader`?",
+      "card_back": "Vì nó tự động gọi phương thức `.close()` của các đối tượng triển khai `AutoCloseable` kể cả khi có ngoại lệ xảy ra, loại bỏ hoàn toàn nguy cơ rò rỉ tài nguyên (Resource Leak).",
+      "card_hint": "Exceptions, Try-With-Resources, Resource Management",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-09",
+      "question": "Khi lưu trữ thời gian diễn ra sự kiện vé (Event Date) trong hệ thống phục vụ người dùng quốc tế ở nhiều múi giờ khác nhau, kiểu dữ liệu nào trong Java Time API là chuẩn mực nhất?",
+      "code_snippet": "",
+      "options": [
+        "`java.util.Date` (chuẩn cũ).",
+        "`Instant` (thời điểm UTC toàn cầu) hoặc `OffsetDateTime` (UTC có kèm độ lệch múi giờ ISO-8601), tương thích chuẩn với kiểu `TIMESTAMP WITH TIME ZONE` trong PostgreSQL.",
+        "`LocalDateTime` không kèm múi giờ.",
+        "Lưu dưới dạng chuỗi String \"dd/MM/yyyy\"."
+      ],
+      "correct_option_index": 1,
+      "explanation": "LocalDateTime không chứa thông tin múi giờ, dẫn đến sự kiện diễn ra lúc 8h sáng ở Hà Nội sẽ bị hiểu nhầm là 8h sáng ở New York. Luôn lưu Instant hoặc OffsetDateTime để biểu diễn thời điểm tuyệt đối trên dòng thời gian.",
+      "card_front": "Khi lưu trữ thời gian diễn ra sự kiện vé (Event Date) trong hệ thống phục vụ người dùng quốc tế ở nhiều múi giờ khác nhau, kiểu dữ liệu nào trong Java Time API là chuẩn mực nhất?",
+      "card_back": "`Instant` (thời điểm UTC toàn cầu) hoặc `OffsetDateTime` (UTC có kèm độ lệch múi giờ ISO-8601), tương thích chuẩn với kiểu `TIMESTAMP WITH TIME ZONE` trong PostgreSQL.",
+      "card_hint": "Java Time, DateTime, PostgreSQL, UTC",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod10-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-10",
+      "question": "Trong Java 21, Virtual Threads (Project Loom) mang lại bước đột phá lớn nhất ở khía cạnh nào cho ứng dụng web phục vụ hàng triệu người đặt vé?",
+      "code_snippet": "",
+      "options": [
+        "Tăng tốc độ tính toán CPU (CPU-bound) nhanh hơn 100 lần.",
+        "Cho phép tạo hàng triệu luồng siêu nhẹ do JVM quản lý với chi phí bộ nhớ cực thấp (~vài KB so với 1MB của Platform Thread), tối ưu hóa đột biến cho các tác vụ I/O-bound (chờ DB, gọi REST API).",
+        "Thay thế hoàn toàn ngôn ngữ Java bằng C++.",
+        "Chỉ hoạt động khi chạy trên hệ điều hành Linux."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Virtual Threads được JVM quản lý độc lập với OS threads. Khi gặp blocking I/O, JVM unmount virtual thread khỏi carrier thread để thread đó phục vụ việc khác, giúp tăng throughput khủng khiếp cho các ứng dụng web truyền thống.",
+      "card_front": "Trong Java 21, Virtual Threads (Project Loom) mang lại bước đột phá lớn nhất ở khía cạnh nào cho ứng dụng web phục vụ hàng triệu người đặt vé?",
+      "card_back": "Cho phép tạo hàng triệu luồng siêu nhẹ do JVM quản lý với chi phí bộ nhớ cực thấp (~vài KB so với 1MB của Platform Thread), tối ưu hóa đột biến cho các tác vụ I/O-bound (chờ DB, gọi REST API).",
+      "card_hint": "Java 21, Virtual Threads, Concurrency",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod11-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-11",
+      "question": "Cơ chế Dirty Checking của Hibernate trong Spring Data JPA hoạt động theo nguyên lý nào?",
+      "code_snippet": "",
+      "options": [
+        "Hibernate quét toàn bộ database mỗi 5 giây để tìm dòng bị sửa.",
+        "Hibernate lưu bản chụp (snapshot) của entity khi nạp vào persistence context. Khi kết thúc `@Transactional`, Hibernate tự đối chiếu trạng thái hiện tại với snapshot, phát hiện thay đổi và tự động bắn lệnh SQL UPDATE mà không cần gọi `repository.save()`.",
+        "Bắt buộc lập trình viên phải gọi phương thức saveAndFlush() sau mỗi lần set giá trị.",
+        "Dirty Checking chỉ hoạt động với database MySQL."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Trong phạm vi một `@Transactional`, các entity nạp lên thuộc trạng thái Managed. Nhờ Dirty Checking, Hibernate tự động đối chiếu snapshot và bắn `UPDATE` khi flush/commit mà không cần gọi `repository.save()`.",
+      "card_front": "Cơ chế Dirty Checking của Hibernate trong Spring Data JPA hoạt động theo nguyên lý nào?",
+      "card_back": "Hibernate lưu bản chụp (snapshot) của entity khi nạp vào persistence context. Khi kết thúc `@Transactional`, Hibernate tự đối chiếu trạng thái hiện tại với snapshot, phát hiện thay đổi và tự động bắn lệnh SQL UPDATE mà không cần gọi `repository.save()`.",
+      "card_hint": "JPA, Dirty Checking, Hibernate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod12-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-12",
+      "question": "Trong chuẩn thiết kế Docker Compose cho hạ tầng database, tại sao việc gán tường minh `name: database_postgres_data` cho volume lại quan trọng?",
+      "code_snippet": "volumes:\n  postgres_data:\n    driver: local\n    name: database_postgres_data",
+      "options": [
+        "Cố định chính xác tên volume trên Docker host, tránh việc Docker Compose tự động thêm tiền tố theo tên thư mục cha (`<folder_name>_postgres_data`); đảm bảo dữ liệu database không bao giờ bị trỏ nhầm sang volume khác khi chạy từ các thư mục khác nhau.",
+        "Cho phép Docker tự động nén dữ liệu volume theo chuẩn ZIP.",
+        "Bắt buộc máy chủ Linux phải mount volume vào ổ cứng SSD thay vì HDD.",
+        "Giới hạn dung lượng RAM của container PostgreSQL không vượt quá 2GB."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Mặc định Docker Compose đặt tên volume dạng `<project_name>_<volume_name>`. Nếu lập trình viên chạy lệnh compose ở các thư mục khác nhau, Docker sẽ tạo ra các volume khác nhau làm người dùng tưởng dữ liệu bị biến mất. Khai báo thuộc tính `name` giúp định danh volume tuyệt đối.",
+      "card_front": "Trong chuẩn thiết kế Docker Compose cho hạ tầng database, tại sao việc gán tường minh `name: database_postgres_data` cho volume lại quan trọng?",
+      "card_back": "Cố định chính xác tên volume trên Docker host, tránh việc Docker Compose tự động thêm tiền tố theo tên thư mục cha (`<folder_name>_postgres_data`); đảm bảo dữ liệu database không bao giờ bị trỏ nhầm sang volume khác khi chạy từ các thư mục khác nhau.",
+      "card_hint": "Docker, DevOps, Docker Compose, Production",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Tại sao trong môi trường Production của các hệ thống doanh nghiệp lớn, việc cấu hình `spring.jpa.hibernate.ddl-auto=update` bị NGHIÊM CẤM tuyệt đối?",
+      "code_snippet": "",
+      "options": [
+        "Hibernate sẽ tự động xóa tất cả các bảng hiện có khi restart ứng dụng.",
+        "Hibernate chỉ có thể thêm cột mới chứ không bao giờ xóa hoặc đổi tên cột cũ, gây rác schema, không có lịch sử version và tiềm ẩn nguy cơ khóa bảng (lock table) gây sập hệ thống khi chạy tải cao.",
+        "Hibernate không hỗ trợ kết nối với PostgreSQL nếu không tắt ddl-auto.",
+        "Cấu hình này làm giảm tốc độ truy vấn SELECT của Spring Boot tới 50%."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Hibernate `ddl-auto=update` chỉ tự sinh DDL bổ sung mà không có cơ chế rollback, không kiểm soát được locking table, không thể đổi tên cột (nó sẽ tạo cột mới và bỏ quên cột cũ gây rác DB). Trên Production bắt buộc dùng công cụ Database Migration như Flyway hoặc Liquibase và đặt `ddl-auto=validate`.",
+      "card_front": "Tại sao trong môi trường Production của các hệ thống doanh nghiệp lớn, việc cấu hình `spring.jpa.hibernate.ddl-auto=update` bị NGHIÊM CẤM tuyệt đối?",
+      "card_back": "Hibernate chỉ có thể thêm cột mới chứ không bao giờ xóa hoặc đổi tên cột cũ, gây rác schema, không có lịch sử version và tiềm ẩn nguy cơ khóa bảng (lock table) gây sập hệ thống khi chạy tải cao.",
+      "card_hint": "Flyway, Database, Production, Hibernate",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Khi một file migration của Flyway (ví dụ: `V1__init_brands_and_events.sql`) đã được apply lên database, nhưng developer sau đó vô tình vào sửa lại nội dung file SQL này, điều gì sẽ xảy ra khi khởi động lại Spring Boot?",
+      "code_snippet": "org.flywaydb.core.api.exception.FlywayValidateException: \nValidate failed: Migrations have failed validation\nMigration checksum mismatch for migration version 1\n-> Applied to database : 184920491\n-> Resolved locally    : -491029481",
+      "options": [
+        "Flyway sẽ tự động xóa bảng cũ và tạo lại bảng mới theo nội dung sửa đổi.",
+        "Flyway bỏ qua file này vì đã thấy version 1 trong bảng `flyway_schema_history`.",
+        "Flyway ném ngoại lệ `Checksum mismatch` và dừng ngay quá trình khởi động ứng dụng để bảo vệ tính toàn vẹn dữ liệu.",
+        "Ứng dụng khởi động bình thường nhưng ghi log cảnh báo WARN."
+      ],
+      "correct_option_index": 2,
+      "explanation": "Flyway tính mã băm CRC32 (checksum) của mỗi file migration khi áp dụng và lưu vào `flyway_schema_history`. Nếu phát hiện file đã áp dụng bị sửa đổi nội dung cục bộ, Flyway sẽ từ chối khởi động app để tránh sai lệch schema giữa các môi trường.",
+      "card_front": "Khi một file migration của Flyway (ví dụ: `V1__init_brands_and_events.sql`) đã được apply lên database, nhưng developer sau đó vô tình vào sửa lại nội dung file SQL này, điều gì sẽ xảy ra khi khởi động lại Spring Boot?",
+      "card_back": "Flyway ném ngoại lệ `Checksum mismatch` và dừng ngay quá trình khởi động ứng dụng để bảo vệ tính toàn vẹn dữ liệu.",
+      "card_hint": "Flyway, Checksum, Troubleshooting",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Cách xử lý CHUẨN NHẤT khi cần thêm một cột mới vào bảng `events` sau khi file migration `V1__init_brands_and_events.sql` đã chạy thành công trên các môi trường?",
+      "code_snippet": "",
+      "options": [
+        "Sửa trực tiếp file `V1__init_brands_and_events.sql` và chạy lệnh `flyway repair`.",
+        "Tạo một file migration mới mang version kế tiếp, ví dụ `V2__add_status_column_to_events.sql` với câu lệnh `ALTER TABLE`.",
+        "Vào pgAdmin gõ lệnh ALTER TABLE thủ công trên tất cả database các môi trường.",
+        "Xóa bảng `flyway_schema_history` rồi chạy lại từ đầu."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Quy tắc vàng của Database Migration là \"Append-only\": File migration đã apply KHÔNG ĐƯỢC PHÉP sửa đổi. Mọi thay đổi schema tiếp theo phải được ghi vào file migration mới có số version tuần tự (V2, V3,...).",
+      "card_front": "Cách xử lý CHUẨN NHẤT khi cần thêm một cột mới vào bảng `events` sau khi file migration `V1__init_brands_and_events.sql` đã chạy thành công trên các môi trường?",
+      "card_back": "Tạo một file migration mới mang version kế tiếp, ví dụ `V2__add_status_column_to_events.sql` với câu lệnh `ALTER TABLE`.",
+      "card_hint": "Flyway, Best Practices",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Trong lớp trừu tượng `BaseEntity`, annotation nào giúp Spring Data JPA tự động điền thời gian tạo (`createdAt`) và thời gian cập nhật gần nhất (`updatedAt`)?",
+      "code_snippet": "@MappedSuperclass\n@EntityListeners(AuditingEntityListener.class)\npublic abstract class BaseEntity {\n    @CreatedDate\n    @Column(name = \"created_at\", nullable = false, updatable = false)\n    private Instant createdAt;\n\n    @LastModifiedDate\n    @Column(name = \"updated_at\")\n    private Instant updatedAt;\n}",
+      "options": [
+        "Chỉ cần `@CreatedDate` và `@LastModifiedDate`, không cần thêm cấu hình gì khác.",
+        "Cần `@EntityListeners(AuditingEntityListener.class)` trên Entity và `@EnableJpaAuditing` trên class cấu hình Spring Boot.",
+        "Cần đặt annotation `@Transactional` trên BaseEntity.",
+        "Phải dùng Trigger của PostgreSQL chứ JPA không tự sinh được."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Để Spring Data JPA tự động cập nhật auditing metadata (`@CreatedDate`, `@LastModifiedDate`, `@CreatedBy`), bạn bắt buộc phải đăng ký `AuditingEntityListener` trên Entity (hoặc MappedSuperclass) và kích hoạt bằng `@EnableJpaAuditing` ở file cấu hình Spring Boot.",
+      "card_front": "Trong lớp trừu tượng `BaseEntity`, annotation nào giúp Spring Data JPA tự động điền thời gian tạo (`createdAt`) và thời gian cập nhật gần nhất (`updatedAt`)?",
+      "card_back": "Cần `@EntityListeners(AuditingEntityListener.class)` trên Entity và `@EnableJpaAuditing` trên class cấu hình Spring Boot.",
+      "card_hint": "JPA, Auditing, BaseEntity",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Trong dự án Ticket Station, quy ước đặt tên file di trú Flyway theo chuẩn quy định của project là gì?",
+      "code_snippet": "",
+      "options": [
+        "V{version}_{description_tieng_viet}.sql (ví dụ: `V1_tao_bang_su_kien.sql`)",
+        "V{version}__{description_in_english}.sql (ví dụ: `V1__init_brands_and_events.sql`) với hai dấu gạch dưới `__`",
+        "Flyway_{version}_{name}.sql (ví dụ: `Flyway_1_Events.sql`)",
+        "migration-{version}.sql (ví dụ: `migration-01.sql`)"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Chuẩn mặc định của Flyway là tiền tố `V`, theo sau là số version, tiếp theo là 2 dấu gạch dưới `__` làm dấu phân cách, và mô tả bằng tiếng Anh ở dạng snake_case. Đồng thời dự án tuân thủ nghiêm ngặt quy tắc 100% tiếng Anh trong tên file.",
+      "card_front": "Trong dự án Ticket Station, quy ước đặt tên file di trú Flyway theo chuẩn quy định của project là gì?",
+      "card_back": "V{version}__{description_in_english}.sql (ví dụ: `V1__init_brands_and_events.sql`) với hai dấu gạch dưới `__`",
+      "card_hint": "Flyway, Conventions",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Trong file `docker-compose.yml` khởi tạo PostgreSQL của Ticket Station, cấu hình volume dưới đây có mục đích và ý nghĩa kỹ thuật gì?",
+      "code_snippet": "services:\n  postgres:\n    image: postgres:16-alpine\n    container_name: ticket_station_db_dev\n    volumes:\n      - postgres_data:/var/lib/postgresql/data\n\nvolumes:\n  postgres_data:\n    driver: local\n    name: database_postgres_data",
+      "options": [
+        "Chỉ định lưu tạm thời dữ liệu trong bộ nhớ RAM của Docker và dữ liệu sẽ tự động reset trắng mỗi khi tắt máy.",
+        "Gắn kết (mount) thư mục `/var/lib/postgresql/data` vào một Named Volume với tên tường minh `database_postgres_data` trên máy host; đảm bảo dữ liệu database được lưu bền vững (Persistent Data), không bị mất khi container dừng, xóa hoặc khởi tạo lại (`docker compose down && docker compose up -d`).",
+        "Bắt buộc ứng dụng Spring Boot chỉ được kết nối vào database nếu JDBC URL có tham số schema mang tên `database_postgres_data`.",
+        "Tự động sao lưu và đồng bộ toàn bộ file SQL migration lên cloud storage bên ngoài."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Container trong Docker theo bản chất là Ephemeral (dữ liệu bên trong container bị hủy khi container bị xóa hoặc recreate). Việc mount `- postgres_data:/var/lib/postgresql/data` chuyển toàn bộ dữ liệu database PostgreSQL ra ngoài một Docker Named Volume. Khai báo `name: database_postgres_data` giúp đặt tên volume cố định trên máy host (thay vì để Docker Compose tự sinh prefix theo tên folder), giúp dữ liệu luôn an toàn qua các chu kỳ tái khởi động và dễ dàng kiểm tra bằng `docker volume ls`.",
+      "card_front": "Trong file `docker-compose.yml` khởi tạo PostgreSQL của Ticket Station, cấu hình volume dưới đây có mục đích và ý nghĩa kỹ thuật gì?",
+      "card_back": "Gắn kết (mount) thư mục `/var/lib/postgresql/data` vào một Named Volume với tên tường minh `database_postgres_data` trên máy host; đảm bảo dữ liệu database được lưu bền vững (Persistent Data), không bị mất khi container dừng, xóa hoặc khởi tạo lại (`docker compose down && docker compose up -d`).",
+      "card_hint": "Docker, PostgreSQL, Docker Compose, Volume",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q7",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Khi volume `database_postgres_data` đã được tạo và chứa dữ liệu, nếu lập trình viên sửa `POSTGRES_PASSWORD` trong `docker-compose.yml` rồi chạy `docker compose down` và `docker compose up -d`, tại sao mật khẩu mới KHÔNG được cập nhật?",
+      "code_snippet": "# Thay đổi mật khẩu mới trong docker-compose.yml:\nenvironment:\n  POSTGRES_DB: ticket_station_db_dev\n  POSTGRES_USER: dev_write\n  POSTGRES_PASSWORD: new_secret_pass_2026\n\n# Chạy: docker compose down && docker compose up -d\n# Kết quả kết nối vào DB: FATAL: password authentication failed for user \"dev_write\"",
+      "options": [
+        "Do PostgreSQL Docker container chỉ chạy script khởi tạo ban đầu (`initdb`) đọc các biến môi trường `POSTGRES_*` DUY NHẤT một lần khi thư mục `/var/lib/postgresql/data` còn rỗng; khi volume `database_postgres_data` đã có dữ liệu, PostgreSQL bỏ qua các biến này và tiếp tục nạp dữ liệu cũ.",
+        "Do Docker Compose không hỗ trợ mật khẩu có độ dài quá 8 ký tự.",
+        "Do Spring Boot tự động cache mật khẩu trong file pom.xml và từ chối cập nhật.",
+        "Do driver JDBC của PostgreSQL không cho phép thay đổi mật khẩu sau khi ứng dụng đã biên dịch."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Theo tài liệu của PostgreSQL Docker Official Image (và mục Troubleshooting trong database/README.md), các biến môi trường `POSTGRES_USER`, `POSTGRES_PASSWORD`, `POSTGRES_DB` chỉ được đọc duy nhất 1 lần khi khởi tạo database cluster rỗng. Khi volume `database_postgres_data` đã lưu dữ liệu, PostgreSQL tiếp tục tái sử dụng cụm database cũ. Để áp dụng cấu hình mới từ compose file, bạn bắt buộc phải xóa volume cũ: `docker compose down -v` (hoặc `docker volume rm database_postgres_data`) rồi khởi chạy lại.",
+      "card_front": "Khi volume `database_postgres_data` đã được tạo và chứa dữ liệu, nếu lập trình viên sửa `POSTGRES_PASSWORD` trong `docker-compose.yml` rồi chạy `docker compose down` và `docker compose up -d`, tại sao mật khẩu mới KHÔNG được cập nhật?",
+      "card_back": "Do PostgreSQL Docker container chỉ chạy script khởi tạo ban đầu (`initdb`) đọc các biến môi trường `POSTGRES_*` DUY NHẤT một lần khi thư mục `/var/lib/postgresql/data` còn rỗng; khi volume `database_postgres_data` đã có dữ liệu, PostgreSQL bỏ qua các biến này và tiếp tục nạp dữ liệu cũ.",
+      "card_hint": "Docker, PostgreSQL, Troubleshooting, Volume, Environment",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q8",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "Phân biệt hành vi của lệnh `docker compose down` và `docker compose down -v` đối với volume lưu trữ dữ liệu `database_postgres_data`:",
+      "code_snippet": "",
+      "options": [
+        "`docker compose down` dừng và xóa container/network nhưng GIỮ NGUYÊN volume `database_postgres_data` (dữ liệu không mất); còn cờ `-v` (`--volumes`) sẽ XÓA SẠCH toàn bộ named volume được khai báo, làm mất sạch dữ liệu trong database.",
+        "`docker compose down` sẽ xóa toàn bộ ổ cứng máy tính, còn cờ `-v` chỉ khởi động lại container.",
+        "Cả 2 lệnh đều xóa volume như nhau, không có bất kỳ sự khác biệt nào.",
+        "Cờ `-v` chỉ dùng để hiển thị chi tiết (verbose log) quá trình dừng container chứ không xóa volume."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Lệnh `docker compose down` an toàn cho dữ liệu cục bộ: nó chỉ dọn dẹp các container và network của project, dữ liệu trong named volume (`database_postgres_data`) vẫn được bảo toàn. Cờ `-v` (viết tắt của `--volumes`) yêu cầu Docker Compose xóa luôn các named volume khai báo trong phần volumes của file YAML. Vì vậy chỉ dùng cờ `-v` khi bạn chủ động muốn reset sạch môi trường cơ sở dữ liệu về ban đầu.",
+      "card_front": "Phân biệt hành vi của lệnh `docker compose down` và `docker compose down -v` đối với volume lưu trữ dữ liệu `database_postgres_data`:",
+      "card_back": "`docker compose down` dừng và xóa container/network nhưng GIỮ NGUYÊN volume `database_postgres_data` (dữ liệu không mất); còn cờ `-v` (`--volumes`) sẽ XÓA SẠCH toàn bộ named volume được khai báo, làm mất sạch dữ liệu trong database.",
+      "card_hint": "Docker, Docker Compose, CLI, Volume",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Vấn đề N+1 Query trong Hibernate xảy ra trong tình huống nào sau đây?",
+      "code_snippet": "// API lấy 20 sự kiện và hiển thị danh sách ghế của mỗi sự kiện:\nList<Event> events = eventRepository.findAll(); // 1 query lấy 20 events\nfor (Event event : events) {\n    // Duyệt qua từng event để lấy số lượng ghế (fetch = LAZY)\n    System.out.println(event.getSeats().size()); // ???\n}",
+      "options": [
+        "Chỉ có 1 query duy nhất được gửi đến Database nhờ cơ chế Second-Level Cache.",
+        "Có tổng cộng 21 queries: 1 query ban đầu lấy 20 events, sau đó mỗi lần lặp qua 1 event, Hibernate lại gửi thêm 1 query SELECT để tải danh sách seats.",
+        "Hibernate sẽ tự gom tất cả lại thành 1 câu subquery ngầm mà lập trình viên không nhận biết được.",
+        "Hibernate ném ngoại lệ ConcurrentModificationException ngay lập tức."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Đây chính là bài toán N+1 kinh điển: 1 query ban đầu lấy N bản ghi cha (20 events). Khi truy cập vào thuộc tính lazy collection (`event.getSeats()`) trong vòng lặp, Hibernate phát sinh thêm N query con riêng biệt. Tổng cộng 1 + 20 = 21 queries, gây sụt giảm nghiêm trọng hiệu năng.",
+      "card_front": "Vấn đề N+1 Query trong Hibernate xảy ra trong tình huống nào sau đây?",
+      "card_back": "Có tổng cộng 21 queries: 1 query ban đầu lấy 20 events, sau đó mỗi lần lặp qua 1 event, Hibernate lại gửi thêm 1 query SELECT để tải danh sách seats.",
+      "card_hint": "JPA, Hibernate, N+1 Query, Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Điểm khác biệt CỐT LÕI giữa `JOIN` thông thường và `JOIN FETCH` trong câu truy vấn JPQL là gì?",
+      "code_snippet": "// Truy vấn 1:\n@Query(\"SELECT e FROM Event e JOIN e.seats s WHERE e.id = :id\")\n\n// Truy vấn 2:\n@Query(\"SELECT e FROM Event e JOIN FETCH e.seats s WHERE e.id = :id\")",
+      "options": [
+        "`JOIN` thông thường lấy dữ liệu cả cha và con vào bộ nhớ, còn `JOIN FETCH` chỉ lọc dữ liệu.",
+        "`JOIN` thông thường chỉ dùng cho mệnh đề WHERE hoặc tính toán chứ KHÔNG khởi tạo (initialize) dữ liệu của collection con vào Entity cha; trong khi `JOIN FETCH` yêu cầu Hibernate nạp toàn bộ thực thể con vào Persistence Context ngay trong 1 query.",
+        "`JOIN FETCH` chỉ hoạt động với MySQL chứ không hỗ trợ PostgreSQL.",
+        "Hai truy vấn này có hành vi và kết quả trả về trong Java hoàn toàn giống nhau 100%."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Trong JPQL, `JOIN e.seats` chỉ nói với database thực hiện JOIN (thường dùng để lọc theo điều kiện của bảng con), nhưng Hibernate sẽ KHÔNG map các cột của bảng con vào danh sách `seats` của đối tượng `Event`. Khi bạn gọi `event.getSeats()`, nó vẫn bị Lazy load bắn thêm query! Chỉ khi dùng `JOIN FETCH`, Hibernate mới nạp sẵn cả thực thể con vào entity cha.",
+      "card_front": "Điểm khác biệt CỐT LÕI giữa `JOIN` thông thường và `JOIN FETCH` trong câu truy vấn JPQL là gì?",
+      "card_back": "`JOIN` thông thường chỉ dùng cho mệnh đề WHERE hoặc tính toán chứ KHÔNG khởi tạo (initialize) dữ liệu của collection con vào Entity cha; trong khi `JOIN FETCH` yêu cầu Hibernate nạp toàn bộ thực thể con vào Persistence Context ngay trong 1 query.",
+      "card_hint": "JPQL, Hibernate, Join Fetch",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Ngoại lệ `LazyInitializationException: could not initialize proxy - no Session` xảy ra do nguyên nhân nào?",
+      "code_snippet": "",
+      "options": [
+        "Do database bị mất kết nối Internet trong lúc thực thi câu lệnh SQL.",
+        "Do ứng dụng cố gắng truy cập vào một quan hệ Lazy Loading sau khi Hibernate Session / Transaction quản lý entity đó đã bị đóng (ví dụ truy cập ngoài tầng Service hoặc sau khi kết thúc request).",
+        "Do thuộc tính đó bị đánh dấu là `@Transient` trong Entity.",
+        "Do chưa cấu hình username và password cho database."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Hibernate chỉ có thể truy vấn lazy khi Hibernate Session (Persistence Context) vẫn còn mở. Khi transaction ở Service đóng lại, Entity chuyển sang trạng thái Detached. Nếu ở Controller bạn gọi `event.getSeats().size()`, Hibernate không còn Session để bắn query nữa nên ném `LazyInitializationException`.",
+      "card_front": "Ngoại lệ `LazyInitializationException: could not initialize proxy - no Session` xảy ra do nguyên nhân nào?",
+      "card_back": "Do ứng dụng cố gắng truy cập vào một quan hệ Lazy Loading sau khi Hibernate Session / Transaction quản lý entity đó đã bị đóng (ví dụ truy cập ngoài tầng Service hoặc sau khi kết thúc request).",
+      "card_hint": "Hibernate, Exception, Lazy Loading",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Tại sao từ Java 16+ và Spring Boot 3+, chúng ta nên ưu tiên dùng `record` để làm DTO Request / Response thay vì class thông thường có Lombok `@Data`?",
+      "code_snippet": "public record EventResponseDto(\n    Long id,\n    String title,\n    BigDecimal basePrice,\n    Instant eventDate,\n    String venue\n) {}",
+      "options": [
+        "Record giúp ứng dụng chạy nhanh hơn gấp 10 lần so với class thông thường.",
+        "Record vốn dĩ bất biến (immutable), tự động sinh constructor, getter, `equals()`, `hashCode()`, `toString()` ngắn gọn, an toàn trong môi trường đa luồng và không phụ thuộc annotation processing của bên thứ 3.",
+        "Record có thể kế thừa từ nhiều class khác nhau.",
+        "Hibernate bắt buộc Entity phải khai báo bằng record."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java Record là cấu trúc dữ liệu bất biến (shallow immutable), sinh tự động các hàm chuẩn, rất lý tưởng để vận chuyển dữ liệu (DTO) giữa các tầng mà không sợ bị vô tình sửa đổi dữ liệu (side-effects). Đồng thời serialization sang JSON bằng Jackson rất mượt mà.",
+      "card_front": "Tại sao từ Java 16+ và Spring Boot 3+, chúng ta nên ưu tiên dùng `record` để làm DTO Request / Response thay vì class thông thường có Lombok `@Data`?",
+      "card_back": "Record vốn dĩ bất biến (immutable), tự động sinh constructor, getter, `equals()`, `hashCode()`, `toString()` ngắn gọn, an toàn trong môi trường đa luồng và không phụ thuộc annotation processing của bên thứ 3.",
+      "card_hint": "Java 21, DTO, Record, Clean Code",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Chuẩn RFC 7807 (`ProblemDetail`) được tích hợp sẵn từ Spring Boot 3 nhằm mục đích gì trong thiết kế RESTful API?",
+      "code_snippet": "",
+      "options": [
+        "Tự động mã hóa dữ liệu nhạy cảm bằng thuật toán AES-256.",
+        "Chuẩn hóa định dạng JSON phản hồi lỗi (Error Response) bao gồm các trường chuẩn như `type`, `title`, `status`, `detail`, `instance` giúp client dễ dàng bắt và xử lý lỗi đồng nhất.",
+        "Tự động tạo tài liệu Swagger UI.",
+        "Nén dung lượng payload HTTP Response để tiết kiệm băng thông."
+      ],
+      "correct_option_index": 1,
+      "explanation": "RFC 7807 định nghĩa tiêu chuẩn công nghiệp cho format trả về của lỗi HTTP API (Problem Details for HTTP APIs). Spring Boot 3 cung cấp class `ProblemDetail` kết hợp với `@RestControllerAdvice` để trả về lỗi thống nhất.",
+      "card_front": "Chuẩn RFC 7807 (`ProblemDetail`) được tích hợp sẵn từ Spring Boot 3 nhằm mục đích gì trong thiết kế RESTful API?",
+      "card_back": "Chuẩn hóa định dạng JSON phản hồi lỗi (Error Response) bao gồm các trường chuẩn như `type`, `title`, `status`, `detail`, `instance` giúp client dễ dàng bắt và xử lý lỗi đồng nhất.",
+      "card_hint": "REST API, RFC 7807, Spring Boot 3",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "Khi viết Unit Test cho tầng Service (ví dụ `EventServiceTest`), tại sao nên dùng `@ExtendWith(MockitoExtension.class)` thay vì dùng `@SpringBootTest`?",
+      "code_snippet": "@ExtendWith(MockitoExtension.class)\nclass EventServiceTest {\n    @Mock\n    private EventRepository eventRepository;\n\n    @InjectMocks\n    private EventService eventService;\n}",
+      "options": [
+        "`@SpringBootTest` không cho phép mock dữ liệu trong test.",
+        "`@ExtendWith(MockitoExtension.class)` chạy độc lập hoàn toàn trên JVM trong vài mili-giây mà không cần khởi động toàn bộ Spring ApplicationContext, giúp test chạy cực nhanh và cô lập logic nghiệp vụ.",
+        "Mockito không tương thích với Spring Boot 3.",
+        "Dùng `@SpringBootTest` sẽ làm xóa sạch dữ liệu trong database thật."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Bản chất của Unit Test là kiểm tra đơn vị nhỏ nhất (1 class/method) trong sự cô lập hoàn toàn. Dùng `@SpringBootTest` sẽ khởi động toàn bộ container, nạp hàng trăm beans làm thời gian chạy test kéo dài hàng chục giây. Dùng Mockito thuần chỉ mất vài chục ms.",
+      "card_front": "Khi viết Unit Test cho tầng Service (ví dụ `EventServiceTest`), tại sao nên dùng `@ExtendWith(MockitoExtension.class)` thay vì dùng `@SpringBootTest`?",
+      "card_back": "`@ExtendWith(MockitoExtension.class)` chạy độc lập hoàn toàn trên JVM trong vài mili-giây mà không cần khởi động toàn bộ Spring ApplicationContext, giúp test chạy cực nhanh và cô lập logic nghiệp vụ.",
+      "card_hint": "Testing, JUnit 5, Mockito, Performance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "Phân biệt giữa `@Mock` và `@Spy` trong Mockito:",
+      "code_snippet": "",
+      "options": [
+        "`@Mock` tạo ra đối tượng giả hoàn toàn (dummy), các method không được stub sẽ trả về giá trị mặc định (null, 0, false); còn `@Spy` bọc một đối tượng thật (real object), chỉ mock những method được chỉ định còn lại sẽ gọi code thật.",
+        "`@Mock` chỉ dùng cho interface, còn `@Spy` chỉ dùng cho abstract class.",
+        "`@Spy` chạy nhanh hơn `@Mock` gấp 5 lần.",
+        "`@Mock` lưu trữ dữ liệu vào database, còn `@Spy` lưu vào bộ nhớ RAM."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Mock là giả lập 100% mọi hành vi. Spy (Partial Mock) giữ nguyên thực thi của object thật trừ khi ta can thiệp vào hành vi bằng cú pháp `doReturn(...).when(spyObject).method()`.",
+      "card_front": "Phân biệt giữa `@Mock` và `@Spy` trong Mockito:",
+      "card_back": "`@Mock` tạo ra đối tượng giả hoàn toàn (dummy), các method không được stub sẽ trả về giá trị mặc định (null, 0, false); còn `@Spy` bọc một đối tượng thật (real object), chỉ mock những method được chỉ định còn lại sẽ gọi code thật.",
+      "card_hint": "Testing, Mockito, Mock vs Spy",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "Tại sao trong kiến trúc bảo mật JWT, Access Token lại được thiết kế có thời gian sống ngắn (ví dụ 15 phút), trong khi Refresh Token có thời gian sống dài (ví dụ 7 ngày)?",
+      "code_snippet": "",
+      "options": [
+        "Vì nếu Access Token dài quá thì kích thước chuỗi base64 sẽ phình to gây nghẽn mạng.",
+        "Do JWT là Stateless (server không lưu session để thu hồi tức thì), việc đặt Access Token TTL ngắn giúp hạn chế tối đa rủi ro thiệt hại nếu token bị lộ; Refresh Token được lưu an toàn (hoặc có blacklist trong Redis) để cấp lại Access Token mới.",
+        "Do thuật toán HMAC-SHA256 chỉ có hiệu lực tối đa 15 phút theo chuẩn mã hóa quốc tế.",
+        "Vì trình duyệt web sẽ tự động xóa token sau mỗi 15 phút."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Stateless Token một khi đã ký và còn hạn thì ai cầm nó cũng truy cập được. Nếu hacker đánh cắp Access Token, họ chỉ lợi dụng được tối đa 15 phút. Khi cần cấp lại, client phải dùng Refresh Token (được bảo vệ cẩn thận hơn, hoặc có thể bị thu hồi/revoke từ phía server).",
+      "card_front": "Tại sao trong kiến trúc bảo mật JWT, Access Token lại được thiết kế có thời gian sống ngắn (ví dụ 15 phút), trong khi Refresh Token có thời gian sống dài (ví dụ 7 ngày)?",
+      "card_back": "Do JWT là Stateless (server không lưu session để thu hồi tức thì), việc đặt Access Token TTL ngắn giúp hạn chế tối đa rủi ro thiệt hại nếu token bị lộ; Refresh Token được lưu an toàn (hoặc có blacklist trong Redis) để cấp lại Access Token mới.",
+      "card_hint": "Security, JWT, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "Lỗ hổng BOLA (Broken Object Level Authorization / IDOR) là gì và làm thế nào để phòng chống bằng Spring Security?",
+      "code_snippet": "// API hủy vé:\n@DeleteMapping(\"/api/v1/bookings/{bookingId}\")\npublic ResponseEntity<Void> cancelBooking(@PathVariable Long bookingId) {\n    // Nếu chỉ kiểm tra người dùng đã đăng nhập (isAuthenticated) \n    // mà KHÔNG kiểm tra bookingId này có thực sự thuộc về user đang gọi hay không!\n    bookingService.cancel(bookingId);\n    return ResponseEntity.noContent().build();\n}",
+      "options": [
+        "Người dùng sửa `bookingId` trên URL để xem hoặc hủy vé của người khác; khắc phục bằng `@PreAuthorize(\"@bookingSecurity.isOwner(#bookingId, authentication.principal.id)\")`.",
+        "Lỗ hổng hacker truyền mã SQL độc hại vào URL; khắc phục bằng cách bật CORS.",
+        "Lỗ hổng người dùng gửi request liên tục làm nghẽn server; khắc phục bằng Redis Cache.",
+        "Lỗ hổng mã hóa mật khẩu; khắc phục bằng thuật toán MD5."
+      ],
+      "correct_option_index": 0,
+      "explanation": "BOLA/IDOR là lỗ hổng API phổ biến nhất trong OWASP Top 10 API Security. Xảy ra khi server tin tưởng ID từ client mà không xác minh quyền sở hữu tài nguyên. Trong Spring Security dùng SpEL với `@PreAuthorize` kết hợp custom security bean để kiểm tra quyền sở hữu.",
+      "card_front": "Lỗ hổng BOLA (Broken Object Level Authorization / IDOR) là gì và làm thế nào để phòng chống bằng Spring Security?",
+      "card_back": "Người dùng sửa `bookingId` trên URL để xem hoặc hủy vé của người khác; khắc phục bằng `@PreAuthorize(\"@bookingSecurity.isOwner(#bookingId, authentication.principal.id)\")`.",
+      "card_hint": "Security, OWASP, BOLA, Authorization",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "Khi 10.000 người dùng đồng thời bấm nút \"Giữ ghế\" (Hold Seat) cho cùng 1 chiếc ghế VIP duy nhất, cơ chế nào sau đây đảm bảo TUYỆT ĐỐI không xảy ra tình trạng Double-Booking trên môi trường nhiều instance (Cluster/Distributed)?",
+      "code_snippet": "",
+      "options": [
+        "Sử dụng từ khóa Java `synchronized` trên method `holdSeat()` của Service.",
+        "Sử dụng Redis Distributed Lock (như Redisson `RLock`) hoặc Pessimistic Write Lock (`SELECT ... FOR UPDATE`) trên PostgreSQL.",
+        "Lưu trạng thái ghế vào biến static `HashMap` trong bộ nhớ RAM của ứng dụng.",
+        "Dùng `@Async` để xử lý đặt ghế dưới nền."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Từ khóa Java `synchronized` hay `ReentrantLock` chỉ có tác dụng trong phạm vi 1 JVM đơn lẻ! Khi ứng dụng chạy 3-5 instances phía sau Load Balancer, các luồng trên các instance khác nhau không thể đồng bộ qua JVM lock. Phải dùng Khóa Phân Tán (Redis Distributed Lock) hoặc Khóa Database (Pessimistic Write Lock).",
+      "card_front": "Khi 10.000 người dùng đồng thời bấm nút \"Giữ ghế\" (Hold Seat) cho cùng 1 chiếc ghế VIP duy nhất, cơ chế nào sau đây đảm bảo TUYỆT ĐỐI không xảy ra tình trạng Double-Booking trên môi trường nhiều instance (Cluster/Distributed)?",
+      "card_back": "Sử dụng Redis Distributed Lock (như Redisson `RLock`) hoặc Pessimistic Write Lock (`SELECT ... FOR UPDATE`) trên PostgreSQL.",
+      "card_hint": "Concurrency, Distributed Lock, Redis, Redisson",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "Cơ chế Khóa Lạc Quan (Optimistic Locking) trong Spring Data JPA hoạt động theo nguyên lý nào?",
+      "code_snippet": "@Entity\n@Table(name = \"seats\")\npublic class Seat {\n    @Id\n    private Long id;\n\n    private String seatNumber;\n\n    @Enumerated(EnumType.STRING)\n    private SeatStatus status;\n\n    @Version\n    private Long version;\n}",
+      "options": [
+        "Database khóa cứng hàng dữ liệu lại từ lúc đọc cho đến khi kết thúc transaction.",
+        "Không khóa dữ liệu ở tầng DB lúc đọc; khi cập nhật, Hibernate so sánh trường `@Version`: `UPDATE seats SET status=?, version=version+1 WHERE id=? AND version=?`. Nếu số version đã bị giao dịch khác tăng trước đó, Hibernate ném `OptimisticLockingFailureException`.",
+        "Tự động gửi thông báo qua WebSocket cho tất cả người dùng khác khi có ai chạm vào ghế.",
+        "Chỉ cho phép đọc dữ liệu nhưng cấm tất cả các lệnh ghi trong 10 phút."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Optimistic Locking không dùng khóa vật lý ở DB nên throughput rất cao khi ít xung đột. Nó dựa vào trường `@Version`. Khi commit, nếu version trong DB khác version lúc đọc (nghĩa là đã có người khác cập nhật trước), câu lệnh update trả về 0 row affected và Hibernate ném `OptimisticLockingFailureException`.",
+      "card_front": "Cơ chế Khóa Lạc Quan (Optimistic Locking) trong Spring Data JPA hoạt động theo nguyên lý nào?",
+      "card_back": "Không khóa dữ liệu ở tầng DB lúc đọc; khi cập nhật, Hibernate so sánh trường `@Version`: `UPDATE seats SET status=?, version=version+1 WHERE id=? AND version=?`. Nếu số version đã bị giao dịch khác tăng trước đó, Hibernate ném `OptimisticLockingFailureException`.",
+      "card_hint": "JPA, Optimistic Lock, Concurrency",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "Hiện tượng \"Cache Stampede\" (hay Dogpiling) là gì và làm thế nào để xử lý trong hệ thống Ticket Station?",
+      "code_snippet": "",
+      "options": [
+        "Bộ nhớ Redis bị đầy và hệ thống tự động xóa toàn bộ dữ liệu.",
+        "Hiện tượng khi một key cache cực \"hot\" (như danh sách sự kiện mở bán hôm nay) bị hết hạn (TTL expire), hàng triệu request đồng thời ùa vào Database để tính toán và ghi lại cache, làm sập Database.",
+        "Mạng giữa Spring Boot và Redis bị ngắt kết nối đột ngột.",
+        "Dữ liệu trong Cache không khớp với dữ liệu trong Database."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Cache Stampede xảy ra khi key hot hết hạn đúng lúc lưu lượng truy cập cao điểm. Giải pháp: Thêm jitter ngẫu nhiên vào TTL (tránh expire cùng lúc), sử dụng Mutex Distributed Lock khi load data vào cache, hoặc dùng cơ chế chủ động Re-warm cache nền trước khi key hết hạn.",
+      "card_front": "Hiện tượng \"Cache Stampede\" (hay Dogpiling) là gì và làm thế nào để xử lý trong hệ thống Ticket Station?",
+      "card_back": "Hiện tượng khi một key cache cực \"hot\" (như danh sách sự kiện mở bán hôm nay) bị hết hạn (TTL expire), hàng triệu request đồng thời ùa vào Database để tính toán và ghi lại cache, làm sập Database.",
+      "card_hint": "Redis, Caching, Cache Stampede, System Design",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "Luồng nghiệp vụ \"Giữ chỗ tạm thời\" (Temporary Hold) cho vé xem ca nhạc hoạt động như thế nào?",
+      "code_snippet": "",
+      "options": [
+        "Trừ tiền tài khoản ngay lập tức, nếu người dùng đổi ý thì hoàn tiền lại sau 24h.",
+        "Chuyển trạng thái ghế sang `HELD`, gán `heldUntil = Instant.now().plus(Duration.ofMinutes(10))`; nếu sau 10 phút đơn hàng chưa thanh toán thành công, background worker hoặc TTL key Redis sẽ tự động giải phóng ghế về trạng thái `AVAILABLE`.",
+        "Xóa hoàn toàn ghế đó khỏi database để người khác không tìm thấy.",
+        "Chặn địa chỉ IP của người dùng khác không cho truy cập vào trang web."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Đây là domain logic kinh điển của rạp phim và bán vé hòa nhạc. Trạng thái `HELD` đi kèm deadline `heldUntil`. Trong thời gian này người khác không thể đặt, nhưng nếu quá hạn (TTL) mà không thanh toán, ghế phải được tự động nhả ra.",
+      "card_front": "Luồng nghiệp vụ \"Giữ chỗ tạm thời\" (Temporary Hold) cho vé xem ca nhạc hoạt động như thế nào?",
+      "card_back": "Chuyển trạng thái ghế sang `HELD`, gán `heldUntil = Instant.now().plus(Duration.ofMinutes(10))`; nếu sau 10 phút đơn hàng chưa thanh toán thành công, background worker hoặc TTL key Redis sẽ tự động giải phóng ghế về trạng thái `AVAILABLE`.",
+      "card_hint": "Business Logic, Ticket Hold, TTL",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "Đoạn mã sau đây mắc phải lỗi kiến trúc nguy hiểm nào trong hệ thống phân tán?",
+      "code_snippet": "@Transactional\npublic void processPaymentSuccess(Order order) {\n    order.setStatus(OrderStatus.PAID);\n    orderRepository.save(order); // 1. Ghi vào PostgreSQL\n\n    // 2. Bắn event sang Kafka để gửi vé PDF và email\n    kafkaTemplate.send(\"ticket-booked-topic\", new OrderPaidEvent(order.getId()));\n}",
+      "options": [
+        "Không có lỗi gì, đoạn mã này hoàn toàn chuẩn theo khuyến nghị của Spring.",
+        "Lỗi \"Dual-Write\": Database transaction và Kafka message không nằm trong cùng một cơ chế phân tán 2PC. Nếu database commit thành công nhưng server Kafka sập ngay lúc đó, vé không bao giờ được xuất. Ngược lại nếu Kafka gửi xong nhưng DB rollback, khách không trả tiền vẫn nhận được vé!",
+        "Spring không cho phép tiêm `KafkaTemplate` vào class có `@Transactional`.",
+        "Kafka không thể gửi đối tượng Java nếu không dùng XML format."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Vấn đề Dual-Write xảy ra khi bạn ghi vào 2 hệ thống lưu trữ khác nhau trong 1 method logic mà không có giao thức đồng thuận 2PC. Đây là lý do kiến trúc sư phần mềm bắt buộc phải áp dụng Transactional Outbox Pattern.",
+      "card_front": "Đoạn mã sau đây mắc phải lỗi kiến trúc nguy hiểm nào trong hệ thống phân tán?",
+      "card_back": "Lỗi \"Dual-Write\": Database transaction và Kafka message không nằm trong cùng một cơ chế phân tán 2PC. Nếu database commit thành công nhưng server Kafka sập ngay lúc đó, vé không bao giờ được xuất. Ngược lại nếu Kafka gửi xong nhưng DB rollback, khách không trả tiền vẫn nhận được vé!",
+      "card_hint": "Kafka, Dual-Write, Distributed Systems, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "Mô hình Transactional Outbox Pattern giải quyết vấn đề Dual-Write bằng cách nào?",
+      "code_snippet": "",
+      "options": [
+        "Dùng một bảng trung gian `outbox_events` trong Database; bản ghi đơn hàng và bản ghi event được lưu trong CÙNG 1 Database Transaction duy nhất (cam kết ACID). Sau đó một Background Relay hoặc Debezium CDC sẽ đọc bảng outbox và publish lên Kafka.",
+        "Tắt transaction của Database và chỉ dựa hoàn toàn vào message queue.",
+        "Bắt buộc client frontend phải gửi 2 request riêng biệt: 1 request cho DB và 1 request cho Kafka.",
+        "Cấu hình Kafka ghi trực tiếp dữ liệu vào bảng của PostgreSQL."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Vì cả dữ liệu nghiệp vụ (`orders`) và sự kiện (`outbox_events`) cùng nằm trong 1 Database RDBMS, ta tận dụng giao dịch ACID cục bộ để đảm bảo: hoặc cả hai cùng được lưu, hoặc không có gì được lưu. Tiến trình nền (Relay Worker hoặc Debezium CDC) chịu trách nhiệm đọc và gửi lên Kafka an toàn.",
+      "card_front": "Mô hình Transactional Outbox Pattern giải quyết vấn đề Dual-Write bằng cách nào?",
+      "card_back": "Dùng một bảng trung gian `outbox_events` trong Database; bản ghi đơn hàng và bản ghi event được lưu trong CÙNG 1 Database Transaction duy nhất (cam kết ACID). Sau đó một Background Relay hoặc Debezium CDC sẽ đọc bảng outbox và publish lên Kafka.",
+      "card_hint": "Outbox Pattern, Kafka, Architecture",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "Khi một Kafka Consumer xử lý message bị lỗi liên tục (ví dụ hệ thống bên thứ ba bị sập), chiến lược xử lý chuẩn trong môi trường Production là gì?",
+      "code_snippet": "",
+      "options": [
+        "Bỏ qua (ignore) message lỗi ngay lập tức để tiếp tục xử lý các message khác.",
+        "Treo consumer lại vĩnh viễn và không commit offset.",
+        "Áp dụng Retry có Exponential Backoff (thử lại sau 1s, 2s, 4s,...); nếu sau N lần vẫn thất bại thì đẩy message sang Dead Letter Queue (DLQ / DLT) để cảnh báo và xử lý sau, tránh làm nghẽn toàn bộ partition.",
+        "Xóa topic Kafka và tạo lại topic mới."
+      ],
+      "correct_option_index": 2,
+      "explanation": "Dead Letter Topic (DLT) kết hợp với Retry Backoff giúp hệ thống có khả năng tự phục hồi với các lỗi tạm thời (transient errors), đồng thời cách ly các message độc hại (poison pill) sang hàng đợi riêng để đội ngũ vận hành kiểm tra, không làm tắc nghẽn luồng xử lý chính.",
+      "card_front": "Khi một Kafka Consumer xử lý message bị lỗi liên tục (ví dụ hệ thống bên thứ ba bị sập), chiến lược xử lý chuẩn trong môi trường Production là gì?",
+      "card_back": "Áp dụng Retry có Exponential Backoff (thử lại sau 1s, 2s, 4s,...); nếu sau N lần vẫn thất bại thì đẩy message sang Dead Letter Queue (DLQ / DLT) để cảnh báo và xử lý sau, tránh làm nghẽn toàn bộ partition.",
+      "card_hint": "Kafka, DLQ, Resilience",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "Tính chất Bất Biến (Idempotency) của API thanh toán trong Ticket Station có ý nghĩa gì?",
+      "code_snippet": "",
+      "options": [
+        "API có tốc độ phản hồi cực nhanh dưới 10ms.",
+        "Dù client gửi cùng một request thanh toán nhiều lần (do mạng chập chờn, người dùng bấm nút nhiều lần), hệ thống chỉ thực hiện trừ tiền và xử lý đơn hàng đúng DUY NHẤT 1 lần, các lần gọi sau trả về kết quả tương tự mà không gây side-effect phụ.",
+        "API chỉ chấp nhận request từ địa chỉ IP cố định.",
+        "Dữ liệu gửi lên không bao giờ được phép chỉnh sửa trong tương lai."
+      ],
+      "correct_option_index": 1,
+      "explanation": "Idempotency trong thanh toán là yêu cầu sống còn. Khi mạng lag, mobile app hoặc browser có thể tự động retry request `POST /payments`. Nhờ có header `Idempotency-Key`, server nhận diện đây là cùng một giao dịch và không bao giờ trừ tiền khách hàng lần thứ hai.",
+      "card_front": "Tính chất Bất Biến (Idempotency) của API thanh toán trong Ticket Station có ý nghĩa gì?",
+      "card_back": "Dù client gửi cùng một request thanh toán nhiều lần (do mạng chập chờn, người dùng bấm nút nhiều lần), hệ thống chỉ thực hiện trừ tiền và xử lý đơn hàng đúng DUY NHẤT 1 lần, các lần gọi sau trả về kết quả tương tự mà không gây side-effect phụ.",
+      "card_hint": "Idempotency, API Design, Payment",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "Làm thế nào để hiện thực hóa cơ chế `@Idempotent` hiệu quả cao bằng Redis trong Spring Boot?",
+      "code_snippet": "@PostMapping(\"/charge\")\n@Idempotent(key = \"#request.idempotencyKey\", expireSeconds = 120)\npublic PaymentResponse chargeMoney(@RequestBody PaymentRequest request) { ... }",
+      "options": [
+        "Dùng lệnh Redis `SET key value NX EX seconds` (chỉ đặt nếu chưa tồn tại). Nếu lệnh trả về true nghĩa là request đầu tiên; nếu trả về false nghĩa là request trùng lặp và từ chối xử lý hoặc trả về kết quả đang xử lý.",
+        "Mỗi lần có request thì tăng biến đếm bằng `INCR` và cho phép chạy nếu số đếm là số lẻ.",
+        "Lưu toàn bộ payload request vào bảng tạm trong PostgreSQL và xóa sau 5 phút.",
+        "Chỉ dựa vào cookie của trình duyệt để nhận diện người dùng."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Lệnh `SETNX` (SET if Not eXists) kèm TTL trong Redis là nguyên tử (atomic). Khi request đầu tiên đến, `SETNX` thành công, tiến trình tiếp tục xử lý. Các request trùng lặp đến cùng thời điểm sẽ nhận `SETNX = false` và bị chặn lại ngay lập tức.",
+      "card_front": "Làm thế nào để hiện thực hóa cơ chế `@Idempotent` hiệu quả cao bằng Redis trong Spring Boot?",
+      "card_back": "Dùng lệnh Redis `SET key value NX EX seconds` (chỉ đặt nếu chưa tồn tại). Nếu lệnh trả về true nghĩa là request đầu tiên; nếu trả về false nghĩa là request trùng lặp và từ chối xử lý hoặc trả về kết quả đang xử lý.",
+      "card_hint": "Redis, Idempotency, Spring AOP",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "3 trạng thái của Circuit Breaker trong Resilience4j là gì và cơ chế chuyển đổi giữa chúng diễn ra như thế nào?",
+      "code_snippet": "",
+      "options": [
+        "START, RUNNING, STOPPED",
+        "CLOSED (bình thường, cho request đi qua), OPEN (lỗi vượt ngưỡng, ngắt mạch ngay lập tức và gọi fallback), HALF_OPEN (cho một số lượng request thăm dò thử nghiệm để xem đối tác đã phục hồi chưa).",
+        "GREEN, YELLOW, RED",
+        "ACTIVE, PASSIVE, STANDBY"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Circuit Breaker bảo vệ thread pool của hệ thống: Khi dịch vụ bên ngoài (cổng thanh toán, SMS) bị lỗi hoặc phản hồi chậm quá tỷ lệ cho phép, nó chuyển sang `OPEN` để ngắt mạch lập tức không chờ timeout. Sau thời gian chờ, nó chuyển sang `HALF_OPEN` để test tải trước khi đóng mạch lại (`CLOSED`).",
+      "card_front": "3 trạng thái của Circuit Breaker trong Resilience4j là gì và cơ chế chuyển đổi giữa chúng diễn ra như thế nào?",
+      "card_back": "CLOSED (bình thường, cho request đi qua), OPEN (lỗi vượt ngưỡng, ngắt mạch ngay lập tức và gọi fallback), HALF_OPEN (cho một số lượng request thăm dò thử nghiệm để xem đối tác đã phục hồi chưa).",
+      "card_hint": "Resilience4j, Circuit Breaker, Fault Tolerance",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "Tại sao trong môi trường Production chúng ta nên sử dụng Multi-Stage Dockerfile và chạy container bằng non-root user?",
+      "code_snippet": "# Stage 1: Build\nFROM maven:3.9.6-eclipse-temurin-21-alpine AS builder\n...\n# Stage 2: Runtime\nFROM eclipse-temurin:21-jre-alpine\nRUN addgroup -S appgroup && adduser -S appuser -G appgroup\nUSER appuser\nCOPY --from=builder /app/target/*.jar app.jar\nENTRYPOINT [\"java\", \"-jar\", \"app.jar\"]",
+      "options": [
+        "Multi-stage build tách biệt môi trường build (Maven, mã nguồn, dependencies) khỏi runtime, giảm kích thước image từ hàng GB xuống chỉ còn ~150MB; non-root user giúp giảm thiểu nguy cơ bị chiếm quyền root của máy host nếu container bị tấn công.",
+        "Non-root user giúp Java 21 kích hoạt tính năng Virtual Threads.",
+        "Docker bắt buộc tất cả file JAR phải chạy bằng tài khoản `appuser`.",
+        "Làm như vậy để giảm dung lượng file `pom.xml`."
+      ],
+      "correct_option_index": 0,
+      "explanation": "Multi-stage Dockerfile giúp image nhỏ gọn, nhẹ, deploy cực nhanh. Chạy với non-root user là tiêu chuẩn an toàn bảo mật cấp cao (Container Security / CIS Benchmark) để chống privilege escalation.",
+      "card_front": "Tại sao trong môi trường Production chúng ta nên sử dụng Multi-Stage Dockerfile và chạy container bằng non-root user?",
+      "card_back": "Multi-stage build tách biệt môi trường build (Maven, mã nguồn, dependencies) khỏi runtime, giảm kích thước image từ hàng GB xuống chỉ còn ~150MB; non-root user giúp giảm thiểu nguy cơ bị chiếm quyền root của máy host nếu container bị tấn công.",
+      "card_hint": "Docker, Security, Production, DevOps",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}
