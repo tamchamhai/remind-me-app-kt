@@ -13,10 +13,9 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -26,9 +25,12 @@ import com.example.remind_me.core.model.QuizQuestion
 import com.example.remind_me.core.model.StudyMode
 import com.example.remind_me.core.model.TopicItem
 import com.example.remind_me.core.theme.RemindMeTheme
+import com.example.remind_me.feature.settings.components.SettingsDropdownSelector
 import com.example.remind_me.feature.topic_detail.components.AddChapterDialog
 import com.example.remind_me.feature.topic_detail.components.AddChapterQuestionDialog
 import com.example.remind_me.feature.topic_detail.components.ChapterSelectorCard
+import com.example.remind_me.feature.topic_detail.logic.TopicDetailStateHolder
+import com.example.remind_me.feature.topic_detail.logic.rememberTopicDetailStateHolder
 
 @Composable
 fun TopicDetailScreen(
@@ -53,18 +55,33 @@ fun TopicDetailScreen(
     onDeleteQuestion: (String) -> Unit,
     onPreviewLockScreenForChapter: (chapterId: String) -> Unit
 ) {
-    BackHandler(onBack = onBack)
+    val stateHolder = rememberTopicDetailStateHolder(
+        topic = topic,
+        chapters = chapters,
+        questions = questions,
+        onBack = onBack,
+        onToggleTopicEnabled = onToggleTopicEnabled,
+        onChangeStudyMode = onChangeStudyMode,
+        onSelectChapterForLockScreen = onSelectChapterForLockScreen,
+        onAddChapter = onAddChapter,
+        onAddQuestionToChapter = onAddQuestionToChapter,
+        onDeleteQuestion = onDeleteQuestion,
+        onPreviewLockScreenForChapter = onPreviewLockScreenForChapter
+    )
+    TopicDetailContent(stateHolder = stateHolder)
+}
+
+@Composable
+fun TopicDetailContent(
+    stateHolder: TopicDetailStateHolder
+) {
+    BackHandler(onBack = stateHolder.onBack)
 
     val colors = RemindMeTheme.colors
     val strings = RemindMeTheme.strings
-
-    var expandedChapterId by remember(topic.id) {
-        mutableStateOf<String?>(topic.selectedChapterId.ifBlank { chapters.firstOrNull()?.id })
-    }
-    var showAddChapterDialog by remember { mutableStateOf(false) }
-    var targetChapterForNewQuestion by remember { mutableStateOf<ChapterItem?>(null) }
-
-    val activeChapter = chapters.find { it.id == topic.selectedChapterId } ?: chapters.firstOrNull()
+    val topic = stateHolder.topic
+    val chapters = stateHolder.chapters
+    val activeChapter = stateHolder.activeChapter
 
     Column(
         modifier = Modifier
@@ -86,7 +103,7 @@ fun TopicDetailScreen(
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     Surface(
-                        onClick = onBack,
+                        onClick = stateHolder.onBack,
                         shape = CircleShape,
                         color = colors.surfaceMuted,
                         border = BorderStroke(1.dp, colors.border),
@@ -113,7 +130,7 @@ fun TopicDetailScreen(
                         )
                         Switch(
                             checked = topic.isEnabled,
-                            onCheckedChange = { onToggleTopicEnabled() },
+                            onCheckedChange = { stateHolder.onToggleTopicEnabled() },
                             colors = SwitchDefaults.colors(
                                 checkedThumbColor = Color.White,
                                 checkedTrackColor = colors.primary
@@ -132,7 +149,6 @@ fun TopicDetailScreen(
                 .verticalScroll(rememberScrollState())
                 .padding(horizontal = 16.dp, vertical = 16.dp)
         ) {
-            // Topic Title & Description inside Main Content
             Text(
                 text = topic.title,
                 fontSize = 26.sp,
@@ -152,7 +168,7 @@ fun TopicDetailScreen(
 
             Spacer(modifier = Modifier.height(14.dp))
 
-            // Study Mode Toggle Placeholder (Quiz vs Memory Card) per Topic
+            // Study Mode Dropdown per Topic
             Surface(
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(14.dp),
@@ -167,23 +183,17 @@ fun TopicDetailScreen(
                         color = colors.textPrimary
                     )
                     Spacer(modifier = Modifier.height(8.dp))
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        FilterChip(
-                            selected = topic.preferredStudyMode == StudyMode.QUIZ,
-                            onClick = { onChangeStudyMode(StudyMode.QUIZ) },
-                            label = { Text(strings.studyModeQuiz, fontSize = 12.sp) },
-                            modifier = Modifier.weight(1f)
-                        )
-                        FilterChip(
-                            selected = topic.preferredStudyMode == StudyMode.MEMORY_CARD,
-                            onClick = { onChangeStudyMode(StudyMode.MEMORY_CARD) },
-                            label = { Text(strings.studyModeMemoryCard, fontSize = 12.sp) },
-                            modifier = Modifier.weight(1f)
-                        )
-                    }
+                    SettingsDropdownSelector(
+                        options = listOf(StudyMode.QUIZ, StudyMode.MEMORY_CARD),
+                        selectedOption = topic.preferredStudyMode,
+                        optionLabel = { mode ->
+                            when (mode) {
+                                StudyMode.QUIZ -> strings.studyModeQuiz
+                                StudyMode.MEMORY_CARD -> strings.studyModeMemoryCard
+                            }
+                        },
+                        onOptionSelected = stateHolder.onChangeStudyMode
+                    )
                     if (topic.preferredStudyMode == StudyMode.MEMORY_CARD) {
                         Spacer(modifier = Modifier.height(6.dp))
                         Text(
@@ -233,7 +243,7 @@ fun TopicDetailScreen(
 
                     if (activeChapter != null) {
                         Button(
-                            onClick = { onPreviewLockScreenForChapter(activeChapter.id) },
+                            onClick = { stateHolder.onPreviewLockScreenForChapter(activeChapter.id) },
                             shape = RoundedCornerShape(12.dp),
                             colors = ButtonDefaults.buttonColors(
                                 containerColor = Color.White,
@@ -281,7 +291,7 @@ fun TopicDetailScreen(
                 Spacer(modifier = Modifier.width(8.dp))
 
                 OutlinedButton(
-                    onClick = { showAddChapterDialog = true },
+                    onClick = stateHolder::openAddChapterDialog,
                     shape = RoundedCornerShape(10.dp),
                     border = BorderStroke(1.dp, colors.border),
                     contentPadding = PaddingValues(horizontal = 12.dp, vertical = 6.dp)
@@ -301,9 +311,9 @@ fun TopicDetailScreen(
 
             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 chapters.forEach { chapter ->
-                    val chapterQuestions = questions.filter { it.chapterId == chapter.id }
-                    val isSelected = chapter.id == (activeChapter?.id ?: "")
-                    val isExpanded = expandedChapterId == chapter.id
+                    val chapterQuestions = stateHolder.questionsForChapter(chapter.id)
+                    val isSelected = stateHolder.isChapterSelectedForLockScreen(chapter.id)
+                    val isExpanded = stateHolder.isChapterExpanded(chapter.id)
 
                     ChapterSelectorCard(
                         chapter = chapter,
@@ -311,17 +321,17 @@ fun TopicDetailScreen(
                         isSelectedForLockScreen = isSelected,
                         isExpanded = isExpanded,
                         onSelectForLockScreen = {
-                            onSelectChapterForLockScreen(chapter.id)
+                            stateHolder.onSelectChapterForLockScreen(chapter.id)
                         },
                         onToggleExpand = {
-                            expandedChapterId = if (isExpanded) null else chapter.id
+                            stateHolder.toggleChapterExpand(chapter.id)
                         },
                         onAddQuestionToChapter = {
-                            targetChapterForNewQuestion = chapter
+                            stateHolder.openAddQuestionDialog(chapter)
                         },
-                        onDeleteQuestion = onDeleteQuestion,
+                        onDeleteQuestion = stateHolder.onDeleteQuestion,
                         onPreviewChapterOnLockScreen = {
-                            onPreviewLockScreenForChapter(chapter.id)
+                            stateHolder.onPreviewLockScreenForChapter(chapter.id)
                         }
                     )
                 }
@@ -331,35 +341,20 @@ fun TopicDetailScreen(
         }
     }
 
-    if (showAddChapterDialog) {
+    if (stateHolder.showAddChapterDialog) {
         AddChapterDialog(
             nextChapterNumber = chapters.size + 1,
-            onDismiss = { showAddChapterDialog = false },
-            onConfirm = { title, description ->
-                onAddChapter(title, description)
-                showAddChapterDialog = false
-            }
+            onDismiss = stateHolder::closeAddChapterDialog,
+            onConfirm = stateHolder::confirmAddChapter
         )
     }
 
-    val chapterForNewQ = targetChapterForNewQuestion
+    val chapterForNewQ = stateHolder.targetChapterForNewQuestion
     if (chapterForNewQ != null) {
         AddChapterQuestionDialog(
             chapter = chapterForNewQ,
-            onDismiss = { targetChapterForNewQuestion = null },
-            onConfirm = { questionText, options, correctIndex, explanation, cardFront, cardBack, cardHint ->
-                onAddQuestionToChapter(
-                    chapterForNewQ.id,
-                    questionText,
-                    options,
-                    correctIndex,
-                    explanation,
-                    cardFront,
-                    cardBack,
-                    cardHint
-                )
-                targetChapterForNewQuestion = null
-            }
+            onDismiss = stateHolder::closeAddQuestionDialog,
+            onConfirm = stateHolder::confirmAddQuestion
         )
     }
 }

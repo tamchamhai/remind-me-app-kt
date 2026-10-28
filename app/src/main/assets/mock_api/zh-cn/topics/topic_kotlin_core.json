@@ -1,0 +1,120 @@
+{
+  "topic": {
+    "id": "topic_kotlin_core",
+    "title": "Kotlin 核心精讲",
+    "description": "空安全 (Null Safety)、作用域函数、协程 (Coroutines) 与 Flow",
+    "icon_name": "Bolt",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "chap_kt_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_kt_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 1,
+      "title": "第 1 章：空安全、数据类 (Data Class) 与密封类 (Sealed Class)",
+      "description": "Elvis 运算符、copy()、解构声明、sealed class 与 enum 对比"
+    },
+    {
+      "id": "chap_kt_2",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 2,
+      "title": "第 2 章：作用域函数与内联 / 高阶函数",
+      "description": "let、run、apply、also、with、inline、noinline、crossinline"
+    },
+    {
+      "id": "chap_kt_3",
+      "topic_id": "topic_kotlin_core",
+      "chapter_number": 3,
+      "title": "第 3 章：协程 (Coroutines)、调度器与结构化并发",
+      "description": "launch 与 async、SupervisorJob、Dispatchers.IO/Default/Main"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_kt_1_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_1",
+      "question": "在 Kotlin 中，“sealed class（密封类）”与“enum class（枚举类）”最大的区别是什么？",
+      "code_snippet": "",
+      "options": [
+        "enum class 不能在 when 表达式中使用",
+        "sealed class 的子类可以拥有多个实例，并且每个实例可以保存各自独立的状态数据",
+        "sealed class 不支持继承",
+        "enum class 可以继承其他普通 open 类"
+      ],
+      "correct_option_index": 1,
+      "explanation": "每个枚举常量在内存中只存在唯一一个单例实例；而密封类（sealed class）的子类可以是 data class 或普通类，能够多次实例化并携带动态的状态数据。",
+      "card_front": "在 Kotlin 中，“sealed class（密封类）”与“enum class（枚举类）”最大的区别是什么？",
+      "card_back": "sealed class 的子类可以拥有多个实例，并且每个实例可以保存各自独立的状态数据",
+      "card_hint": "第 1 章：空安全、数据类 (Data Class) 与密封类 (Sealed Class)",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_1_2",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_1",
+      "question": "在表达式 `val len = name?.length ?: 0` 中，Elvis 运算符（`?:`）是如何工作的？",
+      "code_snippet": "val len = name?.length ?: 0",
+      "options": [
+        "当 name 为 null 时抛出 NullPointerException",
+        "如果左侧表达式不为 null 则返回左侧的值；否则返回右侧的默认值（0）",
+        "永远返回 0",
+        "执行不安全的 Int 强制类型转换"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Elvis 运算符 `?:` 在左侧表达式非空时直接返回左侧结果；当左侧计算结果为 `null` 时，返回右侧提供的回退默认值。",
+      "card_front": "在表达式 `val len = name?.length ?: 0` 中，Elvis 运算符（`?:`）是如何工作的？",
+      "card_back": "如果左侧表达式不为 null 则返回左侧的值；否则返回右侧的默认值（0）",
+      "card_hint": "第 1 章：空安全、数据类 (Data Class) 与密封类 (Sealed Class)",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_2_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_2",
+      "question": "在 Kotlin 的作用域函数中，哪一个函数使用 `this` 作为接收者（Receiver）并返回上下文对象本身（Context Object）？",
+      "code_snippet": "",
+      "options": [
+        "let",
+        "apply",
+        "also",
+        "run"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`apply` 使用 `this` 作为隐式接收者，并在代码块执行完毕后返回调用对象本身，非常适合用于对象的初始化与属性配置。",
+      "card_front": "在 Kotlin 的作用域函数中，哪一个函数使用 `this` 作为接收者（Receiver）并返回上下文对象本身（Context Object）？",
+      "card_back": "apply",
+      "card_hint": "第 2 章：作用域函数与内联 / 高阶函数",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_kt_3_1",
+      "topic_id": "topic_kotlin_core",
+      "chapter_id": "chap_kt_3",
+      "question": "在 Kotlin 协程中，`SupervisorJob()` 与普通的 `Job()` 有什么核心区别？",
+      "code_snippet": "",
+      "options": [
+        "SupervisorJob 的运行速度是普通 Job 的两倍",
+        "当某个子协程发生异常失败时，SupervisorJob 不会连带取消其他的兄弟协程",
+        "SupervisorJob 只能在主线程（Main Thread）上运行",
+        "SupervisorJob 会在失败时自动无限重试"
+      ],
+      "correct_option_index": 1,
+      "explanation": "使用 `SupervisorJob` 时，单个子协程的异常不会向上传播去取消父协程和其他兄弟协程，从而实现子任务之间的故障隔离。",
+      "card_front": "在 Kotlin 协程中，`SupervisorJob()` 与普通的 `Job()` 有什么核心区别？",
+      "card_back": "当某个子协程发生异常失败时，SupervisorJob 不会连带取消其他的兄弟协程",
+      "card_hint": "第 3 章：协程 (Coroutines)、调度器与结构化并发",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

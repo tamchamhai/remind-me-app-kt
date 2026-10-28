@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_android",
+    "title": "Android & Jetpack Compose",
+    "description": "重组机制 (Recomposition)、状态提升、Activity 与前台服务",
+    "icon_name": "PhoneAndroid",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_android_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_android_1",
+      "topic_id": "topic_android",
+      "chapter_number": 1,
+      "title": "第 1 章：Jetpack Compose 状态与重组机制",
+      "description": "remember、rememberSaveable、LaunchedEffect、CompositionLocal"
+    },
+    {
+      "id": "chap_android_2",
+      "topic_id": "topic_android",
+      "chapter_number": 2,
+      "title": "第 2 章：Activity、Service 与 BroadcastReceiver",
+      "description": "前台服务 (Foreground Service)、锁屏 Activity、生命周期管理"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_android_1_1",
+      "topic_id": "topic_android",
+      "chapter_id": "chap_android_1",
+      "question": "在 Jetpack Compose 中，哪个函数可以在屏幕旋转（Configuration Changes）导致 Activity 重建时依然保留状态？",
+      "code_snippet": "",
+      "options": [
+        "remember { }",
+        "rememberSaveable { }",
+        "LaunchedEffect { }",
+        "derivedStateOf { }"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`rememberSaveable` 会将状态序列化保存到 Android 的 `Bundle`（SavedInstanceState）中，因此在屏幕旋转等配置变更重建 Activity 后仍能自动恢复。",
+      "card_front": "在 Jetpack Compose 中，哪个函数可以在屏幕旋转（Configuration Changes）导致 Activity 重建时依然保留状态？",
+      "card_back": "rememberSaveable { }",
+      "card_hint": "第 1 章：Jetpack Compose 状态与重组机制",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_android_2_1",
+      "topic_id": "topic_android",
+      "chapter_id": "chap_android_2",
+      "question": "在 Android 中为了监听屏幕点亮事件（`Intent.ACTION_SCREEN_ON`），必须采用哪种方式？",
+      "code_snippet": "",
+      "options": [
+        "仅在 AndroidManifest.xml 中静态声明 BroadcastReceiver",
+        "在运行中的服务或组件代码里通过 registerReceiver() 动态注册 BroadcastReceiver",
+        "使用 ContentProvider",
+        "使用 WorkManager 定时任务"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`Intent.ACTION_SCREEN_ON` 和 `ACTION_SCREEN_OFF` 是受保护的高频系统广播，Android 系统禁止通过 Manifest 静态注册接收，必须在代码中调用 `registerReceiver()` 动态注册。",
+      "card_front": "在 Android 中为了监听屏幕点亮事件（`Intent.ACTION_SCREEN_ON`），必须采用哪种方式？",
+      "card_back": "在运行中的服务或组件代码里通过 registerReceiver() 动态注册 BroadcastReceiver",
+      "card_hint": "第 2 章：Activity、Service 与 BroadcastReceiver",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

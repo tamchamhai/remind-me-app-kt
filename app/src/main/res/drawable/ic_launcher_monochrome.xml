@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Lock Shackle -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M45,33V27.5c0,-4.97 4.03,-9 9,-9s9,4.03 9,9V33"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Card Outline -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M35,31h38c3.31,0 6,2.69 6,6v36c0,3.31 -2.69,6 -6,6H35c-3.31,0 -6,-2.69 -6,-6V37c0,-3.31 2.69,-6 6,-6z"
+        android:strokeWidth="3.8"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Code Symbol '< / >' -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M45,48L38.5,54.5L45,61"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M63,48L69.5,54.5L63,61"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M56.5,47L51.5,62"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+</vector>

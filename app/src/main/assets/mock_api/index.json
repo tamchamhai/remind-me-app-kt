@@ -3,7 +3,8 @@
   "supported_languages": [
     "vi",
     "en",
-    "ja"
+    "ja",
+    "zh-cn"
   ],
   "topic_files": [
     "topic_java_core.json",

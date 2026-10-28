@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_sql_db",
+    "title": "SQL 与数据库优化",
+    "description": "B-Tree 索引、ACID 事务、JOIN 原理与查询调优",
+    "icon_name": "Memory",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_sql_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_sql_1",
+      "topic_id": "topic_sql_db",
+      "chapter_number": 1,
+      "title": "第 1 章：索引原理、B-Tree 与查询优化",
+      "description": "聚簇索引与非聚簇索引、复合索引最左前缀、EXPLAIN 执行计划"
+    },
+    {
+      "id": "chap_sql_2",
+      "topic_id": "topic_sql_db",
+      "chapter_number": 2,
+      "title": "第 2 章：ACID 特性与事务隔离级别",
+      "description": "脏读、不可重复读、幻读、死锁排查"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_sql_1_1",
+      "topic_id": "topic_sql_db",
+      "chapter_id": "chap_sql_1",
+      "question": "假设在列 `(A, B, C)` 上创建了复合 B-Tree 索引，以下哪个 `WHERE` 子句能够命中该复合索引？",
+      "code_snippet": "",
+      "options": [
+        "WHERE B = 10 AND C = 20",
+        "WHERE A = 5 AND B = 10",
+        "WHERE C = 20",
+        "WHERE B = 10"
+      ],
+      "correct_option_index": 1,
+      "explanation": "根据复合索引的“最左前缀原则（Leftmost Prefix Rule）”，查询条件必须包含最左列 `A`，B-Tree 才能定位检索区间。",
+      "card_front": "假设在列 `(A, B, C)` 上创建了复合 B-Tree 索引，以下哪个 `WHERE` 子句能够命中该复合索引？",
+      "card_back": "WHERE A = 5 AND B = 10",
+      "card_hint": "第 1 章：索引原理、B-Tree 与查询优化",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_sql_2_1",
+      "topic_id": "topic_sql_db",
+      "chapter_id": "chap_sql_2",
+      "question": "当一个事务读取到了另一个事务“尚未提交（UNCOMMITTED）”的数据修改时，这种并发异常现象称为什么？",
+      "code_snippet": "",
+      "options": [
+        "幻读 (Phantom Read)",
+        "脏读 (Dirty Read)",
+        "不可重复读 (Non-repeatable Read)",
+        "更新丢失 (Lost Update)"
+      ],
+      "correct_option_index": 1,
+      "explanation": "脏读（Dirty Read）发生在 `READ UNCOMMITTED` 隔离级别下：事务 A 读取了事务 B 未提交的修改，一旦事务 B 回滚，事务 A 读到的就是无效的脏数据。",
+      "card_front": "当一个事务读取到了另一个事务“尚未提交（UNCOMMITTED）”的数据修改时，这种并发异常现象称为什么？",
+      "card_back": "脏读 (Dirty Read)",
+      "card_hint": "第 2 章：ACID 特性与事务隔离级别",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

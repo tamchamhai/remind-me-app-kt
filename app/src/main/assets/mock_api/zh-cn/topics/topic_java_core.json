@@ -1,0 +1,2164 @@
+{
+  "topic": {
+    "id": "topic_java_core",
+    "title": "Java 核心与生产级实战 (Ticket Station)",
+    "description": "完整涵盖 12 个 Java Core 核心模块与 6 个企业级生产里程碑（共 95 道深度实战题）",
+    "icon_name": "Code",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "mod1-sub1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "mod1-sub1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 1,
+      "title": "Module 01.1：课程概述与计算思维",
+      "description": "理解软件工程本质、问题拆解方法以及 Ticket Station 实战项目全貌。"
+    },
+    {
+      "id": "mod1-sub2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 2,
+      "title": "Module 01.2：编程语言与 Java 跨平台原理",
+      "description": "掌握编译型、解释型与 Java 字节码 + JVM 混合架构（Write Once, Run Anywhere）。"
+    },
+    {
+      "id": "mod1-sub3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 3,
+      "title": "Module 01.3：JDK vs JRE vs JVM 核心架构",
+      "description": "理清 JDK、JRE、JVM 的包含层级以及 Java 11+ 模块化运行时演进。"
+    },
+    {
+      "id": "mod1-sub4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 4,
+      "title": "Module 01.4：配置 JDK 21 LTS 与环境变量",
+      "description": "正确配置 JAVA_HOME 与 PATH，消除版本不一致导致的字节码冲突。"
+    },
+    {
+      "id": "mod1-sub5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 5,
+      "title": "Module 01.5：第一个 Java 程序与源码结构",
+      "description": "剖析 package、class、public static void main(String[] args) 与标准输出流。"
+    },
+    {
+      "id": "mod1-sub6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 6,
+      "title": "Module 01.6：IPO 模型与控制台输入输出",
+      "description": "运用 Input-Process-Output 思维编写逻辑，避开 Scanner 换行符缓冲区陷阱。"
+    },
+    {
+      "id": "mod1-sub7",
+      "topic_id": "topic_java_core",
+      "chapter_number": 7,
+      "title": "Module 01.7：Java 编译与类加载执行全链路",
+      "description": "追踪从 .java 源码、javac 编译、ClassLoader 加载、字节码校验到 JIT 编译的全过程。"
+    },
+    {
+      "id": "mod1-sub8",
+      "topic_id": "topic_java_core",
+      "chapter_number": 8,
+      "title": "Module 01.8：实战挑战：控制台月历生成器",
+      "description": "结合 java.time API 与网格对齐算法打印标准 7 列月历。"
+    },
+    {
+      "id": "mod1-sub9",
+      "topic_id": "topic_java_core",
+      "chapter_number": 9,
+      "title": "Module 01.9：常见编译错误与运行时排错指南",
+      "description": "快速定位并修复 cannot find symbol、ClassNotFoundException 等高频错误。"
+    },
+    {
+      "id": "mod2-sub1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 10,
+      "title": "Module 02.1：变量声明与 var 局部变量类型推断",
+      "description": "掌握静态类型本质与 Java 10+ var 的正确用法及限制边界。"
+    },
+    {
+      "id": "mod2-sub2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 11,
+      "title": "Module 02.2：8 大基本数据类型、整数溢出与 BigDecimal",
+      "description": "理解二进制补码溢出、IEEE 754 浮点精度丢失以及金融级 BigDecimal 运算规范。"
+    },
+    {
+      "id": "mod2-sub3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 12,
+      "title": "Module 02.3：包装类缓存池与 JVM 栈/堆内存模型",
+      "description": "深入剖析自动拆装箱 NPE、IntegerCache/LongCache 陷阱、按值传递与 Stack/Heap 内存分配。"
+    },
+    {
+      "id": "mod2-sub4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 13,
+      "title": "Module 02.4：算术运算符、整数除法与取模符号规则",
+      "description": "规避 int/int 截断导致百分比归零的 Bug，掌握负数求余运算规范。"
+    },
+    {
+      "id": "mod2-sub5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 14,
+      "title": "Module 02.5：短路逻辑运算符与位掩码权限控制",
+      "description": "区分 && 与 & 的空安全差异，使用位运算高效实现 RBAC 权限校验。"
+    },
+    {
+      "id": "mod2-sub6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 15,
+      "title": "Module 02.6：数据类型宽化与窄化强制转换",
+      "description": "理解隐式宽化转换与显式窄化截断对高位比特的损耗。"
+    },
+    {
+      "id": "mod2-sub7",
+      "topic_id": "topic_java_core",
+      "chapter_number": 16,
+      "title": "Module 02.7：String 不可变性、常量池与 StringBuilder",
+      "description": "掌握 String Pool 驻留机制、循环拼接性能黑洞、Java 15 文本块与密码安全存储。"
+    },
+    {
+      "id": "mod2-sub8",
+      "topic_id": "topic_java_core",
+      "chapter_number": 17,
+      "title": "Module 02.8：final 关键字、编译期常量折叠与不可变引用",
+      "description": "理解 Constant Folding 优化原理，区分“引用不可变”与“对象内部状态不可变”。"
+    },
+    {
+      "id": "mod2-sub9",
+      "topic_id": "topic_java_core",
+      "chapter_number": 18,
+      "title": "Module 02.9：Enum 枚举高级建模与状态机设计",
+      "description": "利用枚举封装票务等级、价格策略与空安全的 == 状态比较。"
+    },
+    {
+      "id": "mod2-sub10",
+      "topic_id": "topic_java_core",
+      "chapter_number": 19,
+      "title": "Module 02.10：综合实战：健康指标计算与卫语句重构",
+      "description": "消除浮点运算隐蔽 Bug，使用 Guard Clauses（早返回）编写高可读性分支代码。"
+    },
+    {
+      "id": "module-03",
+      "topic_id": "topic_java_core",
+      "chapter_number": 20,
+      "title": "Module 03：流程控制、Switch 表达式与集合安全遍历",
+      "description": "掌握 Java 14+ Switch Expression 与遍历删除时的 ConcurrentModificationException 防护。"
+    },
+    {
+      "id": "module-04",
+      "topic_id": "topic_java_core",
+      "chapter_number": 21,
+      "title": "Module 04：方法设计、按值传递机制与方法重载",
+      "description": "彻底弄清 Java 100% 按值传递本质与编译器方法签名重载解析规则。"
+    },
+    {
+      "id": "module-05",
+      "topic_id": "topic_java_core",
+      "chapter_number": 22,
+      "title": "Module 05：面向对象核心：充血模型封装与构造器原理",
+      "description": "告别贫血模型（Anemic Domain Model），践行 Tell Don’t Ask 原则守护业务不变量。"
+    },
+    {
+      "id": "module-06",
+      "topic_id": "topic_java_core",
+      "chapter_number": 23,
+      "title": "Module 06：继承 vs 组合与 JVM 动态分派多态机制",
+      "description": "理解脆弱基类问题、组合优于继承原则以及底层虚方法表（vtable）原理。"
+    },
+    {
+      "id": "module-07",
+      "topic_id": "topic_java_core",
+      "chapter_number": 24,
+      "title": "Module 07：Java 集合框架与 ConcurrentHashMap 并发容器",
+      "description": "对比 HashMap 与 ConcurrentHashMap 的 CAS + 桶节点细粒度锁架构。"
+    },
+    {
+      "id": "module-08",
+      "topic_id": "topic_java_core",
+      "chapter_number": 25,
+      "title": "Module 08：异常处理体系与 try-with-resources 自动资源管理",
+      "description": "使用 AutoCloseable 与 try-with-resources 彻底杜绝连接与流泄漏。"
+    },
+    {
+      "id": "module-09",
+      "topic_id": "topic_java_core",
+      "chapter_number": 26,
+      "title": "Module 09：现代日期时间 API (java.time) 与跨时区架构",
+      "description": "使用 Instant 与 OffsetDateTime 构建全球化票务系统的无歧义时间存储。"
+    },
+    {
+      "id": "module-10",
+      "topic_id": "topic_java_core",
+      "chapter_number": 27,
+      "title": "Module 10：Java 21 虚拟线程 (Virtual Threads) 高并发突破",
+      "description": "掌握 Project Loom 轻量级虚拟线程如何大幅提升 I/O 密集型微服务吞吐量。"
+    },
+    {
+      "id": "module-11",
+      "topic_id": "topic_java_core",
+      "chapter_number": 28,
+      "title": "Module 11：Spring Data JPA 持久化上下文与脏检查机制",
+      "description": "理解 Managed 实体快照比对与事务提交自动生成 UPDATE 的底层逻辑。"
+    },
+    {
+      "id": "module-12",
+      "topic_id": "topic_java_core",
+      "chapter_number": 29,
+      "title": "Module 12：Docker Compose 容器化数据库与数据卷持久化",
+      "description": "规范配置 Named Volume，保障容器销毁重建时生产数据零丢失。"
+    },
+    {
+      "id": "milestone-1",
+      "topic_id": "topic_java_core",
+      "chapter_number": 30,
+      "title": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "description": "禁用 ddl-auto=update，建立可追溯的 Flyway SQL 迁移与自动审计时间戳体系。"
+    },
+    {
+      "id": "milestone-2",
+      "topic_id": "topic_java_core",
+      "chapter_number": 31,
+      "title": "Milestone 2：攻克 Hibernate N+1 问题、Record DTO 与 RFC 7807",
+      "description": "运用 JOIN FETCH 消除 N+1 查询，结合 Java Record 与 ProblemDetail 打造标准 REST API。"
+    },
+    {
+      "id": "milestone-3",
+      "topic_id": "topic_java_core",
+      "chapter_number": 32,
+      "title": "Milestone 3：Mockito 极速单元测试、双 Token 认证与 BOLA 防护",
+      "description": "隔离 Spring 容器进行毫秒级单测，构建 JWT 认证与资源归属权（防越权）安全防线。"
+    },
+    {
+      "id": "milestone-4",
+      "topic_id": "topic_java_core",
+      "chapter_number": 33,
+      "title": "Milestone 4：万级并发抢票：分布式锁、乐观锁与防缓存击穿",
+      "description": "使用 Redisson 分布式锁、@Version 乐观锁、缓存抖动防护与座位限时锁定应对高并发。"
+    },
+    {
+      "id": "milestone-5",
+      "topic_id": "topic_java_core",
+      "chapter_number": 34,
+      "title": "Milestone 5：Kafka 异步解耦、事务发件箱模式与死信队列 (DLQ)",
+      "description": "通过 Transactional Outbox 解决双写不一致，配置指数退避重试与死信队列保障消息可靠投递。"
+    },
+    {
+      "id": "milestone-6",
+      "topic_id": "topic_java_core",
+      "chapter_number": 35,
+      "title": "Milestone 6：支付幂等性、Resilience4j 熔断器与多阶段安全镜像",
+      "description": "利用 Redis SET NX EX 防止重复扣款，配置三态熔断器与非 root 多阶段 Docker 镜像上线生产。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "mod1-s1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub1",
+      "question": "在构建像 Ticket Station 这样的企业级票务系统时，Module 01 强调的“编程思维（Computational Thinking）”核心目标是什么？",
+      "code_snippet": "",
+      "options": [
+        "死记硬背成千上万个 Java API 类名。",
+        "在写代码前先学会将复杂业务拆解为清晰的子问题、精确建模数据，并严密控制票务系统的边界条件（Edge Cases）。",
+        "跳过基础知识，直接复制粘贴复杂的框架配置代码。",
+        "忽略后端数据一致性逻辑，只关注前端界面配色。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "编程思维的核心在于“先思考后编码”：将复杂业务需求拆解为可验证的小步骤、设计合理的数据结构，并预判高并发票务场景下的各种异常与边界情况。",
+      "card_front": "在构建像 Ticket Station 这样的企业级票务系统时，Module 01 强调的“编程思维（Computational Thinking）”核心目标是什么？",
+      "card_back": "在写代码前先学会将复杂业务拆解为清晰的子问题、精确建模数据，并严密控制票务系统的边界条件（Edge Cases）。",
+      "card_hint": "Module 01.1：课程概述与计算思维",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub1",
+      "question": "为什么像 Ticket Station 这样的大型金融与票务系统优先选择 Java 作为核心后端语言？",
+      "code_snippet": "",
+      "options": [
+        "因为 Java 不需要声明任何变量的数据类型。",
+        "得益于强大的静态类型检查、自动内存管理（GC）、卓越的高并发支持以及成熟稳定的企业级安全生态。",
+        "因为 Java 不使用虚拟机，直接编译成仅限 Windows 运行的 .exe 文件。",
+        "因为 Java 只能在低配服务器上运行。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "大型票务系统要求极高的数据一致性、高并发事务吞吐与 7×24 小时稳定性。Java 的强静态类型能在编译期拦截大量错误，配合高度优化的 JVM 与 Spring 生态完美契合企业级需求。",
+      "card_front": "为什么像 Ticket Station 这样的大型金融与票务系统优先选择 Java 作为核心后端语言？",
+      "card_back": "得益于强大的静态类型检查、自动内存管理（GC）、卓越的高并发支持以及成熟稳定的企业级安全生态。",
+      "card_hint": "Module 01.1：课程概述与计算思维",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub2",
+      "question": "Java 源代码是如何实现“一次编写，到处运行（Write Once, Run Anywhere - WORA）”跨平台能力的？",
+      "code_snippet": "",
+      "options": [
+        "`javac` 编译器直接将 `.java` 文件编译成所有 CPU 通用的原生机器码。",
+        "`javac` 先将源码编译成平台无关的中间字节码（`.class` 文件），再由各操作系统专属的 JVM（Windows、Linux、macOS）解释并通过 JIT 编译为本机机器码执行。",
+        "因为全世界所有电脑都使用完全相同的 Intel 处理器。",
+        "因为 Java 代码完全运行在网页浏览器内部。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "字节码（Bytecode）是面向虚拟机的标准化中间代码。只要目标操作系统安装了对应平台的 JVM，就能加载并执行同一份 `.class` 字节码文件。",
+      "card_front": "Java 源代码是如何实现“一次编写，到处运行（Write Once, Run Anywhere - WORA）”跨平台能力的？",
+      "card_back": "`javac` 先将源码编译成平台无关的中间字节码（`.class` 文件），再由各操作系统专属的 JVM（Windows、Linux、macOS）解释并通过 JIT 编译为本机机器码执行。",
+      "card_hint": "Module 01.2：编程语言与 Java 跨平台原理",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub2",
+      "question": "将 `.java` 源文件编译后生成的 `.class` 文件内部存储的是什么内容？",
+      "code_snippet": "",
+      "options": [
+        "绑定特定 x86/ARM 芯片的原生二进制机器码。",
+        "符合 JVM 规范、可供虚拟机加载、校验与执行的标准化 Java 字节码（Bytecode）。",
+        "经过 ZIP 压缩的原始文本源代码。",
+        "Linux 专属的汇编语言指令。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`.class` 文件包含严格遵循《Java 虚拟机规范》的二进制字节码，任何合规的 JVM 都可以跨平台加载、校验并运行它。",
+      "card_front": "将 `.java` 源文件编译后生成的 `.class` 文件内部存储的是什么内容？",
+      "card_back": "符合 JVM 规范、可供虚拟机加载、校验与执行的标准化 Java 字节码（Bytecode）。",
+      "card_hint": "Module 01.2：编程语言与 Java 跨平台原理",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub3",
+      "question": "关于 Java 生态系统中 JDK、JRE 和 JVM 三者的包含关系，以下哪项描述最准确？",
+      "code_snippet": "",
+      "options": [
+        "JVM 包含 JRE，JRE 包含 JDK。",
+        "JDK（开发工具包）包含 JRE 以及 `javac` 等开发工具；JRE（运行时环境）包含 JVM（虚拟机）以及 Java 核心类库（Core API）。",
+        "三者只是名字不同，安装包内容完全一样。",
+        "JDK 仅用于 Windows，而 JVM 仅能在 Linux 上运行。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "经典关系公式：JDK = JRE + 开发工具（javac、jar、jdb 等）；JRE = JVM + 核心标准类库。开发人员需要安装 JDK，而运行环境只需 JRE（或定制运行时镜像）。",
+      "card_front": "关于 Java 生态系统中 JDK、JRE 和 JVM 三者的包含关系，以下哪项描述最准确？",
+      "card_back": "JDK（开发工具包）包含 JRE 以及 `javac` 等开发工具；JRE（运行时环境）包含 JVM（虚拟机）以及 Java 核心类库（Core API）。",
+      "card_hint": "Module 01.3：JDK vs JRE vs JVM 核心架构",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub3",
+      "question": "从 Java 11 LTS 开始，OpenJDK 官方发行版在独立 JRE 安装包方面发生了什么重大变化？",
+      "code_snippet": "",
+      "options": [
+        "彻底废除了 JVM，Java 直接编译为 .exe 可执行文件。",
+        "Oracle 与各 OpenJDK 厂商不再单独提供独立的 JRE 安装程序；开发者直接安装 JDK，并可使用 `jlink` 工具按需裁剪生成超轻量级的自定义运行时镜像（Custom Runtime Image）。",
+        "所有个人学习用途都必须付费购买 JRE 商业许可证。",
+        "JRE 被直接内置到了 Windows 操作系统内核中。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "自 Java 9 引入模块化系统（JPMS）并在 Java 11 LTS 落地后，官方不再发布独立 JRE 安装包。生产部署可直接基于 JDK 或通过 `jlink` 打包仅含必要模块的精简运行时。",
+      "card_front": "从 Java 11 LTS 开始，OpenJDK 官方发行版在独立 JRE 安装包方面发生了什么重大变化？",
+      "card_back": "Oracle 与各 OpenJDK 厂商不再单独提供独立的 JRE 安装程序；开发者直接安装 JDK，并可使用 `jlink` 工具按需裁剪生成超轻量级的自定义运行时镜像（Custom Runtime Image）。",
+      "card_hint": "Module 01.3：JDK vs JRE vs JVM 核心架构",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub4",
+      "question": "操作系统中的 `JAVA_HOME` 和 `PATH` 环境变量各自承担什么精确的技术职责？",
+      "code_snippet": "",
+      "options": [
+        "`JAVA_HOME` 用于保存 Java 账号密码，`PATH` 用于保存项目源代码。",
+        "`JAVA_HOME` 指向 JDK 的安装根目录，供 Maven、Gradle、IntelliJ 等工具定位 JDK；`PATH` 包含 `%JAVA_HOME%/bin`，使操作系统能在任意终端目录下直接执行 `java` 和 `javac` 命令。",
+        "这两个变量仅在 Linux 下需要，Windows 系统完全不需要配置。",
+        "`JAVA_HOME` 可以让电脑的物理内存容量翻倍。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`JAVA_HOME` 为构建工具和 IDE 指明 JDK 根目录位置；而将 `%JAVA_HOME%/bin` 加入 `PATH` 则让命令行终端随时随地都能找到 `javac` 与 `java` 可执行文件。",
+      "card_front": "操作系统中的 `JAVA_HOME` 和 `PATH` 环境变量各自承担什么精确的技术职责？",
+      "card_back": "`JAVA_HOME` 指向 JDK 的安装根目录，供 Maven、Gradle、IntelliJ 等工具定位 JDK；`PATH` 包含 `%JAVA_HOME%/bin`，使操作系统能在任意终端目录下直接执行 `java` 和 `javac` 命令。",
+      "card_hint": "Module 01.4：配置 JDK 21 LTS 与环境变量",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub4",
+      "question": "在终端运行 `javac -version` 和 `java -version` 校验环境时，哪种输出表明 Ticket Station 开发环境配置完全正确？",
+      "code_snippet": "",
+      "options": [
+        "两个命令均输出一致的 Java 21 LTS 版本（例如 `javac 21.0.x` 与 `openjdk version \"21.0.x\"` 64-Bit Server VM）。",
+        "`javac` 显示 Java 8，而 `java` 显示 Java 21。",
+        "终端报错：`javac is not recognized as an internal or external command`。",
+        "只有 `node -v` 命令能成功输出。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "现代企业级后端以 Java 21 LTS 为基准。确保编译器（`javac`）与运行时（`java`）同为 64 位 Java 21，可以避免编译与运行版本不一致导致的 `UnsupportedClassVersionError`。",
+      "card_front": "在终端运行 `javac -version` 和 `java -version` 校验环境时，哪种输出表明 Ticket Station 开发环境配置完全正确？",
+      "card_back": "两个命令均输出一致的 Java 21 LTS 版本（例如 `javac 21.0.x` 与 `openjdk version \"21.0.x\"` 64-Bit Server VM）。",
+      "card_hint": "Module 01.4：配置 JDK 21 LTS 与环境变量",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub5",
+      "question": "为什么 Java 标准入口方法 `main` 必须使用 `static` 关键字修饰（`public static void main(String[] args)`）？",
+      "code_snippet": "",
+      "options": [
+        "为了让方法执行速度比普通方法快两倍。",
+        "为了让 JVM 在启动程序时无需先实例化（`new`）该类的对象，就能直接通过类名调用 `main` 方法。",
+        "因为加上 `static` 后别人就无法修改 `main` 方法里的代码。",
+        "从 Java 8 开始 `static` 关键字已经是可选的，可以随意省略。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "程序刚启动时堆内存中还没有任何对象实例。将 `main` 声明为 `static`（类级别方法），JVM 才能在加载类之后直接调用入口方法启动程序。",
+      "card_front": "为什么 Java 标准入口方法 `main` 必须使用 `static` 关键字修饰（`public static void main(String[] args)`）？",
+      "card_back": "为了让 JVM 在启动程序时无需先实例化（`new`）该类的对象，就能直接通过类名调用 `main` 方法。",
+      "card_hint": "Module 01.5：第一个 Java 程序与源码结构",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub5",
+      "question": "在经典的控制台打印语句 `System.out.println(\"Ticket Station\");` 中，各组成部分的真实语法身份是什么？",
+      "code_snippet": "",
+      "options": [
+        "`System` 是变量，`out` 是类，`println` 是包名。",
+        "`System` 是 `java.lang` 包下的最终类，`out` 是 `System` 类中类型为 `PrintStream` 的 `static` 静态字段，而 `println()` 是该 `PrintStream` 对象上的实例方法。",
+        "这三个词合在一起是 Java 的一个保留关键字。",
+        "`out` 是操作系统的私有内核函数。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`java.lang.System` 类内部定义了 `public static final PrintStream out`（标准输出流）。调用 `System.out.println()` 本质上是访问静态字段 `out` 并调用其 `println` 方法。",
+      "card_front": "在经典的控制台打印语句 `System.out.println(\"Ticket Station\");` 中，各组成部分的真实语法身份是什么？",
+      "card_back": "`System` 是 `java.lang` 包下的最终类，`out` 是 `System` 类中类型为 `PrintStream` 的 `static` 静态字段，而 `println()` 是该 `PrintStream` 对象上的实例方法。",
+      "card_hint": "Module 01.5：第一个 Java 程序与源码结构",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub6",
+      "question": "如何将 IPO（Input - Process - Output）思维模型应用到“使用 9 折优惠券计算门票最终价格”这一业务功能中？",
+      "code_snippet": "",
+      "options": [
+        "Input：显示器屏幕；Process：敲击键盘；Output：数据库表。",
+        "Input：用户输入的原始票价与优惠券码；Process：校验优惠券有效性并将票价乘以 0.9；Output：返回最终应付金额与优惠成功提示。",
+        "Input：按下电源键；Process：CPU 风扇转动；Output：关机。",
+        "IPO 模型仅适用于硬件电路设计，不能用于软件开发。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "IPO 是算法与业务逻辑设计的基石：明确输入参数（Input）、执行业务校验与计算转换（Process）、输出格式化结果（Output）。",
+      "card_front": "如何将 IPO（Input - Process - Output）思维模型应用到“使用 9 折优惠券计算门票最终价格”这一业务功能中？",
+      "card_back": "Input：用户输入的原始票价与优惠券码；Process：校验优惠券有效性并将票价乘以 0.9；Output：返回最终应付金额与优惠成功提示。",
+      "card_hint": "Module 01.6：IPO 模型与控制台输入输出",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub6",
+      "question": "在使用 `Scanner` 读取控制台输入时，为什么在调用 `scanner.nextInt()` 之后紧接着调用 `scanner.nextLine()` 会出现“跳过字符串输入”的现象？",
+      "code_snippet": "Scanner scanner = new Scanner(System.in);\nSystem.out.print(\"Enter ticket count: \");\nint count = scanner.nextInt();\nSystem.out.print(\"Enter customer full name: \");\nString name = scanner.nextLine(); // Skipped without waiting for input!",
+      "options": [
+        "因为 Java 21 的 `scanner.nextLine()` 存在官方 Bug。",
+        "因为 `scanner.nextInt()` 只读取数字本身，而将用户按下的回车换行符 `\\n` 留在了输入缓冲区中；紧随其后的 `scanner.nextLine()` 立即读取到这个残留的 `\\n` 并直接返回空字符串。",
+        "因为整数变量耗尽了 `Scanner` 的全部内存。",
+        "因为 Java 不允许在同一个 `main` 方法里既读数字又读字符串。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`nextInt()` / `nextDouble()` 不会消费行尾的换行符 `\\n`。在继续调用 `nextLine()` 读取整行文本前，需要先额外调用一次 `scanner.nextLine()` 清空缓冲区中的残留回车符。",
+      "card_front": "在使用 `Scanner` 读取控制台输入时，为什么在调用 `scanner.nextInt()` 之后紧接着调用 `scanner.nextLine()` 会出现“跳过字符串输入”的现象？",
+      "card_back": "因为 `scanner.nextInt()` 只读取数字本身，而将用户按下的回车换行符 `\\n` 留在了输入缓冲区中；紧随其后的 `scanner.nextLine()` 立即读取到这个残留的 `\\n` 并直接返回空字符串。",
+      "card_hint": "Module 01.6：IPO 模型与控制台输入输出",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s7-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub7",
+      "question": "当开发者在终端依次执行 `javac TicketApp.java` 和 `java TicketApp` 两条命令时，每个阶段分别发生了什么？",
+      "code_snippet": "",
+      "options": [
+        "第一条命令运行程序；第二条命令删除源代码文件。",
+        "`javac` 负责检查语法并将源文件编译为 `TicketApp.class` 字节码；`java` 负责启动 JVM，将类加载到内存并执行 `main` 方法。",
+        "两条命令都会从头重新编译源代码。",
+        "`java TicketApp` 会直接读取 `TicketApp.java` 文本并翻译成机器码。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`javac` 是编译器（Source -> Bytecode），生成 `.class` 文件；`java` 是应用程序启动器，负责启动虚拟机并运行已编译的类（注意参数是不带 `.class` 后缀的类名）。",
+      "card_front": "当开发者在终端依次执行 `javac TicketApp.java` 和 `java TicketApp` 两条命令时，每个阶段分别发生了什么？",
+      "card_back": "`javac` 负责检查语法并将源文件编译为 `TicketApp.class` 字节码；`java` 负责启动 JVM，将类加载到内存并执行 `main` 方法。",
+      "card_hint": "Module 01.7：Java 编译与类加载执行全链路",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s7-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub7",
+      "question": "在 JVM 类加载架构中，`Bytecode Verifier`（字节码校验器）扮演着什么关键的安全角色？",
+      "code_snippet": "",
+      "options": [
+        "自动检查代码注释里的英文拼写错误。",
+        "在字节码执行前对其进行严格校验，确保符合 JVM 规范、防止操作数栈溢出、拦截非法类型转换，并防止恶意篡改的 `.class` 文件破坏系统内存安全。",
+        "检查电脑是否连接了 Wi-Fi 网络。",
+        "自动压缩硬盘上的 `.class` 文件体积。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "字节码校验器是 JVM 安全沙箱的核心防线。因为 `.class` 文件可能来自网络或被恶意工具篡改，执行引擎运行前必须通过校验器确认其结构与类型安全。",
+      "card_front": "在 JVM 类加载架构中，`Bytecode Verifier`（字节码校验器）扮演着什么关键的安全角色？",
+      "card_back": "在字节码执行前对其进行严格校验，确保符合 JVM 规范、防止操作数栈溢出、拦截非法类型转换，并防止恶意篡改的 `.class` 文件破坏系统内存安全。",
+      "card_hint": "Module 01.7：Java 编译与类加载执行全链路",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s8-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub8",
+      "question": "在完成“控制台打印当前月历（周一至周日 7 列网格）”挑战时，首先需要计算出哪两个关键技术参数？",
+      "code_snippet": "",
+      "options": [
+        "CPU 主频与显示器分辨率。",
+        "当月 1 号是星期几（用于决定第一行前面需要填充多少个空白格）以及当月总共有多少天（28/29/30/31）。",
+        "硬盘剩余空间与国家电话区号。",
+        "当月已售出的门票总数。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "绘制 7 列日历网格的核心算法：① 获取当月 1 号对应的星期几以打印前置空格对齐；② 获取当月总天数循环打印日期，并在每满 7 列时换行。",
+      "card_front": "在完成“控制台打印当前月历（周一至周日 7 列网格）”挑战时，首先需要计算出哪两个关键技术参数？",
+      "card_back": "当月 1 号是星期几（用于决定第一行前面需要填充多少个空白格）以及当月总共有多少天（28/29/30/31）。",
+      "card_hint": "Module 01.8：实战挑战：控制台月历生成器",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s8-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub8",
+      "question": "在 Java 8+ 中，针对闰年 2024 年 2 月调用 `YearMonth.of(2024, 2).lengthOfMonth()` 会返回什么结果？",
+      "code_snippet": "YearMonth ym = YearMonth.of(2024, 2); // Feb 2024 (leap year)\nint daysInMonth = ym.lengthOfMonth();\nSystem.out.println(daysInMonth);",
+      "options": [
+        "返回 `29`。",
+        "对所有年份的 2 月都固定返回 `28`。",
+        "抛出异常，因为 2 月必须手动传入天数。",
+        "返回 `30`。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "`java.time.YearMonth.lengthOfMonth()` 内置了标准公历闰年算法（2024 能被 4 整除且不被 100 整除，是闰年），因此自动准确返回 `29`。",
+      "card_front": "在 Java 8+ 中，针对闰年 2024 年 2 月调用 `YearMonth.of(2024, 2).lengthOfMonth()` 会返回什么结果？",
+      "card_back": "返回 `29`。",
+      "card_hint": "Module 01.8：实战挑战：控制台月历生成器",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub9",
+      "question": "Java 编译期报错 `error: cannot find symbol`（找不到符号）通常是由什么原因引起的？",
+      "code_snippet": "",
+      "options": [
+        "JVM 运行时内存不足。",
+        "变量名或方法名拼写错误（大小写不匹配）、使用了未声明/超出作用域的变量，或者忘记 `import` 所需的类。",
+        "`.class` 文件在运行中途损坏。",
+        "操作系统缺少中文字体。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`cannot find symbol` 是最常见的编译期错误：当编译器在当前作用域和已导入的包中找不到某个标识符（变量、方法、类名）的定义时就会报此错误。",
+      "card_front": "Java 编译期报错 `error: cannot find symbol`（找不到符号）通常是由什么原因引起的？",
+      "card_back": "变量名或方法名拼写错误（大小写不匹配）、使用了未声明/超出作用域的变量，或者忘记 `import` 所需的类。",
+      "card_hint": "Module 01.9：常见编译错误与运行时排错指南",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod1-s9-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod1-sub9",
+      "question": "在终端执行 `java` 命令时遇到 `Error: Could not find or load main class com.ticket.MainApp`，最常见的原因是什么？",
+      "code_snippet": "",
+      "options": [
+        "电脑没有插耳机。",
+        "执行命令时所在的当前目录或类路径（Classpath）不正确，或者对声明了 `package` 的类没有在包根目录下使用全限定类名（Fully Qualified Class Name）运行。",
+        "Java 21 禁止将类命名为 `MainApp`。",
+        "`main` 方法里没有写 `System.out.println`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "当类包含 `package com.ticket;` 声明时，必须站在类路径（Classpath）的根目录下执行 `java com.ticket.MainApp`，而不能进入 `com/ticket` 子目录直接执行 `java MainApp`。",
+      "card_front": "在终端执行 `java` 命令时遇到 `Error: Could not find or load main class com.ticket.MainApp`，最常见的原因是什么？",
+      "card_back": "执行命令时所在的当前目录或类路径（Classpath）不正确，或者对声明了 `package` 的类没有在包根目录下使用全限定类名（Fully Qualified Class Name）运行。",
+      "card_hint": "Module 01.9：常见编译错误与运行时排错指南",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "Java 10 引入的 `var` 关键字的技术本质是什么？它与 JavaScript 中的 `var` 有何本质区别？",
+      "code_snippet": "var ticketPrice = 150_000;\n// ticketPrice = \"FREE\"; // Is this line valid?",
+      "options": [
+        "`var` 让 Java 变成了动态类型语言，可以像 JavaScript 一样随时把整型变量重新赋值为字符串 `ticketPrice = \"FREE\"`。",
+        "`var` 只是局部变量类型推断（Local Variable Type Inference）的编译期语法糖：变量的具体静态类型（如 `int`）在编译时就已确定并锁定，后续赋值为 `\"FREE\"` 会直接导致编译错误。",
+        "`var` 是 JVM 新增的一种运行时数据类型，等价于 `Object`。",
+        "使用 `var` 会导致运行时性能下降，因为 JVM 必须在运行时猜类型。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java 的 `var`（JEP 286）仅在编译阶段根据右侧初始化表达式推断类型，生成的 `.class` 字节码与显式声明 `int ticketPrice = 150_000;` 完全一致，Java 依然是 100% 强静态类型语言。",
+      "card_front": "Java 10 引入的 `var` 关键字的技术本质是什么？它与 JavaScript 中的 `var` 有何本质区别？",
+      "card_back": "`var` 只是局部变量类型推断（Local Variable Type Inference）的编译期语法糖：变量的具体静态类型（如 `int`）在编译时就已确定并锁定，后续赋值为 `\"FREE\"` 会直接导致编译错误。",
+      "card_hint": "Module 02.1：变量声明与 var 局部变量类型推断",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "在现代 Java 开发中，合理使用 `var`（局部变量类型推断）的主要优势是什么？",
+      "code_snippet": "// Traditional style (pre-Java 10):\nMap<String, List<TicketOrder>> orderMap = new HashMap<String, List<TicketOrder>>();\n\n// Modern style (Java 10+):\nvar orderMap = new HashMap<String, List<TicketOrder>>();",
+      "options": [
+        "让程序运行更快、内存占用更少，因为 JVM 跳过了类型分配。",
+        "消除赋值语句左右两侧重复冗长的类型声明（样板代码），提升代码可读性，让开发者专注于有意义的变量命名，同时保留 100% 的编译期静态类型安全。",
+        "允许变量在运行期间动态改变数据类型。",
+        "自动拦截并消除所有的 `NullPointerException`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "根据 OpenJDK JEP 286 官方指南，`var` 的核心价值是在不牺牲任何静态类型安全性和运行性能的前提下，简化冗长的泛型或复杂类名声明，使代码更整洁易读。",
+      "card_front": "在现代 Java 开发中，合理使用 `var`（局部变量类型推断）的主要优势是什么？",
+      "card_back": "消除赋值语句左右两侧重复冗长的类型声明（样板代码），提升代码可读性，让开发者专注于有意义的变量命名，同时保留 100% 的编译期静态类型安全。",
+      "card_hint": "Module 02.1：变量声明与 var 局部变量类型推断",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "在以下代码片段的 4 种声明中，哪一个对 `var` 的使用在 Java 中是合法（可编译通过）的？",
+      "code_snippet": "// Case 1: var ticketCount;\n// Case 2: var user = null;\n// Case 3: var seatList = new ArrayList<String>();\n// Case 4: public var calculateTotal(var price) { return price * 2; }",
+      "options": [
+        "情况 1、2 和 3 均合法。",
+        "只有情况 3（`var seatList = new ArrayList<String>();`）合法；情况 1（无初始值）、情况 2（赋值为 `null`）和情况 4（用于方法参数/返回值）都会导致编译错误。",
+        "从 Java 17 LTS 开始，4 种情况全部合法。",
+        "情况 2 和 4 合法。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`var` 的核心铁律：① 只能用于局部变量且必须在声明时立即初始化；② 初始值不能是 `null`（因为 `null` 没有具体类型信息）；③ 严禁用于类字段、方法参数或方法返回类型。",
+      "card_front": "在以下代码片段的 4 种声明中，哪一个对 `var` 的使用在 Java 中是合法（可编译通过）的？",
+      "card_back": "只有情况 3（`var seatList = new ArrayList<String>();`）合法；情况 1（无初始值）、情况 2（赋值为 `null`）和情况 4（用于方法参数/返回值）都会导致编译错误。",
+      "card_hint": "Module 02.1：变量声明与 var 局部变量类型推断",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "将 `var` 与空的菱形运算符 `<>` 结合使用（`var list = new ArrayList<>();`）会掉入什么常见陷阱？",
+      "code_snippet": "var list = new ArrayList<>();\nlist.add(\"VIP-Ticket\");\n// String ticket = list.get(0); // What error occurs on this line?",
+      "options": [
+        "编译器会自动根据后续第一次 `add` 的元素把类型修正为 `ArrayList<String>`。",
+        "因为左侧（`var`）和右侧（`<>`）都没有给出泛型类型参数，编译器只能将其推断为 `ArrayList<Object>`，导致 `list.get(0)` 返回 `Object`，无法直接赋给 `String` 变量。",
+        "调用 `list.add()` 时会立即抛出 `NullPointerException`。",
+        "Java 语法完全禁止 `var` 与集合框架一起使用。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "当 `var` 与空 `<>` 同时出现时，编译器没有任何泛型上下文依据，只能退化推断为顶层父类 `ArrayList<Object>`。因此使用 `var` 时右侧应显式写明泛型：`var list = new ArrayList<String>();`。",
+      "card_front": "将 `var` 与空的菱形运算符 `<>` 结合使用（`var list = new ArrayList<>();`）会掉入什么常见陷阱？",
+      "card_back": "因为左侧（`var`）和右侧（`<>`）都没有给出泛型类型参数，编译器只能将其推断为 `ArrayList<Object>`，导致 `list.get(0)` 返回 `Object`，无法直接赋给 `String` 变量。",
+      "card_hint": "Module 02.1：变量声明与 var 局部变量类型推断",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "代码片段中关于 Lambda 表达式使用 `var` 的两种写法，在 Java 中是否合法？为什么？",
+      "code_snippet": "// Declaration 1:\nvar printer = (String s) -> System.out.println(s);\n\n// Declaration 2:\nConsumer<String> consumer = (var s) -> System.out.println(s);",
+      "options": [
+        "自 Java 10 起两种写法都完全合法。",
+        "声明 1 编译失败，因为 Lambda 表达式必须依赖明确的目标类型（函数式接口）而不能直接赋给 `var` 变量；声明 2 在 Java 11+ 中合法（允许在 Lambda 形参中使用 `var` 以便添加如 `@Nonnull var s` 的注解）。",
+        "两种写法都会编译失败，因为 Lambda 中严禁出现 `var`。",
+        "声明 1 合法，声明 2 编译失败。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "① `var printer = (String s) -> ...` 无法编译，因为同一个 Lambda 可以匹配任意签名兼容的函数式接口，编译器无法凭空决定目标类型；② Java 11（JEP 323）允许在 Lambda 参数列表里写 `(var s) -> ...`，方便在参数上挂载类型注解。",
+      "card_front": "代码片段中关于 Lambda 表达式使用 `var` 的两种写法，在 Java 中是否合法？为什么？",
+      "card_back": "声明 1 编译失败，因为 Lambda 表达式必须依赖明确的目标类型（函数式接口）而不能直接赋给 `var` 变量；声明 2 在 Java 11+ 中合法（允许在 Lambda 形参中使用 `var` 以便添加如 `@Nonnull var s` 的注解）。",
+      "card_hint": "Module 02.1：变量声明与 var 局部变量类型推断",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s1-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub1",
+      "question": "如果方法内部的局部变量只声明而没有赋初始值（`int availableTickets;`），随后直接打印或读取它，会发生什么？",
+      "code_snippet": "public void processOrder() {\n    int availableTickets;\n    System.out.println(availableTickets); // How does this line behave?\n}",
+      "options": [
+        "像类的成员变量一样，自动获得默认值 `0`。",
+        "编译器直接报编译期错误：`variable availableTickets might not have been initialized`（变量可能尚未初始化）。",
+        "运行时抛出 `NullPointerException`。",
+        "打印出内存中残留的随机垃圾数字。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "在 Java 中，分配在栈帧（Stack Frame）上的局部变量绝对不会自动赋予默认值！编译器通过明确赋值分析（Definite Assignment Analysis）强制要求局部变量在读取前必须显式初始化（只有堆上的实例字段/静态字段才会有默认值 `0`/`false`/`null`）。",
+      "card_front": "如果方法内部的局部变量只声明而没有赋初始值（`int availableTickets;`），随后直接打印或读取它，会发生什么？",
+      "card_back": "编译器直接报编译期错误：`variable availableTickets might not have been initialized`（变量可能尚未初始化）。",
+      "card_hint": "Module 02.1：变量声明与 var 局部变量类型推断",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "在票务系统或金融支付系统中，为什么绝对禁止使用 `double` 或 `float` 来存储门票价格与账户余额？",
+      "code_snippet": "double priceA = 0.1;\ndouble priceB = 0.2;\nSystem.out.println(priceA + priceB == 0.3); // Output: false! (0.30000000000000004)",
+      "options": [
+        "因为 `double` 比 `BigDecimal` 消耗更多内存。",
+        "因为 `double` 和 `float` 采用 IEEE 754 二进制浮点数标准，无法精确表示像 `0.1` 这样的十进制小数，会产生舍入精度误差；涉及金额计算必须使用 `BigDecimal`。",
+        "因为 PostgreSQL 数据库不支持 `double` 类型。",
+        "因为 `double` 无法存储超过 1 亿的数值。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "二进制浮点数无法精确表示十进制的 `1/10`（如同十进制无法精确表示 `1/3 = 0.333...`），成千上万笔订单累加后会导致严重的账目分文偏差。金融金额必须使用 `BigDecimal` 或以最小货币单位（分）的 `long` 存储。",
+      "card_front": "在票务系统或金融支付系统中，为什么绝对禁止使用 `double` 或 `float` 来存储门票价格与账户余额？",
+      "card_back": "因为 `double` 和 `float` 采用 IEEE 754 二进制浮点数标准，无法精确表示像 `0.1` 这样的十进制小数，会产生舍入精度误差；涉及金额计算必须使用 `BigDecimal`。",
+      "card_hint": "Module 02.2：8 大基本数据类型、整数溢出与 BigDecimal",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "在以下 `byte` 变量自增代码中，整数溢出（Integer Overflow）是如何发生的？",
+      "code_snippet": "byte maxTickets = 127;\nmaxTickets++;\nSystem.out.println(maxTickets); // Output: ?",
+      "options": [
+        "正常打印 `128`。",
+        "打印 `-128`，因为 Java 的 `byte` 是有符号 8 位二进制补码整数（范围 `-128` 到 `127`），当最大值 `127`（`01111111`）加 1 时，符号位进位变成 `10000000`，即回绕（Wrap-around）为最小值 `-128`。",
+        "运行时抛出 `ArithmeticException: integer overflow` 异常。",
+        "编译器报错，因为 `byte` 不能超过上限。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java 的整数类型采用二进制补码（Two’s Complement）表示，默认算术运算发生溢出时不会抛异常，而是静默回绕到相反符号的极值（若需溢出抛异常应使用 `Math.addExact()`）。",
+      "card_front": "在以下 `byte` 变量自增代码中，整数溢出（Integer Overflow）是如何发生的？",
+      "card_back": "打印 `-128`，因为 Java 的 `byte` 是有符号 8 位二进制补码整数（范围 `-128` 到 `127`），当最大值 `127`（`01111111`）加 1 时，符号位进位变成 `10000000`，即回绕（Wrap-around）为最小值 `-128`。",
+      "card_hint": "Module 02.2：8 大基本数据类型、整数溢出与 BigDecimal",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "为什么在 Java 中表达式 `(0.1 + 0.2 == 0.3)` 的结果是 `false`，且 `0.1 + 0.2` 打印出来是 `0.30000000000000004`？",
+      "code_snippet": "double a = 0.1;\ndouble b = 0.2;\nSystem.out.println(a + b);        // 0.30000000000000004\nSystem.out.println(a + b == 0.3); // false",
+      "options": [
+        "因为 Intel/AMD 处理器存在硬件级缺陷。",
+        "因为 `double` 遵循 IEEE 754 二进制浮点标准：十进制的 `0.1` 在二进制下是无限循环小数（`0.0001100110011...₂`），在 64 位有限长度截断舍入后相加会产生极其微小的尾数误差。",
+        "因为 Java 在比较前先把 `a + b` 转成了 `String`。",
+        "因为 Java 语法禁止对浮点数使用 `==` 运算符。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "十进制中的 `0.1`（1/10）转换为以 2 为底的二进制小数时是无限循环的。受限于 `double` 的 53 位有效尾数位，存储和相加时必然发生舍入，最终得到 `0.30000000000000004`。",
+      "card_front": "为什么在 Java 中表达式 `(0.1 + 0.2 == 0.3)` 的结果是 `false`，且 `0.1 + 0.2` 打印出来是 `0.30000000000000004`？",
+      "card_back": "因为 `double` 遵循 IEEE 754 二进制浮点标准：十进制的 `0.1` 在二进制下是无限循环小数（`0.0001100110011...₂`），在 64 位有限长度截断舍入后相加会产生极其微小的尾数误差。",
+      "card_hint": "Module 02.2：8 大基本数据类型、整数溢出与 BigDecimal",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s2-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub2",
+      "question": "使用 `BigDecimal` 进行精确金额计算时，哪种初始化方式才是正确的、不会引入浮点数误差？",
+      "code_snippet": "// Approach 1:\nBigDecimal price1 = new BigDecimal(0.1);\n\n// Approach 2:\nBigDecimal price2 = new BigDecimal(\"0.1\");\n\n// Approach 3:\nBigDecimal price3 = BigDecimal.valueOf(0.1);",
+      "options": [
+        "方式 1（`new BigDecimal(0.1)`）最好，因为直接传入了 `double` 字面量。",
+        "只有方式 2（`new BigDecimal(\"0.1\")` 字符串构造器）和方式 3（`BigDecimal.valueOf(0.1)`）是正确的；方式 1 会把 `double` 本身携带的二进制精度误差原封不动地带入 `BigDecimal`（变成 `0.10000000000000000555...`）。",
+        "三种方式都会产生相同的误差。",
+        "必须调用 `Double.toBigDecimal()` 才能初始化。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`new BigDecimal(double)` 构造器会忠实地记录下 `double` 在内存中的近似二进制值。开发规范强制要求使用 `new BigDecimal(\"0.1\")` 或 `BigDecimal.valueOf(double)`。",
+      "card_front": "使用 `BigDecimal` 进行精确金额计算时，哪种初始化方式才是正确的、不会引入浮点数误差？",
+      "card_back": "只有方式 2（`new BigDecimal(\"0.1\")` 字符串构造器）和方式 3（`BigDecimal.valueOf(0.1)`）是正确的；方式 1 会把 `double` 本身携带的二进制精度误差原封不动地带入 `BigDecimal`（变成 `0.10000000000000000555...`）。",
+      "card_hint": "Module 02.2：8 大基本数据类型、整数溢出与 BigDecimal",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "将包装类（如 `Integer`）自动拆箱（Auto-unboxing）为基本数据类型（`int`）时，最危险的运行时隐患是什么？",
+      "code_snippet": "Integer seatCount = null;\nint availableSeats = seatCount; // What happens when this line runs?",
+      "options": [
+        "如果包装类为 `null`，基本类型变量会自动获得默认值 `0`。",
+        "如果包装类引用为 `null`，JVM 在底层自动调用 `seatCount.intValue()` 时会直接抛出 `NullPointerException` 导致程序崩溃。",
+        "编译器直接报错拒绝编译。",
+        "基本类型变量会被赋值为 `-1`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "自动拆箱是编译器语法糖：`int availableSeats = seatCount;` 编译后会变成 `seatCount.intValue()`。当数据库查询或 DTO 传入的 `Integer` 为 `null` 时，拆箱就会触发 `NullPointerException`。",
+      "card_front": "将包装类（如 `Integer`）自动拆箱（Auto-unboxing）为基本数据类型（`int`）时，最危险的运行时隐患是什么？",
+      "card_back": "如果包装类引用为 `null`，JVM 在底层自动调用 `seatCount.intValue()` 时会直接抛出 `NullPointerException` 导致程序崩溃。",
+      "card_hint": "Module 02.3：包装类缓存池与 JVM 栈/堆内存模型",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q11",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "以下代码输出什么结果？JVM 的哪项内存机制解释了两次 `==` 比较结果的差异？",
+      "code_snippet": "Integer a1 = 100, a2 = 100;\nInteger b1 = 128, b2 = 128;\n\nSystem.out.println((a1 == a2) + \" \" + (b1 == b2));",
+      "options": [
+        "`true true`，因为 100 和 128 都是相等的整数。",
+        "`false false`，因为 `Integer` 是引用类型，`==` 永远返回 `false`。",
+        "`true false`，因为自动装箱调用 `Integer.valueOf()`，JVM 默认缓存了 `[-128, 127]` 范围内的 `Integer` 实例（`IntegerCache`），所以 `a1` 和 `a2` 指向同一个缓存对象；而 `128` 超出缓存范围，在堆上新建了两个独立对象。",
+        "`false true`，因为只有大于 127 的数字才会被缓存。"
+      ],
+      "correct_option_index": 2,
+      "explanation": "`Integer.valueOf(int)` 内部维护了 `IntegerCache`（默认缓存 `-128` 到 `127`）。因此 `100` 命中缓存返回同一引用，而 `128` 每次都 `new Integer(128)`。比较包装类的值请永远使用 `.equals()` 或 `Objects.equals()`！",
+      "card_front": "以下代码输出什么结果？JVM 的哪项内存机制解释了两次 `==` 比较结果的差异？",
+      "card_back": "`true false`，因为自动装箱调用 `Integer.valueOf()`，JVM 默认缓存了 `[-128, 127]` 范围内的 `Integer` 实例（`IntegerCache`），所以 `a1` 和 `a2` 指向同一个缓存对象；而 `128` 超出缓存范围，在堆上新建了两个独立对象。",
+      "card_hint": "Module 02.3：包装类缓存池与 JVM 栈/堆内存模型",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q14",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "在 Spring Boot / JPA 项目中，为什么用 `==` 比较两个 `Long` 类型主键 ID（如 `currentUserId == requestUserId`）是一个能混过本地单元测试、却在生产环境集中爆发的致命 Bug？",
+      "code_snippet": "// In OrderService.java\nLong currentUserId = user.getId(); // Long wrapper type\nLong requestUserId = request.getUserId();\n\nif (currentUserId == requestUserId) {\n    // Allow ticket cancellation / refund\n}",
+      "options": [
+        "因为生产环境的 Linux 服务器与本地 Windows 电脑对 `==` 的运算规则不同。",
+        "本地测试数据量小，用户 ID 通常 `<= 127`，命中 `LongCache` 缓存池导致 `==` 巧合返回 `true`；一旦到了生产环境 ID 超过 `127`，JVM 在堆上分配不同对象，`==` 恒为 `false`，导致正常业务被拒绝。必须使用 `Objects.equals()`。",
+        "因为 PostgreSQL 的 `BIGINT` 与 Java 的 `Long` 不兼容。",
+        "因为 Spring Boot 只在测试环境下开启自动拆箱。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "与 `IntegerCache` 一样，`Long.valueOf()` 也只缓存 `[-128, 127]`。测试环境 ID 为 `1, 2, 10` 时 `==` 碰巧为真，上线后用户 ID 变成 `10086` 时全部判为不相等。切记使用 `Objects.equals(id1, id2)`！",
+      "card_front": "在 Spring Boot / JPA 项目中，为什么用 `==` 比较两个 `Long` 类型主键 ID（如 `currentUserId == requestUserId`）是一个能混过本地单元测试、却在生产环境集中爆发的致命 Bug？",
+      "card_back": "本地测试数据量小，用户 ID 通常 `<= 127`，命中 `LongCache` 缓存池导致 `==` 巧合返回 `true`；一旦到了生产环境 ID 超过 `127`，JVM 在堆上分配不同对象，`==` 恒为 `false`，导致正常业务被拒绝。必须使用 `Objects.equals()`。",
+      "card_hint": "Module 02.3：包装类缓存池与 JVM 栈/堆内存模型",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "以下代码在控制台输出什么？Java 的参数传递机制如何解释这一现象？",
+      "code_snippet": "String s = \"hi\";\nchangeIt(s);\nSystem.out.println(s);\n\n// Method definition:\n// void changeIt(String x) { x = \"bye\"; }",
+      "options": [
+        "输出 `bye`，因为 `String` 是引用类型，Java 采用按引用传递（Pass-by-reference）修改了原变量 `s`。",
+        "输出 `hi`，因为 Java 是 100% 按值传递（Pass-by-value）：传递对象时传入的是“引用地址的副本”。在方法内执行 `x = \"bye\"` 只是让局部形参 `x` 指向了新字符串，调用方的变量 `s` 依然指向原来的 `\"hi\"`。",
+        "输出 `null`，因为方法结束时原字符串被垃圾回收了。",
+        "编译报错，因为不能把 `String` 传给 `void` 方法。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java 中只有按值传递（Pass-by-value）！对于引用类型，传递的值是引用地址的拷贝。在方法内部重新给形参变量赋值（`x = ...`），绝不会改变外部实参变量所指向的内存地址。",
+      "card_front": "以下代码在控制台输出什么？Java 的参数传递机制如何解释这一现象？",
+      "card_back": "输出 `hi`，因为 Java 是 100% 按值传递（Pass-by-value）：传递对象时传入的是“引用地址的副本”。在方法内执行 `x = \"bye\"` 只是让局部形参 `x` 指向了新字符串，调用方的变量 `s` 依然指向原来的 `\"hi\"`。",
+      "card_hint": "Module 02.3：包装类缓存池与 JVM 栈/堆内存模型",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "观察下面的 `createBooking()` 方法，JVM 是如何在栈内存（Stack）和堆内存（Heap）之间分配数据的？",
+      "code_snippet": "public void createBooking() {\n    int ticketCount = 2;\n    String customerName = \"Nguyen Van A\";\n    TicketOrder order = new TicketOrder(101L, customerName);\n}",
+      "options": [
+        "所有局部变量（`ticketCount`、`customerName`、`order`）和对象实例全部存储在堆（Heap）上。",
+        "局部变量（保存基本类型值 `2` 的 `ticketCount`，以及保存引用指针的 `customerName` 和 `order`）存储在 `createBooking` 的栈帧（Stack Frame）中；而真正的对象实例（`new TicketOrder(...)` 和 `String` 对象）分配在堆（Heap）内存中。",
+        "`ticketCount` 在栈上，而 `order` 引用变量本身存储在堆上。",
+        "栈只存字节码指令，所有变量都在堆上。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "每次方法调用都会在当前线程栈（Stack）上压入一个栈帧，用来存放基本类型局部变量和对象引用指针；而通过 `new` 创建出来的对象实体及其内部字段则全部存放在共享堆（Heap）内存中。",
+      "card_front": "观察下面的 `createBooking()` 方法，JVM 是如何在栈内存（Stack）和堆内存（Heap）之间分配数据的？",
+      "card_back": "局部变量（保存基本类型值 `2` 的 `ticketCount`，以及保存引用指针的 `customerName` 和 `order`）存储在 `createBooking` 的栈帧（Stack Frame）中；而真正的对象实例（`new TicketOrder(...)` 和 `String` 对象）分配在堆（Heap）内存中。",
+      "card_hint": "Module 02.3：包装类缓存池与 JVM 栈/堆内存模型",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "关于 Java 中栈内存（Stack）与堆内存（Heap）的作用域、访问速度与内存回收机制，哪项对比最准确？",
+      "code_snippet": "",
+      "options": [
+        "Stack 由所有线程共享；Heap 是每个线程私有的。",
+        "Stack 由垃圾回收器（GC）定期清理；Heap 按 FIFO 顺序自动释放。",
+        "每个线程拥有自己独立私有的 Stack（天然线程安全），通过栈顶指针 LIFO 极速分配并在方法返回时立即自动释放；Heap 由所有线程共享，用于存放生命周期各异的对象，必须依赖垃圾回收器（GC）回收不可达对象。",
+        "Stack 的容量比 Heap 大得多，且永远不会溢出。"
+      ],
+      "correct_option_index": 2,
+      "explanation": "线程栈（Stack）随线程而生、随方法出栈即刻释放，速度极快；堆（Heap）是全局共享资源池，对象生命周期不固定，由 GC 负责追踪并清理不再被引用的垃圾对象。",
+      "card_front": "关于 Java 中栈内存（Stack）与堆内存（Heap）的作用域、访问速度与内存回收机制，哪项对比最准确？",
+      "card_back": "每个线程拥有自己独立私有的 Stack（天然线程安全），通过栈顶指针 LIFO 极速分配并在方法返回时立即自动释放；Heap 由所有线程共享，用于存放生命周期各异的对象，必须依赖垃圾回收器（GC）回收不可达对象。",
+      "card_hint": "Module 02.3：包装类缓存池与 JVM 栈/堆内存模型",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s3-q7",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub3",
+      "question": "观察代码片段中的两个异常案例：情况 1 和情况 2 分别会触发什么 JVM Error？原因是什么？",
+      "code_snippet": "// Case 1:\npublic void calculateTicketDiscount() {\n    calculateTicketDiscount(); // Infinite recursion without base case\n}\n\n// Case 2:\npublic void loadAllOrders() {\n    List<byte[]> list = new ArrayList<>();\n    while (true) {\n        list.add(new byte[10 * 1024 * 1024]); // Continuously allocate 10MB into List\n    }\n}",
+      "options": [
+        "两种情况都会抛出 `NullPointerException`。",
+        "情况 1 抛出 `StackOverflowError`（无限递归导致方法调用栈帧耗尽线程栈空间）；情况 2 抛出 `OutOfMemoryError: Java heap space`（循环创建 10MB 数组并被 `list` 强引用持有，GC 无法回收导致堆内存耗尽）。",
+        "情况 1 抛出 `OutOfMemoryError`；情况 2 抛出 `StackOverflowError`。",
+        "`javac` 编译器能检测死循环，在编译期直接拒绝编译。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "这是 JVM 最经典的两大内存错误：① 调用层级过深或无限递归撑爆线程栈（`-Xss`）触发 `StackOverflowError`；② 堆上持续分配大对象且存在强引用（Memory Leak）撑爆堆上限（`-Xmx`）触发 `OutOfMemoryError`。",
+      "card_front": "观察代码片段中的两个异常案例：情况 1 和情况 2 分别会触发什么 JVM Error？原因是什么？",
+      "card_back": "情况 1 抛出 `StackOverflowError`（无限递归导致方法调用栈帧耗尽线程栈空间）；情况 2 抛出 `OutOfMemoryError: Java heap space`（循环创建 10MB 数组并被 `list` 强引用持有，GC 无法回收导致堆内存耗尽）。",
+      "card_hint": "Module 02.3：包装类缓存池与 JVM 栈/堆内存模型",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub4",
+      "question": "在计算 Ticket Station 已售门票百分比时，以下代码会打印什么结果？",
+      "code_snippet": "int soldTickets = 50;\nint totalTickets = 200;\ndouble percentage = (soldTickets / totalTickets) * 100;\nSystem.out.println(percentage);",
+      "options": [
+        "`25.0`",
+        "`0.0`，因为 `soldTickets / totalTickets` 执行的是整数除法（`int / int`），`50 / 200` 小数部分被直接截断为 `0`，随后 `0 * 100` 变成 `0.0`。",
+        "`50.0`",
+        "编译报错，因为数值类型不兼容。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java 中两个 `int` 相除始终执行整数除法并直接丢弃小数位（`50 / 200 = 0`）。要获得正确结果 `25.0`，必须先将其中一个操作数强转为浮点数：`(double) soldTickets / totalTickets * 100`。",
+      "card_front": "在计算 Ticket Station 已售门票百分比时，以下代码会打印什么结果？",
+      "card_back": "`0.0`，因为 `soldTickets / totalTickets` 执行的是整数除法（`int / int`），`50 / 200` 小数部分被直接截断为 `0`，随后 `0 * 100` 变成 `0.0`。",
+      "card_hint": "Module 02.4：算术运算符、整数除法与取模符号规则",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub4",
+      "question": "Java 中取模运算符（`%`）对负数的符号规则是如何规定的？`System.out.println((-7 % 3) + \" \" + (7 % -3));` 输出什么？",
+      "code_snippet": "System.out.println((-7 % 3) + \" \" + (7 % -3));",
+      "options": [
+        "`1 1`",
+        "`-1 1`，因为 Java 中取模运算结果 `%` 的符号始终与“被除数（左操作数）”保持一致，而与除数（右操作数）的符号无关。",
+        "`-1 -1`",
+        "`1 -1`"
+      ],
+      "correct_option_index": 1,
+      "explanation": "根据《Java 语言规范》，取模满足恒等式 `a % b = a - (a / b) * b`。因此 `-7 % 3 = -1`，`7 % -3 = 1`，余数的正负号永远跟随左操作数（被除数）。",
+      "card_front": "Java 中取模运算符（`%`）对负数的符号规则是如何规定的？`System.out.println((-7 % 3) + \" \" + (7 % -3));` 输出什么？",
+      "card_back": "`-1 1`，因为 Java 中取模运算结果 `%` 的符号始终与“被除数（左操作数）”保持一致，而与除数（右操作数）的符号无关。",
+      "card_hint": "Module 02.4：算术运算符、整数除法与取模符号规则",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub5",
+      "question": "在 `if` 条件判断中，短路与（`&&`）和按位/非短路与（`&`）有什么决定性区别？",
+      "code_snippet": "Ticket ticket = null;\nif (ticket != null && ticket.isAvailable()) { ... } // Statement 1\nif (ticket != null & ticket.isAvailable()) { ... }  // Statement 2",
+      "options": [
+        "两行代码行为完全一样，没有任何区别。",
+        "第 1 行（`&&`）是空安全的：当左侧为 `false` 时右侧直接跳过不执行；第 2 行（`&`）是危险的：`&` 会强制计算左右两侧表达式，当 `ticket` 为 `null` 时右侧仍会执行并抛出 `NullPointerException`。",
+        "第 1 行只能在 Java 8 及以下版本运行。",
+        "`&&` 只能用于数字，而 `&` 用于对象。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`&&` 和 `||` 具备短路求值（Short-circuit Evaluation）特性：一旦左操作数已能决定整体布尔结果，右操作数就不再执行。对布尔表达式使用 `&` 或 `|` 会强制求值两侧，极易引发空指针崩溃。",
+      "card_front": "在 `if` 条件判断中，短路与（`&&`）和按位/非短路与（`&`）有什么决定性区别？",
+      "card_back": "第 1 行（`&&`）是空安全的：当左侧为 `false` 时右侧直接跳过不执行；第 2 行（`&`）是危险的：`&` 会强制计算左右两侧表达式，当 `ticket` 为 `null` 时右侧仍会执行并抛出 `NullPointerException`。",
+      "card_hint": "Module 02.5：短路逻辑运算符与位掩码权限控制",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub5",
+      "question": "在使用位掩码（Bitmask）实现的 RBAC 权限控制系统中，哪个位运算表达式可以检查 `userPerms` 是否包含 `PERM_READ`（`0b0001`）权限？",
+      "code_snippet": "int PERM_READ = 1;   // 0001\nint PERM_WRITE = 2;  // 0010\nint PERM_DELETE = 4; // 0100\nint userPerms = PERM_READ | PERM_WRITE; // 0011\n\n// Check whether userPerms contains PERM_READ:\nboolean hasRead = ...;",
+      "options": [
+        "`(userPerms & PERM_READ) == PERM_READ`",
+        "`(userPerms | PERM_READ) == 0`",
+        "`(userPerms ^ PERM_READ) == 0`",
+        "`userPerms << PERM_READ`"
+      ],
+      "correct_option_index": 0,
+      "explanation": "按位与（`&`）只在两个操作数对应二进制位都为 `1` 时才返回 `1`。因此 `(userPerms & PERM_READ) == PERM_READ` 能以极高的 CPU 效率判断目标权限位是否已开启。",
+      "card_front": "在使用位掩码（Bitmask）实现的 RBAC 权限控制系统中，哪个位运算表达式可以检查 `userPerms` 是否包含 `PERM_READ`（`0b0001`）权限？",
+      "card_back": "`(userPerms & PERM_READ) == PERM_READ`",
+      "card_hint": "Module 02.5：短路逻辑运算符与位掩码权限控制",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub6",
+      "question": "当在代码中将 `int`（值为 `130`）强制窄化转换（Narrowing Conversion）为 `byte` 时会发生什么？",
+      "code_snippet": "int largeNumber = 130;\nbyte b = (byte) largeNumber;\nSystem.out.println(b);",
+      "options": [
+        "正常打印 `130`。",
+        "打印 `-126`，因为 JVM 会直接截断高 24 位，只保留 `130` 的低 8 位（二进制 `10000010`），在 8 位有符号补码中代表 `-126`。",
+        "运行时抛出 `ClassCastException`。",
+        "报编译期错误。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "窄化基本类型转换会直接丢弃高位比特，仅保留目标类型的低位比特。`130` 的低 8 位 `10000010` 最高符号位为 `1`（负数），按二进制补码计算为 `-(256 - 130) = -126`。",
+      "card_front": "当在代码中将 `int`（值为 `130`）强制窄化转换（Narrowing Conversion）为 `byte` 时会发生什么？",
+      "card_back": "打印 `-126`，因为 JVM 会直接截断高 24 位，只保留 `130` 的低 8 位（二进制 `10000010`），在 8 位有符号补码中代表 `-126`。",
+      "card_hint": "Module 02.6：数据类型宽化与窄化强制转换",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub6",
+      "question": "在 Java 中，哪一对基本数据类型之间不能进行隐式宽化转换（Widening），而必须显式编写强制类型转换 `(cast)`？",
+      "code_snippet": "",
+      "options": [
+        "`byte` 转 `int`",
+        "`int` 转 `long`",
+        "`char` 转 `short`（或 `short` 转 `char`）",
+        "`float` 转 `double`"
+      ],
+      "correct_option_index": 2,
+      "explanation": "虽然 `char` 和 `short` 都是 16 位（2 字节），但 `short` 是有符号整数 `[-32,768 ~ 32,767]`，而 `char` 是无符号 Unicode 码元 `[0 ~ 65,535]`。两者取值范围互不包含，因此必须显式强转。",
+      "card_front": "在 Java 中，哪一对基本数据类型之间不能进行隐式宽化转换（Widening），而必须显式编写强制类型转换 `(cast)`？",
+      "card_back": "`char` 转 `short`（或 `short` 转 `char`）",
+      "card_hint": "Module 02.6：数据类型宽化与窄化强制转换",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "以下字符串比较代码输出什么？哪项 Java 内存机制解释了这一结果？",
+      "code_snippet": "String s1 = \"TicketStation\";\nString s2 = \"TicketStation\";\nString s3 = new String(\"TicketStation\");\n\nSystem.out.println((s1 == s2) + \" \" + (s1 == s3));",
+      "options": [
+        "`true true`",
+        "`false false`",
+        "`true false`，因为字符串字面量 `s1` 和 `s2` 指向字符串常量池（String Constant Pool）中的同一个驻留对象；而 `new String(...)` 会在堆上常量池之外强制创建一个全新的对象实例。",
+        "`false true`"
+      ],
+      "correct_option_index": 2,
+      "explanation": "双引号字符串字面量会被自动放入堆中的 String Constant Pool 复用，因此 `s1 == s2` 为 `true`；而 `new String(\"...\")` 强制在堆上分配新内存地址，`s1 == s3` 为 `false`。比较字符串内容必须使用 `.equals()`。",
+      "card_front": "以下字符串比较代码输出什么？哪项 Java 内存机制解释了这一结果？",
+      "card_back": "`true false`，因为字符串字面量 `s1` 和 `s2` 指向字符串常量池（String Constant Pool）中的同一个驻留对象；而 `new String(...)` 会在堆上常量池之外强制创建一个全新的对象实例。",
+      "card_hint": "Module 02.7：String 不可变性、常量池与 StringBuilder",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q10",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "为什么在大型循环内部使用 `+` 拼接字符串（例如拼接 10,000 个门票编码）是严重的性能反模式？",
+      "code_snippet": "// Building ticket summary string in Ticket Station service\nString ticketSummary = \"\";\nfor (int i = 1; i <= 10_000; i++) {\n    ticketSummary += \"TICKET-\" + i + \";\";\n}",
+      "options": [
+        "因为 `+` 不是线程安全的，在循环里必定抛出 `ConcurrentModificationException`。",
+        "因为 `String` 是不可变（Immutable）对象，每次循环拼接都会在堆上新建 `StringBuilder` 和新的 `String` 字符数组并复制旧字符，导致时间复杂度恶化为 O(n²) 并产生海量内存垃圾；应在循环外显式创建一个 `StringBuilder`。",
+        "因为会导致 `StackOverflowError` 栈溢出。",
+        "因为循环内部不支持将 `int` 转换为 `String`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "由于 `String` 的不可变性，循环内执行 `str += ...` 每次都会重新分配更长的字符数组并全量拷贝已有内容，产生 O(n²) 拷贝开销与大量朝生夕死的临时对象。在循环外单次创建 `StringBuilder` 可将复杂度降为 O(n)。",
+      "card_front": "为什么在大型循环内部使用 `+` 拼接字符串（例如拼接 10,000 个门票编码）是严重的性能反模式？",
+      "card_back": "因为 `String` 是不可变（Immutable）对象，每次循环拼接都会在堆上新建 `StringBuilder` 和新的 `String` 字符数组并复制旧字符，导致时间复杂度恶化为 O(n²) 并产生海量内存垃圾；应在循环外显式创建一个 `StringBuilder`。",
+      "card_hint": "Module 02.7：String 不可变性、常量池与 StringBuilder",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s7-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "Java 15 正式转正的文本块（Text Blocks `\"\"\" ... \"\"\"`）在编写多行 SQL 查询或 JSON 报文时有什么核心优势？",
+      "code_snippet": "String query = \"\"\"\n    SELECT id, title, base_price \n    FROM events \n    WHERE status = 'ACTIVE'\n    \"\"\";",
+      "options": [
+        "自动对 SQL 语句进行加密以防止 SQL 注入。",
+        "支持自然地编写多行字符串，编译器会自动去除公共前导缩进空白（`stripIndent`），彻底告别繁琐的 `+` 号拼接与 `\\\"` 双引号转义。",
+        "只能在 YAML 配置文件中使用。",
+        "让 SQL 查询执行速度翻倍。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Text Blocks（JEP 378）极大提升了内嵌 SQL、JSON、HTML 多行文本的可读性，自动对齐缩进并消除了大量转义斜杠。",
+      "card_front": "Java 15 正式转正的文本块（Text Blocks `\"\"\" ... \"\"\"`）在编写多行 SQL 查询或 JSON 报文时有什么核心优势？",
+      "card_back": "支持自然地编写多行字符串，编译器会自动去除公共前导缩进空白（`stripIndent`），彻底告别繁琐的 `+` 号拼接与 `\\\"` 双引号转义。",
+      "card_hint": "Module 02.7：String 不可变性、常量池与 StringBuilder",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s7-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub7",
+      "question": "在处理用户密码等高敏感数据时，为什么 Java 安全编码规范推荐使用 `char[]` 而不是 `String`？",
+      "code_snippet": "// Option 1:\nString passwordStr = readPassword();\n\n// Option 2 (Security Recommended):\nchar[] passwordChars = readPasswordAsChars();\n// After authenticating with database:\nArrays.fill(passwordChars, ' '); // Wipe sensitive data from RAM",
+      "options": [
+        "因为 `char[]` 占用的内存只有 `String` 的一半。",
+        "因为 `String` 是不可变的，一旦创建就会以明文形式滞留在堆/常量池中直到不确定的 GC 发生（若发生 Heap Dump 极易泄露）；而可变的 `char[]` 可以在验证完成后立即调用 `Arrays.fill(passwordChars, ' ')` 将内存清零擦除。",
+        "因为 `String` 不支持密码中的特殊字符。",
+        "因为 `char[]` 会自动加密成 bcrypt 哈希值。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "不可变的 `String` 在 GC 回收前无法修改其内存字节，若系统触发内存转储（Heap Dump）就会暴露明文密码；使用 `char[]` 则可在用完瞬间主动覆写清零，缩短敏感数据在 RAM 中的驻留窗口。",
+      "card_front": "在处理用户密码等高敏感数据时，为什么 Java 安全编码规范推荐使用 `char[]` 而不是 `String`？",
+      "card_back": "因为 `String` 是不可变的，一旦创建就会以明文形式滞留在堆/常量池中直到不确定的 GC 发生（若发生 Heap Dump 极易泄露）；而可变的 `char[]` 可以在验证完成后立即调用 `Arrays.fill(passwordChars, ' ')` 将内存清零擦除。",
+      "card_hint": "Module 02.7：String 不可变性、常量池与 StringBuilder",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-q8",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub8",
+      "question": "如果在变量 `sub` 前加上 `final` 关键字（`final String sub = \"hel\"; String s3 = sub + \"lo\";`），那么 `s1 == s3` 会输出什么？为什么？",
+      "code_snippet": "String s1 = \"hello\";\nfinal String sub = \"hel\"; // Added final keyword\nString s3 = sub + \"lo\";\n\nSystem.out.println(s1 == s3);",
+      "options": [
+        "`false`，因为只要包含变量拼接就一定在运行时堆上生成新对象。",
+        "`true`，因为 `final` 使 `sub` 成为编译期常量（Compile-time Constant），`javac` 编译器会执行常量折叠（Constant Folding），在编译期直接把 `sub + \"lo\"` 合并为字面量 `\"hello\"`，从而与 `s1` 指向常量池中的同一个对象。",
+        "编译错误，因为 `final` 变量不能参与 `+` 运算。",
+        "`false`，因为 `final` 只锁引用，运行时仍然调用 `StringBuilder`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "被 `final` 修饰且由字面量初始化的 String 变量在编译期即已知确切值。编译器通过常量折叠优化将其直接替换为 `\"hello\"`，因此 `s1` 与 `s3` 指向 String Pool 中的同一地址。",
+      "card_front": "如果在变量 `sub` 前加上 `final` 关键字（`final String sub = \"hel\"; String s3 = sub + \"lo\";`），那么 `s1 == s3` 会输出什么？为什么？",
+      "card_back": "`true`，因为 `final` 使 `sub` 成为编译期常量（Compile-time Constant），`javac` 编译器会执行常量折叠（Constant Folding），在编译期直接把 `sub + \"lo\"` 合并为字面量 `\"hello\"`，从而与 `s1` 指向常量池中的同一个对象。",
+      "card_hint": "Module 02.8：final 关键字、编译期常量折叠与不可变引用",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s8-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub8",
+      "question": "对于引用类型变量加上 `final` 修饰符（例如 `final List<String> seatList = new ArrayList<>();`），最常见的误解是什么？",
+      "code_snippet": "final List<String> seatList = new ArrayList<>();\nseatList.add(\"VIP-01\"); // Is this statement valid?",
+      "options": [
+        "误以为 `final` 会让集合本身变成不可变集合，调用 `seatList.add(...)` 会抛出 `UnsupportedOperationException`。",
+        "`final` 仅仅锁定引用变量本身（禁止把 `seatList` 重新指向另一个 `List` 对象），但该引用所指向对象的内部状态仍然可以自由修改（可以正常 `add()`、`remove()`）。",
+        "`final` 不能用于集合类型。",
+        "调用 `seatList.add(\"VIP-01\")` 会导致编译报错。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "引用变量上的 `final` 仅代表“指针不可重新赋值（Reference Immutability）”，绝不代表“对象内容不可变（Object Immutability）”。若需不可变列表，应使用 `List.of(...)` 或 `Collections.unmodifiableList(...)`。",
+      "card_front": "对于引用类型变量加上 `final` 修饰符（例如 `final List<String> seatList = new ArrayList<>();`），最常见的误解是什么？",
+      "card_back": "`final` 仅仅锁定引用变量本身（禁止把 `seatList` 重新指向另一个 `List` 对象），但该引用所指向对象的内部状态仍然可以自由修改（可以正常 `add()`、`remove()`）。",
+      "card_hint": "Module 02.8：final 关键字、编译期常量折叠与不可变引用",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub9",
+      "question": "在 Java 后端开发中，比较两个枚举（`Enum`）值时，为什么推荐使用 `==` 运算符而不是 `.equals()`？",
+      "code_snippet": "TicketStatus status = getTicketStatus();\nif (status == TicketStatus.BOOKED) { ... }",
+      "options": [
+        "`==` 更快，且完全免疫 `NullPointerException`：当 `status` 为 `null` 时，`status == TicketStatus.BOOKED` 会安全地返回 `false` 而不会崩溃，而 `status.equals(...)` 则会直接抛出空指针异常。",
+        "因为 Java 的 `Enum` 没有 `.equals()` 方法。",
+        "因为 `==` 会自动把枚举转成字符串。",
+        "因为编译器禁止对枚举调用 `.equals()`。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Java 枚举的每个常量在 JVM 中都是严格保证唯一的单例实例（`Enum.equals()` 底层源码本身也是直接写 `return this == other;`）。直接使用 `==` 不仅语义清晰，还能天然防范左操作数为 `null` 时的 NPE。",
+      "card_front": "在 Java 后端开发中，比较两个枚举（`Enum`）值时，为什么推荐使用 `==` 运算符而不是 `.equals()`？",
+      "card_back": "`==` 更快，且完全免疫 `NullPointerException`：当 `status` 为 `null` 时，`status == TicketStatus.BOOKED` 会安全地返回 `false` 而不会崩溃，而 `status.equals(...)` 则会直接抛出空指针异常。",
+      "card_hint": "Module 02.9：Enum 枚举高级建模与状态机设计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s9-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub9",
+      "question": "在 Ticket Station 中，Java 的 `enum`（如票档枚举 `TicketTier`）能否拥有自定义字段、构造器和业务方法？",
+      "code_snippet": "public enum TicketTier {\n    STANDARD(100_000, \"Standard Seat\"),\n    VIP(250_000, \"VIP Seat\"),\n    VVIP(500_000, \"Super VIP Seat\");\n\n    private final int price;\n    private final String label;\n\n    TicketTier(int price, String label) {\n        this.price = price;\n        this.label = label;\n    }\n    public int getPrice() { return price; }\n}",
+      "options": [
+        "不能，Java 枚举和 C 语言一样只是单纯的整数编号。",
+        "完全可以！Java 的 `enum` 本质上是继承自 `java.lang.Enum` 的完整特权类，可以定义 `private` 构造器、`final` 属性字段、业务计算方法，甚至可以实现（`implements`）接口。",
+        "只能定义 `int` 字段，不能有构造器或方法。",
+        "只有 Java 21 才允许在枚举里写方法。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java 枚举是一等公民类（First-class Class），非常适合将固定枚举项与关联属性（如折扣率、描述、策略方法）高内聚地封装在一起。",
+      "card_front": "在 Ticket Station 中，Java 的 `enum`（如票档枚举 `TicketTier`）能否拥有自定义字段、构造器和业务方法？",
+      "card_back": "完全可以！Java 的 `enum` 本质上是继承自 `java.lang.Enum` 的完整特权类，可以定义 `private` 构造器、`final` 属性字段、业务计算方法，甚至可以实现（`implements`）接口。",
+      "card_hint": "Module 02.9：Enum 枚举高级建模与状态机设计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s10-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub10",
+      "question": "根据 BMI 公式 `BMI = weight / (height * height)`（体重 kg，身高 m），以下代码片段中隐藏着什么严重的计算 Bug？",
+      "code_snippet": "int weight = 70;      // 70 kg\nint heightCm = 175;   // 175 cm\ndouble heightM = heightCm / 100; // Convert to meters\ndouble bmi = weight / (heightM * heightM);\nSystem.out.println(\"BMI: \" + bmi);",
+      "options": [
+        "代码没有任何问题，准确输出 BMI = 22.86。",
+        "`heightCm / 100` 发生了整数除法截断 Bug：因为 `175` 和 `100` 都是 `int`，`175 / 100` 先算出整数 `1` 再转为 `double` 的 `1.0`（而非 `1.75`），导致 BMI 被错误算成 `70.0`。",
+        "会抛出除以零异常 `ArithmeticException`。",
+        "无法编译，因为 `int` 相除的结果不能赋给 `double`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "运算符优先级决定了 `175 / 100` 先按 `int / int` 计算得出 `1`，随后才赋值给 `double heightM = 1.0`。正确写法应使用浮点字面量：`heightCm / 100.0`。",
+      "card_front": "根据 BMI 公式 `BMI = weight / (height * height)`（体重 kg，身高 m），以下代码片段中隐藏着什么严重的计算 Bug？",
+      "card_back": "`heightCm / 100` 发生了整数除法截断 Bug：因为 `175` 和 `100` 都是 `int`，`175 / 100` 先算出整数 `1` 再转为 `double` 的 `1.0`（而非 `1.75`），导致 BMI 被错误算成 `70.0`。",
+      "card_hint": "Module 02.10：综合实战：健康指标计算与卫语句重构",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod2-s10-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "mod2-sub10",
+      "question": "根据 WHO 的 BMI 分类标准（< 18.5 偏瘦，18.5–24.9 正常，25.0–29.9 超重，>= 30.0 肥胖），为什么代码片段中的 `classifyBmi(double bmi)` 实现被认为是整洁且最优的？",
+      "code_snippet": "public static String classifyBmi(double bmi) {\n    if (bmi < 18.5) return \"Underweight\";\n    if (bmi < 25.0) return \"Normal\";\n    if (bmi < 30.0) return \"Overweight\";\n    return \"Obese\";\n}",
+      "options": [
+        "正确且最优：通过按升序排列的卫语句（Guard Clauses / 早返回），当前面的 `if` 已拦截并 `return` 更小区间的值后，后续判断无需再写冗余的 `bmi >= 18.5 && bmi < 25.0`。",
+        "错误，因为没有写 `else` 会导致所有 `if` 分支都被执行。",
+        "错误，因为 `double` 不能使用 `<` 进行比较。",
+        "应该改用 `switch-case` 来判断 `double` 范围。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "利用卫语句（Early Return）配合单调递增的阈值判断，既消除了深层 `if-else` 嵌套，又省去了重复的下界条件检查，是 Clean Code 的经典实践。",
+      "card_front": "根据 WHO 的 BMI 分类标准（< 18.5 偏瘦，18.5–24.9 正常，25.0–29.9 超重，>= 30.0 肥胖），为什么代码片段中的 `classifyBmi(double bmi)` 实现被认为是整洁且最优的？",
+      "card_back": "正确且最优：通过按升序排列的卫语句（Guard Clauses / 早返回），当前面的 `if` 已拦截并 `return` 更小区间的值后，后续判断无需再写冗余的 `bmi >= 18.5 && bmi < 25.0`。",
+      "card_hint": "Module 02.10：综合实战：健康指标计算与卫语句重构",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "在条件控制语句中，短路逻辑与（`&&`）和按位逻辑与（`&`）的核心区别是什么？",
+      "code_snippet": "Ticket ticket = null;\nif (ticket != null && ticket.isAvailable()) { ... } // Statement 1\nif (ticket != null & ticket.isAvailable()) { ... }  // Statement 2",
+      "options": [
+        "两者行为完全相同。",
+        "语句 1（`&&`）是安全的：若左侧为 `false` 则不再计算右侧；语句 2（`&`）无论左侧真假都会强行计算右侧，当 `ticket` 为 `null` 时会触发 `NullPointerException`。",
+        "语句 1 仅在 Java 8 以下可用。",
+        "`&&` 仅用于数值，`&` 仅用于对象。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "在布尔条件判断中务必使用短路运算符 `&&` 和 `||`，这样前置的非空保护检查 `ticket != null` 才能真正保护后面的方法调用 `ticket.isAvailable()`。",
+      "card_front": "在条件控制语句中，短路逻辑与（`&&`）和按位逻辑与（`&`）的核心区别是什么？",
+      "card_back": "语句 1（`&&`）是安全的：若左侧为 `false` 则不再计算右侧；语句 2（`&`）无论左侧真假都会强行计算右侧，当 `ticket` 为 `null` 时会触发 `NullPointerException`。",
+      "card_hint": "Module 03：流程控制、Switch 表达式与集合安全遍历",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "相比传统的 `switch-case` 语句，Java 14+ 正式引入的现代 Switch 表达式（`->` 箭头语法）有哪些显著优势？",
+      "code_snippet": "String badge = switch (seatType) {\n    case VIP -> \"Gold\";\n    case STANDARD -> \"Silver\";\n    default -> \"Standard\";\n};",
+      "options": [
+        "支持编译器穷尽性检查（Exhaustiveness Check）、可作为表达式直接返回值，并且彻底消除了因漏写 `break` 导致的意外分支穿透（Fall-through）Bug。",
+        "比 `if-else` 运行速度快 1000 倍。",
+        "只允许传入 `boolean` 类型。",
+        "可以完全替代 SQL 数据库。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Switch 表达式（JEP 361）使用 `case L ->` 语法默认不穿透（无需写 `break`），可直接赋值给变量或作为 `return` 值，且对枚举和 `sealed` 类型强制要求覆盖所有分支。",
+      "card_front": "相比传统的 `switch-case` 语句，Java 14+ 正式引入的现代 Switch 表达式（`->` 箭头语法）有哪些显著优势？",
+      "card_back": "支持编译器穷尽性检查（Exhaustiveness Check）、可作为表达式直接返回值，并且彻底消除了因漏写 `break` 导致的意外分支穿透（Fall-through）Bug。",
+      "card_hint": "Module 03：流程控制、Switch 表达式与集合安全遍历",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod3-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-03",
+      "question": "在使用增强型 `for-each` 循环遍历 `ArrayList` 的过程中，如果直接调用 `seats.remove(seat)` 删除元素会发生什么？",
+      "code_snippet": "List<String> seats = new ArrayList<>(List.of(\"A1\", \"A2\", \"A3\"));\nfor (String seat : seats) {\n    if (seat.equals(\"A2\")) {\n        seats.remove(seat);\n    }\n}",
+      "options": [
+        "安全删除元素 `\"A2\"`，列表剩余 `[\"A1\", \"A3\"]`。",
+        "立即抛出 `ConcurrentModificationException` 异常，因为 `for-each` 底层使用 `Iterator` 遍历，直接调用集合的 `remove()` 改变了 `modCount`，触发了迭代器的快速失败（Fail-Fast）保护机制。",
+        "程序陷入死循环。",
+        "编译器报语法错误。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`ArrayList` 的迭代器采用 Fail-Fast 机制：每次 `next()` 都会校验 `modCount == expectedModCount`。要在遍历中安全删除元素，应使用 `seats.removeIf(s -> s.equals(\"A2\"))` 或显式调用 `iterator.remove()`。",
+      "card_front": "在使用增强型 `for-each` 循环遍历 `ArrayList` 的过程中，如果直接调用 `seats.remove(seat)` 删除元素会发生什么？",
+      "card_back": "立即抛出 `ConcurrentModificationException` 异常，因为 `for-each` 底层使用 `Iterator` 遍历，直接调用集合的 `remove()` 改变了 `modCount`，触发了迭代器的快速失败（Fail-Fast）保护机制。",
+      "card_hint": "Module 03：流程控制、Switch 表达式与集合安全遍历",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-04",
+      "question": "Java 方法参数传递究竟是“按值传递（Pass-by-value）”还是“按引用传递（Pass-by-reference）”？请分析 `modify(myTicket, myDiscount)` 代码：",
+      "code_snippet": "public void modify(Ticket ticket, int discount) {\n    ticket = new Ticket(\"VIP-999\"); // Reassign parameter to new object\n    discount = 50;                  // Modify primitive int copy\n}\n\n// Caller side:\nTicket myTicket = new Ticket(\"STD-001\");\nint myDiscount = 10;\nmodify(myTicket, myDiscount);\n// After calling modify(), what are myTicket.id and myDiscount?",
+      "options": [
+        "`myTicket` 的 ID 变成 `\"VIP-999\"`，`myDiscount` 变成 `50`。",
+        "Java 是 **100% 按值传递（Pass-by-value）**。对于对象参数，传递的是**引用地址的副本**。在方法内执行 `ticket = new Ticket(\"VIP-999\")` 只改变了局部形参指针的指向；方法返回后，外部的 `myTicket` 依然是 `\"STD-001\"`，`myDiscount` 依然是 `10`。",
+        "程序抛出 `NullPointerException`。",
+        "`myTicket` 变成 `\"VIP-999\"`，而 `myDiscount` 保持 `10`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java 规范明确规定所有参数传递均为按值传递。如果通过形参调用对象内部修改方法（如 `ticket.setStatus(...)`）会修改堆上同一对象的状态；但如果对形参变量本身重新赋值 `ticket = new ...`，外部实参指针丝毫不受影响。",
+      "card_front": "Java 方法参数传递究竟是“按值传递（Pass-by-value）”还是“按引用传递（Pass-by-reference）”？请分析 `modify(myTicket, myDiscount)` 代码：",
+      "card_back": "Java 是 **100% 按值传递（Pass-by-value）**。对于对象参数，传递的是**引用地址的副本**。在方法内执行 `ticket = new Ticket(\"VIP-999\")` 只改变了局部形参指针的指向；方法返回后，外部的 `myTicket` 依然是 `\"STD-001\"`，`myDiscount` 依然是 `10`。",
+      "card_hint": "Module 04：方法设计、按值传递机制与方法重载",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-04",
+      "question": "同一个类中定义的以下两个 `calculateFee(String ticketId)` 方法，是否构成合法的方法重载（Method Overloading）？",
+      "code_snippet": "public int calculateFee(String ticketId) { return 100; }\npublic double calculateFee(String ticketId) { return 100.0; }",
+      "options": [
+        "合法，因为它们的返回值类型（`int` vs `double`）不同。",
+        "不合法（编译报错），因为 Java 方法重载要求参数列表（参数个数、类型或顺序）必须不同；编译器无法仅凭返回值类型区分同名同参方法。",
+        "仅在 Java 21 下合法。",
+        "只要把其中一个方法加上 `static` 就合法。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "在 Java 语言规范中，方法签名（Method Signature）仅由“方法名 + 参数类型列表”组成，不包含返回类型。如果仅返回类型不同，调用 `calculateFee(\"A1\")` 时编译器将无法确定调用哪一个。",
+      "card_front": "同一个类中定义的以下两个 `calculateFee(String ticketId)` 方法，是否构成合法的方法重载（Method Overloading）？",
+      "card_back": "不合法（编译报错），因为 Java 方法重载要求参数列表（参数个数、类型或顺序）必须不同；编译器无法仅凭返回值类型区分同名同参方法。",
+      "card_hint": "Module 04：方法设计、按值传递机制与方法重载",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "为什么把所有字段声明为 `private`，却又毫无节制地自动生成全部 `public get...()` 和 `set...()` 方法，会被领域驱动设计（DDD）批评为破坏封装的“贫血领域模型（Anemic Domain Model）”？",
+      "code_snippet": "",
+      "options": [
+        "因为 getter 和 setter 会让代码行数超过 100 行。",
+        "因为无条件暴露所有 public setter 允许任何外部代码随意将对象改成非法的业务状态（如 `setPrice(-500)`、绕过校验直接改状态），使实体丧失了守护自身业务不变量（Invariants）的封装能力。",
+        "因为 Spring Data JPA 不支持 getter 和 setter。",
+        "因为 setter 方法会降低 CPU 主频。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "真正的面向对象封装是将“状态数据”与“守护业务规则的行为”捆绑在一起。应当移除随意的裸 setter，改由具备业务语义和校验逻辑的方法（如 `holdSeat()`、`confirmPayment()`）来驱动状态流转。",
+      "card_front": "为什么把所有字段声明为 `private`，却又毫无节制地自动生成全部 `public get...()` 和 `set...()` 方法，会被领域驱动设计（DDD）批评为破坏封装的“贫血领域模型（Anemic Domain Model）”？",
+      "card_back": "因为无条件暴露所有 public setter 允许任何外部代码随意将对象改成非法的业务状态（如 `setPrice(-500)`、绕过校验直接改状态），使实体丧失了守护自身业务不变量（Invariants）的封装能力。",
+      "card_hint": "Module 05：面向对象核心：充血模型封装与构造器原理",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "面向对象设计原则“Tell, Don’t Ask（只管命令，不要询问）”在实战中意味着什么？",
+      "code_snippet": "",
+      "options": [
+        "不要先通过一连串 getter 把对象内部状态掏出来在外部做 `if` 判断、再通过 setter 塞回去；而应该直接调用领域对象自身的业务方法，命令对象自己完成状态校验与变更。",
+        "要求开发者在每个方法上都写满注释。",
+        "方法内部永远不要抛出异常。",
+        "只写接口不写实现类。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "与其在外部写 `if (ticket.getStatus() == AVAILABLE) ticket.setStatus(HELD);`，不如直接命令领域对象 `ticket.holdForCheckout(duration);`，让业务规则高内聚地留在 `Ticket` 类内部。",
+      "card_front": "面向对象设计原则“Tell, Don’t Ask（只管命令，不要询问）”在实战中意味着什么？",
+      "card_back": "不要先通过一连串 getter 把对象内部状态掏出来在外部做 `if` 判断、再通过 setter 塞回去；而应该直接调用领域对象自身的业务方法，命令对象自己完成状态校验与变更。",
+      "card_hint": "Module 05：面向对象核心：充血模型封装与构造器原理",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod5-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-05",
+      "question": "为什么 Java 中的构造器（Constructor）绝对不能使用 `static`、`final` 或 `abstract` 关键字修饰？",
+      "code_snippet": "",
+      "options": [
+        "因为构造器只允许使用 `public`。",
+        "构造器专用于初始化堆上的具体新实例，因此不能是属于类的 `static`；构造器永远不会被子类继承，因此不存在被重写的问题（`final` 毫无意义）；且构造器必须包含初始化内存的具体实现体，因此不能是 `abstract`。",
+        "因为这三个关键字是接口专属的。",
+        "因为 64 位操作系统的硬件限制。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "构造器的职责是初始化刚分配的实例对象，不具备多态继承与重写特性，因此 `static`、`final`、`abstract` 在语义上均与构造器完全冲突。",
+      "card_front": "为什么 Java 中的构造器（Constructor）绝对不能使用 `static`、`final` 或 `abstract` 关键字修饰？",
+      "card_back": "构造器专用于初始化堆上的具体新实例，因此不能是属于类的 `static`；构造器永远不会被子类继承，因此不存在被重写的问题（`final` 毫无意义）；且构造器必须包含初始化内存的具体实现体，因此不能是 `abstract`。",
+      "card_hint": "Module 05：面向对象核心：充血模型封装与构造器原理",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-06",
+      "question": "为什么在面向对象架构设计中强烈推崇“组合优于继承（Composition over Inheritance）”原则？",
+      "code_snippet": "",
+      "options": [
+        "因为继承在编译期形成了强耦合，极易引发“脆弱基类问题（Fragile Base Class）”（父类的改动意外破坏子类行为）；而组合配合接口注入实现了松耦合，支持在运行时灵活替换策略行为。",
+        "因为 Java 21 已经废弃了 `extends` 关键字。",
+        "因为继承会让 `.class` 文件体积翻倍。",
+        "因为组合只能用于接口。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "继承（IS-A）是白盒复用，子类高度依赖父类内部实现细节；组合（HAS-A）是黑盒复用，通过持有接口引用与依赖注入（DI），可以轻松进行单元测试 Mock 与运行时动态切换策略。",
+      "card_front": "为什么在面向对象架构设计中强烈推崇“组合优于继承（Composition over Inheritance）”原则？",
+      "card_back": "因为继承在编译期形成了强耦合，极易引发“脆弱基类问题（Fragile Base Class）”（父类的改动意外破坏子类行为）；而组合配合接口注入实现了松耦合，支持在运行时灵活替换策略行为。",
+      "card_hint": "Module 06：继承 vs 组合与 JVM 动态分派多态机制",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-06",
+      "question": "JVM 内部是通过什么底层机制实现运行时多态（动态方法分派 / Dynamic Method Dispatch）的？",
+      "code_snippet": "",
+      "options": [
+        "JVM 在运行时用正则表达式搜索 `.java` 源文件。",
+        "JVM 为每个类维护一张虚方法表（Virtual Method Table - `vtable`），调用重写方法时通过 `invokevirtual` 指令在运行时查找堆上实际对象的 `vtable` 函数指针。",
+        "JVM 通过查询数据库来判断对象类型。",
+        "`javac` 在编译期就把内存绝对地址写死在代码里。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "在 JVM 方法区中，每个类都有一张虚方法表（`vtable`）记录各方法的实际入口地址。当通过父类引用调用被重写的方法时，JVM 会根据堆中对象的实际类型查找对应的 `vtable` 槽位完成动态分派。",
+      "card_front": "JVM 内部是通过什么底层机制实现运行时多态（动态方法分派 / Dynamic Method Dispatch）的？",
+      "card_back": "JVM 为每个类维护一张虚方法表（Virtual Method Table - `vtable`），调用重写方法时通过 `invokevirtual` 指令在运行时查找堆上实际对象的 `vtable` 函数指针。",
+      "card_hint": "Module 06：继承 vs 组合与 JVM 动态分派多态机制",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod7-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-07",
+      "question": "Java 中 `HashMap` 与 `ConcurrentHashMap` 的核心架构区别是什么？",
+      "code_snippet": "",
+      "options": [
+        "`HashMap` 在多线程并发写入时是完全线程安全的。",
+        "`ConcurrentHashMap` 是线程安全的：在 Java 8+ 中采用 CAS（Compare-And-Swap）无锁操作配合对单个哈希桶头节点（Bucket Node）的细粒度 `synchronized` 锁，避免了像 `Hashtable` 那样锁住整张表，从而实现极高的并发吞吐量。",
+        "`ConcurrentHashMap` 允许存入 `null` 键和 `null` 值。",
+        "`HashMap` 会自动按字母顺序对键排序，而 `ConcurrentHashMap` 不会。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`HashMap` 非线程安全，并发扩容或写入会导致数据丢失；`ConcurrentHashMap`（Java 8+）利用 CAS + 桶头节点细粒度锁，使得不同哈希桶上的并发写入完全互不阻塞（且严禁 `null` 键值以消除并发二义性）。",
+      "card_front": "Java 中 `HashMap` 与 `ConcurrentHashMap` 的核心架构区别是什么？",
+      "card_back": "`ConcurrentHashMap` 是线程安全的：在 Java 8+ 中采用 CAS（Compare-And-Swap）无锁操作配合对单个哈希桶头节点（Bucket Node）的细粒度 `synchronized` 锁，避免了像 `Hashtable` 那样锁住整张表，从而实现极高的并发吞吐量。",
+      "card_hint": "Module 07：Java 集合框架与 ConcurrentHashMap 并发容器",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod8-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-08",
+      "question": "在操作数据库连接 `Connection`、文件流 `InputStream` 或网络流时，为什么 Java 7+ 的 `try-with-resources` 语句被视为必须遵守的黄金准则？",
+      "code_snippet": "",
+      "options": [
+        "因为无论代码块正常结束还是中途抛出异常，它都会在退出作用域时自动按逆序调用所有 `AutoCloseable` 资源的 `.close()` 方法，从根本上杜绝资源泄漏（Resource Leak）。",
+        "因为它能让文件读取速度提升 10 倍。",
+        "因为 Spring Boot 禁止使用 `finally` 块。",
+        "因为它会自动压缩文件大小。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "传统手动 `finally` 关闭资源代码冗长且容易因 `close()` 抛异常覆盖原始业务异常；`try-with-resources` 由编译器自动生成严谨的关闭字节码，并通过 `addSuppressed` 完整保留原始异常栈。",
+      "card_front": "在操作数据库连接 `Connection`、文件流 `InputStream` 或网络流时，为什么 Java 7+ 的 `try-with-resources` 语句被视为必须遵守的黄金准则？",
+      "card_back": "因为无论代码块正常结束还是中途抛出异常，它都会在退出作用域时自动按逆序调用所有 `AutoCloseable` 资源的 `.close()` 方法，从根本上杜绝资源泄漏（Resource Leak）。",
+      "card_hint": "Module 08：异常处理体系与 try-with-resources 自动资源管理",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod9-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-09",
+      "question": "在面向全球多时区用户的票务系统中存储演出开始时间（`eventDate`）时，应该选用 `java.time` API 中的哪种数据类型作为黄金标准？",
+      "code_snippet": "",
+      "options": [
+        "老旧的 `java.util.Date`。",
+        "`Instant`（全球统一的 UTC 时间戳轴点）或 `OffsetDateTime`（带时区偏移量的 ISO-8601 时间），并与 PostgreSQL 的 `TIMESTAMP WITH TIME ZONE`（`TIMESTAMPTZ`）完美映射。",
+        "不带任何时区信息的 `LocalDateTime`。",
+        "格式为 `\"dd/MM/yyyy\"` 的普通字符串。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`LocalDateTime` 不含任何时区信息，无法区分“北京时间晚上 8 点”与“伦敦时间晚上 8 点”。跨时区系统后端与数据库必须统一存储基于 UTC 的绝对时间（`Instant` / `OffsetDateTime`），仅在前端展示时按用户所在时区转换。",
+      "card_front": "在面向全球多时区用户的票务系统中存储演出开始时间（`eventDate`）时，应该选用 `java.time` API 中的哪种数据类型作为黄金标准？",
+      "card_back": "`Instant`（全球统一的 UTC 时间戳轴点）或 `OffsetDateTime`（带时区偏移量的 ISO-8601 时间），并与 PostgreSQL 的 `TIMESTAMP WITH TIME ZONE`（`TIMESTAMPTZ`）完美映射。",
+      "card_hint": "Module 09：现代日期时间 API (java.time) 与跨时区架构",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod10-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-10",
+      "question": "Java 21 正式发布的虚拟线程（Virtual Threads / Project Loom）为 Ticket Station 这类高并发 Web 系统带来了什么革命性突破？",
+      "code_snippet": "",
+      "options": [
+        "让纯 CPU 密集型矩阵运算速度提升 100 倍。",
+        "允许 JVM 在极少量操作系统平台线程（Carrier Threads）之上托管数以百万计的超轻量级虚拟线程（每个仅占数 KB 内存，而 OS 线程需 ~1MB），当遇到数据库查询或外部 API 调用等阻塞 I/O 时自动卸载（Unmount）让出 CPU，使同步代码直接获得极致的并发吞吐量。",
+        "用 C++ 完全取代了 Java 语言。",
+        "只能在 Linux 内核上运行。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "虚拟线程由 JVM 调度而非操作系统内核调度。当虚拟线程执行阻塞 I/O（如 JDBC 查询、HTTP 调用）时，JVM 会瞬间将其挂起并从载体线程卸载，去执行其他就绪请求，无需编写复杂的异步响应式回调代码即可轻松支撑超高并发。",
+      "card_front": "Java 21 正式发布的虚拟线程（Virtual Threads / Project Loom）为 Ticket Station 这类高并发 Web 系统带来了什么革命性突破？",
+      "card_back": "允许 JVM 在极少量操作系统平台线程（Carrier Threads）之上托管数以百万计的超轻量级虚拟线程（每个仅占数 KB 内存，而 OS 线程需 ~1MB），当遇到数据库查询或外部 API 调用等阻塞 I/O 时自动卸载（Unmount）让出 CPU，使同步代码直接获得极致的并发吞吐量。",
+      "card_hint": "Module 10：Java 21 虚拟线程 (Virtual Threads) 高并发突破",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod11-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-11",
+      "question": "在 Spring Data JPA 的 `@Transactional` 方法内部，Hibernate 的脏检查（Dirty Checking）机制是如何工作的？",
+      "code_snippet": "",
+      "options": [
+        "Hibernate 每隔 5 秒全表扫描一次数据库来寻找被修改的行。",
+        "当实体被加载到持久化上下文（Persistence Context）成为托管态（Managed）时，Hibernate 会保存一份初始状态快照（Snapshot）；在事务提交 Flush 时，自动比对当前对象属性与快照，若有变更则自动生成并执行 SQL `UPDATE`，无需显式调用 `repository.save()`。",
+        "开发者每次调用 setter 后都必须手动调用 `saveAndFlush()`。",
+        "脏检查机制仅在 MySQL 数据库下有效。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "在 `@Transactional` 事务周期内查询出的实体处于 `Managed`（托管）状态。事务提交前 Hibernate 会执行自动脏检查（Dirty Checking），精准比对快照并同步变更到数据库。",
+      "card_front": "在 Spring Data JPA 的 `@Transactional` 方法内部，Hibernate 的脏检查（Dirty Checking）机制是如何工作的？",
+      "card_back": "当实体被加载到持久化上下文（Persistence Context）成为托管态（Managed）时，Hibernate 会保存一份初始状态快照（Snapshot）；在事务提交 Flush 时，自动比对当前对象属性与快照，若有变更则自动生成并执行 SQL `UPDATE`，无需显式调用 `repository.save()`。",
+      "card_hint": "Module 11：Spring Data JPA 持久化上下文与脏检查机制",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "mod12-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "module-12",
+      "question": "在编写生产级数据库基础设施的 `docker-compose.yml` 时，为什么在数据卷声明中显式指定 `name: database_postgres_data` 至关重要？",
+      "code_snippet": "volumes:\n  postgres_data:\n    driver: local\n    name: database_postgres_data",
+      "options": [
+        "固定宿主机上的 Volume 精确名称，防止 Docker Compose 默认把当前父文件夹名作为前缀拼接成 `<folder_name>_postgres_data`，从而保证无论在哪个目录名称下启动容器都能挂载同一份持久化数据。",
+        "让 Docker 自动把数据库文件压缩成 ZIP 包。",
+        "强制 Linux 将数据挂载到固态硬盘（SSD）上。",
+        "限制 PostgreSQL 容器的最大内存为 2GB。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Docker Compose 默认使用 `<项目目录名>_<卷逻辑名>` 命名数据卷。一旦团队成员克隆项目的文件夹名称不同，就会创建出空的新数据卷。显式配置 `name: database_postgres_data` 可锁定全局唯一卷名。",
+      "card_front": "在编写生产级数据库基础设施的 `docker-compose.yml` 时，为什么在数据卷声明中显式指定 `name: database_postgres_data` 至关重要？",
+      "card_back": "固定宿主机上的 Volume 精确名称，防止 Docker Compose 默认把当前父文件夹名作为前缀拼接成 `<folder_name>_postgres_data`，从而保证无论在哪个目录名称下启动容器都能挂载同一份持久化数据。",
+      "card_hint": "Module 12：Docker Compose 容器化数据库与数据卷持久化",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "为什么在企业级生产环境（Production）中，严格禁止将配置设为 `spring.jpa.hibernate.ddl-auto=update`？",
+      "code_snippet": "",
+      "options": [
+        "因为每次重启应用时 Hibernate 都会自动删光所有表。",
+        "因为 `update` 只能简单新增列，无法安全处理删除列、重命名、数据迁移与回滚，缺乏版本审计历史，且在应用启动时可能触发不可控的锁表 `ALTER TABLE` 导致生产事故；生产环境必须使用 Flyway/Liquibase 配合 `ddl-auto=validate`。",
+        "因为不关闭 `ddl-auto` 就连不上 PostgreSQL。",
+        "因为它会让所有的 `SELECT` 查询变慢 50%。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "生产数据库 Schema 变更必须经过严格评审、版本控制与可回滚设计。标准架构实践是使用 Flyway 管理 SQL 迁移脚本，并将 Hibernate 设置为 `ddl-auto=validate`（仅校验实体与表结构是否匹配）。",
+      "card_front": "为什么在企业级生产环境（Production）中，严格禁止将配置设为 `spring.jpa.hibernate.ddl-auto=update`？",
+      "card_back": "因为 `update` 只能简单新增列，无法安全处理删除列、重命名、数据迁移与回滚，缺乏版本审计历史，且在应用启动时可能触发不可控的锁表 `ALTER TABLE` 导致生产事故；生产环境必须使用 Flyway/Liquibase 配合 `ddl-auto=validate`。",
+      "card_hint": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "当某个 Flyway 迁移脚本（如 `V1__init_brands_and_events.sql`）已经在数据库中成功执行过，如果开发者事后修改了该文件的内容并重启 Spring Boot，会发生什么？",
+      "code_snippet": "org.flywaydb.core.api.exception.FlywayValidateException: \nValidate failed: Migrations have failed validation\nMigration checksum mismatch for migration version 1\n-> Applied to database : 184920491\n-> Resolved locally    : -491029481",
+      "options": [
+        "Flyway 会自动删掉旧表并按修改后的 SQL 重新建表。",
+        "因为版本 1 已记录在 `flyway_schema_history` 表中，Flyway 会直接忽略这次修改。",
+        "Flyway 会检测到文件 CRC32 校验和（Checksum）与 `flyway_schema_history` 记录不一致，立即抛出 `FlywayValidateException`（`Migration checksum mismatch`）并终止应用启动，以保护数据库一致性。",
+        "应用正常启动，只打印一行普通日志。"
+      ],
+      "correct_option_index": 2,
+      "explanation": "Flyway 对每个已执行的迁移脚本都会计算并持久化 Checksum（校验和）。一旦发现已执行过的历史脚本被篡改，启动校验就会立即报错拦截，防止不同环境之间的表结构出现静默偏差。",
+      "card_front": "当某个 Flyway 迁移脚本（如 `V1__init_brands_and_events.sql`）已经在数据库中成功执行过，如果开发者事后修改了该文件的内容并重启 Spring Boot，会发生什么？",
+      "card_back": "Flyway 会检测到文件 CRC32 校验和（Checksum）与 `flyway_schema_history` 记录不一致，立即抛出 `FlywayValidateException`（`Migration checksum mismatch`）并终止应用启动，以保护数据库一致性。",
+      "card_hint": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "当 `V1__init_brands_and_events.sql` 已经部署上线后，如果需要为 `events` 表新增一个字段，符合黄金标准的操作方式是什么？",
+      "code_snippet": "",
+      "options": [
+        "直接修改 `V1__init_brands_and_events.sql` 文件并运行 `flyway repair`。",
+        "遵循“只追加（Append-only）”原则，新建下一个递增版本号的迁移文件（例如 `V2__add_status_column_to_events.sql`），在其中编写 `ALTER TABLE` 语句。",
+        "打开数据库客户端手动在所有环境的库里执行 `ALTER TABLE`。",
+        "删掉 `flyway_schema_history` 表重新跑一遍所有脚本。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "数据库版本迁移的核心铁律是“历史脚本不可变（Immutable / Append-only）”。任何新的表结构变更都必须通过新增 `V2__...`、`V3__...` 脚本向前演进。",
+      "card_front": "当 `V1__init_brands_and_events.sql` 已经部署上线后，如果需要为 `events` 表新增一个字段，符合黄金标准的操作方式是什么？",
+      "card_back": "遵循“只追加（Append-only）”原则，新建下一个递增版本号的迁移文件（例如 `V2__add_status_column_to_events.sql`），在其中编写 `ALTER TABLE` 语句。",
+      "card_hint": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "在抽象基类 `BaseEntity` 中，需要配置哪些注解才能让 Spring Data JPA 自动填充 `createdAt`（创建时间）和 `updatedAt`（更新时间）？",
+      "code_snippet": "@MappedSuperclass\n@EntityListeners(AuditingEntityListener.class)\npublic abstract class BaseEntity {\n    @CreatedDate\n    @Column(name = \"created_at\", nullable = false, updatable = false)\n    private Instant createdAt;\n\n    @LastModifiedDate\n    @Column(name = \"updated_at\")\n    private Instant updatedAt;\n}",
+      "options": [
+        "只需要标上 `@CreatedDate` 和 `@LastModifiedDate`，无需任何其他配置。",
+        "需要在实体/基类上声明 `@EntityListeners(AuditingEntityListener.class)`，同时在 Spring Boot 配置类上开启 `@EnableJpaAuditing`。",
+        "只需要在 `BaseEntity` 上添加 `@Transactional`。",
+        "JPA 无法自动填充时间，必须手写 PostgreSQL 数据库触发器。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "激活 Spring Data JPA 自动审计功能必须同时满足三要素：字段标注 `@CreatedDate`/`@LastModifiedDate`、实体类挂载 `@EntityListeners(AuditingEntityListener.class)`、以及全局配置开启 `@EnableJpaAuditing`。",
+      "card_front": "在抽象基类 `BaseEntity` 中，需要配置哪些注解才能让 Spring Data JPA 自动填充 `createdAt`（创建时间）和 `updatedAt`（更新时间）？",
+      "card_back": "需要在实体/基类上声明 `@EntityListeners(AuditingEntityListener.class)`，同时在 Spring Boot 配置类上开启 `@EnableJpaAuditing`。",
+      "card_hint": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "在 Ticket Station 项目中，Flyway 数据库迁移脚本的标准文件命名规范是什么？",
+      "code_snippet": "",
+      "options": [
+        "`V{version}_{中文或拼音描述}.sql`",
+        "`V{version}__{英文小写下划线描述}.sql`（例如 `V1__init_brands_and_events.sql`，注意版本号后面必须跟**两个下划线** `__`）",
+        "`Flyway_{version}_{name}.sql`（例如 `Flyway_1_Events.sql`）",
+        "`migration-{version}.sql`（例如 `migration-01.sql`）"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Flyway 默认强制的命名规范为：大写字母 `V` + 版本号 + **双下划线 `__`**（分隔符）+ 英文 snake_case 描述 + `.sql` 后缀。如果只写一个下划线，Flyway 将无法识别该文件。",
+      "card_front": "在 Ticket Station 项目中，Flyway 数据库迁移脚本的标准文件命名规范是什么？",
+      "card_back": "`V{version}__{英文小写下划线描述}.sql`（例如 `V1__init_brands_and_events.sql`，注意版本号后面必须跟**两个下划线** `__`）",
+      "card_hint": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q6",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "在 Ticket Station 的 PostgreSQL `docker-compose.yml` 文件中，代码片段所示的 `volumes` 挂载配置有什么核心技术作用？",
+      "code_snippet": "services:\n  postgres:\n    image: postgres:16-alpine\n    container_name: ticket_station_db_dev\n    volumes:\n      - postgres_data:/var/lib/postgresql/data\n\nvolumes:\n  postgres_data:\n    driver: local\n    name: database_postgres_data",
+      "options": [
+        "将数据临时保存在 Docker 内存中，每次重启电脑自动清空。",
+        "将容器内的 `/var/lib/postgresql/data` 目录挂载到宿主机上名为 `database_postgres_data` 的命名数据卷（Named Volume），确保即使停止、删除或重建容器（`docker compose down && docker compose up -d`），数据库中的数据依然安全持久化保存。",
+        "强制要求 Spring Boot 的 JDBC URL 必须包含 `database_postgres_data`。",
+        "自动将 SQL 文件备份到云盘。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Docker 容器默认文件层是临时的（Ephemeral）。通过将 PostgreSQL 数据目录挂载到宿主机 Named Volume（`database_postgres_data`），可实现容器生命周期与底层数据存储的安全解耦。",
+      "card_front": "在 Ticket Station 的 PostgreSQL `docker-compose.yml` 文件中，代码片段所示的 `volumes` 挂载配置有什么核心技术作用？",
+      "card_back": "将容器内的 `/var/lib/postgresql/data` 目录挂载到宿主机上名为 `database_postgres_data` 的命名数据卷（Named Volume），确保即使停止、删除或重建容器（`docker compose down && docker compose up -d`），数据库中的数据依然安全持久化保存。",
+      "card_hint": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q7",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "当 `database_postgres_data` 数据卷中已经初始化过数据库数据后，如果开发者修改了 `docker-compose.yml` 中的 `POSTGRES_PASSWORD` 并执行 `docker compose down` 再 `docker compose up -d`，为什么新密码不会生效？",
+      "code_snippet": "# Change password in docker-compose.yml:\nenvironment:\n  POSTGRES_DB: ticket_station_db_dev\n  POSTGRES_USER: dev_write\n  POSTGRES_PASSWORD: new_secret_pass_2026\n\n# Run: docker compose down && docker compose up -d\n# Database connection result: FATAL: password authentication failed for user \"dev_write\"",
+      "options": [
+        "因为 PostgreSQL 官方 Docker 镜像的初始化入口脚本（`initdb`）仅在 `/var/lib/postgresql/data` 目录为空时才会读取 `POSTGRES_*` 环境变量执行首次初始化；一旦数据卷中已有数据，容器启动时会直接跳过初始化并沿用旧密码。",
+        "因为 Docker Compose 不支持超过 8 位的密码。",
+        "因为 Spring Boot 把旧密码缓存在了 `pom.xml` 里。",
+        "因为 PostgreSQL JDBC 驱动禁止修改密码。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "这是使用 Docker 跑数据库最经典的踩坑点：PostgreSQL 官方镜像只在数据目录为空的“第一次启动”时读取环境变量创建用户和密码。若需让新环境变量重新初始化，需要通过 `docker compose down -v` 删除旧数据卷（或进入容器用 `ALTER USER` 修改）。",
+      "card_front": "当 `database_postgres_data` 数据卷中已经初始化过数据库数据后，如果开发者修改了 `docker-compose.yml` 中的 `POSTGRES_PASSWORD` 并执行 `docker compose down` 再 `docker compose up -d`，为什么新密码不会生效？",
+      "card_back": "因为 PostgreSQL 官方 Docker 镜像的初始化入口脚本（`initdb`）仅在 `/var/lib/postgresql/data` 目录为空时才会读取 `POSTGRES_*` 环境变量执行首次初始化；一旦数据卷中已有数据，容器启动时会直接跳过初始化并沿用旧密码。",
+      "card_hint": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m1-q8",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-1",
+      "question": "对于 `database_postgres_data` 数据卷而言，命令 `docker compose down` 与 `docker compose down -v` 有什么本质区别？",
+      "code_snippet": "",
+      "options": [
+        "`docker compose down` 仅停止并移除容器和网络，但**保留** `database_postgres_data` 数据卷（数据完好无损）；而加上 `-v`（`--volumes`）参数会**连同命名数据卷一起彻底删除**，清空所有数据库数据。",
+        "`docker compose down` 会格式化整块电脑硬盘，而 `-v` 只是重启容器。",
+        "两条命令没有任何区别，都会删库。",
+        "`-v` 只是打印详细日志（verbose），不会删除任何数据卷。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "为保护数据安全，`docker compose down` 默认绝不触碰 Named Volumes。只有当你明确需要彻底清空重置本地开发数据库时，才使用带 `-v` 的 `docker compose down -v`。",
+      "card_front": "对于 `database_postgres_data` 数据卷而言，命令 `docker compose down` 与 `docker compose down -v` 有什么本质区别？",
+      "card_back": "`docker compose down` 仅停止并移除容器和网络，但**保留** `database_postgres_data` 数据卷（数据完好无损）；而加上 `-v`（`--volumes`）参数会**连同命名数据卷一起彻底删除**，清空所有数据库数据。",
+      "card_hint": "Milestone 1：企业级数据库基建、Flyway 版本迁移与 JPA 审计",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "在以下代码场景中，经典的 Hibernate “N+1 查询问题（N+1 Query Problem）”是如何发生的？",
+      "code_snippet": "// API fetches 20 events and prints seat count for each event:\nList<Event> events = eventRepository.findAll(); // 1 query fetches 20 events\nfor (Event event : events) {\n    // Loop through each event to access lazy seats collection\n    System.out.println(event.getSeats().size()); // ???\n}",
+      "options": [
+        "得益于二级缓存，总共只向数据库发送 1 条 SQL 查询。",
+        "总共执行了 21 条 SQL 查询：第 1 条查询捞出 20 个 `Event` 演出对象，随后在循环遍历这 20 个演出并调用懒加载集合 `event.getSeats()` 时，每次迭代都会额外触发 1 条 `SELECT` 查询去查座位（1 + 20 = 21 条查询）。",
+        "Hibernate 会自动把它们合并成 1 条子查询。",
+        "Hibernate 会直接抛出 `ConcurrentModificationException`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "N+1 问题是 ORM 最常见的性能杀手：1 次主查询查出 N 条主表记录，随后在循环中访问 `FetchType.LAZY` 关联属性导致触发 N 次单条子表查询，瞬间打满数据库连接池。",
+      "card_front": "在以下代码场景中，经典的 Hibernate “N+1 查询问题（N+1 Query Problem）”是如何发生的？",
+      "card_back": "总共执行了 21 条 SQL 查询：第 1 条查询捞出 20 个 `Event` 演出对象，随后在循环遍历这 20 个演出并调用懒加载集合 `event.getSeats()` 时，每次迭代都会额外触发 1 条 `SELECT` 查询去查座位（1 + 20 = 21 条查询）。",
+      "card_hint": "Milestone 2：攻克 Hibernate N+1 问题、Record DTO 与 RFC 7807",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "在 JPQL 查询中，普通的 `JOIN` 与 `JOIN FETCH` 有什么核心区别？",
+      "code_snippet": "// Query 1:\n@Query(\"SELECT e FROM Event e JOIN e.seats s WHERE e.id = :id\")\n\n// Query 2:\n@Query(\"SELECT e FROM Event e JOIN FETCH e.seats s WHERE e.id = :id\")",
+      "options": [
+        "普通 `JOIN` 会把父子表数据一起加载到内存，而 `JOIN FETCH` 只做过滤。",
+        "普通 `JOIN` 仅用于在 SQL `WHERE` 中做关联条件过滤，**不会**初始化父实体内部的懒加载子集合；而 `JOIN FETCH` 明确指示 Hibernate 在单条 SQL 查询中将关联子集合一并捞出并填充到持久化上下文中，从而彻底消除 N+1 查询。",
+        "`JOIN FETCH` 只能在 MySQL 上用，不支持 PostgreSQL。",
+        "两条查询在 Java 层的行为 100% 相同。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "在 JPQL 中写普通 `JOIN e.seats` 后，访问 `event.getSeats()` 依然会触发懒加载 SQL；只有使用 `JOIN FETCH e.seats`（或 `@EntityGraph`）才能在一条 SQL 中完成主从实体图的即时抓取。",
+      "card_front": "在 JPQL 查询中，普通的 `JOIN` 与 `JOIN FETCH` 有什么核心区别？",
+      "card_back": "普通 `JOIN` 仅用于在 SQL `WHERE` 中做关联条件过滤，**不会**初始化父实体内部的懒加载子集合；而 `JOIN FETCH` 明确指示 Hibernate 在单条 SQL 查询中将关联子集合一并捞出并填充到持久化上下文中，从而彻底消除 N+1 查询。",
+      "card_hint": "Milestone 2：攻克 Hibernate N+1 问题、Record DTO 与 RFC 7807",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Hibernate 中著名的 `LazyInitializationException: could not initialize proxy - no Session` 异常是由什么原因引起的？",
+      "code_snippet": "",
+      "options": [
+        "执行 SQL 时数据库断网了。",
+        "当管理该实体的 Hibernate `Session`（即 `@Transactional` 持久化上下文）已经关闭之后（例如在 Controller 层或序列化 JSON 时），代码才去访问一个尚未初始化的 `LAZY` 懒加载关联属性。",
+        "因为字段上标了 `@Transient`。",
+        "因为没有配置数据库账号密码。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "懒加载代理对象（Proxy）必须依赖活动的 Hibernate `Session` 才能去数据库查询数据。一旦走出 `@Transactional` Service 方法，Session 关闭、实体变为游离态（Detached），再访问未加载的关联集合就会抛出 `LazyInitializationException`。应在 Service 层内使用 `JOIN FETCH` 或提前转换为 DTO。",
+      "card_front": "Hibernate 中著名的 `LazyInitializationException: could not initialize proxy - no Session` 异常是由什么原因引起的？",
+      "card_back": "当管理该实体的 Hibernate `Session`（即 `@Transactional` 持久化上下文）已经关闭之后（例如在 Controller 层或序列化 JSON 时），代码才去访问一个尚未初始化的 `LAZY` 懒加载关联属性。",
+      "card_hint": "Milestone 2：攻克 Hibernate N+1 问题、Record DTO 与 RFC 7807",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "在 Java 16+ 与 Spring Boot 3+ 中，为什么推荐优先使用 Java `record` 来定义 Request/Response DTO，而不是带 Lombok `@Data` 的普通类？",
+      "code_snippet": "public record EventResponseDto(\n    Long id,\n    String title,\n    BigDecimal basePrice,\n    Instant eventDate,\n    String venue\n) {}",
+      "options": [
+        "因为 `record` 能让接口响应速度提升 10 倍。",
+        "`record` 天生是浅不可变（Immutable）的数据载体，由 JDK 原生自动生成全参构造器、访问器、`equals()`、`hashCode()` 和 `toString()`，具备极佳的线程安全性，消除跨层传递时状态被意外篡改的风险，且无需依赖第三方字节码插件。",
+        "因为 `record` 支持多继承。",
+        "因为 Hibernate 强制要求 `@Entity` 实体类必须写成 `record`。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "DTO 的本质是纯粹的数据传输信封。Java `record` 用一行代码声明不可变数据结构，与 Jackson 序列化/反序列化以及 Jakarta Bean Validation（`@NotBlank`、`@Valid`）无缝集成。",
+      "card_front": "在 Java 16+ 与 Spring Boot 3+ 中，为什么推荐优先使用 Java `record` 来定义 Request/Response DTO，而不是带 Lombok `@Data` 的普通类？",
+      "card_back": "`record` 天生是浅不可变（Immutable）的数据载体，由 JDK 原生自动生成全参构造器、访问器、`equals()`、`hashCode()` 和 `toString()`，具备极佳的线程安全性，消除跨层传递时状态被意外篡改的风险，且无需依赖第三方字节码插件。",
+      "card_hint": "Milestone 2：攻克 Hibernate N+1 问题、Record DTO 与 RFC 7807",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m2-q5",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-2",
+      "question": "Spring Boot 3 原生内置支持的 RFC 7807（`ProblemDetail`）在 RESTful API 设计中解决什么核心问题？",
+      "code_snippet": "",
+      "options": [
+        "使用 AES-256 自动加密敏感 JSON 字段。",
+        "提供国际标准化的 HTTP API 错误响应 JSON 结构（包含标准字段 `type`、`title`、`status`、`detail`、`instance` 以及自定义扩展属性），让前端与第三方客户端能够以统一规范解析各种业务异常。",
+        "自动生成 Swagger UI 页面。",
+        "自动压缩 HTTP 响应报文体积。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "RFC 7807（Problem Details for HTTP APIs）定义了机器可读的统一错误响应格式。在 Spring Boot 3 的 `@RestControllerAdvice` 中直接返回 `ProblemDetail`，即可告别各团队五花八门的自定义错误 JSON。",
+      "card_front": "Spring Boot 3 原生内置支持的 RFC 7807（`ProblemDetail`）在 RESTful API 设计中解决什么核心问题？",
+      "card_back": "提供国际标准化的 HTTP API 错误响应 JSON 结构（包含标准字段 `type`、`title`、`status`、`detail`、`instance` 以及自定义扩展属性），让前端与第三方客户端能够以统一规范解析各种业务异常。",
+      "card_hint": "Milestone 2：攻克 Hibernate N+1 问题、Record DTO 与 RFC 7807",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "在为 Service 层编写纯业务逻辑单元测试（如 `EventServiceTest`）时，为什么应该使用 `@ExtendWith(MockitoExtension.class)` 而不是 `@SpringBootTest`？",
+      "code_snippet": "@ExtendWith(MockitoExtension.class)\nclass EventServiceTest {\n    @Mock\n    private EventRepository eventRepository;\n\n    @InjectMocks\n    private EventService eventService;\n}",
+      "options": [
+        "因为 `@SpringBootTest` 不支持 Mock 依赖。",
+        "`@ExtendWith(MockitoExtension.class)` 无需启动庞大的 Spring `ApplicationContext` 容器和数据库连接，直接在纯 JVM 上以毫秒级速度运行，使单元测试保持极速反馈并与外部基础设施完全隔离。",
+        "因为 Mockito 与 Spring Boot 3 不兼容。",
+        "因为使用 `@SpringBootTest` 会清空生产数据库。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "单元测试（Unit Test）讲求“快速、隔离、可重复”。`@SpringBootTest` 属于集成测试，启动完整容器往往耗时数秒至数十秒；而纯 Mockito 单元测试只需几毫秒即可验证复杂的业务分支逻辑。",
+      "card_front": "在为 Service 层编写纯业务逻辑单元测试（如 `EventServiceTest`）时，为什么应该使用 `@ExtendWith(MockitoExtension.class)` 而不是 `@SpringBootTest`？",
+      "card_back": "`@ExtendWith(MockitoExtension.class)` 无需启动庞大的 Spring `ApplicationContext` 容器和数据库连接，直接在纯 JVM 上以毫秒级速度运行，使单元测试保持极速反馈并与外部基础设施完全隔离。",
+      "card_hint": "Milestone 3：Mockito 极速单元测试、双 Token 认证与 BOLA 防护",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "在 Mockito 测试框架中，`@Mock` 与 `@Spy` 有什么本质区别？",
+      "code_snippet": "",
+      "options": [
+        "`@Mock` 创建一个完全虚拟的空壳代理对象，未显式打桩（Stub）的方法默认返回空值（`null`、`0`、`false`）；而 `@Spy` 包装一个真实对象实例，除非某个方法被显式打桩覆盖，否则默认都会执行真实对象的方法逻辑（部分模拟 Partial Mock）。",
+        "`@Mock` 只能用于接口，而 `@Spy` 只能用于抽象类。",
+        "`@Spy` 的运行速度比 `@Mock` 快 5 倍。",
+        "`@Mock` 把数据存在数据库里，而 `@Spy` 把数据存在内存里。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "`@Mock` 替换了对象的所有方法实现；而 `@Spy` 则在真实对象外层包了一层追踪壳，默认调用真实代码，仅对通过 `doReturn(...).when(spy).method()` 指定的方法进行局部拦截。",
+      "card_front": "在 Mockito 测试框架中，`@Mock` 与 `@Spy` 有什么本质区别？",
+      "card_back": "`@Mock` 创建一个完全虚拟的空壳代理对象，未显式打桩（Stub）的方法默认返回空值（`null`、`0`、`false`）；而 `@Spy` 包装一个真实对象实例，除非某个方法被显式打桩覆盖，否则默认都会执行真实对象的方法逻辑（部分模拟 Partial Mock）。",
+      "card_hint": "Milestone 3：Mockito 极速单元测试、双 Token 认证与 BOLA 防护",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "在 JWT 双 Token 安全架构中，为什么要把 Access Token 的有效期设计得很短（如 15 分钟），而把 Refresh Token 的有效期设计得较长（如 7 天）？",
+      "code_snippet": "",
+      "options": [
+        "因为 Access Token 有效期设长了会导致 Base64 字符串太长无法传输。",
+        "因为 JWT Access Token 是无状态的（服务端每次请求仅验签而不查库），一旦泄露在过期前很难立即吊销，短有效期（15 分钟）能将泄露后的攻击时间窗口压缩到最小；而 Refresh Token 仅在换发新 Token 时使用，可安全存储在服务端 Redis 白名单/黑名单中随时吊销控制。",
+        "因为 HMAC-SHA256 加密算法在数学上只能维持 15 分钟有效。",
+        "因为浏览器每 15 分钟会自动清空所有本地存储。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "双 Token 机制完美兼顾了“高频接口的无状态高性能验签（短命 Access Token）”与“会话可随时服务端强制下线/续期（受 Redis 管控的长命 Refresh Token）”。",
+      "card_front": "在 JWT 双 Token 安全架构中，为什么要把 Access Token 的有效期设计得很短（如 15 分钟），而把 Refresh Token 的有效期设计得较长（如 7 天）？",
+      "card_back": "因为 JWT Access Token 是无状态的（服务端每次请求仅验签而不查库），一旦泄露在过期前很难立即吊销，短有效期（15 分钟）能将泄露后的攻击时间窗口压缩到最小；而 Refresh Token 仅在换发新 Token 时使用，可安全存储在服务端 Redis 白名单/黑名单中随时吊销控制。",
+      "card_hint": "Milestone 3：Mockito 极速单元测试、双 Token 认证与 BOLA 防护",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m3-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-3",
+      "question": "在下面的 `cancelBooking(bookingId)` 接口中，什么是 BOLA（对象级授权破坏 / IDOR 越权访问）漏洞？在 Spring Security 中应如何防御？",
+      "code_snippet": "// Cancel booking API:\n@DeleteMapping(\"/api/v1/bookings/{bookingId}\")\npublic ResponseEntity<Void> cancelBooking(@PathVariable Long bookingId) {\n    // If we only check isAuthenticated \n    // WITHOUT verifying whether bookingId belongs to the caller!\n    bookingService.cancel(bookingId);\n    return ResponseEntity.noContent().build();\n}",
+      "options": [
+        "已登录的合法用户通过篡改 URL 中的 `bookingId` 参数去查看或取消其他用户的门票订单；防御方法是除了校验是否登录外，必须校验当前登录用户是否为该资源的所有者（例如使用 `@PreAuthorize(\"@bookingSecurity.isOwner(#bookingId, authentication.principal.id)\")` 或在 SQL 查询中带上 `AND user_id = :currentUserId`）。",
+        "攻击者在 URL 中注入 SQL 语句；通过开启 CORS 即可防御。",
+        "用户恶意刷接口导致服务器宕机；通过加 Redis 缓存即可防御。",
+        "密码加密强度不够；改成 MD5 即可防御。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "BOLA（Broken Object Level Authorization，又称 IDOR）长期位居 OWASP API Security Top 10 榜首。仅仅校验“用户已登录（Authentication）”远远不够，必须在每次操作具体资源 ID 时严格校验“资源归属权（Authorization）”。",
+      "card_front": "在下面的 `cancelBooking(bookingId)` 接口中，什么是 BOLA（对象级授权破坏 / IDOR 越权访问）漏洞？在 Spring Security 中应如何防御？",
+      "card_back": "已登录的合法用户通过篡改 URL 中的 `bookingId` 参数去查看或取消其他用户的门票订单；防御方法是除了校验是否登录外，必须校验当前登录用户是否为该资源的所有者（例如使用 `@PreAuthorize(\"@bookingSecurity.isOwner(#bookingId, authentication.principal.id)\")` 或在 SQL 查询中带上 `AND user_id = :currentUserId`）。",
+      "card_hint": "Milestone 3：Mockito 极速单元测试、双 Token 认证与 BOLA 防护",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "当 10,000 名用户在同一毫秒点击争抢同一个演唱会 VIP 座位（`Hold Seat`）时，在多实例集群部署（Load Balancer + 多个 Spring Boot 节点）环境下，哪种机制能 100% 保证绝不发生超卖或重复锁座（Double-Booking）？",
+      "code_snippet": "",
+      "options": [
+        "在 Service 的 `holdSeat()` 方法上加 Java 的 `synchronized` 关键字。",
+        "使用 Redis 分布式锁（如 Redisson `RLock`）配合数据库层面的悲观写锁（`SELECT ... FOR UPDATE`）或乐观锁（`@Version` CAS 更新）。",
+        "把座位状态保存在 JVM 内存的 `static HashMap` 中。",
+        "使用 `@Async` 异步线程在后台处理锁座。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Java 的 `synchronized` 或 `ReentrantLock` 仅在单个 JVM 进程内部有效！在多节点微服务集群中，不同请求会被负载均衡分发到不同服务器，必须依靠跨进程的 Redis 分布式锁或数据库行锁/乐观锁来保证全局互斥。",
+      "card_front": "当 10,000 名用户在同一毫秒点击争抢同一个演唱会 VIP 座位（`Hold Seat`）时，在多实例集群部署（Load Balancer + 多个 Spring Boot 节点）环境下，哪种机制能 100% 保证绝不发生超卖或重复锁座（Double-Booking）？",
+      "card_back": "使用 Redis 分布式锁（如 Redisson `RLock`）配合数据库层面的悲观写锁（`SELECT ... FOR UPDATE`）或乐观锁（`@Version` CAS 更新）。",
+      "card_hint": "Milestone 4：万级并发抢票：分布式锁、乐观锁与防缓存击穿",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "Spring Data JPA 中的乐观锁（Optimistic Locking `@Version`）在底层是如何工作的？",
+      "code_snippet": "@Entity\n@Table(name = \"seats\")\npublic class Seat {\n    @Id\n    private Long id;\n\n    private String seatNumber;\n\n    @Enumerated(EnumType.STRING)\n    private SeatStatus status;\n\n    @Version\n    private Long version;\n}",
+      "options": [
+        "从读取数据的那一刻起直到事务结束，数据库物理锁死该行记录不允许任何人读取。",
+        "读取时不加物理数据库锁；在执行更新时，Hibernate 会把读取时的版本号拼入 `WHERE` 条件：`UPDATE seats SET status=?, version=version+1 WHERE id=? AND version=?`。如果另一个并发事务已经抢先修改并使 `version` 加 1，则本次更新受影响行数为 `0`，Hibernate 立即抛出 `OptimisticLockingFailureException` 回滚事务。",
+        "每当有人查看座位时自动通过 WebSocket 广播锁住前端按钮。",
+        "允许读取，但会把整张表锁死 10 分钟禁止写入。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "乐观锁基于 CAS（Compare-And-Swap）思想，无需长久持有数据库连接锁。通过对比更新瞬间的 `@Version` 版本号是否与读取时一致，即可精准拦截并发写冲突（Lost Update）。",
+      "card_front": "Spring Data JPA 中的乐观锁（Optimistic Locking `@Version`）在底层是如何工作的？",
+      "card_back": "读取时不加物理数据库锁；在执行更新时，Hibernate 会把读取时的版本号拼入 `WHERE` 条件：`UPDATE seats SET status=?, version=version+1 WHERE id=? AND version=?`。如果另一个并发事务已经抢先修改并使 `version` 加 1，则本次更新受影响行数为 `0`，Hibernate 立即抛出 `OptimisticLockingFailureException` 回滚事务。",
+      "card_hint": "Milestone 4：万级并发抢票：分布式锁、乐观锁与防缓存击穿",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "什么是高并发系统中的“缓存击穿 / 惊群效应（Cache Stampede / Dogpiling）”？在 Ticket Station 中如何防御？",
+      "code_snippet": "",
+      "options": [
+        "Redis 内存满了自动删光所有键。",
+        "当某个极高并发访问的“热点 Key”（如首页热门演唱会详情）在过期（TTL 归零）的同一瞬间，成千上万个并发请求同时发现缓存未命中（Cache Miss），并同时穿透到 PostgreSQL 数据库执行复杂查询重建缓存，瞬间打挂数据库；防御手段包括：给 TTL 增加随机抖动值（Jitter）、使用分布式互斥锁控制仅一个线程查库回填缓存，或后台异步提前预热续期。",
+        "Spring Boot 与 Redis 之间的网线被拔掉了。",
+        "缓存里的数据永远不会过期。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "防御缓存击穿/雪崩的三大工程利器：① 过期时间加随机偏移量（TTL Jitter）防止集体同时过期；② 重建缓存时加分布式 Mutex 锁（其余线程短暂等待或返回旧值）；③ 热点数据逻辑过期 + 后台异步刷新。",
+      "card_front": "什么是高并发系统中的“缓存击穿 / 惊群效应（Cache Stampede / Dogpiling）”？在 Ticket Station 中如何防御？",
+      "card_back": "当某个极高并发访问的“热点 Key”（如首页热门演唱会详情）在过期（TTL 归零）的同一瞬间，成千上万个并发请求同时发现缓存未命中（Cache Miss），并同时穿透到 PostgreSQL 数据库执行复杂查询重建缓存，瞬间打挂数据库；防御手段包括：给 TTL 增加随机抖动值（Jitter）、使用分布式互斥锁控制仅一个线程查库回填缓存，或后台异步提前预热续期。",
+      "card_hint": "Milestone 4：万级并发抢票：分布式锁、乐观锁与防缓存击穿",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m4-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-4",
+      "question": "当用户在选座页面选中一张演唱会门票时，“座位临时锁定（Temporary Seat Hold）”的标准业务状态流转是如何设计的？",
+      "code_snippet": "",
+      "options": [
+        "立即从用户银行卡扣款，如果用户取消则在 24 小时后退款。",
+        "原子地将座位状态从 `AVAILABLE` 更新为 `HELD`，并记录锁定过期时间 `heldUntil = Instant.now().plus(Duration.ofMinutes(10))`；若用户在 10 分钟内完成支付则流转为 `SOLD`，若超时未支付，则由后台定时任务或延迟队列自动将其释放回 `AVAILABLE` 状态。",
+        "直接从数据库把这行座位记录 `DELETE` 删掉，防止别人看到。",
+        "封禁所有其他用户的 IP 地址 10 分钟。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "限时锁座（Temporary Hold with TTL）是票务与电商库存系统的核心模型：既给当前买家留出安全的支付窗口（如 10 分钟），又通过过期自动释放机制防止恶意占座导致死库存。",
+      "card_front": "当用户在选座页面选中一张演唱会门票时，“座位临时锁定（Temporary Seat Hold）”的标准业务状态流转是如何设计的？",
+      "card_back": "原子地将座位状态从 `AVAILABLE` 更新为 `HELD`，并记录锁定过期时间 `heldUntil = Instant.now().plus(Duration.ofMinutes(10))`；若用户在 10 分钟内完成支付则流转为 `SOLD`，若超时未支付，则由后台定时任务或延迟队列自动将其释放回 `AVAILABLE` 状态。",
+      "card_hint": "Milestone 4：万级并发抢票：分布式锁、乐观锁与防缓存击穿",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "观察下面的 `processPaymentSuccess` 方法，其中潜藏着分布式系统中什么臭名昭著的架构隐患？",
+      "code_snippet": "@Transactional\npublic void processPaymentSuccess(Order order) {\n    order.setStatus(OrderStatus.PAID);\n    orderRepository.save(order); // 1. Save to PostgreSQL\n\n    // 2. Publish event to Kafka to send PDF ticket and email\n    kafkaTemplate.send(\"ticket-booked-topic\", new OrderPaidEvent(order.getId()));\n}",
+      "options": [
+        "没有任何隐患，完全符合 Spring 最佳实践。",
+        "“双写不一致（Dual-Write Problem）”隐患：本地 PostgreSQL 数据库事务与向 Kafka 发送消息无法共享同一个原子事务。如果数据库提交成功但此时 Kafka 网络抖动发送失败，会导致订单已支付却永远不发门票通知；反之若先发了 Kafka 消息而随后数据库事务回滚，用户没付钱却收到了出票消息！",
+        "Spring 禁止在 `@Transactional` 类里注入 `KafkaTemplate`。",
+        "Kafka 只能发送 XML，不能发送 JSON。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "在同一个业务方法中直接同步操作两个异构存储系统（DB + MQ）属于典型的双写反模式（Dual-Write Anti-pattern），一旦遇到网络分区或进程宕机必然引发数据不一致。",
+      "card_front": "观察下面的 `processPaymentSuccess` 方法，其中潜藏着分布式系统中什么臭名昭著的架构隐患？",
+      "card_back": "“双写不一致（Dual-Write Problem）”隐患：本地 PostgreSQL 数据库事务与向 Kafka 发送消息无法共享同一个原子事务。如果数据库提交成功但此时 Kafka 网络抖动发送失败，会导致订单已支付却永远不发门票通知；反之若先发了 Kafka 消息而随后数据库事务回滚，用户没付钱却收到了出票消息！",
+      "card_hint": "Milestone 5：Kafka 异步解耦、事务发件箱模式与死信队列 (DLQ)",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "事务发件箱模式（Transactional Outbox Pattern）是如何彻底解决数据库与 Kafka 之间的“双写不一致”问题的？",
+      "code_snippet": "",
+      "options": [
+        "在同一个本地数据库 ACID 事务中，同时完成“更新 `orders` 订单表”和“向本地 `outbox_events` 发件箱表插入一条待发送事件记录”；事务提交后，再由独立的后台 Relay 轮询协程或 Debezium CDC 监听读取 `outbox_events` 表并可靠地投递到 Kafka（确认成功后标记为已发送）。",
+        "彻底关闭数据库事务，完全依赖 Kafka。",
+        "让前端浏览器分别发两次 HTTP 请求：一次写数据库，一次写 Kafka。",
+        "配置 Kafka 让它直接往 PostgreSQL 表里写数据。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "因为 `orders` 表和 `outbox_events` 表位于同一个关系型数据库中，本地 ACID 事务能 100% 保证两者“同生共死（原子提交或回滚）”，随后通过异步中继实现至少一次（At-least-once）的可靠消息投递。",
+      "card_front": "事务发件箱模式（Transactional Outbox Pattern）是如何彻底解决数据库与 Kafka 之间的“双写不一致”问题的？",
+      "card_back": "在同一个本地数据库 ACID 事务中，同时完成“更新 `orders` 订单表”和“向本地 `outbox_events` 发件箱表插入一条待发送事件记录”；事务提交后，再由独立的后台 Relay 轮询协程或 Debezium CDC 监听读取 `outbox_events` 表并可靠地投递到 Kafka（确认成功后标记为已发送）。",
+      "card_hint": "Milestone 5：Kafka 异步解耦、事务发件箱模式与死信队列 (DLQ)",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m5-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-5",
+      "question": "当 Kafka 消费者（Consumer）处理某条消息连续失败时（例如第三方邮件网关暂时宕机，或者消息格式异常），生产环境的标准容错恢复策略是什么？",
+      "code_snippet": "",
+      "options": [
+        "捕获异常后直接静默丢弃该消息，假装处理成功。",
+        "不提交 Offset，让消费者线程永远死循环卡死在同一条消息上。",
+        "配置带指数退避（Exponential Backoff，如间隔 1s、2s、4s...）的有限次自动重试；若重试 N 次后依然失败，则将该消息自动路由转发至死信队列（Dead Letter Topic / DLQ），触发监控告警供人工排查重放，同时不阻塞主分区后续正常消息的消费。",
+        "直接删掉整个 Kafka Topic 重新创建。"
+      ],
+      "correct_option_index": 2,
+      "explanation": "指数退避重试可平滑渡过短暂的网络抖动，而超过最大重试阈值后转入死信队列（DLQ / DLT）则能隔离“毒丸消息（Poison Pill）”，防止整个消费组分区被卡死。",
+      "card_front": "当 Kafka 消费者（Consumer）处理某条消息连续失败时（例如第三方邮件网关暂时宕机，或者消息格式异常），生产环境的标准容错恢复策略是什么？",
+      "card_back": "配置带指数退避（Exponential Backoff，如间隔 1s、2s、4s...）的有限次自动重试；若重试 N 次后依然失败，则将该消息自动路由转发至死信队列（Dead Letter Topic / DLQ），触发监控告警供人工排查重放，同时不阻塞主分区后续正常消息的消费。",
+      "card_hint": "Milestone 5：Kafka 异步解耦、事务发件箱模式与死信队列 (DLQ)",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q1",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "在 Ticket Station 的支付接口（`POST /payments`）中，“接口幂等性（Idempotency）”的确切含义是什么？",
+      "code_snippet": "",
+      "options": [
+        "接口必须在 10 毫秒内返回响应。",
+        "无论客户端因网络超时重传、网关自动重试还是用户快速连点按钮而针对同一笔交易发送了多少次重复的支付请求，系统都保证**只执行一次真实扣款与状态变更**，后续重复请求直接返回第一次的处理结果而不产生任何重复扣款副作用。",
+        "接口只允许固定 IP 地址调用。",
+        "支付记录一旦生成就永远不允许查询。"
+      ],
+      "correct_option_index": 1,
+      "explanation": "在移动网络环境下，超时重传与连点极为普遍。支付与下单接口必须通过客户端生成的唯一 `Idempotency-Key` 实现严格幂等，确保多次请求与单次请求产生的业务副作用完全相同。",
+      "card_front": "在 Ticket Station 的支付接口（`POST /payments`）中，“接口幂等性（Idempotency）”的确切含义是什么？",
+      "card_back": "无论客户端因网络超时重传、网关自动重试还是用户快速连点按钮而针对同一笔交易发送了多少次重复的支付请求，系统都保证**只执行一次真实扣款与状态变更**，后续重复请求直接返回第一次的处理结果而不产生任何重复扣款副作用。",
+      "card_hint": "Milestone 6：支付幂等性、Resilience4j 熔断器与多阶段安全镜像",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q2",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "在 Spring Boot 中结合 Redis 实现高性能 `@Idempotent` 幂等性拦截器时，标准的原子操作方案是什么？",
+      "code_snippet": "@PostMapping(\"/charge\")\n@Idempotent(key = \"#request.idempotencyKey\", expireSeconds = 120)\npublic PaymentResponse chargeMoney(@RequestBody PaymentRequest request) { ... }",
+      "options": [
+        "利用 Redis 原子的 `SET key value NX EX seconds` 命令（仅当 Key 不存在时才设置成功并附带过期时间）。若返回 `true` 说明是首次请求，放行执行业务；若返回 `false` 说明存在并发或已处理的重复请求，立即拦截并返回提示或缓存的首次响应结果。",
+        "用 `INCR` 给计数器加 1，只处理奇数次请求。",
+        "把整个 HTTP 请求存进 PostgreSQL 临时表，每 5 分钟删一次表。",
+        "完全依赖前端浏览器禁用按钮，后端不做任何校验。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "如果拆分成“先 `GET` 判断是否存在、再 `SET` 写入”两步，高并发下两个线程会同时读到不存在从而双双穿透。使用单条原子命令 `SET ... NX EX`（对应 Spring `opsForValue().setIfAbsent(key, val, ttl)`）才能在分布式并发下做到滴水不漏。",
+      "card_front": "在 Spring Boot 中结合 Redis 实现高性能 `@Idempotent` 幂等性拦截器时，标准的原子操作方案是什么？",
+      "card_back": "利用 Redis 原子的 `SET key value NX EX seconds` 命令（仅当 Key 不存在时才设置成功并附带过期时间）。若返回 `true` 说明是首次请求，放行执行业务；若返回 `false` 说明存在并发或已处理的重复请求，立即拦截并返回提示或缓存的首次响应结果。",
+      "card_hint": "Milestone 6：支付幂等性、Resilience4j 熔断器与多阶段安全镜像",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q3",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "Resilience4j 熔断器（Circuit Breaker）包含哪 3 种核心状态？它们之间是如何流转保护系统的？",
+      "code_snippet": "",
+      "options": [
+        "`START`、`RUNNING`、`STOPPED`",
+        "`CLOSED`（闭合正常态：请求正常放行并统计失败率）、`OPEN`（断开熔断态：当下游失败率或慢调用率超过阈值时触发熔断，所有请求立即快速失败 Fail-fast 并执行 Fallback 降级，不再苦等下游超时耗尽线程池）、`HALF_OPEN`（半开探测态：经过冷却时间后放行少量探测请求，若成功则恢复回 `CLOSED`，若仍失败则重新回到 `OPEN`）。",
+        "`GREEN`、`YELLOW`、`RED`",
+        "`ACTIVE`、`PASSIVE`、`STANDBY`"
+      ],
+      "correct_option_index": 1,
+      "explanation": "如同家庭电路保险丝，熔断器通过 `CLOSED -> OPEN -> HALF_OPEN -> CLOSED` 的状态机自动切断对故障下游服务（如瘫痪的第三方支付网关）的无效等待调用，防止雪崩效应（Cascading Failure）拖垮整个票务系统。",
+      "card_front": "Resilience4j 熔断器（Circuit Breaker）包含哪 3 种核心状态？它们之间是如何流转保护系统的？",
+      "card_back": "`CLOSED`（闭合正常态：请求正常放行并统计失败率）、`OPEN`（断开熔断态：当下游失败率或慢调用率超过阈值时触发熔断，所有请求立即快速失败 Fail-fast 并执行 Fallback 降级，不再苦等下游超时耗尽线程池）、`HALF_OPEN`（半开探测态：经过冷却时间后放行少量探测请求，若成功则恢复回 `CLOSED`，若仍失败则重新回到 `OPEN`）。",
+      "card_hint": "Milestone 6：支付幂等性、Resilience4j 熔断器与多阶段安全镜像",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "m6-q4",
+      "topic_id": "topic_java_core",
+      "chapter_id": "milestone-6",
+      "question": "为什么在生产环境构建 Spring Boot 容器镜像时，强烈推荐使用多阶段构建（Multi-Stage Dockerfile）并切换为非 root 用户（`USER appuser`）运行？",
+      "code_snippet": "# Stage 1: Build\nFROM maven:3.9.6-eclipse-temurin-21-alpine AS builder\n...\n# Stage 2: Runtime\nFROM eclipse-temurin:21-jre-alpine\nRUN addgroup -S appgroup && adduser -S appuser -G appgroup\nUSER appuser\nCOPY --from=builder /app/target/*.jar app.jar\nENTRYPOINT [\"java\", \"-jar\", \"app.jar\"]",
+      "options": [
+        "多阶段构建将庞大的编译阶段（Maven、完整 JDK、源码、`.m2` 依赖缓存）与最终运行阶段（精简 JRE + 编译产物 JAR）彻底剥离，将镜像体积从 800MB+ 大幅缩减至 ~150MB 并减少攻击面；使用非 root 用户运行则能防止容器被攻破后攻击者直接获取宿主机 root 权限（权限逃逸）。",
+        "因为只有非 root 用户才能开启 Java 21 虚拟线程。",
+        "因为 Docker 规定用户名不叫 `appuser` 就不允许运行 JAR 包。",
+        "因为这样可以减少 `pom.xml` 的代码行数。"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Multi-Stage Dockerfile 兼顾了极速分发（小体积精简镜像，不含编译器与源码）与云原生安全合规（最小权限原则 Principle of Least Privilege，非 root 运行容器）。",
+      "card_front": "为什么在生产环境构建 Spring Boot 容器镜像时，强烈推荐使用多阶段构建（Multi-Stage Dockerfile）并切换为非 root 用户（`USER appuser`）运行？",
+      "card_back": "多阶段构建将庞大的编译阶段（Maven、完整 JDK、源码、`.m2` 依赖缓存）与最终运行阶段（精简 JRE + 编译产物 JAR）彻底剥离，将镜像体积从 800MB+ 大幅缩减至 ~150MB 并减少攻击面；使用非 root 用户运行则能防止容器被攻破后攻击者直接获取宿主机 root 权限（权限逃逸）。",
+      "card_hint": "Milestone 6：支付幂等性、Resilience4j 熔断器与多阶段安全镜像",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

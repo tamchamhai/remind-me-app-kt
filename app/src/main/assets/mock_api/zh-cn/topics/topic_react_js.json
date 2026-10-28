@@ -1,0 +1,100 @@
+{
+  "topic": {
+    "id": "topic_react_js",
+    "title": "React JS 核心与进阶",
+    "description": "虚拟 DOM、Hooks、Props/State 与渲染性能优化",
+    "icon_name": "Web",
+    "is_enabled_by_default": true,
+    "default_selected_chapter_id": "chap_react_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_react_1",
+      "topic_id": "topic_react_js",
+      "chapter_number": 1,
+      "title": "第 1 章：虚拟 DOM、JSX、Props 与 State",
+      "description": "协调算法 (Reconciliation)、key 属性、单向数据流、状态不可变性"
+    },
+    {
+      "id": "chap_react_2",
+      "topic_id": "topic_react_js",
+      "chapter_number": 2,
+      "title": "第 2 章：React Hooks 深入实战",
+      "description": "useState、useEffect 清理函数、useMemo、useCallback、useRef"
+    },
+    {
+      "id": "chap_react_3",
+      "topic_id": "topic_react_js",
+      "chapter_number": 3,
+      "title": "第 3 章：Context API、Redux 与渲染优化",
+      "description": "React.memo、避免属性透传 (Prop Drilling)、全局状态管理"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_react_1_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_1",
+      "question": "在 React 渲染动态列表时，如果列表项顺序可能发生变化，为什么不应该使用数组下标（index）作为 `key`？",
+      "code_snippet": "",
+      "options": [
+        "因为 React 语法禁止使用数字作为 key",
+        "因为会破坏协调算法（Reconciliation），导致 React 复用错误的组件内部状态并降低渲染性能",
+        "因为数组下标 key 只在生产环境下生效",
+        "因为会立即导致浏览器内存溢出崩溃"
+      ],
+      "correct_option_index": 1,
+      "explanation": "当列表发生插入、删除或重排时，元素的数组下标会发生偏移，导致 React 将旧的组件内部状态（State）错误地绑定到新的列表项上。",
+      "card_front": "在 React 渲染动态列表时，如果列表项顺序可能发生变化，为什么不应该使用数组下标（index）作为 `key`？",
+      "card_back": "因为会破坏协调算法（Reconciliation），导致 React 复用错误的组件内部状态并降低渲染性能",
+      "card_hint": "第 1 章：虚拟 DOM、JSX、Props 与 State",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_react_2_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_2",
+      "question": "在 React 中，`useMemo` 和 `useCallback` 有什么区别？",
+      "code_snippet": "",
+      "options": [
+        "useMemo 缓存的是函数执行后的计算结果值，而 useCallback 缓存的是函数实例本身的引用",
+        "useMemo 是异步执行的，而 useCallback 是同步执行的",
+        "useCallback 用于类组件，而 useMemo 用于函数组件",
+        "两个 Hook 的行为完全相同"
+      ],
+      "correct_option_index": 0,
+      "explanation": "`useMemo(() => compute(a, b), [a, b])` 用于缓存高开销的计算结果；而 `useCallback(fn, deps)` 用于缓存函数引用本身，防止每次重渲染都生成新的函数对象。",
+      "card_front": "在 React 中，`useMemo` 和 `useCallback` 有什么区别？",
+      "card_back": "useMemo 缓存的是函数执行后的计算结果值，而 useCallback 缓存的是函数实例本身的引用",
+      "card_hint": "第 2 章：React Hooks 深入实战",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_react_3_1",
+      "topic_id": "topic_react_js",
+      "chapter_id": "chap_react_3",
+      "question": "高阶组件 `React.memo(MyComponent)` 的作用是什么？",
+      "code_snippet": "",
+      "options": [
+        "将组件状态持久化保存到 LocalStorage",
+        "当传入组件的 props 未发生变化时（通过浅比较），跳过该组件的重渲染",
+        "在组件挂载时自动发起 API 请求",
+        "完全替代 useState"
+      ],
+      "correct_option_index": 1,
+      "explanation": "`React.memo` 会对组件前后的 props 进行浅比较（Shallow Comparison），如果 props 没有变化则直接复用上次渲染结果，避免不必要的子组件重渲染。",
+      "card_front": "高阶组件 `React.memo(MyComponent)` 的作用是什么？",
+      "card_back": "当传入组件的 props 未发生变化时（通过浅比较），跳过该组件的重渲染",
+      "card_hint": "第 3 章：Context API、Redux 与渲染优化",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

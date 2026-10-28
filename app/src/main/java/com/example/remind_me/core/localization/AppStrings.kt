@@ -6,7 +6,8 @@ import androidx.compose.runtime.staticCompositionLocalOf
 enum class AppLanguage(val code: String, val displayName: String) {
     VI("vi", "Tiếng Việt"),
     EN("en", "English"),
-    JA("ja", "日本語");
+    JA("ja", "日本語"),
+    ZH_CN("zh-cn", "简体中文");
 
     companion object {
         fun fromCode(code: String): AppLanguage {
@@ -19,7 +20,6 @@ enum class AppLanguage(val code: String, val displayName: String) {
 data class AppStrings(
     val languageCode: String,
     val appTitle: String,
-    val appSubtitle: String,
     val streakLabel: String,
     val tabOverview: String,
     val tabTopics: String,
@@ -175,6 +175,7 @@ fun getAppStrings(languageCode: String): AppStrings {
         AppLanguage.VI -> VietnameseAppStrings
         AppLanguage.EN -> EnglishAppStrings
         AppLanguage.JA -> JapaneseAppStrings
+        AppLanguage.ZH_CN -> ChineseSimplifiedAppStrings
     }
 }
 

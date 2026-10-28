@@ -3,7 +3,6 @@ package com.example.remind_me.core.localization
 val VietnameseAppStrings = AppStrings(
     languageCode = "vi",
     appTitle = "RemindMe",
-    appSubtitle = "Ôn tập kiến thức trên màn hình khóa",
     streakLabel = "Chuỗi đúng",
     tabOverview = "Tổng quan",
     tabTopics = "Chủ đề",

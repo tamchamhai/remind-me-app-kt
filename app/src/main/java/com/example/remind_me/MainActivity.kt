@@ -6,8 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.remind_me.feature.topic_list.ui.TopicListScreen
 import com.example.remind_me.core.theme.RemindmeTheme
+import com.example.remind_me.feature.main.ui.MainScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             RemindmeTheme {
-                TopicListScreen()
+                MainScreen()
             }
         }
     }
@@ -25,6 +25,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MainActivityPreview() {
     RemindmeTheme {
-        TopicListScreen()
+        MainScreen()
     }
 }

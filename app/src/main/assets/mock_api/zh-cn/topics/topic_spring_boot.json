@@ -1,0 +1,73 @@
+{
+  "topic": {
+    "id": "topic_spring_boot",
+    "title": "Spring Boot 企业级开发",
+    "description": "IoC/DI 容器、Bean 生命周期、JPA/Hibernate 与安全架构",
+    "icon_name": "Storage",
+    "is_enabled_by_default": false,
+    "default_selected_chapter_id": "chap_spring_1",
+    "supported_modes": [
+      "QUIZ",
+      "MEMORY_CARD"
+    ],
+    "preferred_study_mode": "QUIZ"
+  },
+  "chapters": [
+    {
+      "id": "chap_spring_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_number": 1,
+      "title": "第 1 章：IoC 容器、依赖注入 (DI) 与 Bean 作用域",
+      "description": "@Component、@Service、Singleton 与 Prototype、构造器注入"
+    },
+    {
+      "id": "chap_spring_2",
+      "topic_id": "topic_spring_boot",
+      "chapter_number": 2,
+      "title": "第 2 章：Spring Data JPA、N+1 查询与 @Transactional",
+      "description": "懒加载与急加载、事务传播行为与隔离级别、EntityManager"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_spring_1_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_id": "chap_spring_1",
+      "question": "在 Spring IoC 容器中，Bean 的默认作用域（Scope）是什么？",
+      "code_snippet": "",
+      "options": [
+        "prototype",
+        "singleton",
+        "request",
+        "session"
+      ],
+      "correct_option_index": 1,
+      "explanation": "默认情况下，Spring 容器中的所有 Bean 都是 `singleton`（单例作用域），即在整个 ApplicationContext 中只创建一个共享实例。",
+      "card_front": "在 Spring IoC 容器中，Bean 的默认作用域（Scope）是什么？",
+      "card_back": "singleton",
+      "card_hint": "第 1 章：IoC 容器、依赖注入 (DI) 与 Bean 作用域",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    },
+    {
+      "id": "q_spring_2_1",
+      "topic_id": "topic_spring_boot",
+      "chapter_id": "chap_spring_2",
+      "question": "在 Spring Data JPA / Hibernate 中，哪种方案可以彻底解决 N+1 查询问题？",
+      "code_snippet": "",
+      "options": [
+        "调大数据库连接池的最大连接数",
+        "在 JPQL 中使用 JOIN FETCH 或使用 @EntityGraph 在单条 SQL 查询中一并抓取关联实体",
+        "把所有关联关系全部改成 FetchType.EAGER",
+        "删除数据库表的外键约束"
+      ],
+      "correct_option_index": 1,
+      "explanation": "使用 `JOIN FETCH` 或 `@EntityGraph` 可以在一条 SQL `JOIN` 语句中同时查出主表与关联子表数据，从而避免触发 N 次额外的子查询。",
+      "card_front": "在 Spring Data JPA / Hibernate 中，哪种方案可以彻底解决 N+1 查询问题？",
+      "card_back": "在 JPQL 中使用 JOIN FETCH 或使用 @EntityGraph 在单条 SQL 查询中一并抓取关联实体",
+      "card_hint": "第 2 章：Spring Data JPA、N+1 查询与 @Transactional",
+      "memory_box_level": 1,
+      "next_review_at_millis": 0
+    }
+  ]
+}

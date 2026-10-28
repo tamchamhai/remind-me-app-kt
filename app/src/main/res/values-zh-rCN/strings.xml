@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RemindMe</string>
+    <string name="lockscreen_service_title">RemindMe 锁屏服务运行中</string>
+    <string name="lockscreen_service_desc">每次点亮屏幕时自动展示复习题目或闪卡</string>
+    <string name="lockscreen_action_review_now">立即复习</string>
+</resources>
+

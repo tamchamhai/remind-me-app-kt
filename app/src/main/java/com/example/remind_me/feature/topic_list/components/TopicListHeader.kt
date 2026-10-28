@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.LockClock
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Whatshot
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Surface
@@ -23,9 +23,10 @@ import com.example.remind_me.core.theme.RemindMeTheme
 
 @Composable
 fun TopicListHeader(
-    title: String = "RemindMe",
+    title: String = RemindMeTheme.strings.appTitle,
     streak: Int = 0,
-    onPreviewLockScreen: () -> Unit = {},
+    isSearchActive: Boolean = false,
+    onToggleSearch: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     val colors = RemindMeTheme.colors
@@ -36,7 +37,7 @@ fun TopicListHeader(
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Column {
+        Column(modifier = Modifier.weight(1f)) {
             Text(
                 text = title,
                 fontSize = 26.sp,
@@ -44,10 +45,30 @@ fun TopicListHeader(
                 color = colors.textPrimary
             )
         }
+        Spacer(modifier = Modifier.width(8.dp))
         Row(
             horizontalArrangement = Arrangement.spacedBy(10.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
+            Box(
+                modifier = Modifier
+                    .size(40.dp)
+                    .clip(CircleShape)
+                    .background(if (isSearchActive) colors.primary else colors.primaryContainer)
+                    .clickable { onToggleSearch() },
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Search,
+                    contentDescription = strings.searchPlaceholder,
+                    tint = if (isSearchActive) {
+                        if (colors.isDark) Color(0xFF00252A) else Color.White
+                    } else {
+                        colors.onPrimaryContainer
+                    }
+                )
+            }
+
             Surface(
                 shape = RoundedCornerShape(50),
                 color = colors.streakContainer
@@ -70,21 +91,6 @@ fun TopicListHeader(
                         color = colors.streakText
                     )
                 }
-            }
-
-            Box(
-                modifier = Modifier
-                    .size(40.dp)
-                    .clip(CircleShape)
-                    .background(colors.primaryContainer)
-                    .clickable { onPreviewLockScreen() },
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    imageVector = Icons.Default.LockClock,
-                    contentDescription = strings.previewLockScreenNow,
-                    tint = colors.onPrimaryContainer
-                )
             }
         }
     }

@@ -3,7 +3,6 @@ package com.example.remind_me.core.localization
 val EnglishAppStrings = AppStrings(
     languageCode = "en",
     appTitle = "RemindMe",
-    appSubtitle = "Lock screen knowledge & memory review",
     streakLabel = "Streak",
     tabOverview = "Overview",
     tabTopics = "Topics",

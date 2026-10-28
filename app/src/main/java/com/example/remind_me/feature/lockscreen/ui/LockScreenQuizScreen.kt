@@ -17,7 +17,8 @@ import androidx.compose.material.icons.filled.LockOpen
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Whatshot
 import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -33,10 +34,9 @@ import com.example.remind_me.core.model.ChapterItem
 import com.example.remind_me.core.model.QuizQuestion
 import com.example.remind_me.core.model.TopicItem
 import com.example.remind_me.core.theme.RemindMeTheme
+import com.example.remind_me.feature.lockscreen.logic.LockScreenQuizStateHolder
+import com.example.remind_me.feature.lockscreen.logic.rememberLockScreenQuizStateHolder
 import kotlinx.coroutines.delay
-import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
 
 @Composable
 fun LockScreenQuizScreen(
@@ -50,23 +50,35 @@ fun LockScreenQuizScreen(
     onDismissLockScreen: () -> Unit
 ) {
     val strings = RemindMeTheme.strings
-    var selectedOptionIndex by remember(question.id) { mutableStateOf<Int?>(null) }
-    var hasRecordedResult by remember(question.id) { mutableStateOf(false) }
-    var unlockedByCorrectAnswer by remember(question.id) { mutableStateOf(false) }
+    val stateHolder = rememberLockScreenQuizStateHolder(
+        question = question,
+        topic = topic,
+        chapter = chapter,
+        streak = streak,
+        requireCorrectToDismiss = requireCorrectToDismiss,
+        languageCode = strings.languageCode,
+        onAnswerSubmitted = onAnswerSubmitted,
+        onNextQuestion = onNextQuestion,
+        onDismissLockScreen = onDismissLockScreen
+    )
+    LockScreenQuizContent(stateHolder = stateHolder)
+}
 
-    var currentTime by remember { mutableStateOf(formatTime()) }
-    var currentDate by remember(strings.languageCode) { mutableStateOf(formatDate(strings.languageCode)) }
+@Composable
+fun LockScreenQuizContent(
+    stateHolder: LockScreenQuizStateHolder
+) {
+    val strings = RemindMeTheme.strings
+    val question = stateHolder.question
+    val topic = stateHolder.topic
+    val chapter = stateHolder.chapter
 
-    LaunchedEffect(strings.languageCode) {
+    LaunchedEffect(stateHolder) {
         while (true) {
-            currentTime = formatTime()
-            currentDate = formatDate(strings.languageCode)
+            stateHolder.refreshClock()
             delay(10_000L)
         }
     }
-
-    val canDismiss = !requireCorrectToDismiss || unlockedByCorrectAnswer
-    val optionLabels = listOf("A", "B", "C", "D")
 
     Box(
         modifier = Modifier
@@ -112,7 +124,7 @@ fun LockScreenQuizScreen(
                             modifier = Modifier.size(18.dp)
                         )
                         Text(
-                            text = strings.formatLockScreenStreak(streak),
+                            text = strings.formatLockScreenStreak(stateHolder.streak),
                             color = Color.White,
                             fontSize = 13.sp,
                             fontWeight = FontWeight.SemiBold
@@ -120,8 +132,8 @@ fun LockScreenQuizScreen(
                     }
                 }
 
-                if (!requireCorrectToDismiss) {
-                    TextButton(onClick = onDismissLockScreen) {
+                if (!stateHolder.requireCorrectToDismiss) {
+                    TextButton(onClick = stateHolder.onDismissLockScreen) {
                         Text(
                             text = strings.skipButton,
                             color = Color.White.copy(alpha = 0.75f),
@@ -135,14 +147,14 @@ fun LockScreenQuizScreen(
 
             // Lock screen Clock & Date
             Text(
-                text = currentTime,
+                text = stateHolder.currentTime,
                 fontSize = 52.sp,
                 fontWeight = FontWeight.Light,
                 color = Color.White,
                 letterSpacing = 2.sp
             )
             Text(
-                text = currentDate,
+                text = stateHolder.currentDate,
                 fontSize = 15.sp,
                 color = Color.White.copy(alpha = 0.75f)
             )
@@ -234,15 +246,15 @@ fun LockScreenQuizScreen(
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
                 question.options.forEachIndexed { index, optionText ->
-                    val isSelected = selectedOptionIndex == index
+                    val isSelected = stateHolder.selectedOptionIndex == index
                     val isCorrectOption = index == question.correctOptionIndex
-                    val showResult = selectedOptionIndex != null
+                    val showResult = stateHolder.selectedOptionIndex != null
 
                     val backgroundColor = when {
                         !showResult -> Color.White.copy(alpha = 0.08f)
                         isSelected && isCorrectOption -> Color(0xFF2E7D32).copy(alpha = 0.85f)
                         isSelected && !isCorrectOption -> Color(0xFFC62828).copy(alpha = 0.85f)
-                        unlockedByCorrectAnswer && isCorrectOption -> Color(0xFF2E7D32).copy(alpha = 0.85f)
+                        stateHolder.unlockedByCorrectAnswer && isCorrectOption -> Color(0xFF2E7D32).copy(alpha = 0.85f)
                         else -> Color.White.copy(alpha = 0.06f)
                     }
 
@@ -257,16 +269,8 @@ fun LockScreenQuizScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .clip(RoundedCornerShape(16.dp))
-                            .clickable(enabled = !unlockedByCorrectAnswer) {
-                                selectedOptionIndex = index
-                                val isCorrect = index == question.correctOptionIndex
-                                if (!hasRecordedResult) {
-                                    hasRecordedResult = true
-                                    onAnswerSubmitted(isCorrect)
-                                }
-                                if (isCorrect) {
-                                    unlockedByCorrectAnswer = true
-                                }
+                            .clickable(enabled = !stateHolder.unlockedByCorrectAnswer) {
+                                stateHolder.selectOption(index)
                             },
                         shape = RoundedCornerShape(16.dp),
                         color = backgroundColor,
@@ -286,7 +290,7 @@ fun LockScreenQuizScreen(
                                 contentAlignment = Alignment.Center
                             ) {
                                 Text(
-                                    text = optionLabels.getOrElse(index) { "${index + 1}" },
+                                    text = stateHolder.optionLabels.getOrElse(index) { "${index + 1}" },
                                     color = Color.White,
                                     fontWeight = FontWeight.Bold,
                                     fontSize = 14.sp
@@ -317,8 +321,8 @@ fun LockScreenQuizScreen(
             }
 
             // Feedback & Explanation
-            AnimatedVisibility(visible = selectedOptionIndex != null) {
-                val isCurrentSelectionCorrect = selectedOptionIndex == question.correctOptionIndex
+            AnimatedVisibility(visible = stateHolder.selectedOptionIndex != null) {
+                val isCurrentSelectionCorrect = stateHolder.isCurrentSelectionCorrect
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -359,7 +363,7 @@ fun LockScreenQuizScreen(
                                     fontWeight = FontWeight.Bold,
                                     fontSize = 14.sp
                                 )
-                                if (question.explanation.isNotBlank() && (isCurrentSelectionCorrect || !requireCorrectToDismiss)) {
+                                if (question.explanation.isNotBlank() && (isCurrentSelectionCorrect || !stateHolder.requireCorrectToDismiss)) {
                                     Spacer(modifier = Modifier.height(6.dp))
                                     Text(
                                         text = question.explanation,
@@ -377,13 +381,13 @@ fun LockScreenQuizScreen(
             Spacer(modifier = Modifier.height(20.dp))
 
             // Action Buttons (Unlock / Next Question)
-            if (canDismiss && selectedOptionIndex != null) {
+            if (stateHolder.canDismiss && stateHolder.selectedOptionIndex != null) {
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     OutlinedButton(
-                        onClick = onNextQuestion,
+                        onClick = stateHolder.onNextQuestion,
                         modifier = Modifier
                             .weight(1f)
                             .height(52.dp),
@@ -401,7 +405,7 @@ fun LockScreenQuizScreen(
                     }
 
                     Button(
-                        onClick = onDismissLockScreen,
+                        onClick = stateHolder.onDismissLockScreen,
                         modifier = Modifier
                             .weight(1.3f)
                             .height(52.dp),
@@ -422,7 +426,7 @@ fun LockScreenQuizScreen(
                 }
             } else {
                 Text(
-                    text = if (requireCorrectToDismiss) {
+                    text = if (stateHolder.requireCorrectToDismiss) {
                         strings.lockScreenInstructionRequireCorrect
                     } else {
                         strings.lockScreenInstructionOptional
@@ -435,24 +439,4 @@ fun LockScreenQuizScreen(
             }
         }
     }
-}
-
-private fun formatTime(): String {
-    val sdf = SimpleDateFormat("HH:mm", Locale.getDefault())
-    return sdf.format(Date())
-}
-
-private fun formatDate(languageCode: String): String {
-    val locale = when (languageCode.lowercase()) {
-        "en" -> Locale.ENGLISH
-        "ja" -> Locale.JAPANESE
-        else -> Locale.forLanguageTag("vi-VN")
-    }
-    val pattern = if (languageCode.equals("ja", ignoreCase = true)) {
-        "yyyy年MM月dd日 (EEEE)"
-    } else {
-        "EEEE, dd/MM/yyyy"
-    }
-    val sdf = SimpleDateFormat(pattern, locale)
-    return sdf.format(Date()).replaceFirstChar { it.uppercase() }
 }
